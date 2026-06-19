@@ -24,7 +24,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: class; Type: TABLE; Schema: public; Owner: chp
+-- Name: class; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.class (
@@ -33,10 +33,10 @@ CREATE TABLE public.class (
 );
 
 
-ALTER TABLE public.class OWNER TO chp;
+ALTER TABLE public.class OWNER TO postgres;
 
 --
--- Name: exams; Type: TABLE; Schema: public; Owner: chp
+-- Name: exams; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.exams (
@@ -47,10 +47,10 @@ CREATE TABLE public.exams (
 );
 
 
-ALTER TABLE public.exams OWNER TO chp;
+ALTER TABLE public.exams OWNER TO postgres;
 
 --
--- Name: students; Type: TABLE; Schema: public; Owner: chp
+-- Name: students; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.students (
@@ -59,10 +59,10 @@ CREATE TABLE public.students (
 );
 
 
-ALTER TABLE public.students OWNER TO chp;
+ALTER TABLE public.students OWNER TO postgres;
 
 --
--- Name: subjects; Type: TABLE; Schema: public; Owner: chp
+-- Name: subjects; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.subjects (
@@ -71,10 +71,10 @@ CREATE TABLE public.subjects (
 );
 
 
-ALTER TABLE public.subjects OWNER TO chp;
+ALTER TABLE public.subjects OWNER TO postgres;
 
 --
--- Data for Name: class; Type: TABLE DATA; Schema: public; Owner: chp
+-- Data for Name: class; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.class (id_class, name_class) FROM stdin;
@@ -82,7 +82,7 @@ COPY public.class (id_class, name_class) FROM stdin;
 
 
 --
--- Data for Name: exams; Type: TABLE DATA; Schema: public; Owner: chp
+-- Data for Name: exams; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.exams (id_exam, id_subject, name_exam, data_exam) FROM stdin;
@@ -90,7 +90,7 @@ COPY public.exams (id_exam, id_subject, name_exam, data_exam) FROM stdin;
 
 
 --
--- Data for Name: students; Type: TABLE DATA; Schema: public; Owner: chp
+-- Data for Name: students; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.students (id_student, name_student) FROM stdin;
@@ -98,7 +98,7 @@ COPY public.students (id_student, name_student) FROM stdin;
 
 
 --
--- Data for Name: subjects; Type: TABLE DATA; Schema: public; Owner: chp
+-- Data for Name: subjects; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
 COPY public.subjects (id_subject, name_subject) FROM stdin;
@@ -106,7 +106,7 @@ COPY public.subjects (id_subject, name_subject) FROM stdin;
 
 
 --
--- Name: class class_pk; Type: CONSTRAINT; Schema: public; Owner: chp
+-- Name: class class_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.class
@@ -114,7 +114,7 @@ ALTER TABLE ONLY public.class
 
 
 --
--- Name: exams exams_pk; Type: CONSTRAINT; Schema: public; Owner: chp
+-- Name: exams exams_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.exams
@@ -122,7 +122,7 @@ ALTER TABLE ONLY public.exams
 
 
 --
--- Name: students students_pk; Type: CONSTRAINT; Schema: public; Owner: chp
+-- Name: students students_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.students
@@ -130,7 +130,7 @@ ALTER TABLE ONLY public.students
 
 
 --
--- Name: subjects subjects_pk; Type: CONSTRAINT; Schema: public; Owner: chp
+-- Name: subjects subjects_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.subjects
@@ -138,7 +138,7 @@ ALTER TABLE ONLY public.subjects
 
 
 --
--- Name: exams exams_subjects_fk; Type: FK CONSTRAINT; Schema: public; Owner: chp
+-- Name: exams exams_subjects_fk; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.exams
