@@ -33,4 +33,4 @@ __pycache__
 *.sw?
 
 ## OTHER
-.data
+# .data
