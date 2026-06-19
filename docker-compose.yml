@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:18
+    restart: always
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env.example
+    volumes:
+      - db_volume:/var/lib/postgresql/18/docker
+      - ./.data/backup:/backup
+
+volumes:
+  db_volume:
