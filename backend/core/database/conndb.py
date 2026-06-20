@@ -25,7 +25,7 @@ class ConnDB:
             with conn.cursor() as cur:
                 cur.execute(
                     """
-                    select id_exam, name_subject, name_exam
+                    select id_exam, name_subject, name_exam, duration, created
                     from exams
                     inner join subjects on exams.id_subject = subjects.id_subject
                     """
