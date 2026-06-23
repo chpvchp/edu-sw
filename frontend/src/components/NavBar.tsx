@@ -14,6 +14,7 @@ export default function NavBar() {
     <nav className="px-8 py-4 flex gap-8">
       {listNavLink.map((navlink) => (
         <NavLink 
+          key={navlink.to}
           to={navlink.to}
           className={({ isActive }) =>
             isActive ? classNameActive : classNameNotActive
