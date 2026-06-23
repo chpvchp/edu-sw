@@ -1,6 +1,15 @@
 import CardExam from "../components/CardExam";
+import { useListExam } from "../hook/useExam";
+import type { Exam } from "../type/exam.type";
 
 export default function BaiTapPage() {
+
+  const { data, isLoading, error } = useListExam();
+
+  if (isLoading) return <p>Loading...</p>;
+  if (error) return <p>Error</p>;
+
+
   return (
     <main className="flex-1 flex flex-col bg-slate-50">
 
@@ -10,7 +19,16 @@ export default function BaiTapPage() {
 
       <div className="flex gap-2 justify-center mt-4">
 
-        <CardExam />
+        {data?.map((exam: Exam) => (
+          <CardExam
+            key={exam.id_exam}
+            id_exam={exam.id_exam}
+            name_exam={exam.name_exam}
+            name_subject={exam.name_subject}
+            duration={exam.duration}
+            created={exam.created}
+          />
+        ))}
 
       </div>
 
