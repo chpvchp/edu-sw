@@ -11,14 +11,18 @@ class ConnDB:
         pass
 
     def connection_database(self):
-        return psycopg.connect(
-            host=os.getenv("DB_HOST"),
-            port=os.getenv("DB_PORT"),  
-            dbname=os.getenv("DB_NAME"),
-            user=os.getenv("DB_USER"),
-            password=os.getenv("DB_PASSWORD"),
-            row_factory=dict_row
-        )
+        try:
+            return psycopg.connect(
+                host=os.getenv("DB_HOST"),
+                port=os.getenv("DB_PORT"),  
+                dbname=os.getenv("DB_NAME"),
+                user=os.getenv("DB_USER"),
+                password=os.getenv("DB_PASSWORD"),
+                row_factory=dict_row
+            )
+        except psycopg.Error: 
+            print("Database connection failed!")
+            raise
         
     def get_list_exam(self):
         with self.connection_database() as conn:
