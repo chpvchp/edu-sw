@@ -35,3 +35,16 @@ class ConnDB:
                     """
                 )
                 return cur.fetchall()
+            
+    def get_info_exam(self, id_exam):
+        with self.connection_database() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    select id_exam, name_subject, name_exam, duration, created
+                    from exams
+                    inner join subjects on exams.id_subject = subjects.id_subject
+                    where id_exam=%s
+                    """
+                , (id_exam,))
+                return cur.fetchone()
