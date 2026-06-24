@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
-import type { Exam } from "../type/exam.type"
+import type { InfoExam } from "../type/infoexam.type"
 
-export default function CardExam({ id_exam, name_subject, name_exam, duration, created }: Exam) {
+export default function CardExam({ id_exam, name_subject, name_exam, duration, created }: InfoExam) {
 
   const classNameInfo = "flex gap-4 justify-between text-gray-600"
 
