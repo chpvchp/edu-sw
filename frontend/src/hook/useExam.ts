@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query"
 import type { Exam } from "../type/exam.type"
-import { getExam } from "../api/exam.api"
+import { getExam, getInfoExam } from "../api/exam.api"
+import type { InfoExam } from "../type/infoexam.type";
 
 export const useListExam = () => {
   return useQuery<Exam[]>({
@@ -8,3 +9,10 @@ export const useListExam = () => {
     queryFn: getExam,
   });
 };
+
+export const useInfoExam = ( id_exam: number ) => {
+  return useQuery<InfoExam>({
+    queryKey: ["info-exam", id_exam],
+    queryFn: () => getInfoExam( id_exam ),
+  })
+}
