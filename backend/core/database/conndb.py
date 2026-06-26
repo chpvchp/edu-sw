@@ -1,10 +1,12 @@
 import psycopg
 import os
+import uuid
+import json
 
 from dotenv import load_dotenv
 from psycopg.rows import dict_row
 
-load_dotenv("./.env")
+load_dotenv()
 
 class ConnDB:
     def __init__(self):
@@ -24,6 +26,19 @@ class ConnDB:
             print("Database connection failed!")
             raise
         
+    def add_exam(self, id_exam, id_subject, name_exam, duration, questions, created):
+        with self.connection_database() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    insert into exams (id_exam, id_subject, name_exam, duration, questions, created)
+                    values (%s, %s, %s, %s, %s, %s)
+                    """
+                , (id_exam, id_subject, name_exam, duration, json.dumps(questions), created,))
+                conn.commit()
+                return id_exam
+        
+        
     def get_list_exam(self):
         with self.connection_database() as conn:
             with conn.cursor() as cur:
@@ -33,7 +48,7 @@ class ConnDB:
                     from exams
                     inner join subjects on exams.id_subject = subjects.id_subject
                     """
-                )
+                , ())
                 return cur.fetchall()
             
     def get_info_exam(self, id_exam):
