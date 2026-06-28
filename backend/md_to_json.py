@@ -12,10 +12,16 @@ def is_question(line):
 def is_answer_four_choice(line):
     return re.match(r"^[A-D]\.", line)
 
+def is_answer_true_false(line):
+    return re.match(r"^[a-d]\)", line)
+
+def is_answer_short_answer(line):
+    return line.startswith("Đáp án là:")
+
 def is_path_image(line):
     return line.startswith("![](images/")
 
-def is_correct(line):
+def is_correct_four_choice(line):
     if "ĐápÁnĐúng" not in line:
         return False
     else:
@@ -23,6 +29,9 @@ def is_correct(line):
 
 def parse(name_exam, id_subject, duration):
     questions = []
+    current_question = None
+    order = 1
+    
     exam = {
         "id_exam": uuid.uuid4().hex,
         "id_subject": id_subject,
@@ -30,7 +39,7 @@ def parse(name_exam, id_subject, duration):
         "duration": duration,
         "questions": questions
     }
-    order = 1
+    
     with open(f"./backend/data/{name_exam}/{name_exam}.md", "r", encoding="utf-8") as file:
         for line in file:
             line = clean_line(line)
@@ -47,7 +56,10 @@ def parse(name_exam, id_subject, duration):
                     "answers": [],
                     "results": {
                         "explain": None,
-                        "correct_answer": ""
+                        "correct_answer": None,
+                        "true_answer": [],
+                        "false_answer": [],
+                        "short_answer": ""
                     }
                 }
                 
@@ -64,7 +76,7 @@ def parse(name_exam, id_subject, duration):
                 if current_question["type_question"] != "four_choice":
                     current_question["type_question"] = "four_choice"
                 
-                if is_correct(line):
+                if is_correct_four_choice(line):
                     current_question["results"]["correct_answer"] = id_answer
                     line = line.replace("ĐápÁnĐúng", "")
                     line = clean_line(line)
@@ -75,13 +87,41 @@ def parse(name_exam, id_subject, duration):
                 }
                 current_question["answers"].append(answer)
                 
-    with open("./backend/json/exam.json", "w", encoding="utf-8") as file:
+            elif is_answer_true_false(line) and current_question:
+                id_answer = uuid.uuid4().hex
+                
+                if current_question["type_question"] != "true_false":
+                    current_question["type_question"] = "true_false"
+                    
+                if "ĐápÁnĐúng" in line:
+                    current_question["results"]["true_answer"].append(id_answer)
+                    line = line.replace("ĐápÁnĐúng", "")
+                elif "ĐápÁnSai" in line:
+                    current_question["results"]["false_answer"].append(id_answer)
+                    line = line.replace("ĐápÁnSai", "")
+                    
+                answer = {
+                    "id_answer": id_answer,
+                    "answer": line
+                }
+                current_question["answers"].append(answer)
+                
+            elif is_answer_short_answer(line) and current_question:
+                id_answer = uuid.uuid4().hex
+                
+                if current_question["type_question"] != "short_answer":
+                    current_question["type_question"] = "short_answer"
+                
+                current_question["results"]["short_answer"] = line[11:]
+                
+                
+    with open(f"./backend/json/{name_exam}.json", "w", encoding="utf-8") as file:
         data_json = json.dumps(exam, indent=2, ensure_ascii=False)
         file.write(data_json)
         
         
 parse(
-    name_exam="Tính Đơn Điệu Và Cực Trị Của Hàm Số",
+    name_exam="Đường Tiệm Cận Của Đồ Thị Hàm Số (1)",
     id_subject=1,
-    duration=30
+    duration=25
 )
