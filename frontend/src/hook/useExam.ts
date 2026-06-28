@@ -10,7 +10,7 @@ export const useListExam = () => {
   });
 };
 
-export const useInfoExam = ( id_exam: number ) => {
+export const useInfoExam = ( id_exam: string ) => {
   return useQuery<InfoExam>({
     queryKey: ["info-exam", id_exam],
     queryFn: () => getInfoExam( id_exam ),

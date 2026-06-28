@@ -4,7 +4,7 @@ import CardInfoExam from "../components/CardInfoExam";
 
 export default function InfoExamPage() {
   const { id_exam } = useParams();
-  const idExam = Number(id_exam)
+  const idExam = String(id_exam)
   const { data } = useInfoExam( idExam );
 
   return (

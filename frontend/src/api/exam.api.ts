@@ -7,7 +7,7 @@ export const getExam = async (): Promise<Exam[]> => {
   return data;
 }
 
-export const getInfoExam = async ( id_exam: number ): Promise<InfoExam> => {
+export const getInfoExam = async ( id_exam: string): Promise<InfoExam> => {
   const { data } = await api.get(`/backend-api/bai-tap/${id_exam}`);
   return data;
 }
