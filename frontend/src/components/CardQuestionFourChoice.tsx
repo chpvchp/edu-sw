@@ -4,9 +4,10 @@ import type { Question } from "../type/question.type";
 
 type CardQuestionFourChoiceProps = {
   question: Question;
+  onChange: (idQuestion: string, idAnswer: string) => void;
 }
 
-export default function CardQuestionFourChoice({ question }: CardQuestionFourChoiceProps) {
+export default function CardQuestionFourChoice({ question, onChange }: CardQuestionFourChoiceProps) {
   return (
     <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
 
@@ -36,6 +37,7 @@ export default function CardQuestionFourChoice({ question }: CardQuestionFourCho
               type="radio"
               name={question?.id_question}
               value={answer?.id_answer}
+              onChange={() => onChange(question?.id_question, answer?.id_answer)}
             />
             <p>
               <RenderMarkDownLatex 
