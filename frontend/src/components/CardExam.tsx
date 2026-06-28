@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import type { InfoExam } from "../type/infoexam.type"
+import { ConvertDate } from "../hook/useConvert"
 
 export default function CardExam({ id_exam, name_subject, name_exam, duration, created }: InfoExam) {
 
@@ -22,7 +23,7 @@ export default function CardExam({ id_exam, name_subject, name_exam, duration, c
 
         <div className={classNameInfo}>
           <p>Ngày tạo:</p>
-          <p>{created}</p>
+          <p>{ConvertDate(created)}</p>
         </div>
 
       </div>
