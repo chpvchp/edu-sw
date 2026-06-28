@@ -5,6 +5,7 @@ export type Answer = {
 
 export type Question = {
   id_question: string;
+  order: number;
   question: string;
   path_images: string;
   type_question: string;
