@@ -3,6 +3,7 @@
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from core.database.conndb import ConnDB
 
@@ -15,6 +16,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.mount("/data", StaticFiles(directory="data"), name="data")
 
 @app.get("/backend-api/bai-tap")
 def get_exams():
