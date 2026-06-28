@@ -31,7 +31,7 @@ def parse(name_exam, id_subject, duration):
         "questions": questions
     }
     
-    with open(f"./.data/{name_exam}/{name_exam}.md", "r", encoding="utf-8") as file:
+    with open(f"./backend/data/{name_exam}/{name_exam}.md", "r", encoding="utf-8") as file:
         for line in file:
             line = clean_line(line)
 
@@ -42,10 +42,10 @@ def parse(name_exam, id_subject, duration):
                     "id_question": id_question,
                     "question": line,
                     "type_question": "",
-                    "path_images": "",
+                    "path_images": None,
                     "answers": [],
                     "results": {
-                        "explain": "",
+                        "explain": None,
                         "correct_answer": ""
                     }
                 }
@@ -54,7 +54,7 @@ def parse(name_exam, id_subject, duration):
                 questions.append(current_question)
                 
             elif is_path_image(line) and current_question:
-                current_question["path_images"] = line[4:-1]
+                current_question["path_images"] = f"data/{name_exam}/" + line[4:-1]
                 
             
             elif is_answer_four_choice(line) and current_question:
