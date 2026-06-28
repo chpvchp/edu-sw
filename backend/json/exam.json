@@ -1,707 +1,707 @@
 {
-  "id_exam": "750f1b9560b141959667c32dd3a6b460",
+  "id_exam": "af665e867b874a27bd6e08837ce19190",
   "id_subject": 1,
   "name_exam": "Tính Đơn Điệu Và Cực Trị Của Hàm Số",
   "duration": 30,
   "questions": [
     {
-      "id_question": "0d17862502c5497a9bb65674474fa159",
+      "id_question": "76278a79453e42f0b3da71c83a93ce6d",
       "question": "Câu 1. Hàm số nào sau đây đồng biến trên $\\mathbb{R}$?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "372683c9a40f408b9a9c0b8a5a146e7a",
+          "id_answer": "572beb56309b4825987e14ed27ef02fe",
           "answer": "A. $y = x^{3} - 3x^{2} - 1$"
         },
         {
-          "id_answer": "4475c1f847f34d5faeb94d8412994891",
+          "id_answer": "7841255fb7dd419e896253b98e514c0c",
           "answer": "B. $y = x^{3} - x^{2} + 6x - 1$"
         },
         {
-          "id_answer": "68ca03cca39244f781a1cb2ba3b137ed",
+          "id_answer": "02f43e1fc79c4664b7462fe863704e69",
           "answer": "C. $y = \\frac{x - 2}{x + 1}$"
         },
         {
-          "id_answer": "7de75ca6ccb042118fa833c93e0eda23",
+          "id_answer": "e9332fc0d0554ff0a3dcacdfe8bad17d",
           "answer": "D. $y = x^{4} + 2x^{2} - 1$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "4475c1f847f34d5faeb94d8412994891"
+        "explain": null,
+        "correct_answer": "7841255fb7dd419e896253b98e514c0c"
       }
     },
     {
-      "id_question": "49195d7b81d74982a04ce0a28883123e",
+      "id_question": "b708c305add84f85ae4b8004c55f5e21",
       "question": "Câu 2. Cho hàm số $f(x)$ có bảng xét dấu đạo hàm như sau. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
       "type_question": "four_choice",
-      "path_images": "images/2.png",
+      "path_images": "data/Tính Đơn Điệu Và Cực Trị Của Hàm Số/images/2.png",
       "answers": [
         {
-          "id_answer": "1abb1d70e6e248338108928b3fba7f43",
+          "id_answer": "57a8a8de8dd241f0b9cf38d96880aa04",
           "answer": "A. $(2;+\\infty)$"
         },
         {
-          "id_answer": "f873f2e2ec254bff99896b3191feaa3d",
+          "id_answer": "7f572b1c71684c1d941b67bc652f4c7f",
           "answer": "B. $(-\\infty;-2)$"
         },
         {
-          "id_answer": "fcf4255cd9d2439eb5f01afa37c1657d",
+          "id_answer": "46c1e5fb281f45a397e1a4924aa986d4",
           "answer": "C. $(-2;+\\infty)$"
         },
         {
-          "id_answer": "45b33584a2ee4689968c2b4c86d0a463",
+          "id_answer": "21cea6bb68434a60aad036ab88a93eee",
           "answer": "D. $(-2;1)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "1abb1d70e6e248338108928b3fba7f43"
+        "explain": null,
+        "correct_answer": "57a8a8de8dd241f0b9cf38d96880aa04"
       }
     },
     {
-      "id_question": "f1bec56fc2194143a3fd9712fb505bad",
+      "id_question": "3a2e8ba394e44482aaf2c2b89f75ba8a",
       "question": "Câu 3. Cho hàm số $y = f(x)$ có đồ thị là đường cong hình bên dưới. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
       "type_question": "four_choice",
-      "path_images": "images/3.png",
+      "path_images": "data/Tính Đơn Điệu Và Cực Trị Của Hàm Số/images/3.png",
       "answers": [
         {
-          "id_answer": "6ad8ec8e60414f9da8289060ea7c80fd",
+          "id_answer": "2631c4a4bf8943e2b47ed7af55f7a4cc",
           "answer": "A. $(-1;1)$"
         },
         {
-          "id_answer": "828d2bb6d35c40229123a8bc4546ea1b",
+          "id_answer": "e94f13a54ea643faaca9132f6facef80",
           "answer": "B. $(1;+\\infty)$"
         },
         {
-          "id_answer": "e3a870f9c3194e93b003bf5f7f560a91",
+          "id_answer": "15935078b54c4a44b3e7af8b8d847e43",
           "answer": "C. $(0;1)$"
         },
         {
-          "id_answer": "dcf1f0149ee942cf9276b7738e145238",
+          "id_answer": "f55c57c34dd1421198c84942499a806d",
           "answer": "D. $(-1;+\\infty)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "828d2bb6d35c40229123a8bc4546ea1b"
+        "explain": null,
+        "correct_answer": "e94f13a54ea643faaca9132f6facef80"
       }
     },
     {
-      "id_question": "8d1d6a9240e54004b8153f931924f886",
+      "id_question": "6ea17d8b402945ec8a33d48169957c34",
       "question": "Câu 4. Cho hàm số $y = \\frac{-x + 2}{x - 1}$ , khẳng định nào dưới đây là khẳng định đúng?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "b042ff778bc54e09b01b8bee7ab2bfd0",
+          "id_answer": "6624de802f5d4ef3992dcbad8536f9d9",
           "answer": "A. Hàm số nghịch biến trên khoảng $(-\\infty;1)\\cup(1;+\\infty)$"
         },
         {
-          "id_answer": "eeaff16af4274d5f9dbf6c863efe2d67",
+          "id_answer": "88a98265341948ebb733cdcd1779a935",
           "answer": "B. Hàm số nghịch biến trên mỗi khoảng $(-\\infty;1)$ và $(1;+\\infty)$"
         },
         {
-          "id_answer": "5016fefa52544723a78b092b033511b7",
+          "id_answer": "d90b505620fc4db8a22b93a867a2e457",
           "answer": "C. Hàm số nghịch biến trên R."
         },
         {
-          "id_answer": "8cea6425ce7e41dfa015b66caa5ebcdb",
+          "id_answer": "96eccc4c7f8647b9bf6e4a397e4731fa",
           "answer": "D. Hàm số đồng biến trên mỗi khoảng $(-\\infty;1)$ và $(1;+\\infty)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "eeaff16af4274d5f9dbf6c863efe2d67"
+        "explain": null,
+        "correct_answer": "88a98265341948ebb733cdcd1779a935"
       }
     },
     {
-      "id_question": "d67bfb1cbc64433f8e551c062bed0939",
+      "id_question": "b77b68e406af4cbb920beb8d09547e66",
       "question": "Câu 5. Cho hàm số $y = f(x) = ax^{3} + bx^{2} + cx + d$ có đồ thị như hình vẽ dưới đây. Hàm số $y = f(x)$ đồng biến trên khoảng nào?",
       "type_question": "four_choice",
-      "path_images": "images/5.png",
+      "path_images": "data/Tính Đơn Điệu Và Cực Trị Của Hàm Số/images/5.png",
       "answers": [
         {
-          "id_answer": "4177b233458b46b6887ff2fd7100a71b",
+          "id_answer": "df84644a613a4d7a96a8777664604dce",
           "answer": "A. $(-1;1)$"
         },
         {
-          "id_answer": "b1617fb4ebe94e24892e9992212704eb",
+          "id_answer": "1797650eb0c34a3a9c549ec7c535715a",
           "answer": "B. $(-\\infty;-1)$"
         },
         {
-          "id_answer": "7dba9e055b1b48489c322417c88c2f30",
+          "id_answer": "422ba7ba2fad4797ad6ca1dd379ddad0",
           "answer": "C. $(2;+\\infty)$"
         },
         {
-          "id_answer": "6d6e25837b154433a94894bfe6c9c550",
+          "id_answer": "4a80e5c5bf8c4570994c22f8601bccbf",
           "answer": "D. $(0;1)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "6d6e25837b154433a94894bfe6c9c550"
+        "explain": null,
+        "correct_answer": "4a80e5c5bf8c4570994c22f8601bccbf"
       }
     },
     {
-      "id_question": "45b324c4acf14a86942eaab0297d1991",
+      "id_question": "2294e1372dd14867ac67eb619a18bea2",
       "question": "Câu 6. Hàm số $y = 2x^{3} - 2x^{2} - 2x + 1$ đồng biến trên khoảng nao dưới đây?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "630ee0d0781042c781c1bd871495a106",
+          "id_answer": "26d741ea79194d09a6d5be1f0cae25c8",
           "answer": "A. $(-1;1)$"
         },
         {
-          "id_answer": "0adfb9e6f8fb4cb0ad38220ff252aca5",
+          "id_answer": "991d904057724fd086b206967f8c164c",
           "answer": "B. $(-\\infty;1)$"
         },
         {
-          "id_answer": "58daa64c7fa6494db9d70acb90470389",
+          "id_answer": "ebea1e1be22148f8968035d8b9a34941",
           "answer": "C. $(0;2)$"
         },
         {
-          "id_answer": "57bde69578f046e8a78425615608cf2d",
+          "id_answer": "c192da5f343141ce994727515ecbe209",
           "answer": "D. $(1; 2)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "57bde69578f046e8a78425615608cf2d"
+        "explain": null,
+        "correct_answer": "c192da5f343141ce994727515ecbe209"
       }
     },
     {
-      "id_question": "c340cc92bb15483a900046fbef06e082",
+      "id_question": "2374a6feee3b46c990dc437d52b93b20",
       "question": "Câu 7. Hàm số $y = \\frac{x + 3}{x - 2}$ nghịch biến trên khoảng nào sau đây?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "15d9e5a1899a409d9b644f618ae1a4f7",
+          "id_answer": "fccf73681a90413f8fd9d94be2606786",
           "answer": "A. $(-2;3)$"
         },
         {
-          "id_answer": "3f3b535926cf499b956821d6e31bb7f5",
+          "id_answer": "c3e4d3cb56034e698bbce7513db0fd20",
           "answer": "B. $(-\\infty;3)$"
         },
         {
-          "id_answer": "770b17d5a35f449ba255c5074607aeec",
+          "id_answer": "e0ff24a3e48547c290b061cac509e010",
           "answer": "C. $(-\\infty;+\\infty)$"
         },
         {
-          "id_answer": "776e08b3c2e94b6898a094f6fba100d1",
+          "id_answer": "4d87d9c5797949bd9d201ca4d01844d5",
           "answer": "D. $(3; +\\infty)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "776e08b3c2e94b6898a094f6fba100d1"
+        "explain": null,
+        "correct_answer": "4d87d9c5797949bd9d201ca4d01844d5"
       }
     },
     {
-      "id_question": "dc701ff61d354639bbcae054c5f3b2d9",
+      "id_question": "15eb235de7664782a15afd6ee554c417",
       "question": "Câu 8. Cho hàm số $f(x)$ có bằng xét dấu đạo hàm như sau. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
       "type_question": "four_choice",
-      "path_images": "images/8.png",
+      "path_images": "data/Tính Đơn Điệu Và Cực Trị Của Hàm Số/images/8.png",
       "answers": [
         {
-          "id_answer": "65fd884049d3482b9d6947a6b536223d",
+          "id_answer": "1f09545a4c764d3680e600c70bd8c95a",
           "answer": "A. $(-3;0)$"
         },
         {
-          "id_answer": "216016edb733452fbabd08d105824ff9",
+          "id_answer": "27529c770d274c66a554b2520265e3cb",
           "answer": "B. $(0;+\\infty)$"
         },
         {
-          "id_answer": "dbb043eb1efb4be0b0ab0ef1bd316257",
+          "id_answer": "c89021b495cc4310b2e99a59a9f87cc9",
           "answer": "C. $(0;2)$"
         },
         {
-          "id_answer": "4fecaa2c67e8461f91fb7d4635d0282c",
+          "id_answer": "b8efb0cfa5ce4bccb14c911e67f86af9",
           "answer": "D. $(-\\infty;-3)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "65fd884049d3482b9d6947a6b536223d"
+        "explain": null,
+        "correct_answer": "1f09545a4c764d3680e600c70bd8c95a"
       }
     },
     {
-      "id_question": "c9c20c6661474dc8a33e1b52d68b8755",
+      "id_question": "005e2bf082a940c59d126e099d6c5afa",
       "question": "Câu 9. Cho hàm số $y = \\frac{x-3}{x+1}$ Mệnh đề nào dưới đây đúng?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "2414cdfb36f94a54ad06b668ec70c7f1",
+          "id_answer": "78acb6c425134ae49d1fc560c7db3e23",
           "answer": "A. Hàm số đồng biến trên $\\mathbb{R} \\setminus \\{-1\\}$"
         },
         {
-          "id_answer": "ebf3516591f14cef874ee17cb6a147ae",
+          "id_answer": "b468a8cf40ac4e4da9bb767377879d32",
           "answer": "B. Hàm số đồng biến trên $(-\\infty; +\\infty)$"
         },
         {
-          "id_answer": "d2518d873831453d976ff5115f98463b",
+          "id_answer": "0dd1be2714ab4a96ad39d9b270b19a7c",
           "answer": "C. Hàm số nghịch biến trên $(-\\infty;-1)$"
         },
         {
-          "id_answer": "29388fdb555b4a9fa92520d2fb50fd2a",
+          "id_answer": "7eb272dadddf44308582714ef40ac785",
           "answer": "D. Hàm số đồng biến trên $(-\\infty; -1)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "2414cdfb36f94a54ad06b668ec70c7f1"
+        "explain": null,
+        "correct_answer": "78acb6c425134ae49d1fc560c7db3e23"
       }
     },
     {
-      "id_question": "af579e1cff1544609ebca8a46a121b82",
+      "id_question": "1b5e11eb8fb442fdbe63f35f2fa99047",
       "question": "Câu 10. Cho hàm số $y = f(x)$ có đạo hàm $f'(x) = (x + 1)(2x - 5)^{2}$ với mọi $x \\in \\mathbb{R}$ Hàm số đã cho nghịch biến trên khoảng nào?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "8dda817448ec433c932ff7baa27cdcd4",
+          "id_answer": "23f125d6fb464e8c96b71da4c7e3984e",
           "answer": "A. $(-\\infty;-1)$"
         },
         {
-          "id_answer": "31f880ed7ab445e4a2e19594ef3cc3e5",
+          "id_answer": "97775fea49294bea8f70bfa385d11a4f",
           "answer": "B. $(-1;3)$"
         },
         {
-          "id_answer": "b38db9bc0b174a1c9093df7fb1c8de71",
+          "id_answer": "95b1eccd65a44826bb9cee0835f6907b",
           "answer": "C. $(-1;+\\infty)$"
         },
         {
-          "id_answer": "be228d3293064287bcaf329535f60153",
+          "id_answer": "a24e41f739484a3a881b2210207eaf0d",
           "answer": "D. $(-3;1)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "8dda817448ec433c932ff7baa27cdcd4"
+        "explain": null,
+        "correct_answer": "23f125d6fb464e8c96b71da4c7e3984e"
       }
     },
     {
-      "id_question": "5852500d13b941ffb912702652eacd86",
+      "id_question": "a769bb2ba0ac42879a1c2ee3f2e5e1c7",
       "question": "Câu 11. Cho hàm số $f(x)$ có bằng xét dấu đạo hàm như sau. Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
       "type_question": "four_choice",
-      "path_images": "images/11.png",
+      "path_images": "data/Tính Đơn Điệu Và Cực Trị Của Hàm Số/images/11.png",
       "answers": [
         {
-          "id_answer": "6a960f3934d5417abc2e589a94ab60a8",
+          "id_answer": "3ada4aafcbfd41d691d1f798f5ceed44",
           "answer": "A. $(-3;0)$"
         },
         {
-          "id_answer": "d2343332e4e94b5b9a0686c49f06afa5",
+          "id_answer": "87a1bde89a3f464d91f9a96676c7a975",
           "answer": "B. $(0;+\\infty)$"
         },
         {
-          "id_answer": "748e1c4efd3e4a67982ab7c70992d904",
+          "id_answer": "cba7bf1b7c064f9bbfdb490dd279d50d",
           "answer": "C. $(0;2)$"
         },
         {
-          "id_answer": "ec5fb9463f0c44ab965b414da5c6be1e",
+          "id_answer": "5fdaad0de2274d3595f1f1643d60e507",
           "answer": "D. $(-\\infty;-3)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "6a960f3934d5417abc2e589a94ab60a8"
+        "explain": null,
+        "correct_answer": "3ada4aafcbfd41d691d1f798f5ceed44"
       }
     },
     {
-      "id_question": "0ac85d759b6040779cc2cfcaa720f0f3",
+      "id_question": "3c5ea2bf869f45c19ab1af7e67db3e29",
       "question": "Câu 12. Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$ và có đạo hàm $f'(x) = (x+1)(x-1)^{4}(2-x)$ Mệnh đề nào dưới đây đúng?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "54b2454e148e4b1cbcbc2a07a2b755f7",
+          "id_answer": "e6d221e83e964867bf71818d7104fb8d",
           "answer": "A. $f(5) > f(4) > f(3)$"
         },
         {
-          "id_answer": "6dc9b1c0f619490992ed7e4aca722421",
+          "id_answer": "2a82b4fce67b4f6dadbdaa18510ce775",
           "answer": "B. $f(-1) > f(0) > f(1)$"
         },
         {
-          "id_answer": "b8c4390cd0bd4d9ca62b706e12a557ab",
+          "id_answer": "84e6223ffa844ec68f6b48c43d90cf88",
           "answer": "C. $f(-3) < f(-2) < f(-1)$"
         },
         {
-          "id_answer": "810ee0f281be4a2ea2f804e456504dbf",
+          "id_answer": "f3ea2868330447c783cc681efd5f5e1a",
           "answer": "D. $f(0) < f(1), f(2)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "810ee0f281be4a2ea2f804e456504dbf"
+        "explain": null,
+        "correct_answer": "f3ea2868330447c783cc681efd5f5e1a"
       }
     },
     {
-      "id_question": "b1454528007a4356968344bec8c7fc45",
+      "id_question": "dfda5055e3d74269be6e8b5f6d811fa2",
       "question": "Câu 13. Cho hàm số $f(x)$ xác định trên $\\mathbb{R}$ và có đạo hàm $f'(x) = (2 - x)(x + 1)^{2}(x - 1)^{5}$ Hàm số đã cho nghịch biến trên khoảng nào dưới đây?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "4bf024c4c8c544fa8a2f7f5afaef44f7",
+          "id_answer": "c8c82b73fb3143ba8c9f1ba508a5fe6d",
           "answer": "A. $(-\\infty;2)$"
         },
         {
-          "id_answer": "0a6490f356f74e6ebe483886da33dc78",
+          "id_answer": "0526abcd6e8a4fd0aa0505b565fd3fde",
           "answer": "B. $(2;+\\infty)$"
         },
         {
-          "id_answer": "e1eb608271984552887e3a81a0367f75",
+          "id_answer": "f24e2245d7d24c69b973ec7709d57619",
           "answer": "C. $(-1;2)$"
         },
         {
-          "id_answer": "8ec3580c2149473eab560c5d83baaf06",
+          "id_answer": "398d0e8134a246c1a26cc5ab32428957",
           "answer": "D. $(1;+\\infty)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "0a6490f356f74e6ebe483886da33dc78"
+        "explain": null,
+        "correct_answer": "0526abcd6e8a4fd0aa0505b565fd3fde"
       }
     },
     {
-      "id_question": "b4ca59c6cc384123820678b6c627db3f",
+      "id_question": "69f9915d5b004ddf9934d34086ca01c3",
       "question": "Câu 14. Cho hàm số $y = \\frac{2025x - 2024}{x + 1}$ Khẳng định nào dưới đây là sai?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "8e29a3a4ee7d4110aa9d41a5483b50d5",
+          "id_answer": "8ffde33e15ae4bedb6537184e48102f9",
           "answer": "A. Hàm số đồng biến trên khoảng $(-\\infty;1)$"
         },
         {
-          "id_answer": "5cbb374631764f73902bff500e2a83fd",
+          "id_answer": "6040f5826a264234b6980a7dc9e00bad",
           "answer": "B. Hàm số đồng biến trên khoảng $(-\\infty; -1)$"
         },
         {
-          "id_answer": "04015f8ad985421a8be4fa7fd05c36f9",
+          "id_answer": "bb5b5a124f9f4b15ac10c85a89f3feb7",
           "answer": "C. Hàm số đồng biến trên khoảng (1; 2025)."
         },
         {
-          "id_answer": "2d8d5b0640ea4e7199defe447bb1d2e0",
+          "id_answer": "26d28f22a42b4007839cef510b85f4d4",
           "answer": "D. Hàm số đồng biến trên khoảng (-1; 2025)."
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "5cbb374631764f73902bff500e2a83fd"
+        "explain": null,
+        "correct_answer": "6040f5826a264234b6980a7dc9e00bad"
       }
     },
     {
-      "id_question": "4c4ac859db2a4d08acb418a4b2060f13",
+      "id_question": "c8ca754f3cd74a119920f6e010257ee7",
       "question": "Câu 15. Hàm số $y = -x^{4} + 2x^{2} + 1$ đồng biến trên khoảng nào dưới đây?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "9b4f663318ae436e90dd6d3fa47a75e1",
+          "id_answer": "fe14e36e786b48228e6c1a601bfc99f1",
           "answer": "A. $(0;+\\infty)$"
         },
         {
-          "id_answer": "661d7719e5f04883a354d562d3a253a6",
+          "id_answer": "682b128514ed4b8c8239367e42aaa552",
           "answer": "B. $(-2;3)$"
         },
         {
-          "id_answer": "2bcddd3d7ba244edadc4c013b7fb49c8",
+          "id_answer": "0bbb18255791440dbb8f82846021b980",
           "answer": "C. $(-5;-2)$"
         },
         {
-          "id_answer": "a59ba585bbce4c8c89d28fc2f1c08c95",
+          "id_answer": "6ba883bf521e49a3a0e89b5542080393",
           "answer": "D. $(3;+\\infty)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "2bcddd3d7ba244edadc4c013b7fb49c8"
+        "explain": null,
+        "correct_answer": "0bbb18255791440dbb8f82846021b980"
       }
     },
     {
-      "id_question": "820c9496a8cb47dd8808eb8948ab371d",
+      "id_question": "44d98baf567a43dbbb7c41186c118f7f",
       "question": "Câu 16. Hàm số $y = \\sqrt{8 + 2x - x^2}$ đồng biến trên khoảng nào dưới đây?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "e4f9438e173949628222f6ca2171a3f0",
+          "id_answer": "29f1be816f0c4f7498ce3bb0659301f2",
           "answer": "A. $(1:+\\infty)$"
         },
         {
-          "id_answer": "f1c05a66bf8d4561b187d2cb30e2444a",
+          "id_answer": "dad40c1cc2184dc6a444d856c3d407b4",
           "answer": "B. $(-\\infty;1)$"
         },
         {
-          "id_answer": "7decf6a42816415780d09b48a6adc315",
+          "id_answer": "f78272d211d24dad86a641ca5b7c9530",
           "answer": "C. $(-2;1)$"
         },
         {
-          "id_answer": "0b78340dac0e43519638bf4ae290d81b",
+          "id_answer": "1e7cd1a0fb2940849418d1646812345f",
           "answer": "D. $(1; 4)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "7decf6a42816415780d09b48a6adc315"
+        "explain": null,
+        "correct_answer": "f78272d211d24dad86a641ca5b7c9530"
       }
     },
     {
-      "id_question": "8c65b9ae9e8146b090ebd70e6bf2672c",
+      "id_question": "4a2a51f7f79c4f1d819b26caba8c3b09",
       "question": "Câu 17. Cho hàm số $y = f(x)$ có đạo hàm trên $\\mathbb{R}$ và hàm số $y = f'(x)$ là hàm số bậc ba có đường cong trong hình vẽ. Hàm số $y = f(x)$ nghịch biến trên khoảng nào?",
       "type_question": "four_choice",
-      "path_images": "images/17.png",
+      "path_images": "data/Tính Đơn Điệu Và Cực Trị Của Hàm Số/images/17.png",
       "answers": [
         {
-          "id_answer": "82cf44da92f24b0f802d6805ee819825",
+          "id_answer": "551e14a4c50c499da03727763c3d0655",
           "answer": "A. $(-\\infty;1)$"
         },
         {
-          "id_answer": "0f5f5d314bb94985bd30e7eb4a4696c4",
+          "id_answer": "bb540e38fd524551bc518e9d57050376",
           "answer": "B. $(-2;0)$"
         },
         {
-          "id_answer": "5fa627c50e1e4ab19dada0d67a2e400b",
+          "id_answer": "cf269707e2504ed6b484ad82c49b7740",
           "answer": "C. $(1; +\\infty)$"
         },
         {
-          "id_answer": "8e004eda23514aef9f3d4bba441ebef9",
+          "id_answer": "7d0c401098824f8486a6de307f0894fa",
           "answer": "D. $(-1;+\\infty)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "82cf44da92f24b0f802d6805ee819825"
+        "explain": null,
+        "correct_answer": "551e14a4c50c499da03727763c3d0655"
       }
     },
     {
-      "id_question": "f15fdedd042148f09289133af060e4c1",
+      "id_question": "32630f07bb3445798145c5783fdcbd54",
       "question": "Câu 18. Hàm số $y = \\frac{x^2 - 2x + 5}{x - 1}$ đồng biến trên khoảng nào sau đây?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "0e53b9e71cb54c8fb1fa61cefd4c9008",
+          "id_answer": "1087910b41dc4ffeacd3bed91196acdb",
           "answer": "A. $(-\\infty;5)$"
         },
         {
-          "id_answer": "e2e6cccc5c7a4f9e8997ed94d9208f0d",
+          "id_answer": "79ce7dead4ab4750aa497b0b2ec65621",
           "answer": "B. $(-3;+\\infty)$"
         },
         {
-          "id_answer": "2955ba98b02042c6abc9aedefff5d909",
+          "id_answer": "dcb1755bfb3c4864ae23c198d8718799",
           "answer": "C. $(3; +\\infty)$"
         },
         {
-          "id_answer": "701441c91c1b4ceb833a04a420111001",
+          "id_answer": "6502ba02fec2416c8ac2defad2b5a0ff",
           "answer": "D. $(-3;5)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "2955ba98b02042c6abc9aedefff5d909"
+        "explain": null,
+        "correct_answer": "dcb1755bfb3c4864ae23c198d8718799"
       }
     },
     {
-      "id_question": "c2e209ebd0024e689b56ce3f1f09d569",
+      "id_question": "1047d5e48f714206bf25cd0949662260",
       "question": "Câu 19. Cho hàm số $y = f(x)$ có đạo hàm là $f'(x) = (x - 1)^{2}(3 - x)(x^{2} - x - 1)$. Hỏi hàm số có bao nhiêu cực tiểu?",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "01af69c6e3424a48882db1267a23ad80",
+          "id_answer": "7763ce1f711f4a0a9a53765aadb93e25",
           "answer": "A. 3."
         },
         {
-          "id_answer": "0a5fdfd4609c44af923e3a2837d0e2df",
+          "id_answer": "798229256a45486e8410d39b7d2bd81a",
           "answer": "B. 2."
         },
         {
-          "id_answer": "35c06f9433054668b04f67bdd000ed33",
+          "id_answer": "a0a61d287e2c431c8b8b77afd60e4916",
           "answer": "C. 0."
         },
         {
-          "id_answer": "4fcd507909eb4bd28e8cc34c6eb14456",
+          "id_answer": "396fbaf603434fcd9fe304449566bf3b",
           "answer": "D. 1."
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "4fcd507909eb4bd28e8cc34c6eb14456"
+        "explain": null,
+        "correct_answer": "396fbaf603434fcd9fe304449566bf3b"
       }
     },
     {
-      "id_question": "7f60c905770a4f869297e8c4cb6ae08b",
+      "id_question": "918bce1102184cb98dce867cb675c260",
       "question": "Câu 20. Tìm giá trị cực tiểu của hàm số $y = -x^{3} + 3x + 4$",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "0e97ee4d3f494d918adf4fccc26f0a5e",
+          "id_answer": "97da6cd6a5214e5daeacf9f0b84df810",
           "answer": "A. $y_{CT} = 2$"
         },
         {
-          "id_answer": "51a3a190d50041c8b42247f594305d03",
+          "id_answer": "925279dd4cbc45b28ca4d11981ee37f1",
           "answer": "B. $y_{CT} = 1$"
         },
         {
-          "id_answer": "8115da2253f749c08791ac79c480f8fb",
+          "id_answer": "28dd3c30a3cb4de4b64b3f1a6837d051",
           "answer": "C. $y_{CT} = 6$"
         },
         {
-          "id_answer": "ddc5746b80a34b04934f9e661c2f154f",
+          "id_answer": "15faed1762744d0ca34f2e99fd3fd72b",
           "answer": "D. $y_{CT} = -1$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "0e97ee4d3f494d918adf4fccc26f0a5e"
+        "explain": null,
+        "correct_answer": "97da6cd6a5214e5daeacf9f0b84df810"
       }
     },
     {
-      "id_question": "3778f2b37dd24039a69e50a3d54fbadb",
+      "id_question": "53ba5a24264c4e39bfaed0513af4de24",
       "question": "Câu 21. Cho hàm số $y = f(x)$ liên tục trên $\\mathbb{R}$ và có $f'(x) = (x - 1)^{2}(x^{2} - 5x + 6)$ Số điểm cực trị của hàm số đã cho là",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "bf640a609778402d98d66d3c25be172a",
+          "id_answer": "a4cbe4dbed3548a896c782f0a267ec00",
           "answer": "A. 5."
         },
         {
-          "id_answer": "71c84be0a9fa42cdbf6b1aec79cff4cb",
+          "id_answer": "8f8226f7c26e46a89be3073c071e4ce2",
           "answer": "B. 3."
         },
         {
-          "id_answer": "a83635dc54f044418e5380684d5f5cb1",
+          "id_answer": "4b9ca18f882b40688e11c2605707eed5",
           "answer": "C. 2."
         },
         {
-          "id_answer": "6946e99cf3874e989c49078ee10da879",
+          "id_answer": "3eb7358c3a7140eb9ce29f978328c314",
           "answer": "D. 4."
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "a83635dc54f044418e5380684d5f5cb1"
+        "explain": null,
+        "correct_answer": "4b9ca18f882b40688e11c2605707eed5"
       }
     },
     {
-      "id_question": "fb007d2b0bec41fcbbc98dc9a52db63d",
+      "id_question": "e82c9904d8264b9ea55475578f68576f",
       "question": "Câu 22. Cho hàm số $f(x)$ có đạo hàm $f'(x) = (x - 1)(2 - x)$ với mọi $x \\in \\mathbb{R}$. Điểm cực đại của hàm số là",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "f17788c620e249c99664243150f9f388",
+          "id_answer": "b434cf43a93b46629c896b41bae55ecf",
           "answer": "A. $x = 1$"
         },
         {
-          "id_answer": "eb858c5f886e472caf8a6a107ac51f87",
+          "id_answer": "ad9dd56807d84cbe9dac02b80c6a9a35",
           "answer": "B. $x = -2$"
         },
         {
-          "id_answer": "cca6ab212cbf4830a0605b2780b0d4bf",
+          "id_answer": "50b5cf576361412b974a606adeedc24b",
           "answer": "C. $x = 2$"
         },
         {
-          "id_answer": "58b651a53f2543f2adbb9ad71c614d50",
+          "id_answer": "9399d40210f645c383347fa958263b25",
           "answer": "D. $x = -1$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "cca6ab212cbf4830a0605b2780b0d4bf"
+        "explain": null,
+        "correct_answer": "50b5cf576361412b974a606adeedc24b"
       }
     },
     {
-      "id_question": "3dbf0ec6571c4bd897fdc94966bc9182",
+      "id_question": "cae2b2630f7d4f13bf54a6cb29042d34",
       "question": "Câu 23. Cho hàm số $y = x^{3} - 3x^{2} + 2$ Điểm cực tiểu của đồ thị hàm số có tọa độ là",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "ffeb00c7520b493f8e23f69dd72c4691",
+          "id_answer": "502fc60e73874eb498cf84f8744157b1",
           "answer": "A. $(2;2)$"
         },
         {
-          "id_answer": "8ba5490a991f44d6a52fb2672a8fa0b8",
+          "id_answer": "5d8476613baa47a78ea67676e19b6dd2",
           "answer": "B. $(2;-2)$"
         },
         {
-          "id_answer": "ae0c0e492ab142d4bd30c371b4996d3e",
+          "id_answer": "75261c75980347e98b94e766ef92aa00",
           "answer": "C. $(0;-2)$"
         },
         {
-          "id_answer": "3d13371e7d1043239d9af2351ba8df42",
+          "id_answer": "a6cc4db408a14c7c90b7ddeffc590705",
           "answer": "D. $(0;2)$"
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "8ba5490a991f44d6a52fb2672a8fa0b8"
+        "explain": null,
+        "correct_answer": "5d8476613baa47a78ea67676e19b6dd2"
       }
     },
     {
-      "id_question": "4eaefab4178f4191924881c1a1fab0a7",
+      "id_question": "54e12d67d16d478598adb25be90dd7e8",
       "question": "Câu 24. Cho hàm số $y = f(x)$ có đạo hàm $f'(x) = x^{2}(x + 1)^{2}(2x - 1)$ Số điểm cực trị của $f(x)$ là",
       "type_question": "four_choice",
-      "path_images": "",
+      "path_images": null,
       "answers": [
         {
-          "id_answer": "d2b6495e06fc49089e9b706487ccb514",
+          "id_answer": "899b9e25d6244abcb29ee33e17b9cfcb",
           "answer": "A. 3."
         },
         {
-          "id_answer": "8ef840df27914deba5b682e3f442fd40",
+          "id_answer": "7e728341565745a1b29384e277894b31",
           "answer": "B. 0."
         },
         {
-          "id_answer": "80520541b6324a98ad72c5387fea0fb1",
+          "id_answer": "044daba2e229416ca023f3ad28164d8d",
           "answer": "C. 1."
         },
         {
-          "id_answer": "fcc81f1e05264cfc8ca32d7dd617f2cf",
+          "id_answer": "6651c4a77c174d65b380d25d62557f8a",
           "answer": "D. 2."
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "80520541b6324a98ad72c5387fea0fb1"
+        "explain": null,
+        "correct_answer": "044daba2e229416ca023f3ad28164d8d"
       }
     },
     {
-      "id_question": "5a42937d63214d04acb5b7c6faed1b98",
+      "id_question": "7e981d289ac2443884d21a52305ea272",
       "question": "Câu 25. Cho hàm số $y = f(x)$ có bảng xét dấu đạo hàm như hình bên. Số điểm cực tiểu của $y = f(x)$ là",
       "type_question": "four_choice",
-      "path_images": "images/25.png",
+      "path_images": "data/Tính Đơn Điệu Và Cực Trị Của Hàm Số/images/25.png",
       "answers": [
         {
-          "id_answer": "de2f444f655a4aa9b55e97d8619ffb0b",
+          "id_answer": "b97ce7e995d2488f9c99c34cba7b3e63",
           "answer": "A. 3."
         },
         {
-          "id_answer": "14ac4f279e934abdae89cf1ec1471400",
+          "id_answer": "2d1119ccc1f6484f835e6b4526567053",
           "answer": "B. 4."
         },
         {
-          "id_answer": "c14cc623a4f149a8a3abd12c859366f2",
+          "id_answer": "da654d3ea6fc494b8c86c8f6dcbd72b2",
           "answer": "C. 2."
         },
         {
-          "id_answer": "b8cb3f8bd04f4a7b83ef642cc32cd978",
+          "id_answer": "3413024244e64f7ba65102f32b064e5e",
           "answer": "D. 1."
         }
       ],
       "results": {
-        "explain": "",
-        "correct_answer": "c14cc623a4f149a8a3abd12c859366f2"
+        "explain": null,
+        "correct_answer": "da654d3ea6fc494b8c86c8f6dcbd72b2"
       }
     }
   ]
