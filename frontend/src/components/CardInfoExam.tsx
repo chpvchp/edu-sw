@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import type { InfoExam } from "../type/infoexam.type"
+import { ConvertDate } from "../hook/useConvert"
 
 type CardInfoExamProps = {
   data?: InfoExam
@@ -26,7 +27,7 @@ export default function CardInfoExam({ data }: CardInfoExamProps) {
 
         <div className={classNameInfo}>
           <p>Ngày tạo:</p>
-          <p>{data?.created}</p>
+          <p>{ConvertDate(data?.created ?? "")}</p>
         </div>
 
         <Link to={`/bai-tap/${data?.id_exam}/lam-bai`} className="mt-2 p-2 bg-blue-600 rounded-md text-center text-white font-bold transition duration-200 hover:bg-blue-800">
