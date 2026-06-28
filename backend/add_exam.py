@@ -4,7 +4,7 @@ from datetime import datetime
 
 db = ConnDB()
 
-with open("./backend/json.json", "r", encoding="utf-8") as file_json:
+with open("./backend/json/exam.json", "r", encoding="utf-8") as file_json:
     exam = json.load(file_json)
     
     id_exam = exam["id_exam"]
