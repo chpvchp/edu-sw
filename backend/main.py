@@ -29,3 +29,10 @@ def get_info_exams(id_exam):
     if info_exam is None:
         raise HTTPException(status_code=404, detail="Not Found Info Exam")
     return info_exam
+
+@app.get("/backend-api/bai-tap/{id_exam}/questions")
+def get_questions_in_exam_(id_exam):
+    questions = db.get_questions_in_exam(id_exam)
+    if questions is None:
+        raise HTTPException(status_code=404, detail="Not Found Questions in Exam")
+    return questions
