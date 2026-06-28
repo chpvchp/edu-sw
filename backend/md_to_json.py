@@ -30,7 +30,7 @@ def parse(name_exam, id_subject, duration):
         "duration": duration,
         "questions": questions
     }
-    
+    order = 1
     with open(f"./backend/data/{name_exam}/{name_exam}.md", "r", encoding="utf-8") as file:
         for line in file:
             line = clean_line(line)
@@ -40,6 +40,7 @@ def parse(name_exam, id_subject, duration):
                 
                 current_question = {
                     "id_question": id_question,
+                    "order": order,
                     "question": line,
                     "type_question": "",
                     "path_images": None,
@@ -50,8 +51,8 @@ def parse(name_exam, id_subject, duration):
                     }
                 }
                 
-                
                 questions.append(current_question)
+                order += 1
                 
             elif is_path_image(line) and current_question:
                 current_question["path_images"] = f"data/{name_exam}/" + line[4:-1]
