@@ -32,18 +32,18 @@ export default function CardQuestionFourChoice({ question, onChange }: CardQuest
 
         {question?.answers.map((answer) => (
 
-          <div className="flex gap-2">
+          <div className="flex gap-2" key={answer?.id_answer}>
             <input 
               type="radio"
               name={question?.id_question}
               value={answer?.id_answer}
               onChange={() => onChange(question?.id_question, answer?.id_answer)}
             />
-            <p>
+            <div>
               <RenderMarkDownLatex 
                 text={answer?.answer}
               />
-            </p>
+            </div>
           </div>
 
         ))}
