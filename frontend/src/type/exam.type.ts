@@ -1,5 +1,5 @@
 export type Exam = {
-  id_exam: number;
+  id_exam: string;
   name_exam: string;
   name_subject: string;
   duration: number;

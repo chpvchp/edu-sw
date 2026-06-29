@@ -17,7 +17,7 @@ export default function BaiTapPage() {
         <p className="p-4 italic">Chọn các bài tập bên dưới để rèn luyện nhé:3</p>
       </div>
 
-      <div className="flex gap-2 justify-center mt-4">
+      <div className="flex gap-6 justify-center mt-4">
 
         {data?.map((exam: Exam) => (
           <CardExam
