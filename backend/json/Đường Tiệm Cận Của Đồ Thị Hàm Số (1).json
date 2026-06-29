@@ -1,909 +1,933 @@
 {
-  "id_exam": "5848a8ab55344f4d9e0a7a4923c8c876",
+  "id_exam": "544cc009a4f44e5ba3bbe216b6df420c",
   "id_subject": 1,
   "name_exam": "Đường Tiệm Cận Của Đồ Thị Hàm Số (1)",
   "duration": 25,
   "questions": [
     {
-      "id_question": "69420ed86f4d40aebac2d2589321fe1b",
+      "id_question": "b9b26c27daa44d6290cc8f4d359e478b",
       "order": 1,
-      "question": "Câu 91. Đồ thị hàm ô $y = \\frac{x - 2}{x^2 - 4}$ có đường tiêm cận ngang là:",
+      "question": "Câu 1. Đồ thị hàm số $y = \\frac{x - 2}{x^2 - 4}$ có đường tiệm cận ngang là:",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "b05b7d021f8f4d4fbe7f2df664fd1f37",
+          "id_answer": "16657f844e1c45cabbddc220be677021",
           "answer": "A. $y = 2$"
         },
         {
-          "id_answer": "109e38ce4f364f2987dc109b1512b82e",
+          "id_answer": "8ec5b58da5f3417a8acaccf3637d7d0b",
           "answer": "B. $y = 0$"
         },
         {
-          "id_answer": "1efd23a8ea6e434d878f4458ad46526a",
+          "id_answer": "6b04c60236374f0bb7e8db7cd95c8676",
           "answer": "C. $y = 1$"
         },
         {
-          "id_answer": "ad9c41e989174ce8b2d7d0a08dcca9d7",
+          "id_answer": "fde6c4e6af454d31aa6b7f6d120f127b",
           "answer": "D. $y = -2$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "8ec5b58da5f3417a8acaccf3637d7d0b",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "6bcc68eb46324168aaf20cc7eece4c26",
+      "id_question": "0616a088dbd64a4fb4c7bca4319135cf",
       "order": 2,
-      "question": "Câu 92. Đường tiêm cận của đồ thị hàm số $y = \\frac{1}{x^2 + 1}$ có phương trình",
+      "question": "Câu 2. Đường tiệm cận của đồ thị hàm số $y = \\frac{1}{x^2 + 1}$ có phương trình",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "c1a923fc7e564e5194965eff3529f143",
+          "id_answer": "cbd28fa2bfdc442095d5dbb093c2394f",
           "answer": "A. $y = 2$"
         },
         {
-          "id_answer": "09c553f6988440ec86415c8f5956d25c",
+          "id_answer": "250a0bfce95349099783af9999052dbd",
           "answer": "B. $y = 3$"
         },
         {
-          "id_answer": "1c002b23a1594d828e9ad3f3e21b6c11",
+          "id_answer": "9d700522330c480db2f4ed12df073dde",
           "answer": "C. $y = 1$"
         },
         {
-          "id_answer": "2da7c1b2eab040a4b15b1b2024cce4b4",
+          "id_answer": "9e89e8149e9946cba6c4e5de28cb1638",
           "answer": "D. $y = 0$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "9e89e8149e9946cba6c4e5de28cb1638",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "1a59c7f9c1474d648c00d28b7b5448fb",
+      "id_question": "09ea457a8d594768b6a95d620ee48615",
       "order": 3,
-      "question": "Câu 93. Đồ thị của hàm số nào dưới đây có tiệm cận ngang?",
+      "question": "Câu 3. Đồ thị của hàm số nào dưới đây có tiệm cận ngang?",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "a68754311fe14f248e03156df7a8740f",
+          "id_answer": "43fda8f2be6c4439b886bc9ac8f8b144",
           "answer": "A. $y = x^{3} - x - 1$"
         },
         {
-          "id_answer": "0b3cd4afa80e49b18d3274165704cc75",
+          "id_answer": "ad42d059f9d243859134506e618bc9d2",
           "answer": "B. $y = \\sqrt{2x^2 + 3}$"
         },
         {
-          "id_answer": "81fcabac4e644a20bca56bb832fda31a",
+          "id_answer": "9152d8b974594e5eafb0f1bc37e42359",
           "answer": "C. $y = \\frac{x^{3} + 1}{x^{2} + 1}$"
         },
         {
-          "id_answer": "0c86f7e12d0b48c8a45d45ccd8bd7e11",
+          "id_answer": "b9b1ed16a562429fbf12a0bf0949223e",
           "answer": "D. $y = \\frac{3x^2 + 2x - 1}{4x^2 + 5}$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "b9b1ed16a562429fbf12a0bf0949223e",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "16d594c4cad446cdbd89457890ab06f5",
+      "id_question": "e19c7e9b705a414686c047ede4445213",
       "order": 4,
-      "question": "Câu 94. Đường tiêm cận đúng của đồ thị hàm số $y = \\frac{x^2 + x - 2}{x - 2}$",
+      "question": "Câu 4. Đường tiệm cận đứng của đồ thị hàm số $y = \\frac{x^2 + x - 2}{x - 2}$",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "66fbb539692546b690d4300e5d5c2c3b",
+          "id_answer": "8450993474584265a0568e7b19413e74",
           "answer": "A. $x = 2$"
         },
         {
-          "id_answer": "9226dd7a15264f8493d3be5804f53e0b",
+          "id_answer": "3bb2c9a72f7646bcaa02a08d378ebb7e",
           "answer": "B. $x = -2$"
         },
         {
-          "id_answer": "842983e29a244db7ba41b37574918949",
+          "id_answer": "e183909b63ac4f9fbec5702ee4a6c797",
           "answer": "C. $y = -2$"
         },
         {
-          "id_answer": "2cd2553b9aa3405c8c999b7726815c58",
+          "id_answer": "4a2baae09b6c4f44bb3acd4c025567e9",
           "answer": "D. $y = 2$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "8450993474584265a0568e7b19413e74",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "66a1600867304ce6ace9cc26bb6e933b",
+      "id_question": "a2dcebf0932041eea98a8cd7bc0f2967",
       "order": 5,
-      "question": "Câu 95. Phương trình đường tiệm cận đúng của đồ thị hàm số $y = \\frac{3}{x+2}$",
+      "question": "Câu 5. Phương trình đường tiệm cận đứng của đồ thị hàm số $y = \\frac{3}{x+2}$",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "8c1ea99f72594cb5817d7ae792d5e06b",
+          "id_answer": "40a4146083974aa3bc81ae729b4b76b0",
           "answer": "A. $x = -2$"
         },
         {
-          "id_answer": "ea579b53c85c42a98b555988370647da",
+          "id_answer": "6d470f2f815442a298889a2d6483b419",
           "answer": "B. $x = 0$"
         },
         {
-          "id_answer": "3cbf0b0545744329992772be6908ce7b",
+          "id_answer": "909d15d005f04de693210b60ae8eca36",
           "answer": "C. $x = 3$"
         },
         {
-          "id_answer": "1f66094dbe83469a8c52e4f70b73b03f",
+          "id_answer": "a6638609679248ac94c1581957c8f6ac",
           "answer": "D. $y = 0$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "40a4146083974aa3bc81ae729b4b76b0",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "aa75f5f3939343ac821682100b340b89",
+      "id_question": "b230869744374725815c33a5acd3b63a",
       "order": 6,
-      "question": "Câu 96. Tiệm cận đúng của đồ thị hàm số $y = \\frac{3x + 6}{x - 2}$ là đường thẳng",
+      "question": "Câu 6. Tiệm cận đứng của đồ thị hàm số $y = \\frac{3x + 6}{x - 2}$ là đường thẳng",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "edcd49ffcc054873979027cba68a68ad",
+          "id_answer": "9e2e175cc94e4e2ca7f63376454b606a",
           "answer": "A. $x = 3$"
         },
         {
-          "id_answer": "5e6b6773079c4d719ca6a8dd58ce6921",
+          "id_answer": "148750c79714498680fefffa10981dfb",
           "answer": "B. $x = -2$"
         },
         {
-          "id_answer": "4bfb037eac7643bb924cd7176c3bd732",
+          "id_answer": "88160b9791444ebb974728a8256faed2",
           "answer": "C. $x = -3$"
         },
         {
-          "id_answer": "2b90f8f554334da68079214a9890f7f7",
+          "id_answer": "cb5cbf52c5344ded99971701f650445a",
           "answer": "D. $x = 2$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "cb5cbf52c5344ded99971701f650445a",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "4b6b7ab545504ee59bc9346f3e1f4442",
+      "id_question": "f8453ae75a744580a650f68288aae4be",
       "order": 7,
-      "question": "Câu 97. Tiệm cận ngang của đồ thị hàm số $y = \\frac{2}{x-1}$ là đường thẳng:",
+      "question": "Câu 7. Tiệm cận ngang của đồ thị hàm số $y = \\frac{2}{x-1}$ là đường thẳng:",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "12f2e32dd5944c2fbd830b097530e44e",
+          "id_answer": "bfea23a82ba84debb69c38a3ad8f56ce",
           "answer": "A. $x = 1$"
         },
         {
-          "id_answer": "f8d5992cd2fe4db8a38e5795db1160d0",
+          "id_answer": "791b883a6e184edaac8342269e932a1e",
           "answer": "B. $y = 2$"
         },
         {
-          "id_answer": "228dc81a7ca34307883f79c6f46ec420",
+          "id_answer": "e67f98019bbc42d9b729097227cb0364",
           "answer": "C. $x = 0$"
         },
         {
-          "id_answer": "528adbe4482940038ba242cecd421d9d",
+          "id_answer": "4bca108717db4f2c8cc5518f6e457697",
           "answer": "D. $y = 0$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "4bca108717db4f2c8cc5518f6e457697",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "99847b43b5364ec99df9c88ec02a245c",
+      "id_question": "406732b2c3f346709c16e8ae02174760",
       "order": 8,
-      "question": "Câu 98. Cho hàm số $f(x)$ có bằng biến thiên như hình sau",
+      "question": "Câu 8. Cho hàm số $f(x)$ có bảng biến thiên như hình bên dưới. Số tiệm cận đứng của đồ thị hàm số đã cho là",
       "type_question": "four_choice",
-      "path_images": null,
+      "path_images": "data/Đường Tiệm Cận Của Đồ Thị Hàm Số (1)/images/4/8.png",
       "answers": [
         {
-          "id_answer": "1e51fd5ac9c44098a7673c90722d9bff",
-          "answer": "A. 3."
-        },
-        {
-          "id_answer": "d14ae50554014e7eabb44944ed0b5fbb",
-          "answer": "B. 1."
-        },
-        {
-          "id_answer": "afbee0ebc5564a5a9f0f792835179159",
-          "answer": "C. 2."
-        },
-        {
-          "id_answer": "840307fce10046229caee9aae50e3a55",
-          "answer": "D. 0."
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "9b821574da2e43c183aff36b3550ea41",
-      "order": 9,
-      "question": "Câu 99. Cho hàm số $y = f(x)$ xác định và liên tục trêm $(\\infty;0)$ và $(0;+\\infty)$ có bằng biến thiên như hình vẽ. Mệnh đề nào sau đây đúng?",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "f7c68a1fecbc41899145621ae1a7cb51",
-          "answer": "A. Đường thẳng $x = 2$ là tiệm cận đúng của đồ thị hàm số."
-        },
-        {
-          "id_answer": "1889bdefcac342688d312c844603f776",
-          "answer": "B. Đồ thị hàm số có hai đường tiệm cận ngang."
-        },
-        {
-          "id_answer": "a6f63e7882154250ab02c5ecd124d8f8",
-          "answer": "C. Đồ thị hàm số có hai đường tiệm cận."
-        },
-        {
-          "id_answer": "de47d7a4849142789e42ef43ee4c30db",
-          "answer": "D. Đồ thị hàm số chỉ có một đường tiêm cận."
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "a4e951966f9a4c6a9cd456acdec88c9d",
-      "order": 10,
-      "question": "Câu 100. Cho hàm số $f(x)$ có bằng biến thiên như sau",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "4c67f2cef1f94063bb783dc4ac0cf030",
-          "answer": "A. $1$"
-        },
-        {
-          "id_answer": "6f17e521659642f692abc10accb6e532",
-          "answer": "B. $3$"
-        },
-        {
-          "id_answer": "790a180fb32c4f61a7b8059efbd42da1",
-          "answer": "C. $4$"
-        },
-        {
-          "id_answer": "b142a5a83112499aaa92a687de2b3a1b",
-          "answer": "D. $2$"
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "7ee2d58153014040a8d14edaf1ca198e",
-      "order": 11,
-      "question": "Câu 101. Cho hàm số $f(x)$ có bằng biến thiên như sau",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "4f13c170e66f45d0ab415340dec13d19",
-          "answer": "A. Đồ thị hàm số có 2 đường tiệm cận ngang."
-        },
-        {
-          "id_answer": "5402a5a7c7d1446ead12d25daa864857",
-          "answer": "B. Đồ thị hàm số có đường tiêm cận ngang y = 4."
-        },
-        {
-          "id_answer": "c3d6490302c74544836e904629cb155f",
-          "answer": "C. Đồ thị hàm số không có tiêm cận."
-        },
-        {
-          "id_answer": "c6568f3be76c43e7afa49982dd402c13",
-          "answer": "D. Đồ thị hàm số có đường tiêm cận đúng x = 0."
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "42a5b301c0174b51868bbb6a0ff48c93",
-      "order": 12,
-      "question": "Câu 102. Cho hàm số $y = f(x)$ xác định trên $\\mathbb{R}\\{1\\}$ , liên tục trên mỗi khoảng xác định và có bằng biến thiên như hình sau:",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "19758752f52246f79521191dc4405172",
-          "answer": "A. $1$"
-        },
-        {
-          "id_answer": "27fd9c00fe984c8a8d09a4d741230c28",
-          "answer": "B. $0$"
-        },
-        {
-          "id_answer": "093eb53e61c644d69d5a81b2b6e2a468",
-          "answer": "C. $3$"
-        },
-        {
-          "id_answer": "aed3c19b518244c3af41107c888f7d63",
-          "answer": "D. $2$"
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "3fcb04854d8e4993a1afa248ad928eae",
-      "order": 13,
-      "question": "Câu 103. Cho hàm số $y = f(x)$ xác định là liên tục trên $\\mathbb{R}\\{1\\}$ , có bằng biến thiên như sau",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "51b88967e5964606aa84429cf0c63dba",
-          "answer": "A. Đồ thị hàm số có tiệm cận đúng $y = -1$ và tiệm cận ngang $x = -2$"
-        },
-        {
-          "id_answer": "708608547f154469b6a68dacaf239eb4",
-          "answer": "B. Đồ thị hàm số có duy nhất một tiêm cận"
-        },
-        {
-          "id_answer": "126264f60fda43c29e762be5935056ed",
-          "answer": "C. Đồ thị hàm số có ba tiệm cận"
-        },
-        {
-          "id_answer": "88440e149d154923a34450ab22df9b5e",
-          "answer": "D. Đồ thị hàm số có tiêm cận đúng $x = -1$ và tiêm cận ngang $y = -2$"
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "ef67a1f9d21d4ca0ae7b1a93e246c883",
-      "order": 14,
-      "question": "Câu 104. Tổng số tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \\frac{2x^{2} - 3x + 1}{x^{2} - 1}$ là",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "7752b12e142d4c7f951f161805023391",
-          "answer": "A. $1$"
-        },
-        {
-          "id_answer": "13d54d4ea8a643488f53d92de3f648cf",
-          "answer": "B. $0$"
-        },
-        {
-          "id_answer": "06d971ce92844ddfb4e9f792d8d71cfe",
-          "answer": "C. $3$"
-        },
-        {
-          "id_answer": "0d929df93c67457ba9aea87de29f4f1a",
-          "answer": "D. $2$"
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "b5554b9b6cdd4718833e6f448f367bef",
-      "order": 15,
-      "question": "Câu 105. Tổng số đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \\frac{x^2 - 3x + 2}{x^2 - 1}$ là",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "1006116a829b4e70a0561d58b15595bb",
+          "id_answer": "e7f88c490c0a4f55aa14d578b93d4997",
           "answer": "A. $3$"
         },
         {
-          "id_answer": "988da494f29e4694814086772f9d0a26",
-          "answer": "B. $4$"
-        },
-        {
-          "id_answer": "c64140b719bb49b5975c0db9f84db9fc",
-          "answer": "C. $1$"
-        },
-        {
-          "id_answer": "18296f81cd634d65ae5f5847b5ebeda0",
-          "answer": "D. $2$"
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "af7fd53ed684400c88ed7a04093e97cc",
-      "order": 16,
-      "question": "Câu 106. Cho hàm số $y = \\frac{2x^{2} + x - 1}{x - 1}$ có đô thị ( $C$ ). Số tiệm cận đúng và tiệm cận ngang của ( $C$ ) là",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "3b0d646eddef402aab67389e1a924328",
-          "answer": "A. $0$"
-        },
-        {
-          "id_answer": "5f19aa61cc39426d9a36e85204b6712e",
+          "id_answer": "64af9b4ff8574a499d33ee70511a5b66",
           "answer": "B. $1$"
         },
         {
-          "id_answer": "b9bcf3fb99d7414dba145287f0e4ef81",
-          "answer": "C. $3$"
-        },
-        {
-          "id_answer": "166df5eb284d4c7580956d2f67bb284d",
-          "answer": "D. $2$"
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "a83e8e29505b45f3bf0f61924aa3537d",
-      "order": 17,
-      "question": "Câu 107. Tổng số đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \\frac{(x-2)\\sqrt{x-1}}{x^{2}-1}$",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "ba3046e8d27e417eb790f38c5f802ec8",
-          "answer": "A. $3$"
-        },
-        {
-          "id_answer": "00874dbe18924156bc65838f37e13003",
-          "answer": "B. $2$"
-        },
-        {
-          "id_answer": "f202a002043f4c70aa08e3f00139fc5d",
-          "answer": "C. $0$"
-        },
-        {
-          "id_answer": "d4f87a0b312d45378b8bd3774e45d742",
-          "answer": "D. $1$"
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "2ca521b5a9e94d8cbf0a69f88b2a37d7",
-      "order": 18,
-      "question": "Câu 108. Đồ thị hàm số $y = \\frac{x^2 - 1}{3 - 2x - 5x^2}$ có bao nhiêu đường tiêm cận đúng?",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "28fc32c1c5ef423ab540ac70fa35d2bb",
-          "answer": "A. $0$"
-        },
-        {
-          "id_answer": "46f41fa76b37463e970a2fbc64544d0b",
-          "answer": "B. $1$"
-        },
-        {
-          "id_answer": "1e16be1f6e584f2a811ee2e7fdfca1ec",
+          "id_answer": "ff6361487b534eaba343ea90da56064e",
           "answer": "C. $2$"
         },
         {
-          "id_answer": "c9f95aef79e2480289d3af425f5e487f",
-          "answer": "D. $3$"
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "1d60b36888f34d3c9d0b8c5c1560f326",
-      "order": 19,
-      "question": "Câu 109. Tổng số đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \\frac{x - 2}{x^{2} - 4}$",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "3649498b1cb54e159aaf9e8388b1d42d",
-          "answer": "A. $2$"
-        },
-        {
-          "id_answer": "6531e4be24b9420089f51749b327b770",
-          "answer": "B. $3$"
-        },
-        {
-          "id_answer": "dd579a5064ec437bb6b8b08582b29fb4",
-          "answer": "C. $1$"
-        },
-        {
-          "id_answer": "0acf811fe1fb4ae1bef49ab95b1ee276",
+          "id_answer": "0d2412facd5444cc9445c84f14a5a52c",
           "answer": "D. $0$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "64af9b4ff8574a499d33ee70511a5b66",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "fa75e8d81c524d57a7241b46e8065c5c",
-      "order": 20,
-      "question": "Câu 110. Cho hàm số $y = \\frac{x+1}{x^2-2x-3}$ . Tổng số tiêm cận đúng và tiêm cận ngang của đồ thi hàm số đã cho là",
+      "id_question": "912d3e4ce0064fb289db37363a2bdb2c",
+      "order": 9,
+      "question": "Câu 9. Cho hàm số $y = f(x)$ xác định và liên tục trêm $(\\infty;0)$ và $(0;+\\infty)$ có bảng biến thiên như hình vẽ. Mệnh đề nào sau đây đúng?",
+      "type_question": "four_choice",
+      "path_images": "data/Đường Tiệm Cận Của Đồ Thị Hàm Số (1)/images/4/9.png",
+      "answers": [
+        {
+          "id_answer": "59883eb880224a6fb0df64feb0876eb6",
+          "answer": "A. Đường thẳng $x = 2$ là tiệm cận đứng của đồ thị hàm số"
+        },
+        {
+          "id_answer": "c726dd441d3040708f1bbdedbc107e6e",
+          "answer": "B. Đồ thị hàm số có hai đường tiệm cận ngang"
+        },
+        {
+          "id_answer": "31546add36184e17befa2b39e998a73b",
+          "answer": "C. Đồ thị hàm số có hai đường tiệm cận"
+        },
+        {
+          "id_answer": "5121ddec981f4816a6c5bccf3ce1da4c",
+          "answer": "D. Đồ thị hàm số chỉ có một đường tiệm cận"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "31546add36184e17befa2b39e998a73b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "604a4518f709403b933a539958668e23",
+      "order": 10,
+      "question": "Câu 10. Cho hàm số $f(x)$ có bảng biến thiên như bên dưới. Tổng số tiệm cận ngang và tiệm cận đứng của đồ thị hàm số đã cho là",
+      "type_question": "four_choice",
+      "path_images": "data/Đường Tiệm Cận Của Đồ Thị Hàm Số (1)/images/4/10.png",
+      "answers": [
+        {
+          "id_answer": "05b90f0484e5464a9cea0e456aabf71c",
+          "answer": "A. $1$"
+        },
+        {
+          "id_answer": "db1c6614802f4fc1965761a4ceb44e1e",
+          "answer": "B. $3$"
+        },
+        {
+          "id_answer": "8ea320c7dc8440bc9153454fe51957f1",
+          "answer": "C. $4$"
+        },
+        {
+          "id_answer": "39a773e2d46e49f3b1818aedf229e7d6",
+          "answer": "D. $2$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "39a773e2d46e49f3b1818aedf229e7d6",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "198e0ae1597e4d8dafd398126b3bb917",
+      "order": 11,
+      "question": "Câu 11. Cho hàm số $f(x)$ có bảng biến thiên như bên dưới. Mệnh đề nào sau đây đúng?",
+      "type_question": "four_choice",
+      "path_images": "data/Đường Tiệm Cận Của Đồ Thị Hàm Số (1)/images/4/11.png",
+      "answers": [
+        {
+          "id_answer": "097eb89695fc47d882c4104bc26a5355",
+          "answer": "A. Đồ thị hàm số có 2 đường tiệm cận ngang."
+        },
+        {
+          "id_answer": "b05a9cc21a7f4c93b0917f1b725742c7",
+          "answer": "B. Đồ thị hàm số có đường tiệm cận ngang y = 4."
+        },
+        {
+          "id_answer": "64d6d42cd8614441a813a41156ba6958",
+          "answer": "C. Đồ thị hàm số không có tiệm cận."
+        },
+        {
+          "id_answer": "38ddd04c82f6462cbea755a2b3db672b",
+          "answer": "D. Đồ thị hàm số có đường tiệm cận đứng x = 0."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "64d6d42cd8614441a813a41156ba6958",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "e5eb702913274cf1b4b192e3f11b9cca",
+      "order": 12,
+      "question": "Câu 12. Cho hàm số $y = f(x)$ xác định trên $\\mathbb{R} \\setminus  \\{1\\}$ , liên tục trên mỗi khoảng xác định và có bảng biến thiên như hình bên dưới. Hỏi đồ thị hàm số có tất cả bao nhiêu đường tiệm cận đứng và tiệm cận ngang?",
+      "type_question": "four_choice",
+      "path_images": "data/Đường Tiệm Cận Của Đồ Thị Hàm Số (1)/images/4/12.png",
+      "answers": [
+        {
+          "id_answer": "ab4e258d6a19415d8feed04b4b86d9ef",
+          "answer": "A. $1$"
+        },
+        {
+          "id_answer": "d4120b15bb2d4bbb806c5c6c1900b4c9",
+          "answer": "B. $0$"
+        },
+        {
+          "id_answer": "6a53f91714304e6894ea5bf85ba6ba34",
+          "answer": "C. $3$"
+        },
+        {
+          "id_answer": "c1ce195dff314bd4b852f34b38f9bb80",
+          "answer": "D. $2$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "6a53f91714304e6894ea5bf85ba6ba34",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "87beda3124194238a3ed03b68c75fc2c",
+      "order": 13,
+      "question": "Câu 13. Cho hàm số $y = f(x)$ xác định là liên tục trên $\\mathbb{R} \\setminus \\{1\\}$ , có bảng biến thiên như hình bên dưới. Khẳng định nào sau đây đúng?",
+      "type_question": "four_choice",
+      "path_images": "data/Đường Tiệm Cận Của Đồ Thị Hàm Số (1)/images/4/13.png",
+      "answers": [
+        {
+          "id_answer": "9c482ba8ea2d4cadae89f4b0353dc327",
+          "answer": "A. Đồ thị hàm số có tiệm cận đứng $y = -1$ và tiệm cận ngang $x = -2$"
+        },
+        {
+          "id_answer": "777fe8fae5644a04b3efd38b821bb86a",
+          "answer": "B. Đồ thị hàm số có duy nhất một tiệm cận"
+        },
+        {
+          "id_answer": "27f0759ad57c414499c67ea8b8f79424",
+          "answer": "C. Đồ thị hàm số có ba tiệm cận"
+        },
+        {
+          "id_answer": "c7cdb049ab42465daf73aa33974031d4",
+          "answer": "D. Đồ thị hàm số có tiệm cận đứng $x = -1$ và tiệm cận ngang $y = -2$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "c7cdb049ab42465daf73aa33974031d4",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "a02bd258a7a04c2ea72311bfd7c9817d",
+      "order": 14,
+      "question": "Câu 14. Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \\frac{2x^{2} - 3x + 1}{x^{2} - 1}$ là",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "8c04820a3c7f470eb9e00930539eb8c1",
-          "answer": "A. $2$"
+          "id_answer": "be22fc3a8d2e400c8de2e0f2f8f95e56",
+          "answer": "A. $1$"
         },
         {
-          "id_answer": "fd17eefe68334f5a95eb792bca33805b",
-          "answer": "B. $4$"
+          "id_answer": "8a9f94f0c4aa4c0bb32db737901709b5",
+          "answer": "B. $0$"
         },
         {
-          "id_answer": "3dcc56e358bf4bdc8c5c227c0e45a718",
+          "id_answer": "9cea53b1c6104557a24d9e26c2f60049",
           "answer": "C. $3$"
         },
         {
-          "id_answer": "f6a01d9a37ef49499026eeeb5e48039c",
+          "id_answer": "be64a1db3000433e8e1a85770a0418fd",
+          "answer": "D. $2$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "be64a1db3000433e8e1a85770a0418fd",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "3df08540cc184658a7565492a5324007",
+      "order": 15,
+      "question": "Câu 15. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \\frac{x^2 - 3x + 2}{x^2 - 1}$ là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "67518698539643babffda57617ef66b6",
+          "answer": "A. $3$"
+        },
+        {
+          "id_answer": "33575a8383024db593fffecdace547ae",
+          "answer": "B. $4$"
+        },
+        {
+          "id_answer": "fdc3af37de4b4995b9c9e0e711ab04dd",
+          "answer": "C. $1$"
+        },
+        {
+          "id_answer": "718d2e2a1aef4a359b4540acc4936084",
+          "answer": "D. $2$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "718d2e2a1aef4a359b4540acc4936084",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "91f209287f514de7b99b3dd513b4010f",
+      "order": 16,
+      "question": "Câu 16. Cho hàm số $y = \\frac{2x^{2} + x - 1}{x - 1}$ có",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "81bf207909514ff99788d62160913a99",
+          "answer": "A. $0$"
+        },
+        {
+          "id_answer": "eaa572ecac0a49aeac7b15de3acbe149",
+          "answer": "B. $1$"
+        },
+        {
+          "id_answer": "ca5ecc17e8a94989a1dd5a32cb79054d",
+          "answer": "C. $3$"
+        },
+        {
+          "id_answer": "041402ffcdf9475da9c144a496262b8b",
+          "answer": "D. $2$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "eaa572ecac0a49aeac7b15de3acbe149",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "925376144e564dfeb40ad0cfc6adacf7",
+      "order": 17,
+      "question": "Câu 17. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \\frac{(x-2)\\sqrt{x-1}}{x^{2}-1}$",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bb447349e6724588aa161492e7403d31",
+          "answer": "A. $3$"
+        },
+        {
+          "id_answer": "7b6f5cecd96f4d3583e84e63eae7bba3",
+          "answer": "B. $2$"
+        },
+        {
+          "id_answer": "60bb9da0ce99484b9cc542b3d3821124",
+          "answer": "C. $0$"
+        },
+        {
+          "id_answer": "98034d9d94eb4751867c37c607676677",
           "answer": "D. $1$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "7b6f5cecd96f4d3583e84e63eae7bba3",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "18da89493f8543f389471c09b218f779",
-      "order": 21,
-      "question": "Câu 111. Tổng số tiêm cận đúng và tiêm cận ngang của đô thị hàm số $y = \\frac{3x^{2} - 2x - 1}{x^{2} - 1}$ là:",
+      "id_question": "b25d7185afd54b13ac09225b8d4a0aa8",
+      "order": 18,
+      "question": "Câu 18. Đồ thị hàm số $y = \\frac{x^2 - 1}{3 - 2x - 5x^2}$ có bao nhiêu đường tiệm cận đứng?",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "523a7cfd87c44fc2b7bb53eb36702a78",
-          "answer": "A. $4$"
-        },
-        {
-          "id_answer": "c55fef1ea0bd496fa54510b46a32f014",
-          "answer": "B. $2$"
-        },
-        {
-          "id_answer": "5cf269cf7b10476c8b78e2cebfc8e0aa",
-          "answer": "C. $1$"
-        },
-        {
-          "id_answer": "a88a1ca0b38140cc897bd4058de4d23d",
-          "answer": "D. $3$"
-        }
-      ],
-      "results": {
-        "explain": null,
-        "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
-        "short_answer": ""
-      }
-    },
-    {
-      "id_question": "226274a041cf47179fd83595e822e1ef",
-      "order": 22,
-      "question": "Câu 112. Tổng số đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \\frac{2x - 1}{x^2 - x}$ là",
-      "type_question": "four_choice",
-      "path_images": null,
-      "answers": [
-        {
-          "id_answer": "97460e35ede542eeb72d30d8dccb474e",
+          "id_answer": "d5b2862e06304a75b3cf6b74d7dde310",
           "answer": "A. $0$"
         },
         {
-          "id_answer": "d11229c9e2314a8083e5f026cfcb62f4",
+          "id_answer": "d9080e869ee74ef2aff3605120f634cf",
           "answer": "B. $1$"
         },
         {
-          "id_answer": "08cf7af4188a47b299ff0a4877c981cb",
+          "id_answer": "c8b851130e014dd7b9678ea18c65c9c7",
           "answer": "C. $2$"
         },
         {
-          "id_answer": "1e458f474634415884312571e87130dc",
+          "id_answer": "4662d27730824bac895faf4a301ca68f",
           "answer": "D. $3$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "d9080e869ee74ef2aff3605120f634cf",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "965b5d78f80842cc8a752751a9243cb0",
-      "order": 23,
-      "question": "Câu 113. Đường tiêm cận ngang của đồ thị hàm số $y = \\frac{x+1}{x^2-4}$ có phương trình là",
+      "id_question": "6f7b28c5aefa422b9132775a9e4cf49f",
+      "order": 19,
+      "question": "Câu 19. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \\frac{x - 2}{x^{2} - 4}$",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "25087d34352243c79e37f62d4ae370e8",
+          "id_answer": "d9454fe4ac2a490fb17030e71d49ee7c",
+          "answer": "A. $2$"
+        },
+        {
+          "id_answer": "904317c60425446590a5d91fdedb2f77",
+          "answer": "B. $3$"
+        },
+        {
+          "id_answer": "0072a0f4dc1b4770a9149d62bc13fb38",
+          "answer": "C. $1$"
+        },
+        {
+          "id_answer": "60eab266c07c45f9a2c35215c0df472c",
+          "answer": "D. $0$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "d9454fe4ac2a490fb17030e71d49ee7c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "55b2eaa90122419294777c7bc5d26ed1",
+      "order": 20,
+      "question": "Câu 20. Cho hàm số $y = \\frac{x+1}{x^2-2x-3}$ . Tổng số tiệm cận đứng và tiệm cận ngang của Đồ thị hàm số đã cho là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "7e99024db6b941f2964631656ba96b11",
+          "answer": "A. $2$"
+        },
+        {
+          "id_answer": "c80aed2acab742c785620627ea8d8522",
+          "answer": "B. $4$"
+        },
+        {
+          "id_answer": "c40795794e74478f87003d954c82fa27",
+          "answer": "C. $3$"
+        },
+        {
+          "id_answer": "2d521676c7c34e2095d1fde102e66859",
+          "answer": "D. $1$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "7e99024db6b941f2964631656ba96b11",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "27f44fabbe4a45109749ae40df7784c6",
+      "order": 21,
+      "question": "Câu 21. Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \\frac{3x^{2} - 2x - 1}{x^{2} - 1}$ là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "56b36631091148e99a6e75dd6abd40f1",
+          "answer": "A. $4$"
+        },
+        {
+          "id_answer": "6c06a398ed1e46a8942c9c84317b2441",
+          "answer": "B. $2$"
+        },
+        {
+          "id_answer": "0d11a64400ba44e8a42902bb0fd42df5",
+          "answer": "C. $1$"
+        },
+        {
+          "id_answer": "9e61390145594efc9e8c85be430380c1",
+          "answer": "D. $3$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "6c06a398ed1e46a8942c9c84317b2441",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "7a792be073dd408fa7b35b9972fd7af5",
+      "order": 22,
+      "question": "Câu 22. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \\frac{2x - 1}{x^2 - x}$ là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "93346185713d45bcb34b8dbcc69cef12",
+          "answer": "A. $0$"
+        },
+        {
+          "id_answer": "2810965185b0404f8a103c198735ac76",
+          "answer": "B. $1$"
+        },
+        {
+          "id_answer": "106e1e56caad4420b30d3de28a6cce30",
+          "answer": "C. $2$"
+        },
+        {
+          "id_answer": "e066ba7eef3f49588472744ff528a045",
+          "answer": "D. $3$"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "e066ba7eef3f49588472744ff528a045",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ac6b002a1049494dbb5861a72bcb7e95",
+      "order": 23,
+      "question": "Câu 23. Đường tiệm cận ngang của đồ thị hàm số $y = \\frac{x+1}{x^2-4}$ có phương trình là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "6e41eb818a9e45bfbf21578978c6d310",
           "answer": "A. $y = -2$"
         },
         {
-          "id_answer": "3f89ad1e70dc42e1afb1b1aadaa550b1",
+          "id_answer": "d4b0b03b37594bfa9b6b440daf8fb703",
           "answer": "B. $y = 2$"
         },
         {
-          "id_answer": "9a49242da0214b8aa7bcb7537cd0dc59",
+          "id_answer": "0095cd2b43264aa18131cbf32f23b786",
           "answer": "C. $y = 0$"
         },
         {
-          "id_answer": "e31e4c7e1e79477c9ff798c27e4c6dfb",
+          "id_answer": "17fd736f99ab4dcda9c603c20a47d2ec",
           "answer": "D. $y = -1$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "0095cd2b43264aa18131cbf32f23b786",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "fd160d787d584263a3251a382aca2821",
+      "id_question": "2005b5bcb64041168ab84dafff6dddda",
       "order": 24,
-      "question": "Câu 114. Tìm số đường tiệm cận đúng của hàm số $y = \\frac{x^2 - 3x - 4}{x^2 - 16}$",
+      "question": "Câu 24. Tìm số đường tiệm cận đứng của hàm số $y = \\frac{x^2 - 3x - 4}{x^2 - 16}$",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "49c74cad0f0b4ad79d769c886d9e6515",
+          "id_answer": "6fc386445057462a85fe4194b524bad9",
           "answer": "A. $0$"
         },
         {
-          "id_answer": "071a4be45de94f9e84dd7ad4dead66b2",
+          "id_answer": "a7c2d86d74684b1189decf6ffe92316e",
           "answer": "B. $3$"
         },
         {
-          "id_answer": "236931634a874d0682de2696101daac4",
+          "id_answer": "35a8690295384e058f315b868828a87a",
           "answer": "C. $2$"
         },
         {
-          "id_answer": "7c2ab048fd834c4e88d16365423a6b9e",
+          "id_answer": "8fbc119d54c84b2d9bb9d2213c13a259",
           "answer": "D. $1$"
         }
       ],
       "results": {
         "explain": null,
-        "correct_answer": null,
+        "correct_answer": "8fbc119d54c84b2d9bb9d2213c13a259",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
       }
     },
     {
-      "id_question": "d36e36c801024279a43990bd4688eae4",
+      "id_question": "7e5fea18255d47618399a6f4cff5a233",
       "order": 25,
-      "question": "Câu 1: Cho hàm số $y = f(x)$ có bằng biến thiên như hình vẽ dưới đây:",
+      "question": "Câu 25: Cho hàm số $y = f(x)$ có bảng biến thiên như hình vẽ dưới đây:",
       "type_question": "true_false",
-      "path_images": null,
+      "path_images": "data/Đường Tiệm Cận Của Đồ Thị Hàm Số (1)/images/2/1.png",
       "answers": [
         {
-          "id_answer": "22cd5eba7f65469c9a16ee5bea116920",
+          "id_answer": "3685bf5fbe0b438e8d272139f585c6c7",
           "answer": "a) $f(-5) < f(4)$"
         },
         {
-          "id_answer": "d39b0f20d3d540d7a80e2634dda82711",
+          "id_answer": "f24c723e5959430e828008bcc7102870",
           "answer": "b) Hàm số có giá trị nhỏ nhất bằng 2"
         },
         {
-          "id_answer": "209b5e9c351e407389d5b34012ca91c0",
-          "answer": "c) Đồ thi hàm số có tiêm cận đúng x = 0"
+          "id_answer": "5a80d52f76ce40d6a49468edd32f0f17",
+          "answer": "c) Đồ thị hàm số có tiệm cận đứng x = 0"
         },
         {
-          "id_answer": "7590bdaeee0a4aa785f5d1b178599718",
+          "id_answer": "f2fd4badb14240a6b892c2a8624a5dd8",
           "answer": "d) Đồ thị hàm số không có tiệm cận ngang"
         }
       ],
       "results": {
         "explain": null,
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "3685bf5fbe0b438e8d272139f585c6c7",
+          "5a80d52f76ce40d6a49468edd32f0f17"
+        ],
+        "false_answer": [
+          "f24c723e5959430e828008bcc7102870",
+          "f2fd4badb14240a6b892c2a8624a5dd8"
+        ],
         "short_answer": ""
       }
     },
     {
-      "id_question": "750166c9dd4c462383745822944f43f2",
+      "id_question": "f41042385c304a128c4090886110eafa",
       "order": 26,
-      "question": "Câu 2: Cho hàm sô $y = \\frac{5 - 4x}{2x + 3}$ có đồ thị là (C)",
+      "question": "Câu 26: Cho hàm sô $y = \\frac{5 - 4x}{2x + 3}$ có đồ thị là (C)",
       "type_question": "true_false",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "398f62054c02491aa0d0153d07cd5e44",
+          "id_answer": "4711c09557f0480d8dbca2035c40a0bf",
           "answer": "a) Hàm số đã cho không có cực trị"
         },
         {
-          "id_answer": "9a0ce18ac9a8480b825b5cbe1ea3f141",
-          "answer": "b) Đồ thị hàm số có tiêm cận đúng x = -3"
+          "id_answer": "76774a66e95a4a5c857072d99c0233f3",
+          "answer": "b) Đồ thị hàm số có tiệm cận đứng x = -3"
         },
         {
-          "id_answer": "3a93fb36756146d693c2391f106b4731",
-          "answer": "c) Đồ thị hàm số có tiêm cận ngang y = -2"
+          "id_answer": "2596c0f10f9c4285bb80a7ade529eb0a",
+          "answer": "c) Đồ thị hàm số có tiệm cận ngang y = -2"
         },
         {
-          "id_answer": "06415eedfe784166aa5559a5b1af5c0d",
-          "answer": "d) Các đường tiêm cận của đồ thị hàm số tạo với hai trực toạ độ một hình chữ nhật có diện tích bằng 3"
+          "id_answer": "47bae4bf049b41498c1f7c215fb579f3",
+          "answer": "d) Các đường tiệm cận của đồ thị hàm số tạo với hai trực toạ độ một hình chữ nhật có diện tích bằng 3"
         }
       ],
       "results": {
         "explain": null,
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "4711c09557f0480d8dbca2035c40a0bf",
+          "2596c0f10f9c4285bb80a7ade529eb0a",
+          "47bae4bf049b41498c1f7c215fb579f3"
+        ],
+        "false_answer": [
+          "76774a66e95a4a5c857072d99c0233f3"
+        ],
         "short_answer": ""
       }
     },
     {
-      "id_question": "06963792412a4d08ab679173a8a32a7b",
+      "id_question": "9fe741b761794be7ae2da14fd8157680",
       "order": 27,
-      "question": "Câu 3: Cho hàm số $y = \\frac{x^2 - 3x + 2}{4 - x^2}$ có đồ thị là (C)",
+      "question": "Câu 27: Cho hàm số $y = \\frac{x^2 - 3x + 2}{4 - x^2}$ có đồ thị là (C)",
       "type_question": "true_false",
       "path_images": null,
       "answers": [
         {
-          "id_answer": "3979dcd8ee63474f9f6ec879db9bdcfd",
-          "answer": "a) Tập xác định của hàm số đã cho là $D = R$ ."
+          "id_answer": "fced8f47ae14484b97a7d390863dbe7f",
+          "answer": "a) Tập xác định của hàm số đã cho là $\\mathbb{D} = \\mathbb{R}$"
         },
         {
-          "id_answer": "3bfdd5cf9f5145cc81d2111b9551d1a6",
-          "answer": "b) Đồ thị hàm số đã cho có hai đường tiệm cận ngang, trong đó có một đường là đường thẳng có phương trình $y = -1$ ."
+          "id_answer": "26d299ccea2144cb81a8c3856a83b587",
+          "answer": "b) Đồ thị hàm số đã cho có hai đường tiệm cận ngang, trong đó có một đường là đường thẳng có phương trình $y = -1$"
         },
         {
-          "id_answer": "e0991ca0191e43a596110e40ba476584",
-          "answer": "c) Đồ thị hàm số có một đường tiêm cận đúng là đường thẳng $x = -2$"
+          "id_answer": "0b225fda6aac4574947f7cebbdb27d93",
+          "answer": "c) Đồ thị hàm số có một đường tiệm cận đứng là đường thẳng $x = -2$"
         },
         {
-          "id_answer": "43a2e219287145bb8ed77d49ca93ad6b",
-          "answer": "d) Tổng số tiêm cận đúng và tiêm cận ngang của đồ thị hàm số là 3"
+          "id_answer": "2ede3966f3064ca6bf67092f47201742",
+          "answer": "d) Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số là 3"
         }
       ],
       "results": {
         "explain": null,
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "0b225fda6aac4574947f7cebbdb27d93"
+        ],
+        "false_answer": [
+          "fced8f47ae14484b97a7d390863dbe7f",
+          "26d299ccea2144cb81a8c3856a83b587",
+          "2ede3966f3064ca6bf67092f47201742"
+        ],
         "short_answer": ""
       }
     },
     {
-      "id_question": "5c9981284df048f4aaf4b4712bc1c871",
+      "id_question": "6f8c4d4efe4a4e9faca24e7af606ca52",
       "order": 28,
-      "question": "Câu 4: Cho hàm số $y = f(x)$ , xác định trên $\\mathbb{R}\\{1\\}$ , liên trực trên mỗi khoảng xác định và có bằng biến thiên như sau",
+      "question": "Câu 28: Cho hàm số $y = f(x)$ , xác định trên $\\mathbb{R} \\setminus \\{1\\}$ , liên tục trên mỗi khoảng xác định và có bảng biến thiên như hình bên dưới",
       "type_question": "true_false",
-      "path_images": null,
+      "path_images": "data/Đường Tiệm Cận Của Đồ Thị Hàm Số (1)/images/2/4.png",
       "answers": [
         {
-          "id_answer": "7ad0d883282b463699fe9f2e92683ce0",
+          "id_answer": "0a5fe018b89740eba0c6b61b585fe67c",
           "answer": "a) Hàm số đã cho nghịch biến trên khoảng $(-\\infty;2)$ và đồng biến trên khoảng $(2;+\\infty)$"
         },
         {
-          "id_answer": "328c5e28928a4b3fa983d930881eb5d5",
-          "answer": "b) Đồ thị hàm số $y = f(x)$ có một đường tiêm cận đúng là $x = 1$"
+          "id_answer": "5b8bfcc6af2e45158299d377a6df57b4",
+          "answer": "b) Đồ thị hàm số $y = f(x)$ có một đường tiệm cận đứng là $x = 1$"
         },
         {
-          "id_answer": "c32e4197277e43e4a7765d5312e66370",
+          "id_answer": "3af4c224795a4fb0840e63aecc823a18",
           "answer": "c) Đồ thị hàm số $y = f(x)$ có một đường tiệm cận ngang $y = 3$"
         },
         {
-          "id_answer": "533ea5131c194d9abeb3c0326eb0ac37",
-          "answer": "d) Đồ thị hàm số $y = \\frac{1}{f(x)+2}$ có hai đường tiệm cận đúng"
+          "id_answer": "dd2ecee46eab4678af19bb231067b3eb",
+          "answer": "d) Đồ thị hàm số $y = \\frac{1}{f(x)+2}$ có hai đường tiệm cận đứng"
         }
       ],
       "results": {
         "explain": null,
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "5b8bfcc6af2e45158299d377a6df57b4",
+          "3af4c224795a4fb0840e63aecc823a18",
+          "dd2ecee46eab4678af19bb231067b3eb"
+        ],
+        "false_answer": [
+          "0a5fe018b89740eba0c6b61b585fe67c"
+        ],
         "short_answer": ""
       }
     },
     {
-      "id_question": "2d56d462fa9a40819f79dde242df9e77",
+      "id_question": "65894f03df1646b8aaa132585d68257a",
       "order": 29,
-      "question": "Câu 1: Biết rằng đồ thị hàm số $y = \\frac{ax + 1}{bx - 2}$ có tiệm cận đúng là $x = 2$ và tiệm cận ngang $y = 3$ . Tính giá trị của biểu thức $a - 2b$",
+      "question": "Câu 29: Biết rằng đồ thị hàm số $y = \\frac{ax + 1}{bx - 2}$ có tiệm cận đứng là $x = 2$ và tiệm cận ngang $y = 3$ . Tính giá trị của biểu thức $a - 2b$",
       "type_question": "short_answer",
       "path_images": null,
       "answers": [],
@@ -912,13 +936,13 @@
         "correct_answer": null,
         "true_answer": [],
         "false_answer": [],
-        "short_answer": "45"
+        "short_answer": "1"
       }
     },
     {
-      "id_question": "a7a996c076264ec09e91d2291b03607c",
+      "id_question": "6e3db02e02764924a802d5d040cb9475",
       "order": 30,
-      "question": "Câu 2: Gọi $I(a; b)$ là giao điểm của đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \\frac{x - 2}{x + 2}$. Tính $T = a + b$",
+      "question": "Câu 30: Gọi $I(a; b)$ là giao điểm của đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \\frac{x - 2}{x + 2}$. Tính $T = a + b$",
       "type_question": "short_answer",
       "path_images": null,
       "answers": [],
@@ -927,13 +951,13 @@
         "correct_answer": null,
         "true_answer": [],
         "false_answer": [],
-        "short_answer": ""
+        "short_answer": "-1"
       }
     },
     {
-      "id_question": "9b959ec061a04a74b628fc5aaa748fde",
+      "id_question": "1ba8e82216004a86979d415bda6335a3",
       "order": 31,
-      "question": "Câu 3: Cho hàm số $y = \\frac{x^3 - 9x}{x^3 - x^2 - 5x - 3}$ có đồ thị là (C). Tổng số đường tiệm cận đúng avf tiệm cận ngang của đồ thị (C) bằng bao nhiêu?",
+      "question": "Câu 31: Cho hàm số $y = \\frac{x^3 - 9x}{x^3 - x^2 - 5x - 3}$ có đồ thị là (C). Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị (C) bằng bao nhiêu?",
       "type_question": "short_answer",
       "path_images": null,
       "answers": [],
@@ -942,13 +966,13 @@
         "correct_answer": null,
         "true_answer": [],
         "false_answer": [],
-        "short_answer": ""
+        "short_answer": "2"
       }
     },
     {
-      "id_question": "6de91eba4f35495cad2bc8cc6c0db4d6",
+      "id_question": "2b98e488dae04bffab1e3db80351426e",
       "order": 32,
-      "question": "Câu 4: Diện tích hình chữ nhật tạo bởi hai đường tiệm cận của đồ thị hàm số $y = \\frac{2x+1}{x+3}$ và các trực tọa độ bằng bao nhiêu?",
+      "question": "Câu 32: Diện tích hình chữ nhật tạo bởi hai đường tiệm cận của đồ thị hàm số $y = \\frac{2x+1}{x+3}$ và các trực tọa độ bằng bao nhiêu?",
       "type_question": "short_answer",
       "path_images": null,
       "answers": [],
@@ -957,22 +981,22 @@
         "correct_answer": null,
         "true_answer": [],
         "false_answer": [],
-        "short_answer": ""
+        "short_answer": "6"
       }
     },
     {
-      "id_question": "44a34f1c9e074b02a61ed8b2f8826942",
+      "id_question": "ddb8ecb90fce4186b8ee8f3805cfff67",
       "order": 33,
-      "question": "Câu 5: Cho hàm số $f(x) = \\frac{ax - 5}{x + b} (a, b \\in \\mathbb{R})$ có bằng biến thiên như bên dưới. Tính giá trị của biểu thức $a^{2} + b^{2}$ .",
+      "question": "Câu 33: Cho hàm số $f(x) = \\frac{ax - 5}{x + b} (a, b \\in \\mathbb{R})$ có bảng biến thiên như bên dưới. Tính giá trị của biểu thức $a^{2} + b^{2}$.",
       "type_question": "short_answer",
-      "path_images": null,
+      "path_images": "data/Đường Tiệm Cận Của Đồ Thị Hàm Số (1)/images/1/5.png",
       "answers": [],
       "results": {
         "explain": null,
         "correct_answer": null,
         "true_answer": [],
         "false_answer": [],
-        "short_answer": ""
+        "short_answer": "5"
       }
     }
   ]

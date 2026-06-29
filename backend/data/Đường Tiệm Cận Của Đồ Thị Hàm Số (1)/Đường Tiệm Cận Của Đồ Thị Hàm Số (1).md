@@ -1,228 +1,234 @@
-Câu 91. Đồ thị hàm ô $y = \frac{x - 2}{x^2 - 4}$ có đường tiêm cận ngang là:
+Câu 1. Đồ thị hàm số $y = \frac{x - 2}{x^2 - 4}$ có đường tiệm cận ngang là:
 
 A. $y = 2$  
-B. $y = 0$  
+B. $y = 0$  ĐápÁnĐúng  
 C. $y = 1$  
 D. $y = -2$  
 
-Câu 92. Đường tiêm cận của đồ thị hàm số $y = \frac{1}{x^2 + 1}$ có phương trình
+Câu 2. Đường tiệm cận của đồ thị hàm số $y = \frac{1}{x^2 + 1}$ có phương trình
 
 A. $y = 2$  
 B. $y = 3$  
 C. $y = 1$  
-D. $y = 0$  
+D. $y = 0$  ĐápÁnĐúng  
 
-Câu 93. Đồ thị của hàm số nào dưới đây có tiệm cận ngang?
+Câu 3. Đồ thị của hàm số nào dưới đây có tiệm cận ngang?
 
 A. $y = x^{3} - x - 1$  
 B. $y = \sqrt{2x^2 + 3}$  
 C. $y = \frac{x^{3} + 1}{x^{2} + 1}$  
-D. $y = \frac{3x^2 + 2x - 1}{4x^2 + 5}$  
+D. $y = \frac{3x^2 + 2x - 1}{4x^2 + 5}$  ĐápÁnĐúng  
 
-Câu 94. Đường tiêm cận đúng của đồ thị hàm số $y = \frac{x^2 + x - 2}{x - 2}$
+Câu 4. Đường tiệm cận đứng của đồ thị hàm số $y = \frac{x^2 + x - 2}{x - 2}$
 
-A. $x = 2$  
+A. $x = 2$  ĐápÁnĐúng  
 B. $x = -2$  
 C. $y = -2$  
 D. $y = 2$  
 
-Câu 95. Phương trình đường tiệm cận đúng của đồ thị hàm số $y = \frac{3}{x+2}$
+Câu 5. Phương trình đường tiệm cận đứng của đồ thị hàm số $y = \frac{3}{x+2}$
 
-A. $x = -2$  
+A. $x = -2$  ĐápÁnĐúng  
 B. $x = 0$  
 C. $x = 3$  
 D. $y = 0$  
 
-Câu 96. Tiệm cận đúng của đồ thị hàm số $y = \frac{3x + 6}{x - 2}$ là đường thẳng
+Câu 6. Tiệm cận đứng của đồ thị hàm số $y = \frac{3x + 6}{x - 2}$ là đường thẳng
 
-A. $x = 3$
+A. $x = 3$  
 B. $x = -2$  
-C. $x = -3$  
-D. $x = 2$  
+C. $x = -3$   
+D. $x = 2$  ĐápÁnĐúng  
 
-Câu 97. Tiệm cận ngang của đồ thị hàm số $y = \frac{2}{x-1}$ là đường thẳng:
+Câu 7. Tiệm cận ngang của đồ thị hàm số $y = \frac{2}{x-1}$ là đường thẳng:
 
-A. $x = 1$
+A. $x = 1$  
 B. $y = 2$  
-C. $x = 0$ 
-D. $y = 0$  
+C. $x = 0$  
+D. $y = 0$  ĐápÁnĐúng  
 
-Câu 98. Cho hàm số $f(x)$ có bằng biến thiên như hình sau
+Câu 8. Cho hàm số $f(x)$ có bảng biến thiên như hình bên dưới. Số tiệm cận đứng của đồ thị hàm số đã cho là
 
-Số tiệm cận đúng của đồ thị hàm số đã cho là
+![](images/4/8.png)
 
-A. 3.
+A. $3$  
+B. $1$  ĐápÁnĐúng  
+C. $2$  
+D. $0$  
 
-B. 1.
+Câu 9. Cho hàm số $y = f(x)$ xác định và liên tục trêm $(\infty;0)$ và $(0;+\infty)$ có bảng biến thiên như hình vẽ. Mệnh đề nào sau đây đúng?
 
-C. 2.
+![](images/4/9.png)
 
-D. 0.
+A. Đường thẳng $x = 2$ là tiệm cận đứng của đồ thị hàm số  
+B. Đồ thị hàm số có hai đường tiệm cận ngang  
+C. Đồ thị hàm số có hai đường tiệm cận  ĐápÁnĐúng  
+D. Đồ thị hàm số chỉ có một đường tiệm cận  
 
-Câu 99. Cho hàm số $y = f(x)$ xác định và liên tục trêm $(\infty;0)$ và $(0;+\infty)$ có bằng biến thiên như hình vẽ. Mệnh đề nào sau đây đúng?
+Câu 10. Cho hàm số $f(x)$ có bảng biến thiên như bên dưới. Tổng số tiệm cận ngang và tiệm cận đứng của đồ thị hàm số đã cho là
 
-A. Đường thẳng $x = 2$ là tiệm cận đúng của đồ thị hàm số.  
-B. Đồ thị hàm số có hai đường tiệm cận ngang.  
-C. Đồ thị hàm số có hai đường tiệm cận.  
-D. Đồ thị hàm số chỉ có một đường tiêm cận.  
-
-Câu 100. Cho hàm số $f(x)$ có bằng biến thiên như sau
-
-Tổng số tiệm cận ngang và tiệm cận đúng của đồ thị hàm số đã cho là
+![](images/4/10.png)
 
 A. $1$  
 B. $3$  
 C. $4$  
-D. $2$  
+D. $2$  ĐápÁnĐúng  
 
-Câu 101. Cho hàm số $f(x)$ có bằng biến thiên như sau
+Câu 11. Cho hàm số $f(x)$ có bảng biến thiên như bên dưới. Mệnh đề nào sau đây đúng?
 
-Mệnh đề nào sau đây đúng?
+![](images/4/11.png)
 
 A. Đồ thị hàm số có 2 đường tiệm cận ngang.  
-B. Đồ thị hàm số có đường tiêm cận ngang y = 4.  
-C. Đồ thị hàm số không có tiêm cận.  
-D. Đồ thị hàm số có đường tiêm cận đúng x = 0.
+B. Đồ thị hàm số có đường tiệm cận ngang y = 4.  
+C. Đồ thị hàm số không có tiệm cận.  ĐápÁnĐúng  
+D. Đồ thị hàm số có đường tiệm cận đứng x = 0.
 
-Câu 102. Cho hàm số $y = f(x)$ xác định trên $\mathbb{R}\{1\}$ , liên tục trên mỗi khoảng xác định và có bằng biến thiên như hình sau:
+Câu 12. Cho hàm số $y = f(x)$ xác định trên $\mathbb{R} \setminus  \{1\}$ , liên tục trên mỗi khoảng xác định và có bảng biến thiên như hình bên dưới. Hỏi đồ thị hàm số có tất cả bao nhiêu đường tiệm cận đứng và tiệm cận ngang?
 
-Hôi đồ thị hàm số có tất cả bao nhiêu đường tiệm cận đúng và tiệm cận ngang?
+![](images/4/12.png)
 
 A. $1$  
 B. $0$  
-C. $3$  
+C. $3$  ĐápÁnĐúng  
 D. $2$  
 
-Câu 103. Cho hàm số $y = f(x)$ xác định là liên tục trên $\mathbb{R}\{1\}$ , có bằng biến thiên như sau
+Câu 13. Cho hàm số $y = f(x)$ xác định là liên tục trên $\mathbb{R} \setminus \{1\}$ , có bảng biến thiên như hình bên dưới. Khẳng định nào sau đây đúng?
 
-Khẳng định nào sau đây đúng?
+![](images/4/13.png)
 
-A. Đồ thị hàm số có tiệm cận đúng $y = -1$ và tiệm cận ngang $x = -2$  
-B. Đồ thị hàm số có duy nhất một tiêm cận   
+A. Đồ thị hàm số có tiệm cận đứng $y = -1$ và tiệm cận ngang $x = -2$  
+B. Đồ thị hàm số có duy nhất một tiệm cận   
 C. Đồ thị hàm số có ba tiệm cận  
-D. Đồ thị hàm số có tiêm cận đúng $x = -1$ và tiêm cận ngang $y = -2$  
+D. Đồ thị hàm số có tiệm cận đứng $x = -1$ và tiệm cận ngang $y = -2$  ĐápÁnĐúng  
 
-Câu 104. Tổng số tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \frac{2x^{2} - 3x + 1}{x^{2} - 1}$ là
+Câu 14. Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \frac{2x^{2} - 3x + 1}{x^{2} - 1}$ là
 
 A. $1$  
 B. $0$  
 C. $3$  
-D. $2$  
+D. $2$  ĐápÁnĐúng  
 
-Câu 105. Tổng số đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \frac{x^2 - 3x + 2}{x^2 - 1}$ là
+Câu 15. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \frac{x^2 - 3x + 2}{x^2 - 1}$ là
 
 A. $3$  
 B. $4$  
 C. $1$  
-D. $2$  
+D. $2$  ĐápÁnĐúng  
 
-Câu 106. Cho hàm số $y = \frac{2x^{2} + x - 1}{x - 1}$ có đô thị ( $C$ ). Số tiệm cận đúng và tiệm cận ngang của ( $C$ ) là
+Câu 16. Cho hàm số $y = \frac{2x^{2} + x - 1}{x - 1}$ có 
+ ( $C$ ). Số tiệm cận đứng và tiệm cận ngang của ( $C$ ) là
 
 A. $0$  
-B. $1$  
+B. $1$  ĐápÁnĐúng  
 C. $3$  
 D. $2$  
 
-Câu 107. Tổng số đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \frac{(x-2)\sqrt{x-1}}{x^{2}-1}$
+Câu 17. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \frac{(x-2)\sqrt{x-1}}{x^{2}-1}$
 
 A. $3$  
-B. $2$  
+B. $2$  ĐápÁnĐúng  
 C. $0$  
 D. $1$  
 
-Câu 108. Đồ thị hàm số $y = \frac{x^2 - 1}{3 - 2x - 5x^2}$ có bao nhiêu đường tiêm cận đúng?
+Câu 18. Đồ thị hàm số $y = \frac{x^2 - 1}{3 - 2x - 5x^2}$ có bao nhiêu đường tiệm cận đứng?
 
 A. $0$  
-B. $1$  
+B. $1$  ĐápÁnĐúng  
 C. $2$  
 D. $3$  
 
-Câu 109. Tổng số đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \frac{x - 2}{x^{2} - 4}$
+Câu 19. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \frac{x - 2}{x^{2} - 4}$
 
-A. $2$  
+A. $2$  ĐápÁnĐúng  
 B. $3$  
 C. $1$  
 D. $0$  
 
-Câu 110. Cho hàm số $y = \frac{x+1}{x^2-2x-3}$ . Tổng số tiêm cận đúng và tiêm cận ngang của đồ thi hàm số đã cho là
+Câu 20. Cho hàm số $y = \frac{x+1}{x^2-2x-3}$ . Tổng số tiệm cận đứng và tiệm cận ngang của Đồ thị hàm số đã cho là
 
-A. $2$  
+A. $2$  ĐápÁnĐúng  
 B. $4$  
 C. $3$  
 D. $1$  
 
-Câu 111. Tổng số tiêm cận đúng và tiêm cận ngang của đô thị hàm số $y = \frac{3x^{2} - 2x - 1}{x^{2} - 1}$ là:
+Câu 21. Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \frac{3x^{2} - 2x - 1}{x^{2} - 1}$ là:
 
 A. $4$  
-B. $2$  
+B. $2$  ĐápÁnĐúng  
 C. $1$  
 D. $3$  
 
-Câu 112. Tổng số đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \frac{2x - 1}{x^2 - x}$ là
+Câu 22. Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \frac{2x - 1}{x^2 - x}$ là
 
 A. $0$  
 B. $1$  
 C. $2$  
-D. $3$  
+D. $3$  ĐápÁnĐúng  
 
-Câu 113. Đường tiêm cận ngang của đồ thị hàm số $y = \frac{x+1}{x^2-4}$ có phương trình là
+Câu 23. Đường tiệm cận ngang của đồ thị hàm số $y = \frac{x+1}{x^2-4}$ có phương trình là
 
 A. $y = -2$  
 B. $y = 2$  
-C. $y = 0$  
+C. $y = 0$  ĐápÁnĐúng  
 D. $y = -1$  
 
-Câu 114. Tìm số đường tiệm cận đúng của hàm số $y = \frac{x^2 - 3x - 4}{x^2 - 16}$
+Câu 24. Tìm số đường tiệm cận đứng của hàm số $y = \frac{x^2 - 3x - 4}{x^2 - 16}$
 
 A. $0$  
 B. $3$  
 C. $2$  
-D. $1$  
+D. $1$  ĐápÁnĐúng  
 
-Câu 1: Cho hàm số $y = f(x)$ có bằng biến thiên như hình vẽ dưới đây:
+Câu 25: Cho hàm số $y = f(x)$ có bảng biến thiên như hình vẽ dưới đây:
 
-a) $f(-5) < f(4)$  
-b) Hàm số có giá trị nhỏ nhất bằng 2  
-c) Đồ thi hàm số có tiêm cận đúng x = 0  
-d) Đồ thị hàm số không có tiệm cận ngang  
+![](images/2/1.png)
 
-Câu 2: Cho hàm sô $y = \frac{5 - 4x}{2x + 3}$ có đồ thị là (C)
+a) $f(-5) < f(4)$  ĐápÁnĐúng  
+b) Hàm số có giá trị nhỏ nhất bằng 2  ĐápÁnSai  
+c) Đồ thị hàm số có tiệm cận đứng x = 0  ĐápÁnĐúng  
+d) Đồ thị hàm số không có tiệm cận ngang  ĐápÁnSai  
 
-a) Hàm số đã cho không có cực trị  
-b) Đồ thị hàm số có tiêm cận đúng x = -3  
-c) Đồ thị hàm số có tiêm cận ngang y = -2  
-d) Các đường tiêm cận của đồ thị hàm số tạo với hai trực toạ độ một hình chữ nhật có diện tích bằng 3  
+Câu 26: Cho hàm sô $y = \frac{5 - 4x}{2x + 3}$ có đồ thị là (C)
 
-Câu 3: Cho hàm số $y = \frac{x^2 - 3x + 2}{4 - x^2}$ có đồ thị là (C)
+a) Hàm số đã cho không có cực trị  ĐápÁnĐúng  
+b) Đồ thị hàm số có tiệm cận đứng x = -3  ĐápÁnSai  
+c) Đồ thị hàm số có tiệm cận ngang y = -2  ĐápÁnĐúng  
+d) Các đường tiệm cận của đồ thị hàm số tạo với hai trực toạ độ một hình chữ nhật có diện tích bằng 3  ĐápÁnĐúng  
 
-a) Tập xác định của hàm số đã cho là $D = R$ .  
-b) Đồ thị hàm số đã cho có hai đường tiệm cận ngang, trong đó có một đường là đường thẳng có phương trình $y = -1$ .  
-c) Đồ thị hàm số có một đường tiêm cận đúng là đường thẳng $x = -2$  
-d) Tổng số tiêm cận đúng và tiêm cận ngang của đồ thị hàm số là 3
+Câu 27: Cho hàm số $y = \frac{x^2 - 3x + 2}{4 - x^2}$ có đồ thị là (C)
 
-Câu 4: Cho hàm số $y = f(x)$ , xác định trên $\mathbb{R}\{1\}$ , liên trực trên mỗi khoảng xác định và có bằng biến thiên như sau
+a) Tập xác định của hàm số đã cho là $\mathbb{D} = \mathbb{R}$  ĐápÁnSai    
+b) Đồ thị hàm số đã cho có hai đường tiệm cận ngang, trong đó có một đường là đường thẳng có phương trình $y = -1$  ĐápÁnSai  
+c) Đồ thị hàm số có một đường tiệm cận đứng là đường thẳng $x = -2$  ĐápÁnĐúng  
+d) Tổng số tiệm cận đứng và tiệm cận ngang của đồ thị hàm số là 3  ĐápÁnSai  
 
-a) Hàm số đã cho nghịch biến trên khoảng $(-\infty;2)$ và đồng biến trên khoảng $(2;+\infty)$  
-b) Đồ thị hàm số $y = f(x)$ có một đường tiêm cận đúng là $x = 1$  
-c) Đồ thị hàm số $y = f(x)$ có một đường tiệm cận ngang $y = 3$  
-d) Đồ thị hàm số $y = \frac{1}{f(x)+2}$ có hai đường tiệm cận đúng  
+Câu 28: Cho hàm số $y = f(x)$ , xác định trên $\mathbb{R} \setminus \{1\}$ , liên tục trên mỗi khoảng xác định và có bảng biến thiên như hình bên dưới
 
-Câu 1: Biết rằng đồ thị hàm số $y = \frac{ax + 1}{bx - 2}$ có tiệm cận đúng là $x = 2$ và tiệm cận ngang $y = 3$ . Tính giá trị của biểu thức $a - 2b$
+![](images/2/4.png)
 
-Đáp án là: 45
+a) Hàm số đã cho nghịch biến trên khoảng $(-\infty;2)$ và đồng biến trên khoảng $(2;+\infty)$  ĐápÁnSai  
+b) Đồ thị hàm số $y = f(x)$ có một đường tiệm cận đứng là $x = 1$  ĐápÁnĐúng  
+c) Đồ thị hàm số $y = f(x)$ có một đường tiệm cận ngang $y = 3$  ĐápÁnĐúng  
+d) Đồ thị hàm số $y = \frac{1}{f(x)+2}$ có hai đường tiệm cận đứng  ĐápÁnĐúng  
 
-Câu 2: Gọi $I(a; b)$ là giao điểm của đường tiệm cận đúng và tiệm cận ngang của đồ thị hàm số $y = \frac{x - 2}{x + 2}$. Tính $T = a + b$  
+Câu 29: Biết rằng đồ thị hàm số $y = \frac{ax + 1}{bx - 2}$ có tiệm cận đứng là $x = 2$ và tiệm cận ngang $y = 3$ . Tính giá trị của biểu thức $a - 2b$
 
-Đáp án là:
+Đáp án là: 1
 
-Câu 3: Cho hàm số $y = \frac{x^3 - 9x}{x^3 - x^2 - 5x - 3}$ có đồ thị là (C). Tổng số đường tiệm cận đúng avf tiệm cận ngang của đồ thị (C) bằng bao nhiêu?
+Câu 30: Gọi $I(a; b)$ là giao điểm của đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y = \frac{x - 2}{x + 2}$. Tính $T = a + b$  
 
-Đáp án là:
+Đáp án là: -1
 
-Câu 4: Diện tích hình chữ nhật tạo bởi hai đường tiệm cận của đồ thị hàm số $y = \frac{2x+1}{x+3}$ và các trực tọa độ bằng bao nhiêu?
+Câu 31: Cho hàm số $y = \frac{x^3 - 9x}{x^3 - x^2 - 5x - 3}$ có đồ thị là (C). Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị (C) bằng bao nhiêu?
 
-Đáp án là:
+Đáp án là: 2
 
-Câu 5: Cho hàm số $f(x) = \frac{ax - 5}{x + b} (a, b \in \mathbb{R})$ có bằng biến thiên như bên dưới. Tính giá trị của biểu thức $a^{2} + b^{2}$ .
+Câu 32: Diện tích hình chữ nhật tạo bởi hai đường tiệm cận của đồ thị hàm số $y = \frac{2x+1}{x+3}$ và các trực tọa độ bằng bao nhiêu?
 
-Đáp án là:
+Đáp án là: 6
+
+Câu 33: Cho hàm số $f(x) = \frac{ax - 5}{x + b} (a, b \in \mathbb{R})$ có bảng biến thiên như bên dưới. Tính giá trị của biểu thức $a^{2} + b^{2}$.
+
+![](images/1/5.png)
+
+Đáp án là: 5
