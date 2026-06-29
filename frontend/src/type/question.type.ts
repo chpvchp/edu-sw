@@ -8,7 +8,7 @@ export type Question = {
   order: number;
   question: string;
   path_images: string;
-  type_question: string;
+  type_question: "four_choice" | "true_false";
   answers: Answer[];
   results: {
     explain: string;
