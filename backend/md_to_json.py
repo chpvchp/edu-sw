@@ -96,9 +96,11 @@ def parse(name_exam, id_subject, duration):
                 if "ĐápÁnĐúng" in line:
                     current_question["results"]["true_answer"].append(id_answer)
                     line = line.replace("ĐápÁnĐúng", "")
+                    line = clean_line(line)
                 elif "ĐápÁnSai" in line:
                     current_question["results"]["false_answer"].append(id_answer)
                     line = line.replace("ĐápÁnSai", "")
+                    line = clean_line(line)
                     
                 answer = {
                     "id_answer": id_answer,
