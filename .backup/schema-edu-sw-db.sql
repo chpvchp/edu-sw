@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict mmvPbhSw27Mc9weSHAHp5378PXkMUJFSjrF28TKx5AEkr9wnUXgLWkvStN9lYrJ
+\restrict CtySaN492j3qnIB0tW8vygfko7I8U4Ikyga3MhfE7ff8OAP4xvA353BlOsU5WzN
 
 -- Dumped from database version 18.4 (Debian 18.4-1.pgdg13+1)
 -- Dumped by pg_dump version 18.4 (Debian 18.4-1.pgdg13+1)
@@ -24,42 +24,20 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: class; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.class (
-    id_class integer NOT NULL,
-    name_class character varying
-);
-
-
-ALTER TABLE public.class OWNER TO postgres;
-
---
 -- Name: exams; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.exams (
-    id_exam integer NOT NULL,
+    id_exam character varying NOT NULL,
     id_subject integer NOT NULL,
-    name_exam character varying,
-    data_exam jsonb
+    name_exam character varying NOT NULL,
+    duration integer NOT NULL,
+    questions jsonb NOT NULL,
+    created timestamp without time zone NOT NULL
 );
 
 
 ALTER TABLE public.exams OWNER TO postgres;
-
---
--- Name: students; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.students (
-    id_student integer NOT NULL,
-    name_student character varying
-);
-
-
-ALTER TABLE public.students OWNER TO postgres;
 
 --
 -- Name: subjects; Type: TABLE; Schema: public; Owner: postgres
@@ -74,26 +52,10 @@ CREATE TABLE public.subjects (
 ALTER TABLE public.subjects OWNER TO postgres;
 
 --
--- Data for Name: class; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.class (id_class, name_class) FROM stdin;
-\.
-
-
---
 -- Data for Name: exams; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.exams (id_exam, id_subject, name_exam, data_exam) FROM stdin;
-\.
-
-
---
--- Data for Name: students; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.students (id_student, name_student) FROM stdin;
+COPY public.exams (id_exam, id_subject, name_exam, duration, questions, created) FROM stdin;
 \.
 
 
@@ -106,27 +68,11 @@ COPY public.subjects (id_subject, name_subject) FROM stdin;
 
 
 --
--- Name: class class_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.class
-    ADD CONSTRAINT class_pk PRIMARY KEY (id_class);
-
-
---
 -- Name: exams exams_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.exams
     ADD CONSTRAINT exams_pk PRIMARY KEY (id_exam);
-
-
---
--- Name: students students_pk; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.students
-    ADD CONSTRAINT students_pk PRIMARY KEY (id_student);
 
 
 --
@@ -149,5 +95,5 @@ ALTER TABLE ONLY public.exams
 -- PostgreSQL database dump complete
 --
 
-\unrestrict mmvPbhSw27Mc9weSHAHp5378PXkMUJFSjrF28TKx5AEkr9wnUXgLWkvStN9lYrJ
+\unrestrict CtySaN492j3qnIB0tW8vygfko7I8U4Ikyga3MhfE7ff8OAP4xvA353BlOsU5WzN
 
