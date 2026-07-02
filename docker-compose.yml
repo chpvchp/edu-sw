@@ -1,14 +1,15 @@
+name: edu-sw
 services:
   db:
     image: postgres:18
-    restart: always
+    container_name: postgres_db
     ports:
       - "5432:5432"
     env_file:
       - .env.example
     volumes:
       - db_volume:/var/lib/postgresql/18/docker
-      - ./backup:/backup
+      - ./.backup:/backup
 
 volumes:
   db_volume:
