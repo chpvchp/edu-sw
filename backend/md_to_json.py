@@ -1,7 +1,17 @@
+#!/usr/bin/env python3
+# chmod +x md_to_json.py
+
 import os
 import re
 import json
 import uuid
+import argparse
+
+params = argparse.ArgumentParser()
+params.add_argument("name", type=str)
+params.add_argument("id_sub", type=int)
+params.add_argument("duration", type=int)
+args = params.parse_args()
 
 def clean_line(line):
     return line.strip()
@@ -123,7 +133,7 @@ def parse(name_exam, id_subject, duration):
         
         
 parse(
-    name_exam="Đường Tiệm Cận Của Đồ Thị Hàm Số (1)",
-    id_subject=1,
-    duration=25
+    name_exam=args.name,
+    id_subject=args.id_sub,
+    duration=args.duration
 )

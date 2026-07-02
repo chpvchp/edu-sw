@@ -1,6 +1,15 @@
+#!/usr/bin/env python3
+# chmod +x add_exam.py
+
 from core.database.conndb import ConnDB
 import json
 from datetime import datetime
+import argparse
+
+params = argparse.ArgumentParser()
+params.add_argument("name", type=str)
+args = params.parse_args()
+
 
 db = ConnDB()
 
@@ -24,4 +33,6 @@ def add_exam(name_exam):
             created=created
         )
 
-add_exam()
+add_exam(
+    name_exam=args.name
+)
