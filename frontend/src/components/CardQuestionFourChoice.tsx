@@ -1,3 +1,4 @@
+import React from "react";
 import { BASE_URL } from "../api/api";
 import RenderMarkDownLatex from "../components/RenderMarkDownLatex";
 import type { Question } from "../type/question.type";
@@ -7,7 +8,7 @@ type CardQuestionFourChoiceProps = {
   onChange: (idQuestion: string, idAnswer: string) => void;
 }
 
-export default function CardQuestionFourChoice({ question, onChange }: CardQuestionFourChoiceProps) {
+function CardQuestionFourChoice({ question, onChange }: CardQuestionFourChoiceProps) {
   return (
     <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
 
@@ -53,5 +54,7 @@ export default function CardQuestionFourChoice({ question, onChange }: CardQuest
 
 
     </div>
-  )
-}
+  );
+};
+
+export default React.memo(CardQuestionFourChoice);

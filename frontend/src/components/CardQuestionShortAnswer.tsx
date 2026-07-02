@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { BASE_URL } from "../api/api";
 import RenderMarkDownLatex from "../components/RenderMarkDownLatex";
@@ -8,7 +9,7 @@ type CardQuestionShortAnswerProps = {
   onChange: (idQuestion: string, student_answer: number) => void;
 }
 
-export default function CardQuestionShortAnswer({ question, onChange }: CardQuestionShortAnswerProps) {
+function CardQuestionShortAnswer({ question, onChange }: CardQuestionShortAnswerProps) {
   const [ value, setValue ] = useState("")
 
   return (
@@ -51,4 +52,6 @@ export default function CardQuestionShortAnswer({ question, onChange }: CardQues
 
     </div>
   )
-}
+};
+
+export default React.memo(CardQuestionShortAnswer);

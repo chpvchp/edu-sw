@@ -1,3 +1,4 @@
+import React from "react";
 import { BASE_URL } from "../api/api";
 import RenderMarkDownLatex from "../components/RenderMarkDownLatex";
 import type { Question } from "../type/question.type";
@@ -7,7 +8,7 @@ type CardQuestionTrueFalseProps = {
   onChange: (idQuestion: string, idAnswer: string, value: boolean) => void;
 }
 
-export default function CardQuestionTrueFalse({ question, onChange }: CardQuestionTrueFalseProps) {
+function CardQuestionTrueFalse({ question, onChange }: CardQuestionTrueFalseProps) {
   return (
     <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
 
@@ -76,4 +77,6 @@ export default function CardQuestionTrueFalse({ question, onChange }: CardQuesti
 
     </div>
   )
-}
+};
+
+export default React.memo(CardQuestionTrueFalse);

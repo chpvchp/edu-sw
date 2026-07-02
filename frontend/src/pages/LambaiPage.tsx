@@ -1,87 +1,21 @@
 import { useParams } from "react-router-dom"
 import { useInfoExam, useQuestions } from "../hook/useExam";
 import CardQuestionFourChoice from "../components/CardQuestionFourChoice";
-import { useState } from "react";
 import CardQuestionTrueFalse from "../components/CardQuestionTrueFalse";
 import CardQuestionShortAnswer from "../components/CardQuestionShortAnswer";
-
-type FourChoiceResult = {
-  type: "four_choice";
-  answer: string;
-};
-
-type TrueFalseResult = {
-  type: "true_false";
-  true_answer: string[];
-  false_answer: string[];
-};
-
-type ShortAnswer = {
-  type: "short_answer";
-  answer: number
-}
-
-type QuestionResult = FourChoiceResult | TrueFalseResult | ShortAnswer;
+import { useQuestionAnswer } from "../hook/useQuestionAnswer";
 
 export default function LamBaiPage() {
   const { id_exam } = useParams()
   const idExam = String(id_exam)
   const { data } = useQuestions( idExam );
   const { data: examInfo } = useInfoExam( idExam );
-  const [results, setResults] = useState<Record<string, QuestionResult>>({});
-
-  const onChangeInput = {
-    four_choice: (idQuestion: string, idAnswer: string) => {
-      setResults(prev => ({
-        ...prev,
-        [idQuestion]: {
-          type: "four_choice",
-          answer: idAnswer,
-        },
-      }));
-    },
-
-    true_false: (
-      idQuestion: string,
-      idAnswer: string,
-      value: boolean
-    ) => {
-      setResults(prev => {
-        const current =
-          prev[idQuestion]?.type === "true_false"
-            ? prev[idQuestion]
-            : {
-                type: "true_false" as const,
-                true_answer: [],
-                false_answer: [],
-              };
-
-        return {
-          ...prev,
-          [idQuestion]: {
-            type: "true_false",
-            true_answer: value
-              ? [...current.true_answer.filter(id => id !== idAnswer), idAnswer]
-              : current.true_answer.filter(id => id !== idAnswer),
-
-            false_answer: !value
-              ? [...current.false_answer.filter(id => id !== idAnswer), idAnswer]
-              : current.false_answer.filter(id => id !== idAnswer),
-          },
-        };
-      });
-    },
-
-    short_answer: (idQuesion: string, student_answer: number) => {
-      setResults(prev => ({
-        ...prev,
-        [idQuesion]: {
-          type: "short_answer",
-          answer: student_answer,
-        },
-      }));
-    },
-  }
+  const {
+    results,
+    four_choice,
+    true_false,
+    short_answer,
+  } = useQuestionAnswer();
 
   return (
     <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10  items-start mx-auto">
@@ -93,7 +27,7 @@ export default function LamBaiPage() {
               <CardQuestionFourChoice
                 key={question.id_question}
                 question={question}
-                onChange={onChangeInput.four_choice} 
+                onChange={four_choice} 
               />
             )
           }
@@ -103,7 +37,7 @@ export default function LamBaiPage() {
               <CardQuestionTrueFalse
                 key={question.id_question}
                 question={question}
-                onChange={onChangeInput.true_false} 
+                onChange={true_false} 
               />
             )
           }
@@ -113,7 +47,7 @@ export default function LamBaiPage() {
               <CardQuestionShortAnswer
                 key={question.id_question}
                 question={question}
-                onChange={onChangeInput.short_answer}
+                onChange={short_answer}
               />
             )
           }
