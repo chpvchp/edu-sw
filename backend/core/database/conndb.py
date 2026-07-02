@@ -75,3 +75,15 @@ class ConnDB:
                     """
                 , (id_exam,))
                 return cur.fetchall()[0].get("questions", None)
+    
+    def get_full_question_in_exam(self, id_exam):
+        with self.connection_database() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    select questions
+                    from exams
+                    where id_exam=%s
+                    """
+                , (id_exam,))
+                return cur.fetchone()
