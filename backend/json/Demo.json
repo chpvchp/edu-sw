@@ -1,0 +1,272 @@
+{
+  "id_exam": "a25f73229c80429a812342640ba0b5b5",
+  "id_subject": 1,
+  "name_exam": "Demo",
+  "duration": 5,
+  "questions": [
+    {
+      "id_question": "8c2439f5030a4f848c3b803ac946d8c4",
+      "order": 1,
+      "question": "Câu 1. Lorem",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "b188d46a217a4a75aeba68ff10a09cbd",
+          "answer": "A. Lorem"
+        },
+        {
+          "id_answer": "5b9b0175635848bc94997cc6cae05b19",
+          "answer": "B. Lorem"
+        },
+        {
+          "id_answer": "2df0229129e74092a689918a1a37274f",
+          "answer": "C. Lorem"
+        },
+        {
+          "id_answer": "1a38dbeec0764d38b5dedcd96c031bb0",
+          "answer": "D. Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "5b9b0175635848bc94997cc6cae05b19",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bf32785b3c484a3d91b52c6858f37055",
+      "order": 2,
+      "question": "Câu 2. Lorem",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "46882004ba674b2f9973a9057d6fc3dd",
+          "answer": "A. Lorem"
+        },
+        {
+          "id_answer": "c2ffd9e8b09a4cd1832f9cc9681c41e4",
+          "answer": "B. Lorem"
+        },
+        {
+          "id_answer": "55c2107a832c47abb1e7e4a7a3e5af55",
+          "answer": "C. Lorem"
+        },
+        {
+          "id_answer": "9d811319812b4d0da7f8a48b094efd55",
+          "answer": "D. Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "c2ffd9e8b09a4cd1832f9cc9681c41e4",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "5fcbb863ef734a5589c97f986de43cad",
+      "order": 3,
+      "question": "Câu 3. Lorem",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "5b40fa456e004428b0807044c46059ee",
+          "answer": "A. Lorem"
+        },
+        {
+          "id_answer": "78d61b12b0d044529764e44d948f81e4",
+          "answer": "B. Lorem"
+        },
+        {
+          "id_answer": "d8f1f748b669412cb1e2a29592a92e02",
+          "answer": "C. Lorem"
+        },
+        {
+          "id_answer": "10fcee0a31f84a2481c15954a1382615",
+          "answer": "D. Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "78d61b12b0d044529764e44d948f81e4",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "24cdd2d9b6c442599fb2a9aa1097518b",
+      "order": 4,
+      "question": "Câu 4. Lorem",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "0bd66778988a491aa19074705a257193",
+          "answer": "A. Lorem"
+        },
+        {
+          "id_answer": "273ed900b8f542ad9e5aa9e964b8bb26",
+          "answer": "B. Lorem"
+        },
+        {
+          "id_answer": "1d27e0793cab4131bd3a055a16497512",
+          "answer": "C. Lorem"
+        },
+        {
+          "id_answer": "336f358bf8904642892b25fa5a34ef34",
+          "answer": "D. Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "273ed900b8f542ad9e5aa9e964b8bb26",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "f1eb208aba2247f883333856f75af0f4",
+      "order": 5,
+      "question": "Câu 5: Lorem",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "f6ea85baf74d4518bc0c28064c9186ef",
+          "answer": "a) Lorem"
+        },
+        {
+          "id_answer": "4caf4e82588c45439b58ec28549ac2a9",
+          "answer": "b) Lorem"
+        },
+        {
+          "id_answer": "fb8a019081ff4dae9fbd099ce31fdca4",
+          "answer": "c) Lorem"
+        },
+        {
+          "id_answer": "36f87b6e9a7740c5a52b2b6a12d2c622",
+          "answer": "d) Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "f6ea85baf74d4518bc0c28064c9186ef",
+          "fb8a019081ff4dae9fbd099ce31fdca4"
+        ],
+        "false_answer": [
+          "4caf4e82588c45439b58ec28549ac2a9",
+          "36f87b6e9a7740c5a52b2b6a12d2c622"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "f357cdf4089044c3ae680554b6fcdc31",
+      "order": 6,
+      "question": "Câu 6: Lorem",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "68db17ca59ee40baa3ebb89e5d750f26",
+          "answer": "a) Lorem"
+        },
+        {
+          "id_answer": "3853425f76234c70abe716439748bc94",
+          "answer": "b) Lorem"
+        },
+        {
+          "id_answer": "48824e2cc6fd499297e7376b66b45310",
+          "answer": "c) Lorem"
+        },
+        {
+          "id_answer": "fe9fdb23a3fe41dda39ce9ee268d6e59",
+          "answer": "d) Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "68db17ca59ee40baa3ebb89e5d750f26",
+          "48824e2cc6fd499297e7376b66b45310"
+        ],
+        "false_answer": [
+          "3853425f76234c70abe716439748bc94",
+          "fe9fdb23a3fe41dda39ce9ee268d6e59"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "90321a5c0652494b8a4b8d385293aa2f",
+      "order": 7,
+      "question": "Câu 7: Lorem",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "10"
+      }
+    },
+    {
+      "id_question": "7d286adccb2d4ae2aa95894680ceec34",
+      "order": 8,
+      "question": "Câu 8: Lorem",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "10"
+      }
+    },
+    {
+      "id_question": "e954bdebab294b38bb3107e71ef13bd9",
+      "order": 9,
+      "question": "Câu 9: Lorem",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "10"
+      }
+    },
+    {
+      "id_question": "21e9ccb8e9234d2fbd3d5d12aa0d46b0",
+      "order": 10,
+      "question": "Câu 10: Lorem",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "10"
+      }
+    }
+  ]
+}
