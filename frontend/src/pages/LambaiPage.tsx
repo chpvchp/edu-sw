@@ -3,6 +3,7 @@ import { useInfoExam, useQuestions } from "../hook/useExam";
 import CardQuestionFourChoice from "../components/CardQuestionFourChoice";
 import { useState } from "react";
 import CardQuestionTrueFalse from "../components/CardQuestionTrueFalse";
+import CardQuestionShortAnswer from "../components/CardQuestionShortAnswer";
 
 type FourChoiceResult = {
   type: "four_choice";
@@ -15,7 +16,12 @@ type TrueFalseResult = {
   false_answer: string[];
 };
 
-type QuestionResult = FourChoiceResult | TrueFalseResult;
+type ShortAnswer = {
+  type: "short_answer";
+  answer: number
+}
+
+type QuestionResult = FourChoiceResult | TrueFalseResult | ShortAnswer;
 
 export default function LamBaiPage() {
   const { id_exam } = useParams()
@@ -34,6 +40,7 @@ export default function LamBaiPage() {
         },
       }));
     },
+
     true_false: (
       idQuestion: string,
       idAnswer: string,
@@ -64,6 +71,16 @@ export default function LamBaiPage() {
         };
       });
     },
+
+    short_answer: (idQuesion: string, student_answer: number) => {
+      setResults(prev => ({
+        ...prev,
+        [idQuesion]: {
+          type: "short_answer",
+          answer: student_answer,
+        },
+      }));
+    },
   }
 
   return (
@@ -87,6 +104,16 @@ export default function LamBaiPage() {
                 key={question.id_question}
                 question={question}
                 onChange={onChangeInput.true_false} 
+              />
+            )
+          }
+
+          if (question.type_question === "short_answer") {
+            return (
+              <CardQuestionShortAnswer
+                key={question.id_question}
+                question={question}
+                onChange={onChangeInput.short_answer}
               />
             )
           }
