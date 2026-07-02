@@ -14,7 +14,7 @@ args = params.parse_args()
 db = ConnDB()
 
 def add_exam(name_exam):
-    with open(f"./backend/json/{name_exam}.json", "r", encoding="utf-8") as file_json:
+    with open(f"./json/{name_exam}.json", "r", encoding="utf-8") as file_json:
         exam = json.load(file_json)
         
         id_exam = exam["id_exam"]

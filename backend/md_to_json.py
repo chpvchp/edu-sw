@@ -50,7 +50,7 @@ def parse(name_exam, id_subject, duration):
         "questions": questions
     }
     
-    with open(f"./backend/data/{name_exam}/{name_exam}.md", "r", encoding="utf-8") as file:
+    with open(f"./data/{name_exam}/{name_exam}.md", "r", encoding="utf-8") as file:
         for line in file:
             line = clean_line(line)
 
@@ -127,7 +127,7 @@ def parse(name_exam, id_subject, duration):
                 current_question["results"]["short_answer"] = line[11:]
                 
                 
-    with open(f"./backend/json/{name_exam}.json", "w", encoding="utf-8") as file:
+    with open(f"./json/{name_exam}.json", "w", encoding="utf-8") as file:
         data_json = json.dumps(exam, indent=2, ensure_ascii=False)
         file.write(data_json)
         
