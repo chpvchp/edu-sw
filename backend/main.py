@@ -77,27 +77,31 @@ def post_submit_exam(student_submit: SubmitQuestionAnswer):
         
         elif result.type == "true_false":
             score_on_true_false = score_on_number / 4
+            question_true_false = True
             
             for true_answer in result.true_answer:
                 if true_answer in correct_results[id_question_student]["results"]["true_answer"]:
                     score += score_on_true_false
-                    num_correct += 0.25
                 else:
-                    num_wrong += 0.25
+                    question_true_false = False
                     
             for false_answer in result.false_answer:
                 if false_answer in correct_results[id_question_student]["results"]["false_answer"]:
                     score += score_on_true_false
-                    num_correct += 0.25
                 else:
-                    num_wrong += 0.25
+                    question_true_false = False
+            
+            if question_true_false:
+                num_correct += 1
+            else:
+                num_wrong += 1
         
         elif result.type == "short_answer":
             if result.answer == float(correct_results[id_question_student]["results"]["short_answer"]):
                 score += score_on_number
-                num_correct += 0.25
+                num_correct += 1
             else:
-                num_wrong += 0.25
+                num_wrong += 1
                 
     num_none = num_questions - (num_correct + num_wrong)
         
