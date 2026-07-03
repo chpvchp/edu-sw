@@ -56,16 +56,23 @@ function CardQuestionFourChoice({ question, onChange, results, data }: CardQuest
           if (results) {
 
             let classNameInput = ""
+            let checked
 
             const isStudentAnswer = data?.student_results?.[question.id_question]?.answer === answer.id_answer;
             const isCorrectAnswer = data?.correct_results?.[question.id_question]?.results.correct_answer === answer.id_answer;
 
-            if (isStudentAnswer) {
-              classNameInput = "accent-red-600"
-            } 
 
             if (isCorrectAnswer) {
-              classNameInput = "accent-blue-600"
+              classNameInput = "px-2 py-1 accent-blue-600 border border-blue-400 bg-blue-100 rounded";
+            }
+
+            if (isStudentAnswer && !isCorrectAnswer) {
+              classNameInput = "px-2 py-1 accent-red-600 border border-red-400 bg-red-100 rounded";
+            }
+
+            if (isStudentAnswer || isCorrectAnswer) {
+              checked = true
+              
             }
 
             return (
@@ -74,10 +81,10 @@ function CardQuestionFourChoice({ question, onChange, results, data }: CardQuest
                   className={classNameInput}
                   type="radio"
                   value={answer?.id_answer}
-                  checked={isStudentAnswer}
+                  checked={checked}
                   readOnly
                 />
-                <div>
+                <div className={classNameInput}>
                   <RenderMarkDownLatex 
                     text={answer?.answer}
                   />
