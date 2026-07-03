@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import { useInfoExam, useQuestions } from "../hook/useExam";
 import CardQuestionFourChoice from "../components/CardQuestionFourChoice";
 import CardQuestionTrueFalse from "../components/CardQuestionTrueFalse";
@@ -17,7 +17,24 @@ export default function LamBaiPage() {
     true_false,
     short_answer,
   } = useQuestionAnswer();
-  const { mutate } = useSubmitQuestionAnswer();
+  const { mutateAsync, isPending } = useSubmitQuestionAnswer();
+
+  const navigate = useNavigate();
+
+  const handleSubmit = async () => {
+    try {
+      const data = await mutateAsync({
+        id_exam: idExam,
+        results: results,
+      });
+
+      navigate("/bai-tap/ket-qua", {
+        state: data
+      });
+    } catch (err) {
+      console.log(err)
+    }
+  };
 
   return (
     <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10  items-start mx-auto">
@@ -29,7 +46,9 @@ export default function LamBaiPage() {
               <CardQuestionFourChoice
                 key={question.id_question}
                 question={question}
-                onChange={four_choice} 
+                onChange={four_choice}
+                data={false}
+                results={false}
               />
             )
           }
@@ -66,16 +85,12 @@ export default function LamBaiPage() {
             <h1>{examInfo?.name_exam}</h1>
           </div>
           <div className="flex justify-center items-center">
-            <button 
+            <button
               className="p-2 flex justify-center items-center bg-blue-600 text-white font-bold rounded border border-gray-50 transition duration-200 hover:bg-blue-800 hover:scale-105 active:scale-90"
-              onClick={() => {
-                mutate({
-                  id_exam: idExam,
-                  results: results,
-                })
-              }}
+              disabled={isPending}
+              onClick={handleSubmit}
             >
-              Nộp bài
+              {isPending ? "Đang nộp..." : "Nộp bài"}
             </button>
           </div>
         </div>
