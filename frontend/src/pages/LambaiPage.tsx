@@ -58,7 +58,9 @@ export default function LamBaiPage() {
               <CardQuestionTrueFalse
                 key={question.id_question}
                 question={question}
-                onChange={true_false} 
+                onChange={true_false}
+                data={false}
+                results={false}
               />
             )
           }
@@ -69,6 +71,8 @@ export default function LamBaiPage() {
                 key={question.id_question}
                 question={question}
                 onChange={short_answer}
+                data={false}
+                results={false}
               />
             )
           }

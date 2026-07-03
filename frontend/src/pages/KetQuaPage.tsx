@@ -42,6 +42,8 @@ export default function KetQuaPage() {
                 key={question.id_question}
                 question={question}
                 onChange={true_false} 
+                data={results}
+                results={true}
               />
             )
           }
@@ -52,6 +54,8 @@ export default function KetQuaPage() {
                 key={question.id_question}
                 question={question}
                 onChange={short_answer}
+                data={results}
+                results={true}
               />
             )
           }
