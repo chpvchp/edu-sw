@@ -77,7 +77,7 @@ def parse(name_exam, id_subject, duration):
                 order += 1
                 
             elif is_path_image(line) and current_question:
-                current_question["path_images"] = f"data/{name_exam}/" + line[4:-1]
+                current_question["path_images"] = f"backend-api/data/{name_exam}/" + line[4:-1]
                 
             
             elif is_answer_four_choice(line) and current_question:
