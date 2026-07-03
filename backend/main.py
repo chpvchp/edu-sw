@@ -44,7 +44,14 @@ def get_questions_in_exam_(id_exam):
 @app.post("/backend-api/submit")
 def post_submit_exam(student_submit: SubmitQuestionAnswer):
     correct_results = {}
-    questions = db.get_full_question_in_exam(id_exam=student_submit.id_exam).get("questions")
+    
+    num_correct = 0
+    num_wrong = 0
+    num_none = 0
+    
+    exam = db.get_full_exam(id_exam=student_submit.id_exam)
+    
+    questions = exam.get("questions")
     
     num_questions = len(questions)
     
@@ -64,6 +71,9 @@ def post_submit_exam(student_submit: SubmitQuestionAnswer):
         if result.type == "four_choice":
             if result.answer == correct_results[id_question_student]["results"]["correct_answer"]:
                 score += score_on_number
+                num_correct += 1
+            else:
+                num_wrong += 1
         
         elif result.type == "true_false":
             score_on_true_false = score_on_number / 4
@@ -71,15 +81,42 @@ def post_submit_exam(student_submit: SubmitQuestionAnswer):
             for true_answer in result.true_answer:
                 if true_answer in correct_results[id_question_student]["results"]["true_answer"]:
                     score += score_on_true_false
+                    num_correct += 0.25
+                else:
+                    num_wrong += 0.25
                     
             for false_answer in result.false_answer:
                 if false_answer in correct_results[id_question_student]["results"]["false_answer"]:
                     score += score_on_true_false
-                
+                    num_correct += 0.25
+                else:
+                    num_wrong += 0.25
         
         elif result.type == "short_answer":
             if result.answer == float(correct_results[id_question_student]["results"]["short_answer"]):
                 score += score_on_number
+                num_correct += 0.25
+            else:
+                num_wrong += 0.25
                 
-    print(score)
+    num_none = num_questions - (num_correct + num_wrong)
+        
+    data = {
+        "score": score,
+        "name_exam": exam.get("name_exam"),
+        "subject": exam.get("name_subject"),
+        "num_correct": num_correct,
+        "num_wrong": num_wrong,
+        "num_none": num_none,
+        "duration": exam.get("duration"),
+        "student_duration": 0,
+        "created": exam.get("created"),
+        "questions": questions,
+        "correct_results": correct_results,
+        "student_results": student_results
+    }
+    
+    print(data)
+    
+    return data
     
