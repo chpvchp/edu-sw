@@ -18,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.mount("/data", StaticFiles(directory="data"), name="data")
+app.mount("/backend-api/data", StaticFiles(directory="data"), name="data")
 
 @app.get("/backend-api/bai-tap")
 def get_exams():
