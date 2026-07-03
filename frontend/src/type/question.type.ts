@@ -8,10 +8,13 @@ export type Question = {
   order: number;
   question: string;
   path_images: string;
-  type_question: "four_choice" | "true_false";
+  type_question: "four_choice" | "true_false" | "short_answer";
   answers: Answer[];
   results: {
     explain: string;
-    correct_answer: string
+    correct_answer: string;
+    true_answer: [];
+    false_answer: [];
+    short_answer: number | string;
   }
 }
