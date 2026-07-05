@@ -37,9 +37,9 @@ export default function LamBaiPage() {
   };
 
   return (
-    <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10  items-start mx-auto">
+    <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10 items-start mx-auto gap-8 lg:gap-2">
       
-      <div className="px-8 py-4 flex flex-col lg:col-span-6 gap-8">
+      <div className="lg:px-4 lg:py-4 flex flex-col lg:col-span-6 gap-8">
         {data?.map((question) => {
           if (question.type_question === "four_choice") {
             return (
@@ -82,7 +82,7 @@ export default function LamBaiPage() {
         })}
       </div>
 
-      <div className="px-8 py-4 sticky top-4 flex flex-col gap-4 lg:col-span-4">
+      <div className="lg:px-4 lg:py-4 sticky top-4 flex flex-col gap-4 lg:col-span-4">
 
         <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
           <div className="p-2 border border-gray-400 rounded text-center font-bold">
