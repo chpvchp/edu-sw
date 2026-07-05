@@ -63,7 +63,7 @@ export default function KetQuaPage() {
         })}
       </div>
 
-      <div className="lg:px-4 lg:py-4 sticky top-4 gap-4 lg:col-span-4 order-1 lg:order-2">
+      <div className="lg:px-4 lg:py-4 lg:sticky lg:top-4 gap-4 lg:col-span-4 order-1 lg:order-2">
         <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
           <h1 className="p-2 font-bold border border-gray-200 rounded-md text-center">{results.score}</h1>
           <div>
