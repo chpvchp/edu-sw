@@ -1,5 +1,10 @@
 name: edu-sw
 services:
+  cloudflare:
+    container_name: cloudflare
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token eyJhIjoiNGQ3MjljMTQxNGViNmY3ZGVjMzQ3ZjZmYzZiZmU2MWUiLCJ0IjoiYWU0ZmFjYzYtOWIxYi00NGVjLWE0YmUtMjM2YTZkZjc0ZWEwIiwicyI6Ik5ETmpZekZoWmpNdFpqWTFOeTAwTVRNekxUZzNObU10T0dWaU5EQXpaVGM0TldSayJ9
+
   frontend:
     container_name: frontend
     build: ./frontend
