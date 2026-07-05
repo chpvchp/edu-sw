@@ -66,11 +66,11 @@ function CardQuestionShortAnswer({ question, onChange, data, results }: CardQues
     return (
       <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
         <div className="p-2 flex flex-col border border-gray-400 rounded">
-          <h2 id={question.id_question}>
+          <div id={question.id_question}>
             <RenderMarkDownLatex
               text={question.question}
             />
-          </h2>
+          </div>
           {question?.path_images && (
             <img 
               className="max-h-64 w-auto object-contain"

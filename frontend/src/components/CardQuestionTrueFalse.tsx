@@ -16,11 +16,11 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
 
       <div className="p-2 flex flex-col border border-gray-400 rounded">
 
-        <h2 id={question.id_question}>
+        <div id={question.id_question}>
           <RenderMarkDownLatex
             text={question.question}
           />
-        </h2>
+        </div>
         
         {question?.path_images && (
           <img 
