@@ -1,0 +1,272 @@
+{
+  "id_exam": "c88cefa4312647809782f2a3869a243a",
+  "id_subject": 1,
+  "name_exam": "template",
+  "duration": 5,
+  "questions": [
+    {
+      "id_question": "8f81c66bc76b42cbacbe97892e121156",
+      "order": 1,
+      "question": "**Câu 1:** Lorem\n\n*(a)*\n*(b)*\n*(c)*\n*(d)*",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "e4cc27cfa6c74847889abca7df549483",
+          "answer": "**A**. Lorem"
+        },
+        {
+          "id_answer": "4cb112fa7d2d45e58388db200f1c0dbc",
+          "answer": "**B**. Lorem"
+        },
+        {
+          "id_answer": "e9f202d8518e464c9903c8843d6f7e8f",
+          "answer": "**C**. Lorem"
+        },
+        {
+          "id_answer": "50e12fbadc614ed490502134a6aa7678",
+          "answer": "**D**. Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "4cb112fa7d2d45e58388db200f1c0dbc",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "0fc665f26a58471a8f415b968a198d45",
+      "order": 2,
+      "question": "**Câu 2:** Lorem\n",
+      "type_question": "four_choice",
+      "path_images": "backend-api/data/template/images/4/",
+      "answers": [
+        {
+          "id_answer": "d24e771805d64ba5a2b9096c4448b1ec",
+          "answer": "**A**. Lorem"
+        },
+        {
+          "id_answer": "dcff06e11fcd46ff937441287ff214f2",
+          "answer": "**B**. Lorem"
+        },
+        {
+          "id_answer": "0896289cdc1d4a7f9b3a22e74bb1766a",
+          "answer": "**C**. Lorem"
+        },
+        {
+          "id_answer": "829fdb0700334308bb1da1a72c6db1a3",
+          "answer": "**D**. Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "dcff06e11fcd46ff937441287ff214f2",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "f0f144ca56224a08979c1a1ee0b56f97",
+      "order": 3,
+      "question": "**Câu 3:** Lorem\n\n*(1)*\n*(2)*\n*(3)*\n*(4)*",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "929284f324f04714b81997447933c5c4",
+          "answer": "**A**. Lorem"
+        },
+        {
+          "id_answer": "37185f3e146a4a82b3d5a25a04bedac8",
+          "answer": "**B**. Lorem"
+        },
+        {
+          "id_answer": "cee0ed13815943499f108ff78ff92faa",
+          "answer": "**C**. Lorem"
+        },
+        {
+          "id_answer": "01e1a20224a04cde89583a630a5c4f8b",
+          "answer": "**D**. Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "37185f3e146a4a82b3d5a25a04bedac8",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "169e61edb413467f9e3baf864caca405",
+      "order": 4,
+      "question": "**Câu 4:** Lorem\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "52216231bb01418d8b1a722a76a66482",
+          "answer": "**A**. Lorem"
+        },
+        {
+          "id_answer": "3da0a93db93149f4aad26ed3fbcb9bfe",
+          "answer": "**B**. Lorem"
+        },
+        {
+          "id_answer": "b9139386bfa140f287672bca2bff4602",
+          "answer": "**C**. Lorem"
+        },
+        {
+          "id_answer": "719998842e764a8c8962884d82094ed7",
+          "answer": "**D**. Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "3da0a93db93149f4aad26ed3fbcb9bfe",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "aef775bcd716460db877eccdc2ca6687",
+      "order": 5,
+      "question": "**Câu 5:** Lorem\n",
+      "type_question": "true_false",
+      "path_images": "backend-api/data/template/images/2/",
+      "answers": [
+        {
+          "id_answer": "f4ab04789e9c42968e96b52e98b1399b",
+          "answer": "*a)* Lorem"
+        },
+        {
+          "id_answer": "2563b0c61c054058a45f3bedc974b92d",
+          "answer": "*b)* Lorem"
+        },
+        {
+          "id_answer": "d289b00ea1ce49ee8ad8609353154782",
+          "answer": "*c)* Lorem"
+        },
+        {
+          "id_answer": "4c8ca2338d954d8a9c049ba4b13a1abd",
+          "answer": "*d)* Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "f4ab04789e9c42968e96b52e98b1399b",
+          "d289b00ea1ce49ee8ad8609353154782"
+        ],
+        "false_answer": [
+          "2563b0c61c054058a45f3bedc974b92d",
+          "4c8ca2338d954d8a9c049ba4b13a1abd"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "4802381974f94176bdb5bc7c4a3421df",
+      "order": 6,
+      "question": "**Câu 6:** Lorem\n",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "f3daac40b08148a19b98d62c925e9efa",
+          "answer": "*a)* Lorem"
+        },
+        {
+          "id_answer": "0afb6c84c8e84c1784bc02c0eafce979",
+          "answer": "*b)* Lorem"
+        },
+        {
+          "id_answer": "5f08388943104ceb84424cd962b67d27",
+          "answer": "*c)* Lorem"
+        },
+        {
+          "id_answer": "4dbf1abb34464fb7bf0c658d5774f5ec",
+          "answer": "*d)* Lorem"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "f3daac40b08148a19b98d62c925e9efa",
+          "5f08388943104ceb84424cd962b67d27"
+        ],
+        "false_answer": [
+          "0afb6c84c8e84c1784bc02c0eafce979",
+          "4dbf1abb34464fb7bf0c658d5774f5ec"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bd73c6cb49544b0dba33c6c4f0fcdb00",
+      "order": 7,
+      "question": "**Câu 7:** Lorem\n",
+      "type_question": "short_answer",
+      "path_images": "backend-api/data/template/images/2/",
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "10"
+      }
+    },
+    {
+      "id_question": "b075bfedc6ce462ebf062caed02d34e1",
+      "order": 8,
+      "question": "**Câu 8:** Lorem\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "10"
+      }
+    },
+    {
+      "id_question": "8c1565855d4d45088ea8847089f9b82c",
+      "order": 9,
+      "question": "**Câu 9:** Lorem\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "10"
+      }
+    },
+    {
+      "id_question": "37a84d82164e44059eed97c7c3c2f2aa",
+      "order": 10,
+      "question": "**Câu 10:** Lorem\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "10"
+      }
+    }
+  ]
+}
