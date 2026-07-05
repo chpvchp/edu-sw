@@ -108,8 +108,6 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
               classNameInputFalse = "accent-blue-600"
             }
 
-            console.log(isCorrectTrue)
-
             return (
               <div className="flex flex-col gap-2" key={answer.id_answer}>
                 <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
