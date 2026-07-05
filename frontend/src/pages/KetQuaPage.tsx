@@ -15,14 +15,12 @@ export default function KetQuaPage() {
   } = useQuestionAnswer();
 
   const { state: results } = useLocation();
-  
-  console.log(results)
 
   const classNameInfo = "flex gap-4 justify-between text-gray-600"
 
   return (
-    <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10 items-start mx-auto">
-      <div className="px-8 py-4 flex flex-col lg:col-span-6 gap-8">
+    <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10 items-start mx-auto gap-8 lg:gap-2">
+      <div className="lg:px-4 lg:py-4 flex flex-col lg:col-span-6 gap-8 order-2 lg:order-1">
         {results?.questions?.map((question: Question) => {
           if (question.type_question === "four_choice") {
             return (
@@ -65,45 +63,47 @@ export default function KetQuaPage() {
         })}
       </div>
 
-      <div className="px-8 py-4 sticky top-4 flex flex-col gap-4 lg:col-span-4">
-        <h1 className="p-2 font-bold border border-gray-200 rounded-md text-center">{results.score}</h1>
-        <div>
+      <div className="lg:px-4 lg:py-4 sticky top-4 gap-4 lg:col-span-4 order-1 lg:order-2">
+        <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
+          <h1 className="p-2 font-bold border border-gray-200 rounded-md text-center">{results.score}</h1>
+          <div>
 
-          <div className={classNameInfo}>
-            <p>Bài Tập:</p>
-            <p>{results.name_exam}</p>
+            <div className={classNameInfo}>
+              <p>Bài Tập:</p>
+              <p>{results.name_exam}</p>
+            </div>
+
+            <div className={classNameInfo}>
+              <p>Môn:</p>
+              <p>{results.subject}</p>
+            </div>
+
+            <div className={classNameInfo}>
+              <p>Câu đúng:</p>
+              <p>{results.num_correct}</p>
+            </div>
+
+            <div className={classNameInfo}>
+              <p>Câu sai:</p>
+              <p>{results.num_wrong}</p>
+            </div>
+
+            <div className={classNameInfo}>
+              <p>Câu chưa làm:</p>
+              <p>{results.num_none}</p>
+            </div>
+
+            <div className={classNameInfo}>
+              <p>Thời gian làm bài:</p>
+              <p>{results.student_duration}/{results.duration} phút</p>
+            </div>
+
+            <div className={classNameInfo}>
+              <p>Ngày tạo:</p>
+              <p>{ConvertDate(results.created)}</p>
+            </div>
+
           </div>
-
-          <div className={classNameInfo}>
-            <p>Môn:</p>
-            <p>{results.subject}</p>
-          </div>
-
-          <div className={classNameInfo}>
-            <p>Câu đúng:</p>
-            <p>{results.num_correct}</p>
-          </div>
-
-          <div className={classNameInfo}>
-            <p>Câu sai:</p>
-            <p>{results.num_wrong}</p>
-          </div>
-
-          <div className={classNameInfo}>
-            <p>Câu chưa làm:</p>
-            <p>{results.num_none}</p>
-          </div>
-
-          <div className={classNameInfo}>
-            <p>Thời gian làm bài:</p>
-            <p>{results.student_duration}/{results.duration} phút</p>
-          </div>
-
-          <div className={classNameInfo}>
-            <p>Ngày tạo:</p>
-            <p>{ConvertDate(results.created)}</p>
-          </div>
-
         </div>
       </div>
 
