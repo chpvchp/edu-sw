@@ -5,6 +5,7 @@ import CardQuestionTrueFalse from "../components/CardQuestionTrueFalse";
 import CardQuestionShortAnswer from "../components/CardQuestionShortAnswer";
 import { useQuestionAnswer } from "../hook/useQuestionAnswer";
 import { useSubmitQuestionAnswer } from "../hook/useSubmit";
+import { ConvertDate } from "../hook/useConvert";
 
 export default function LamBaiPage() {
   const { id_exam } = useParams()
@@ -35,6 +36,8 @@ export default function LamBaiPage() {
       console.log(err)
     }
   };
+
+  const classNameInfo = "flex gap-4 justify-between text-gray-600"
 
   return (
     <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10 items-start mx-auto gap-8 lg:gap-2">
@@ -87,6 +90,20 @@ export default function LamBaiPage() {
         <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
           <div className="p-2 border border-gray-400 rounded text-center font-bold">
             <h1>{examInfo?.name_exam}</h1>
+          </div>
+          <div className="p-2 border border-gray-400 rounded">
+            <div className={classNameInfo}>
+              <p>Môn: </p>
+              <p>{examInfo?.name_subject}</p>
+            </div>
+            <div className={classNameInfo}>
+              <p>Thời gian làm bài: </p>
+              <p>{examInfo?.duration}</p>
+            </div>
+            <div className={classNameInfo}>
+              <p>Ngày tạo: </p>
+              <p>{ConvertDate(examInfo?.created ?? "")}</p>
+            </div>
           </div>
           <div className="flex justify-center items-center">
             <button
