@@ -17,16 +17,16 @@ def clean_line(line):
     return line.strip()
 
 def is_question(line):
-    return line.startswith("Câu")
+    return line.startswith("**Câu")
 
 def is_question_in(line):
-    return re.match(r"^\([a-d]\)", line)
+    return re.match(r"^\*\([a-d]\)\*", line) or re.match(r"^\*\(\d+\)\*", line)
 
 def is_answer_four_choice(line):
-    return re.match(r"^[A-D]\.", line)
+    return re.match(r"^\*\*[A-D]\*\*\.", line)
 
 def is_answer_true_false(line):
-    return re.match(r"^[a-d]\)", line)
+    return re.match(r"^\*[a-d]\)\*", line)
 
 def is_answer_short_answer(line):
     return line.startswith("Đáp án là:")
