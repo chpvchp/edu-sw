@@ -120,7 +120,7 @@ def post_submit_exam(student_submit: SubmitQuestionAnswer):
         "student_results": student_results
     }
     
-    print(data)
+    # print(data)
     
     return data
     
