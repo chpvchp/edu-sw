@@ -11,7 +11,7 @@ export default function NavBar() {
   const classNameNotActive = "px-2 border border-b border-white"
 
   return (
-    <nav className="px-8 py-4 flex gap-8">
+    <nav className="px-8 py-4 flex gap-8 border-b border-gray-200 shadow">
       {listNavLink.map((navlink) => (
         <NavLink 
           key={navlink.to}
