@@ -19,6 +19,9 @@ def clean_line(line):
 def is_question(line):
     return line.startswith("Câu")
 
+def is_question_in(line):
+    return re.match(r"^\([a-d]\)", line)
+
 def is_answer_four_choice(line):
     return re.match(r"^[A-D]\.", line)
 
@@ -55,6 +58,7 @@ def parse(name_exam, id_subject, duration):
             line = clean_line(line)
 
             if is_question(line):
+                line = line + "\n"
                 id_question = uuid.uuid4().hex
                 
                 current_question = {
@@ -75,6 +79,9 @@ def parse(name_exam, id_subject, duration):
                 
                 questions.append(current_question)
                 order += 1
+                
+            elif is_question_in(line) and current_question:
+                current_question["question"] += "\n" + line
                 
             elif is_path_image(line) and current_question:
                 current_question["path_images"] = f"backend-api/data/{name_exam}/" + line[4:-1]
