@@ -1,26 +1,27 @@
+import { House, BookOpen } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
 
   const listNavLink = [
-    {"to": "/", "label": "Trang Chủ"},
-    {"to": "/bai-tap", "label": "Bài Tập"},
+    {to: "/", label: "Trang Chủ", icon: House},
+    {to: "/bai-tap", label: "Bài Tập", icon: BookOpen},
   ]
 
-  const classNameActive = "px-2 font-bold border-b border-blue-400"
-  const classNameNotActive = "px-2 border border-b border-white"
+  const classNameActive = "p-2 bg-blue-600 text-white rounded-full"
+  const classNameNotActive = "p-2 bg-white rounded-full"
 
   return (
-    <nav className="px-8 py-4 flex gap-8 border-b border-gray-200 shadow">
-      {listNavLink.map((navlink) => (
+    <nav className="p-2 flex gap-2 border border-gray-200 shadow mx-auto rounded-full">
+      {listNavLink.map(({to, icon: Icon}) => (
         <NavLink 
-          key={navlink.to}
-          to={navlink.to}
+          key={to}
+          to={to}
           className={({ isActive }) =>
             isActive ? classNameActive : classNameNotActive
           }
         >
-          {navlink.label}
+          <Icon />
         </NavLink>
       ))}
 
