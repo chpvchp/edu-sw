@@ -8,13 +8,10 @@ export default function InfoExamPage() {
   const { data } = useInfoExam( idExam );
 
   return (
-    <main className="flex-1 flex flex-col items-center">
+    <main className="min-h-screen max-w-7xl flex-1 mx-auto">
       <CardInfoExam
         data={data}
       />
-      <div className="flex mt-2 p-2">
-        <p>--- Lịch sử làm bài ---</p>
-      </div>
     </main>
   )
 }
