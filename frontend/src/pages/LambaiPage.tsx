@@ -10,7 +10,7 @@ import { ConvertDate } from "../hook/useConvert";
 export default function LamBaiPage() {
   const { id_exam } = useParams()
   const idExam = String(id_exam)
-  const { data } = useQuestions( idExam );
+  const { data, isLoading, isError } = useQuestions( idExam );
   const { data: examInfo } = useInfoExam( idExam );
   const {
     results,
@@ -38,6 +38,9 @@ export default function LamBaiPage() {
   };
 
   const classNameInfo = "flex gap-4 justify-between text-gray-600"
+
+  if (isLoading) return <p className="p-4 mx-auto">Đang tải đề...</p>
+  if (isError) return <p className="p-4 mx-auto">Máy chủ lỗi!</p>
 
   return (
     <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10 items-start mx-auto gap-8 lg:gap-2">
