@@ -6,18 +6,18 @@ export default function BaiTapPage() {
 
   const { data, isLoading, error } = useListExam();
 
-  if (isLoading) return <p>Loading...</p>;
-  if (error) return <p>Error</p>;
+  if (isLoading) return <p className="p-4 mx-auto">Đang lấy danh sách bài tập...</p>;
+  if (error) return <p className="p-4 mx-auto">Máy chủ lỗi!</p>;
 
 
   return (
-    <main className="flex-1 flex flex-col">
+    <main className="min-h-screen max-w-7xl flex-1 mx-auto">
 
       <div className="flex justify-center">
         <p className="p-4 italic">Chọn các bài tập bên dưới để rèn luyện nhé:3</p>
       </div>
 
-      <div className="p-4 flex flex-col lg:grid lg:grid-cols-6 justify-center mt-4 gap-2 lg:gap-6 lg:mx-auto">
+      <div className="p-2 flex flex-col lg:grid lg:grid-cols-4 justify-center gap-2 lg:gap-6 lg:mx-auto">
 
         {data?.map((exam: Exam) => (
           <CardExam
