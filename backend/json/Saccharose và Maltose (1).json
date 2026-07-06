@@ -1,0 +1,1156 @@
+{
+  "id_exam": "41486a46b5de4c92ace64996e19407a7",
+  "id_subject": 2,
+  "name_exam": "Saccharose và Maltose (1)",
+  "duration": 30,
+  "questions": [
+    {
+      "id_question": "f83de5ec786e4db9b4c52f30e21259a2",
+      "order": 1,
+      "question": "**Câu 1:** Mạch nha là tên gọi khác của *carbohydrate* nào sau đây?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "3d51495b9e6d4e63bc83316229f0b531",
+          "answer": "**A**. Glucose."
+        },
+        {
+          "id_answer": "2b96dc8151384ef2a1c106a81ea19a25",
+          "answer": "**B**. Fructose."
+        },
+        {
+          "id_answer": "d5c080b997544be592d4c5fd96fc0a52",
+          "answer": "**C**. Saccharose."
+        },
+        {
+          "id_answer": "b3f748fc752843e3b80719c3e68047bf",
+          "answer": "**D**. Maltose."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "b3f748fc752843e3b80719c3e68047bf",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "2eca8edc144d46b4b976ba20966f28cd",
+      "order": 2,
+      "question": "**Câu 2:** *Saccharose* được cấu tạo từ:\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "fc8ad4a1623d434c9c033e476eec532c",
+          "answer": "**A**. hai đơn vị *glucose* qua liên kết $\\alpha-1,4-glycoside$."
+        },
+        {
+          "id_answer": "7c05f4ff74a64fbc888f3bc6ab9db9ba",
+          "answer": "**B**. một đơn vị *glucose* và một đơn vị *fructose* qua liên kết $\\alpha-1,2-glycoside$."
+        },
+        {
+          "id_answer": "58f2cd9462824d4c9878160c890d56d6",
+          "answer": "**C**. hai đơn vị *fructose* qua liên kết $\\beta-1,4-glycoside$."
+        },
+        {
+          "id_answer": "8e76d74c8d5b4c29b57fbf1e74396ac1",
+          "answer": "**D**. một đơn vị *glucose* và một đơn vị galactose qua liên kết $\\alpha-1,4-glycoside$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "7c05f4ff74a64fbc888f3bc6ab9db9ba",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "f6fea966cbde443ba303da3acf50f970",
+      "order": 3,
+      "question": "**Câu 3:** *Saccharose* được dùng phố biến trong thực phẩm. Phát biểu nào sau đây đúng về *saccharose*?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "1b485ad7ee644d5ba61c338aba3b9813",
+          "answer": "**A**. là disaccharide, tạo từ *glucose* và *fructose*, tan tốt trong nước."
+        },
+        {
+          "id_answer": "1ce84d815e5a4e09ac9bd30203ab3cf2",
+          "answer": "**B**. là disaccharide, không tan trong nước, có vị nhạt."
+        },
+        {
+          "id_answer": "28cb26432d324548bf9f1bfca67b9716",
+          "answer": "**C**. là polysaccharide gồm nhiều đơn vị *glucose* liên kết $\\alpha-1,4-glycoside$."
+        },
+        {
+          "id_answer": "3bc0a3bfcbe34f26964e400877361232",
+          "answer": "**D**. là monosaccharide, tan tốt trong nước, có vị ngọt."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "1b485ad7ee644d5ba61c338aba3b9813",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "cb9d29c3259343128e2cd0a01d0473ad",
+      "order": 4,
+      "question": "**Câu 4:** *Maltose* được tạo ra từ quá trình nào sau đây?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "6c8dc0319e8d43909574a6f72ca28420",
+          "answer": "**A**. Thủy phân *saccharose*."
+        },
+        {
+          "id_answer": "d35640e7d96b465b9729d6658bd26f26",
+          "answer": "**B**. Thủy phân *tinh bột* ."
+        },
+        {
+          "id_answer": "12a2277ec1594802bf855b1fd6c20ce2",
+          "answer": "**C**. Kết hợp *glucose* và *fructose*."
+        },
+        {
+          "id_answer": "0762be24f8514789b3e571c440eebf5d",
+          "answer": "**D**. Lên men ethanol."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "d35640e7d96b465b9729d6658bd26f26",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "2b60089c30a145609490d201949061a7",
+      "order": 5,
+      "question": "**Câu 5:** *Saccharose* tham gia phản ứng nào sau đây?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "8fb5ac98b2954fb28b581aa9f881e72a",
+          "answer": "**A**. Phân ứng với thuốc thử *Tollens*."
+        },
+        {
+          "id_answer": "c2c65f2f3ca04644b4d972acfad69bfc",
+          "answer": "**B**. Phân ứng với mước bromine."
+        },
+        {
+          "id_answer": "b8088897e2614597a48e66b220b2061d",
+          "answer": "**C**. Phân ứng với $Cu(OH)_2$ tạo dung dịch màu xanh lam."
+        },
+        {
+          "id_answer": "04ae9bedac8148c096b31bb01e596260",
+          "answer": "**D**. Phân ứng thủy phân trong môi trường kiểm."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "b8088897e2614597a48e66b220b2061d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "6dfe7096b2da458c9050e63a9854cada",
+      "order": 6,
+      "question": "**Câu 6:** *Saccharose* thường được tìm thấy trong loại thực vật nào sau đây?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "1022a95735aa4a2b81bbfb8a51744054",
+          "answer": "**A**. Cây đậu nành."
+        },
+        {
+          "id_answer": "fb8d35fd12fd4886abad3e035b452ad8",
+          "answer": "**B**. Cây lúa mì."
+        },
+        {
+          "id_answer": "b42501e518d84b1f818be6cc8bc90f1e",
+          "answer": "**C**. Cây mía."
+        },
+        {
+          "id_answer": "27a4081ef1ab4b7992b829d9e8d66c8f",
+          "answer": "**D**. Cây cà phê."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "b42501e518d84b1f818be6cc8bc90f1e",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "b3780a03fd994c94bfdc97cad8112686",
+      "order": 7,
+      "question": "**Câu 7:** Cho 4 *carbohydrate* sau: *glucose*, *fructose*, *maltose*, *saccharose*. Có bao nhiêu *carbohydrate* đã cho thuộc nhóm disaccharide?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "4f7002e2d51141d6b990dd1ca0ca5e2e",
+          "answer": "**A**. 1."
+        },
+        {
+          "id_answer": "3846e82545484a7094f32dccb960de80",
+          "answer": "**B**. 2."
+        },
+        {
+          "id_answer": "c59bdef6ca4e41048f27474439a48170",
+          "answer": "**C**. 3."
+        },
+        {
+          "id_answer": "ddc3227702cc4087a4930a93cce45d7d",
+          "answer": "**D**. 4."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "3846e82545484a7094f32dccb960de80",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "f9d633be8d7540edadcc35d20e04b8e3",
+      "order": 8,
+      "question": "**Câu 8:** Cho 4 *carbohydrate* sau: *glucose*, *fructose*, *maltose*, *saccharose*. Số *carbohydrate* đã cho có liên kết $\\alpha-1,4-glycoside$ trong phân tử là\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "2f0b08373fe1428cb067fde360ec2b16",
+          "answer": "**A**. 1."
+        },
+        {
+          "id_answer": "1e233ad6a52744b4bd7f83d71745e8e5",
+          "answer": "**B**. 2."
+        },
+        {
+          "id_answer": "8375ceca1ebd45ad84871b4bf4ce6906",
+          "answer": "**C**. 3."
+        },
+        {
+          "id_answer": "77b98df118754f8584c90bd8e997f2e9",
+          "answer": "**D**. 4."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "2f0b08373fe1428cb067fde360ec2b16",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "156cdf8ae110403b855d11da26b57c46",
+      "order": 9,
+      "question": "**Câu 9:** Cho 4 *carbohydrate* sau: *glucose*, *fructose*, *maltose*, *saccharose*. Số *carbohydrate* đã cho có liên kết $\\alpha-1,2-glycoside$ trong phân tử là\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "514bc1fe998442dd944cc635d8c028a3",
+          "answer": "**A**. 1."
+        },
+        {
+          "id_answer": "3e2aefee275c4d088dfbbecb02f1f6c5",
+          "answer": "**B**. 2."
+        },
+        {
+          "id_answer": "a06349338ee449dc8182716e27e0371d",
+          "answer": "**C**. 3."
+        },
+        {
+          "id_answer": "7e133619d33c4db0819621e437352610",
+          "answer": "**D**. 4."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "514bc1fe998442dd944cc635d8c028a3",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ae38343e87d14cc28d51d22d9916c7fa",
+      "order": 10,
+      "question": "**Câu 10:** Cho 4 *carbohydrate* sau: *glucose*, *fructose*, *maltose*, *saccharose*. Carbohydrate nào sau đây có câu trúc phân tử **không** đổi ở trạng thái rắn hoặc trong dung dịch?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "d6ec4d9de6eb49828d7086120c435a11",
+          "answer": "**A**. Glucose."
+        },
+        {
+          "id_answer": "67e544966f0a4f4a99a0379c75d00931",
+          "answer": "**B**. Fructose."
+        },
+        {
+          "id_answer": "40d5919222d24be48bdb9c78e523c951",
+          "answer": "**C**. Saccharose."
+        },
+        {
+          "id_answer": "72c6ff2f0a65496abd4a5b6b4b3e3a67",
+          "answer": "**D**. Maltose."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "40d5919222d24be48bdb9c78e523c951",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "8e2481f2055945fa8e2ab816056d1c46",
+      "order": 11,
+      "question": "**Câu 11:** Cho 4 *carbohydrate* sau: *glucose*, *fructose*, *maltose*, *saccharose*. Cấu trúc phân tử của *carbohydrate* nào trong nhóm nêu trên **không** có nhóm $-OH$ *hemiacetal* hoặc *hemiketal*?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "4f8c45208eb34f9886df999c285f3bbf",
+          "answer": "**A**. Glucose."
+        },
+        {
+          "id_answer": "5f2ba1e8e1704c2e9ea34a79f093c985",
+          "answer": "**B**. Fructose."
+        },
+        {
+          "id_answer": "f1ad2eb8435847f5a0e19b006a012230",
+          "answer": "**C**. Saccharose."
+        },
+        {
+          "id_answer": "4aa6bb2f4f204dea9d208f0ef637f8ad",
+          "answer": "**D**. Maltose."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "f1ad2eb8435847f5a0e19b006a012230",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "b78faa07a28a4127a6ff1dc25f739a4e",
+      "order": 12,
+      "question": "**Câu 12:** Cho 4 *carbohydrate* sau: *glucose*, *fructose*, *maltose*, *saccharose*.Trong số các *carbohydrate* đã nêu, số *carbohydrate* có khả năng mở vòng cho xuất hiện trở lại các nhóm aldehyde $(-CHO)$ hoặc ketone $(>C=O)$ là:\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "b93b54e2e010427e9a72eafc46b2bb02",
+          "answer": "**A**. 1."
+        },
+        {
+          "id_answer": "efcf12e97ba04e77ab27730a2bb31565",
+          "answer": "**B**. 2."
+        },
+        {
+          "id_answer": "40a3915dcc6c4afaa61daafb7cf59472",
+          "answer": "**C**. 3."
+        },
+        {
+          "id_answer": "71ecba5379f043eea127896414ab4580",
+          "answer": "**D**. 4."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "40a3915dcc6c4afaa61daafb7cf59472",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "473ac5e3b5b04fe68d29d17f05371e92",
+      "order": 13,
+      "question": "**Câu 13:** Phản ứng đặc trưng của *maltose* là:\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "e3cf3cf131c84c0a965d94d4abe751a6",
+          "answer": "**A**. phản ứng với dung dịch NaOH."
+        },
+        {
+          "id_answer": "0c5d81c9a03146b684a9cd65646eb60a",
+          "answer": "**B**. phản ứng màu với iodine."
+        },
+        {
+          "id_answer": "b631798dbfa14a45959a3b1445669f1e",
+          "answer": "**C**. phản ứng thủy phân tạo ra *glucose*."
+        },
+        {
+          "id_answer": "04b1e9e01ba54bb2a1df72cdebb6b648",
+          "answer": "**D**. phản ứng lên men trực tiếp tạo ra ethanol."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "b631798dbfa14a45959a3b1445669f1e",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "66598acd786c49ee93a3fb2fe6912f99",
+      "order": 14,
+      "question": "**Câu 14:** *Saccharose* và *maltose* đều tham gia phản ứng nào sau đây?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "15cfe15016ca484da1026bf636e4eb21",
+          "answer": "**A**. Phân ứng với thuốc thử Tolens."
+        },
+        {
+          "id_answer": "983338325575481492fa88557af4ebe9",
+          "answer": "**B**. Phân ứng thủy phân trong môi trường *acid*."
+        },
+        {
+          "id_answer": "0d83d344129b4db0862506c5dda4f8ab",
+          "answer": "**C**. Phân ứng với dung dịch nước bromine."
+        },
+        {
+          "id_answer": "cb905c3837f8494d8cb149fe1a8d6b56",
+          "answer": "**D**. Phân ứng với $Cu(OH)_2$ tạo kết tủa đồ gạch."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "983338325575481492fa88557af4ebe9",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "57372fe97b52450f8c93a30f3de46e6b",
+      "order": 15,
+      "question": "**Câu 15:** Chất nào dưới đây **không** có phản ứng tráng bạc khi cho phản ứng với thuốc thử *Tollens*?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "d655d9e035b4470fa5ddeb96c8ef4d27",
+          "answer": "**A**. Saccharose."
+        },
+        {
+          "id_answer": "c1540434593d49918239833a6e45abd5",
+          "answer": "**B**. Glucose."
+        },
+        {
+          "id_answer": "40b68e8d9b074d07a679fe55d1e16716",
+          "answer": "**C**. Maltose."
+        },
+        {
+          "id_answer": "bbd39c8329d0426aacdb938ec3b5fdb8",
+          "answer": "**D**. Fructose."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "d655d9e035b4470fa5ddeb96c8ef4d27",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "1a7945863f764280bc249869ef58bba5",
+      "order": 16,
+      "question": "**Câu 16:** Phát biểu nào sau đây về *saccharose* là đúng?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "8e9b75c2960b4a18825f51dda29af2d9",
+          "answer": "**A**. *Saccharose* không bị thủy phân trong môi trường *acid*."
+        },
+        {
+          "id_answer": "cade409aba1841a4a0a432d4281d1aab",
+          "answer": "**B**. Thủy phân *saccharose* chỉ thu được *glucose*."
+        },
+        {
+          "id_answer": "d7401388f9024d9ab664015286cf23d5",
+          "answer": "**C**. Thủy phân *saccharose* thu được cả *glucose* và *fructose*."
+        },
+        {
+          "id_answer": "6208fa410a1e4214bd399f1493491371",
+          "answer": "**D**. Thủy phân *saccharose* chỉ thu được *fructose*."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "d7401388f9024d9ab664015286cf23d5",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "629b21b2e1eb48e1a79af9cd6f145bd9",
+      "order": 17,
+      "question": "**Câu 17:** Khi cho dung dịch *saccharose* vào ống nghiệm chứa $Cu(OH)_2$/NaOH, lắc nhẹ ống nghiệm thì thấy có hiện tượng nào sau đây?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "032b1b9d28954321839d94c64af76db7",
+          "answer": "**A**. Kim loại màu vàng sáng bám trên bề mặt ống nghiệm."
+        },
+        {
+          "id_answer": "f7534b9d95e24e6fb0379bf102e2d13d",
+          "answer": "**B**. Kết tủa màu đỏ gạch xuất hiện trong ống nghiệm."
+        },
+        {
+          "id_answer": "60859285bddf4f8794354d3938b5b860",
+          "answer": "**C**. Dung dịch trở nên đồng nhất và có màu xanh lam."
+        },
+        {
+          "id_answer": "73822b74798049d18a0fef886bd1b0ab",
+          "answer": "**D**. Chất lỏng trong ống nghiệm tách thành hai lớp và xuất hiện kết tủa màu xanh nhạt lắng xuống đáy ống nghiệm."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "60859285bddf4f8794354d3938b5b860",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "64e03a2cf0ca42efba04e72fec6eced3",
+      "order": 18,
+      "question": "**Câu 18:** Chất X có các đặc điểm sau: phân tử có nhiều nhóm $-OH$, có vị ngọt, hòa tan $Cu(OH)_2$ ở nhiệt độ thường, phân tử có liên kết glycoside, **không** làm mất màu nước bromine. Chất X là\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bec7805581e4404babfc45e34959890f",
+          "answer": "**A**. *tinh bột* ."
+        },
+        {
+          "id_answer": "57d76692bcab451fb73283c7aea3b7c9",
+          "answer": "**B**. *saccharose*."
+        },
+        {
+          "id_answer": "08ebbdd7a18b4751b8c6d854b2051889",
+          "answer": "**C**. *glucose*."
+        },
+        {
+          "id_answer": "0753a1dd852b4028a6501fd445269d19",
+          "answer": "**D**. *cellulose* ."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "57d76692bcab451fb73283c7aea3b7c9",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "a2d00c4e137649de801f91fd117fc582",
+      "order": 19,
+      "question": "**Câu 19:** Phát biểu nào sau đây về *maltose* là đúng?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "f1e58e814b244ab0a1ac22d093ff85f0",
+          "answer": "**A**. Được cấu tạo từ 1 đơn vị α-*glucose* và 1 đơn vị β-*fructose*."
+        },
+        {
+          "id_answer": "1f6b6505b6b748cc98195d4235c8c7c7",
+          "answer": "**B**. Có nhiều trong cây mía, hoa thốt nốt, củ cải đường."
+        },
+        {
+          "id_answer": "fd98480d4f7347de8d0905038515b002",
+          "answer": "**C**. Không chứa nhóm $-OH$ *hemiacetal*."
+        },
+        {
+          "id_answer": "c491242d388f4917b28d400dfeb8bde2",
+          "answer": "**D**. Là chất rắn ở điều kiện thường."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "c491242d388f4917b28d400dfeb8bde2",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "b06732b66a2c43b3be2bc845aed850da",
+      "order": 20,
+      "question": "**Câu 20:** *Saccharose* và *maltose* là disaccharide tạo bởi lần lượt các liên kết\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "687d649cfa06412197a74a776d2027a7",
+          "answer": "**A**. $\\alpha-1,2-glycoside$ và $\\alpha-1,2-glycoside$."
+        },
+        {
+          "id_answer": "ed7f8e6751a4440496f68bf42e8c1c6c",
+          "answer": "**B**. $\\beta-1,4-glycoside$ và $\\beta-1,2-glycoside$."
+        },
+        {
+          "id_answer": "7eb537ebba1d4ea0bb8bfe4119884a34",
+          "answer": "**C**. $\\alpha-1,2-glycoside$ và $\\alpha-1,4-glycoside$."
+        },
+        {
+          "id_answer": "2215ab8669444359989dadd22d76f701",
+          "answer": "**D**. $\\alpha-1,4-glycoside$ và $\\beta-1,4-glycoside$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "7eb537ebba1d4ea0bb8bfe4119884a34",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "5bf60bceeb984695ba65dd1311b08fcc",
+      "order": 21,
+      "question": "**Câu 21:** Carbohydrate Z tham gia chuyển hóa như bên dưới. Z **không** thể là chất nào dưới đây?\n\n*(1)* $Z \\xrightarrow{Cu(OH)_{2}/OH^{-}}$ dung dịch xanh lam\n*(2)* $Z \\xrightarrow{Cu(OH)_{2}/OH^{-}, t^{0}}$ kết tủa đỏ gạch",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "3df55d7c3a134bfb8b5b2f894297363c",
+          "answer": "**A**. Glucose."
+        },
+        {
+          "id_answer": "6e4041dc1ece46f0842f4de083807ffa",
+          "answer": "**B**. Fructose."
+        },
+        {
+          "id_answer": "324b5e342dd740c5b3fa521332ad5a6d",
+          "answer": "**C**. Saccharose."
+        },
+        {
+          "id_answer": "e5f2ab05da2c4075b771c8da4442e70a",
+          "answer": "**D**. Maltose."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "324b5e342dd740c5b3fa521332ad5a6d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "9ab37c76b1dc492fbd01ad64e1a5510d",
+      "order": 22,
+      "question": "**Câu 22:** Trong công nghiệp thực phẩm, *saccharose* được sử dụng phổ biến làm nguyên liệu để sản xuất bánh kẹo, nước giải khát... Phát biểu nào sau đây là sai?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "b2bc49a4b0cc4b6197bccecf8aa5eecc",
+          "answer": "**A**. *Saccharose* thuộc loại disaccharide."
+        },
+        {
+          "id_answer": "112b82865cfc449eb2ba9d135a12e778",
+          "answer": "**B**. Dung dịch *saccharose* hoà tan được $Cu(OH)_2$ cho dung dịch màu xanh lam."
+        },
+        {
+          "id_answer": "f176dfcc8f594fe0810b5e1f803ddfd4",
+          "answer": "**C**. Thủy phân *saccharose* chỉ thu được *glucose*."
+        },
+        {
+          "id_answer": "bdbcd17c07ee4f56bd8f83151566c1d6",
+          "answer": "**D**. *Saccharose* thường được tách từ nguyên liệu là cây mía, cù cải đường,..."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "f176dfcc8f594fe0810b5e1f803ddfd4",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "fe3b22973911403b9b3d366046a287f8",
+      "order": 23,
+      "question": "**Câu 23:** Phát biểu nào sau đây là đúng?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ecb998e4bb9b464c859fe04bed0a584d",
+          "answer": "**A**. *Glucose* tinh khiết là chất chất rắn, không tan trong nước."
+        },
+        {
+          "id_answer": "d5c8dac974754b7fb2d1a0d2b77aeb8b",
+          "answer": "**B**. *Fructose* tinh khiết là chất rắn, có vị chua của hoa quả."
+        },
+        {
+          "id_answer": "4d2fcadc52744b4bbb366548a34288e7",
+          "answer": "**C**. *Saccharose* tinh khiết là chất rắn, màu nâu, có vị ngọt."
+        },
+        {
+          "id_answer": "6abb5da462134b1da2ef9b05128d7070",
+          "answer": "**D**. *Maltose* tinh khiết là chất rắn, tan tốt trong nước, có vị ngọt."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "6abb5da462134b1da2ef9b05128d7070",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "e6864255a3134c5eb911a5c5c76d894b",
+      "order": 24,
+      "question": "**Câu 24:** Cho 4 chất như hình bên dưới. Chất thuộc loại disaccharide là\n",
+      "type_question": "four_choice",
+      "path_images": "backend-api/data/Saccharose và Maltose (1)/images/4/25.jpg",
+      "answers": [
+        {
+          "id_answer": "e10874e06c464b4fba12fa583aae49ef",
+          "answer": "**A**. (1)."
+        },
+        {
+          "id_answer": "86a2d33701d14c2baa14ad785d7cf3bc",
+          "answer": "**B**. (2)."
+        },
+        {
+          "id_answer": "61e2967ea9144a5fbd88751d90d89b3d",
+          "answer": "**C**. (3)."
+        },
+        {
+          "id_answer": "7b0cb6794e1146a4a7ae66908e631a19",
+          "answer": "**D**. (4)."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "7b0cb6794e1146a4a7ae66908e631a19",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "1618d2ba81b44e7582fbe622e9ee7ca4",
+      "order": 25,
+      "question": "**Câu 25:** Sắp xếp các chất sau đây theo thứ tự độ ngọt tăng dân (cùng một lượng): *glucose*, *fructose*, *saccharose*.\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "7f5577463f394ebc9ec013077aa98fed",
+          "answer": "**A**. *Glucose* < *saccharose* < *fructose*."
+        },
+        {
+          "id_answer": "51206e8b75c942ad92057ffe32d3c37a",
+          "answer": "**B**. *Fructose* < *glucose* < *saccharose*."
+        },
+        {
+          "id_answer": "ab4d9aec5bff41d6929c7c503bad20ee",
+          "answer": "**C**. *Glucose* < *fructose* < *saccharose*."
+        },
+        {
+          "id_answer": "ca36d0a84c4d43878db2f3cef7d4a260",
+          "answer": "**D**. *Saccharose* < *fructose* < *glucose*."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "7f5577463f394ebc9ec013077aa98fed",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "f6af08fcbabd4bbeb3b5346a80e1146c",
+      "order": 26,
+      "question": "**Câu 26:** Loại *glucide* **không** có tính khử là\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "844bdf66db21440dafee192cecff5254",
+          "answer": "**A**. *glucose*."
+        },
+        {
+          "id_answer": "7565d17d4b974e7f9d7c23e8b90314bc",
+          "answer": "**B**. *fructose*."
+        },
+        {
+          "id_answer": "c58f8d94f063460f9d0c7e4ebdaedea6",
+          "answer": "**C**. *saccharose*."
+        },
+        {
+          "id_answer": "c6d9635e635d4bf7a5941c7e67bab59a",
+          "answer": "**D**. *maltose*."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "c58f8d94f063460f9d0c7e4ebdaedea6",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "2b39c86efc4742e9a70a35d95c3e27b5",
+      "order": 27,
+      "question": "**Câu 27:** *Saccharose* và *glucose* đều\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "efc3b706075e4b5097ea06a222ee9f3c",
+          "answer": "**A**. phần ứng với dung dịch $NaCl$."
+        },
+        {
+          "id_answer": "606acd2db1b24bedb776cc62426e0af2",
+          "answer": "**B**. phản ứng với $Cu(OH)_2$ ở nhiệt độ thường tạo thành dung dịch xanh lam."
+        },
+        {
+          "id_answer": "801f039147e34d2f973f457a5b80a0b3",
+          "answer": "**C**. phản ứng với $AgNO_3$ trong dung dịch $NH_3$, đun nóng."
+        },
+        {
+          "id_answer": "740d9cc06db64987bc8c58e7a4fdcf20",
+          "answer": "**D**. phản ứng thủy phân trong môi trường *acid*."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "606acd2db1b24bedb776cc62426e0af2",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "c68ab300406f4b6d919b9a9d41e2730b",
+      "order": 28,
+      "question": "**Câu 28:** Dãy các chất nào dưới đây đều phản ứng được với $Cu(OH)_2$ ở điều kiện thường?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "5c09c1fb99004931a84462bc1550d81f",
+          "answer": "**A**. Ethylene glycol, glycerol và ethyl alcohol."
+        },
+        {
+          "id_answer": "1b9eac62cb614de29ee264706b327bf7",
+          "answer": "**B**. Glucose, glycerol và *saccharose*."
+        },
+        {
+          "id_answer": "5d150d5a823140bfa170f3f35db69e78",
+          "answer": "**C**. Glucose, glycerol và *methyl acetate*."
+        },
+        {
+          "id_answer": "413bcc5424da4f63b6b3b0c4552c6af6",
+          "answer": "**D**. Glycerol, *glucose* và *ethyl acetate*."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "1b9eac62cb614de29ee264706b327bf7",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "c4eb0d680baf4ae9a5ab71aecce43cdf",
+      "order": 29,
+      "question": "**Câu 29:** Dung dịch nước của một *carbohydrate* X có 3 tính chất sau. X có thể là dung dịch của chất nào ?\n\n*(a)* Hòa tan dung dịch $Cu(OH)_2$ tạo ra dung dịch có màu xanh lam.\n*(b)* Không cho kết tủa bạc khi tác dụng với thuốc thử *Tollens*.\n*(c)* Đun nóng với dung dịch *acid* loãng, sản phẩm thu được kết tủa $Cu_2O$ với tác nhân $Cu(OH)_2$.",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "f1250ad91aa14658a85baef63b00144e",
+          "answer": "**A**. Glucose."
+        },
+        {
+          "id_answer": "958f890268f042a6b5ef690bf4c9381a",
+          "answer": "**B**. Saccharose."
+        },
+        {
+          "id_answer": "2ba4d016f07c4806932605287d274269",
+          "answer": "**C**. Maltose."
+        },
+        {
+          "id_answer": "b491b796870c4f168ab0e1c418a8faa7",
+          "answer": "**D**. Celluose."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "958f890268f042a6b5ef690bf4c9381a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "1f76da8d88c8437cace05692d3ff2549",
+      "order": 30,
+      "question": "**Câu 30:** Các phát biểu về cấu tạo của *saccharose* và *maltose*:\n",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "342e196af604468ba9b2014896cfba6f",
+          "answer": "*a)* *Maltose* được tạo thành từ hai đơn vị *fructose*."
+        },
+        {
+          "id_answer": "33c93538c9c94832823f3ffcd47d85a1",
+          "answer": "*b)* *Maltose* có liên kết $\\alpha-1,4-glycoside$ giữa hai đơn vị *glucose*."
+        },
+        {
+          "id_answer": "89503e3a101c40f4a915cf4d3fbdf534",
+          "answer": "*c)* Phân tử *saccharose* chứa một liên kết $\\beta-1,2-glycoside$."
+        },
+        {
+          "id_answer": "5587505218b842c281d50347c0ce16d4",
+          "answer": "*d)* Phân tử *saccharose* chỉ tôn tại dạng mạch vòng."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "33c93538c9c94832823f3ffcd47d85a1",
+          "5587505218b842c281d50347c0ce16d4"
+        ],
+        "false_answer": [
+          "342e196af604468ba9b2014896cfba6f",
+          "89503e3a101c40f4a915cf4d3fbdf534"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ce9e847a10474a87a88a4f4a027c5dee",
+      "order": 31,
+      "question": "**Câu 31:** Các phát biểu về tính chất của *saccharose* và *maltose*:\n",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "0a463b961e054f55b92ed3112bf39762",
+          "answer": "*a)* *Saccharose* không thể tạo dung dịch màu xanh lam khi phản ứng với $Cu(OH)_2$."
+        },
+        {
+          "id_answer": "24c4e92652e04603822b0d0b013f91ab",
+          "answer": "*b)* *Saccharose* không phản ứng với thuốc thử *Tollens*."
+        },
+        {
+          "id_answer": "4f8f6ca4f02e464b9a8e45a85e95cd63",
+          "answer": "*c)* *Saccharose* có thể bị thủy phân thành *glucose* và *fructose*."
+        },
+        {
+          "id_answer": "8ef01fe9b88246f0841ed52d4960a062",
+          "answer": "*d)* *Maltose* có thể phản ứng với thuốc thử *Tollens* và làm mất màu nước bromine."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "24c4e92652e04603822b0d0b013f91ab",
+          "4f8f6ca4f02e464b9a8e45a85e95cd63",
+          "8ef01fe9b88246f0841ed52d4960a062"
+        ],
+        "false_answer": [
+          "0a463b961e054f55b92ed3112bf39762"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "a4c4a698af794b099dc3902c23242ad1",
+      "order": 32,
+      "question": "**Câu 32:** Cấu trúc phân tử *saccharose* và *maltose* được cho dưới đây:\n",
+      "type_question": "true_false",
+      "path_images": "backend-api/data/Saccharose và Maltose (1)/images/2/3.jpg",
+      "answers": [
+        {
+          "id_answer": "6afcc03dbac0423e94d56c55184699e9",
+          "answer": "*a)* Phân tử *saccharose* không còn nhóm $-OH$ *hemiacetal* và nhóm $-OH$ *hemiketal*."
+        },
+        {
+          "id_answer": "504a873825e149b7a274f5972cc66a27",
+          "answer": "*b)* Phân tử *saccharose* và *maltose* đều không có khả năng mở vòng."
+        },
+        {
+          "id_answer": "1c29a0e02605441f92c1ecfd77afa4fe",
+          "answer": "*c)* Phân tử *saccharose* tạo bởi một đơn vị β-*glucose* và một đơn vị α-*fructose*, liên kết với nhau qua nguyên tử oxygen giữa $C_{1}$ của đơn vị β-*glucose* và $C_{4}$ của đơn vị α-*fructose*."
+        },
+        {
+          "id_answer": "c3e80a20ac5543feac42b5d117bd77e1",
+          "answer": "*d)* *Saccharose* và *maltose* đều là các disaccharide."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "6afcc03dbac0423e94d56c55184699e9",
+          "c3e80a20ac5543feac42b5d117bd77e1"
+        ],
+        "false_answer": [
+          "504a873825e149b7a274f5972cc66a27",
+          "1c29a0e02605441f92c1ecfd77afa4fe"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "5f36319c54b34cf1bd1dd52636a8de7a",
+      "order": 33,
+      "question": "**Câu 33:** Quan sát cấu trúc phân tử *maltose* dạng mạch vòng và dạng mở vòng sau:\n",
+      "type_question": "true_false",
+      "path_images": "backend-api/data/Saccharose và Maltose (1)/images/2/4.jpg",
+      "answers": [
+        {
+          "id_answer": "e87b3525e5e54e29a63d2f085d90b5ca",
+          "answer": "*a)* Phân tử *maltose* tạo bởi hai đơn vị *glucose*, liên kết với nhau qua nguyên tử oxygen giữa $C_{1}$ của đơn vị *glucose* này và $C_{4}$ của đơn vị *glucose* kia."
+        },
+        {
+          "id_answer": "29e0df2a66fb49cbadefcfeae68b8668",
+          "answer": "*b)* Phân tử *maltose* còn một nhóm $-OH$ *hemiacetal*."
+        },
+        {
+          "id_answer": "12d976f516864d4e91704cb4e65e5d19",
+          "answer": "*c)* Thủy phân *maltose* chỉ thu được *glucose*."
+        },
+        {
+          "id_answer": "fed6f4526eb649ec82f38746e38ce1dc",
+          "answer": "*d)* *Maltose* không có khả năng phản ứng với thuốc thử *Tollens*."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "e87b3525e5e54e29a63d2f085d90b5ca",
+          "29e0df2a66fb49cbadefcfeae68b8668",
+          "12d976f516864d4e91704cb4e65e5d19"
+        ],
+        "false_answer": [
+          "fed6f4526eb649ec82f38746e38ce1dc"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "65dbe72181f04134973791be61027cbf",
+      "order": 34,
+      "question": "**Câu 34:** *Saccharose monolaurate* là *ester* thu được khi cho *saccharose* tác dụng với lauric *acid*.\n",
+      "type_question": "true_false",
+      "path_images": "backend-api/data/Saccharose và Maltose (1)/images/2/5.jpg",
+      "answers": [
+        {
+          "id_answer": "da7334fb95e74b5e97e61ebd93b9811a",
+          "answer": "*a)* Công thức phân tử của *saccharose monolaurate* $C_{24}H_{45}O_{12}$."
+        },
+        {
+          "id_answer": "e9a20a08e92246039ddade16f33fb1c0",
+          "answer": "*b)* *Saccharose* monolaurate là hợp chất hữu cơ tạp chức."
+        },
+        {
+          "id_answer": "c8d7267ce3ea48668d90bcc9da722864",
+          "answer": "*c)* *Saccharose* monolaurate có phản ứng với thuốc thử *Tollens*."
+        },
+        {
+          "id_answer": "f65bafe2e0c44ed9a9b47fe75ad90421",
+          "answer": "*d)* Từ $500g$ *saccharose* và $100g$ lauric *acid* điều chế được $123,14g$ *saccharose monolaurate*. Cho biết hiệu suất phản ứng đạt $47\\%$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "e9a20a08e92246039ddade16f33fb1c0",
+          "f65bafe2e0c44ed9a9b47fe75ad90421"
+        ],
+        "false_answer": [
+          "da7334fb95e74b5e97e61ebd93b9811a",
+          "c8d7267ce3ea48668d90bcc9da722864"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "e1ece006ebcc4bf9acdaec6004af222b",
+      "order": 35,
+      "question": "**Câu 35:** *Saccharose* có công thức phân tử $C_{12}H_{22}O_{11}$ , cấu tạo từ một đơn vị α-*glucose* và một đơn vị β-*fructose* qua liên kết $\\alpha-1,2-glycoside$. Tổng số nhóm $-OH$ trong phân tử *saccharose* là bao nhiêu?\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "8"
+      }
+    },
+    {
+      "id_question": "f95005d131aa4f118cc541f3958bc094",
+      "order": 36,
+      "question": "**Câu 36:** Trong số 4 *carbohydrate*: *glucose*, *fructose*, *saccharose*, *maltose* có bao nhiêu *carbohydrate* có nhóm $-OH$ *hemiacetal* trong phân tử?\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "3"
+      }
+    }
+  ]
+}
