@@ -83,7 +83,7 @@ function CardQuestionShortAnswer({ question, onChange, data, results }: CardQues
             <input
               className={classNameInput}
               type="text" 
-              value={`Đáp án của bạn: ${studentAnswer}`}
+              value={`Đáp án của bạn: ${studentAnswer ?? "Chưa làm!"}`}
               readOnly
             />
             <input
