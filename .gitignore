@@ -20,6 +20,7 @@ venv
 .env.*
 !.env.example
 __pycache__
+.cache
 
 ## Editor directories and files
 .idea
