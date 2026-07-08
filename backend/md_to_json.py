@@ -20,7 +20,7 @@ def is_question(line):
     return line.startswith("**Câu")
 
 def is_question_in(line):
-    return re.match(r"^\*\([a-d]\)\*", line) or re.match(r"^\*\(\d+\)\*", line)
+    return re.match(r"^\*\([a-z]\)\*", line) or re.match(r"^\*\(\d+\)\*", line)
 
 def is_answer_four_choice(line):
     return re.match(r"^\*\*[A-D]\*\*\.", line)
