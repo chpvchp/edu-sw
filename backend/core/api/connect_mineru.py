@@ -5,6 +5,7 @@ def pdf_to_md_mineru(name_file):
     
     ROOT = Path(__file__).resolve().parents[2]
     pdf_path = ROOT / "pdf" / name_file
+    key = Path(name_file).stem
     
     # print(ROOT)
     # print(pdf_path)
@@ -48,4 +49,4 @@ def pdf_to_md_mineru(name_file):
             timeout=timeout
         )
     
-    return response.json().get("results").get("pdf").get("md_content")
+    return response.json().get("results").get(key).get("md_content")
