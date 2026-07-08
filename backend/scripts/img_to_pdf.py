@@ -14,8 +14,8 @@ def img_to_pdf(name):
     print("Done!")
     print(pdf_file)
 
-name = input("Input Name Exam: ")        
+# name = input("Input Name Exam: ")        
 
-img_to_pdf(
-    name=name
-)
+# img_to_pdf(
+#     name=name
+# )

@@ -24,8 +24,8 @@ def pdf_to_md(name_file):
     print("Done!")
     print(output_file)
 
-name = input("Input Name Exam: ")     
+# name = input("Input Name Exam: ")     
 
-pdf_to_md(
-    name_file=name
-)
+# pdf_to_md(
+#     name_file=name
+# )
