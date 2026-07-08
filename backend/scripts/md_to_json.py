@@ -5,13 +5,7 @@ import os
 import re
 import json
 import uuid
-import argparse
-
-params = argparse.ArgumentParser()
-params.add_argument("name", type=str)
-params.add_argument("id_sub", type=int)
-params.add_argument("duration", type=int)
-args = params.parse_args()
+from pathlib import Path
 
 def clean_line(line):
     return line.strip()
@@ -41,6 +35,10 @@ def is_correct_four_choice(line):
         return True
 
 def parse(name_exam, id_subject, duration):
+    
+    ROOT = Path(__file__).resolve().parents[1]
+    path_exam = ROOT / "data" / name_exam / f"{name_exam}.md"
+    
     questions = []
     current_question = None
     order = 1
@@ -53,7 +51,7 @@ def parse(name_exam, id_subject, duration):
         "questions": questions
     }
     
-    with open(f"./data/{name_exam}/{name_exam}.md", "r", encoding="utf-8") as file:
+    with open(path_exam, "r", encoding="utf-8") as file:
         for line in file:
             line = clean_line(line)
 
@@ -140,7 +138,7 @@ def parse(name_exam, id_subject, duration):
         
         
 parse(
-    name_exam=args.name,
-    id_subject=args.id_sub,
-    duration=args.duration
+    name_exam="pdf",
+    id_subject=2,
+    duration=30
 )
