@@ -10,6 +10,9 @@ def img_to_pdf(name):
 
     with open(pdf_file, "wb") as file:
         file.write(img2pdf.convert([img for img in images]))
+        
+    print("Done!")
+    print(pdf_file)
 
 name = input("Input Name Exam: ")        
 

@@ -20,6 +20,9 @@ def pdf_to_md(name_file):
 
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(str(text_md))
+        
+    print("Done!")
+    print(output_file)
 
 name = input("Input Name Exam: ")     
 
