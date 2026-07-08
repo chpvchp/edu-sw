@@ -135,10 +135,13 @@ def parse(name_exam, id_subject, duration):
     with open(f"./json/{name_exam}.json", "w", encoding="utf-8") as file:
         data_json = json.dumps(exam, indent=2, ensure_ascii=False)
         file.write(data_json)
-        
+
+name = input("Input Name Exam: ")
+id_sub = int(input("ID_SUB: "))
+dur = int(input("Duration: "))
         
 parse(
-    name_exam="pdf",
-    id_subject=2,
-    duration=30
+    name_exam=name,
+    id_subject=id_sub,
+    duration=dur
 )

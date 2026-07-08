@@ -10,7 +10,9 @@ def img_to_pdf(name):
 
     with open(pdf_file, "wb") as file:
         file.write(img2pdf.convert([img for img in images]))
-        
+
+name = input("Input Name Exam: ")        
+
 img_to_pdf(
-    name="Tinh Bột và Cellulose (1)"
+    name=name
 )
