@@ -13,7 +13,7 @@ def pdf_to_md_mineru(name_file):
     url = "http://localhost:8888/file_parse"
 
     data = {
-        "image_analysis": "true",
+        "image_analysis": "false",
         "client_side_output_generation": "false",
         "return_middle_json": "false",
         "return_model_output": "false",
@@ -26,7 +26,7 @@ def pdf_to_md_mineru(name_file):
         "lang_list": "ch",
         "return_content_list": "false",
         "backend": "vlm-engine",
-        "table_enable": "true",
+        "table_enable": "false",
         "response_format_zip": "false",
         "return_original_file": "false",
         "formula_enable": "true",
