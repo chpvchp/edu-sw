@@ -9,7 +9,7 @@ from pathlib import Path
 
 def pdf_to_md(name_file):
     ROOT = Path(__file__).resolve().parents[1]
-    data_path = ROOT / "data"
+    data_path = ROOT / ".cache"
 
     text_md = pdf_to_md_mineru(name_file=f"{name_file}.pdf")
     text_md, total_replace = parse_clean_md(text_md)
