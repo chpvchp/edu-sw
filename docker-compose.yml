@@ -3,25 +3,30 @@ services:
   cloudflare:
     container_name: cloudflare
     image: cloudflare/cloudflared:latest
+    profiles: ["edu-sw"]
     command: tunnel --no-autoupdate run --token ${TOKEN_CLOUDFLARED}
+
   frontend:
     container_name: frontend
     build: ./frontend
+    profiles: ["edu-sw"]
     ports:
       - "80:80"
     volumes:
       - ./frontend/dist:/frontend
       - ./.nginx/default.conf:/etc/nginx/conf.d/default.conf
-  
+
   backend:
     container_name: backend
     build: ./backend
+    profiles: ["edu-sw"]
     expose:
       - 6789
 
   db:
     image: postgres:18
     container_name: postgres_db
+    profiles: ["db"]
     ports:
       - "5432:5432"
     env_file:
@@ -33,7 +38,6 @@ services:
   mineru-api:
     image: mineru:latest
     container_name: mineru-api
-    restart: always
     profiles: ["api"]
     ports:
       - 8888:8888
@@ -51,7 +55,44 @@ services:
       stack: 67108864
     ipc: host
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8000/health || exit 1"]
+      test: ["CMD-SHELL", "curl -f http://localhost:8888/health || exit 1"]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["0"]  # Modify for multiple GPUs: ["0", "1"]
+              capabilities: [gpu]
+
+  open-webui:
+    build: ./.openwebui
+    image: chpvchp/open-webui:main
+    container_name: open-webui
+    profiles: ["open-webui"]
+    ports:
+        - "8080:8080"
+    volumes:
+        - openwebui_volume:/app
+    environment:
+        - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/openwebui-db
+        - WEBUI_AUTH=False
+
+  llama-cpp:
+    image: ghcr.io/ggml-org/llama.cpp:server-cuda13
+    container_name: llama-cpp-server
+    profiles: ["llm-server"]
+    ports:
+      - 9876:9876
+    volumes:
+      - /mnt/hdd/model-gguf:/models
+    command: >
+      -m /models/model.gguf
+      -fa on
+      --ctx-size 8192
+      -b 512
+      -ub 256
+      --host 0.0.0.0
+      --port 9876
     deploy:
       resources:
         reservations:
@@ -62,3 +103,4 @@ services:
 
 volumes:
   db_volume:
+  openwebui_volume:
