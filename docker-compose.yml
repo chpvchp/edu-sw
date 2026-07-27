@@ -26,7 +26,6 @@ services:
   db:
     image: postgres:18
     container_name: postgres_db
-    profiles: ["db"]
     ports:
       - "5432:5432"
     env_file:
@@ -34,48 +33,6 @@ services:
     volumes:
       - db_volume:/var/lib/postgresql/18/docker
       - ./.backup:/backup
-
-  mineru-api:
-    image: mineru:latest
-    container_name: mineru-api
-    profiles: ["api"]
-    ports:
-      - 8888:8888
-    environment:
-      MINERU_MODEL_SOURCE: local
-    entrypoint: mineru-api
-    command:
-      --host 0.0.0.0
-      --port 8888
-      # --allow-public-http-client  # Disabled by default; when binding to 0.0.0.0 or ::, this re-enables *-http-client backends and server_url. Enable only if you accept the SSRF risk.
-      # parameters for vllm-engine
-      # --gpu-memory-utilization 0.5  # If encountering VRAM shortage, reduce the KV cache size by this parameter; if VRAM issues persist, try lowering it further to `0.4` or below.
-    ulimits:
-      memlock: -1
-      stack: 67108864
-    ipc: host
-    healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8888/health || exit 1"]
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              device_ids: ["0"]  # Modify for multiple GPUs: ["0", "1"]
-              capabilities: [gpu]
-
-  open-webui:
-    build: ./.openwebui
-    image: chpvchp/open-webui:main
-    container_name: open-webui
-    profiles: ["open-webui"]
-    ports:
-        - "8080:8080"
-    volumes:
-        - openwebui_volume:/app
-    environment:
-        - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/openwebui-db
-        - WEBUI_AUTH=False
 
   llama-cpp:
     image: ghcr.io/ggml-org/llama.cpp:server-cuda13
@@ -86,11 +43,14 @@ services:
     volumes:
       - /mnt/hdd/model-gguf:/models
     command: >
-      -m /models/model.gguf
-      -fa on
-      --ctx-size 8192
+      -m /models/gemma-4/gemma-4-E4B-it-qat-UD-Q4_K_XL.gguf
+      -ngl 99
+      -t 12
       -b 512
       -ub 256
+      -fa on
+      --reasoning off
+      --ctx-size 8192
       --host 0.0.0.0
       --port 9876
     deploy:
@@ -103,4 +63,3 @@ services:
 
 volumes:
   db_volume:
-  openwebui_volume:

@@ -4,3 +4,4 @@ psycopg[binary]
 python-dotenv
 opencv-python-headless
 img2pdf
+langgraph
