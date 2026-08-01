@@ -14,7 +14,7 @@ export type SubmitQuestionAnswerResponse = {
   num_wrong: number;
   num_none: number;
   duration: number;
-  student_duration: number;
+  student_duration: number | string;
   created: string;
   questions: Question[];
   correct_results: Record<string, { type: Question["type_question"]; results: Question["results"] }>;

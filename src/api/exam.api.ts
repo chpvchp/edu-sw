@@ -92,13 +92,13 @@ function calculateScore(exam: ExamData, studentResults: Record<string, QuestionR
     }
 
     if (question.type_question === "true_false") {
-      const scorePerAnswer = scorePerQuestion / 4;
+      let percentAnswerCorrect = 0;
       let questionIsCorrect = true;
 
       if (studentResult.type === "true_false") {
         for (const trueAnswer of studentResult.true_answer) {
           if (question.results.true_answer.includes(trueAnswer)) {
-            score += scorePerAnswer;
+            percentAnswerCorrect += 1;
           } else {
             questionIsCorrect = false;
           }
@@ -106,13 +106,23 @@ function calculateScore(exam: ExamData, studentResults: Record<string, QuestionR
 
         for (const falseAnswer of studentResult.false_answer) {
           if (question.results.false_answer.includes(falseAnswer)) {
-            score += scorePerAnswer;
+            percentAnswerCorrect += 1;
           } else {
             questionIsCorrect = false;
           }
         }
       } else {
         questionIsCorrect = false;
+      }
+
+      if (percentAnswerCorrect === 1) {
+        score += scorePerQuestion * 0.1
+      } else if (percentAnswerCorrect === 2) {
+        score += scorePerQuestion * 0.25
+      } else if (percentAnswerCorrect === 3) {
+        score += scorePerQuestion * 0.5
+      } else if (percentAnswerCorrect === 4) {
+        score += scorePerQuestion
       }
 
       if (questionIsCorrect) {
@@ -144,7 +154,7 @@ function calculateScore(exam: ExamData, studentResults: Record<string, QuestionR
     num_wrong: numWrong,
     num_none: numNone,
     duration: exam.duration,
-    student_duration: 0,
+    student_duration: "N/A",
     created: exam.created,
     questions: exam.questions,
     correct_results: correctResults,
