@@ -235,7 +235,7 @@
       "order": 8,
       "question": "**Câu 8:** [BGD-2025] Enzyme amylase là một protein có khả năng xúc tác cho phản ứng thủy phân tỉnh bột. Hoạt tính xúc tác của enzyme cảng cao thì phản ứng thủy phân tỉnh bột diễn ra cảng nhanh. Hoạt tính xúc tác của enzyme phụ thuộc vào các yếu tố như nhiệt độ, pH,... Một nhóm học sinh dự đoán “pH cảng tăng thì hoạt tính xúc tác của enzyme amylase cảng cao”. Từ đó, học sinh tiến hành thí nghiệm ở nhiệt độ không đổi nhưng thay đổi pH của môi trường để kiểm tra dự đoán trên như sau:\n",
       "type_question": "true_false",
-      "path_images": "/data/images/images/d0c116c6048c5a082adabfa73ce51ce246c384b8f44bd5d85914dccc191b8430.jpg",
+      "path_images": "/data/images/d0c116c6048c5a082adabfa73ce51ce246c384b8f44bd5d85914dccc191b8430.jpg",
       "answers": [
         {
           "id_answer": "protein_va_enzyme-q8-a",
@@ -267,7 +267,7 @@
       "order": 9,
       "question": "**Câu 9:** Hoạt tính xúc tác của enzyme cảng cao, tốc độ thủy phân protein cảng lớn. Hoạt tính enzyme phụ thuộc vào các yếu tố như nhiệt độ, pH,...\n",
       "type_question": "true_false",
-      "path_images": "/data/images/images/1e1342a46d557a877021fe9c88ed68ceab23efaee204f51db323459463ac54cc.jpg",
+      "path_images": "/data/images/1e1342a46d557a877021fe9c88ed68ceab23efaee204f51db323459463ac54cc.jpg",
       "answers": [
         {
           "id_answer": "protein_va_enzyme-q9-a",
@@ -714,7 +714,7 @@
       "order": 25,
       "question": "**Câu 12:** Khi nói về protein, phát biểu nào sau đây sai?\n",
       "type_question": "four_choice",
-      "path_images": "/data/images/images/4d33eb242f55871cc3a300ef8f375de68f4d04f707bd6e89468effe53cea292f.jpg",
+      "path_images": "/data/images/4d33eb242f55871cc3a300ef8f375de68f4d04f707bd6e89468effe53cea292f.jpg",
       "answers": [
         {
           "id_answer": "protein_va_enzyme-q25-a",
@@ -970,7 +970,7 @@
       "order": 33,
       "question": "**Câu 20:** Một nhóm học sinh nghiên cứu về khả năng xúc tác của enzyme α-amylase tới quá trình thủy phân tỉnh bột. Trong thí nghiệm này, nhóm học sinh thực hiện thí nghiệm thủy phân tỉnh bột với enzyme α-amylase ở nhiệt độ và pH khác nhau. Kết quả được mô tả bằng hai đồ thị như hình bên.\n",
       "type_question": "four_choice",
-      "path_images": "/data/images/images/216da9779f47b7c02c27f0f205e52b054a043ee63ebac1e80b568615d8534750.jpg",
+      "path_images": "/data/images/216da9779f47b7c02c27f0f205e52b054a043ee63ebac1e80b568615d8534750.jpg",
       "answers": [
         {
           "id_answer": "protein_va_enzyme-q33-a",
