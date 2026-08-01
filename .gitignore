@@ -1,5 +1,4 @@
-# .gitignore
-## FRONTEND - ReactTS
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -13,16 +12,9 @@ dist
 dist-ssr
 *.local
 
-## BACKEND - Python FastAPI
-venv
-.venv
-.env
-.env.*
-!.env.example
-__pycache__
-.cache
-
-## Editor directories and files
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
@@ -30,6 +22,3 @@ __pycache__
 *.njsproj
 *.sln
 *.sw?
-
-## OTHER
-# .data
