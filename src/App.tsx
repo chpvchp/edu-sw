@@ -1,17 +1,17 @@
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./routes/AppRoutes";
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import ScrollToTop from "./components/ScrollToTop";
 
-const queryClient = new QueryClient();
-
+/**
+ * App | Ứng dụng gốc của toàn bộ frontend.
+ * This component only wires the browser router and the top-level route tree, so the app shell stays predictable and easy to reason about.
+ * Thành phần này chỉ ghép BrowserRouter với cây route cấp cao nhất để giữ phần khung ứng dụng đơn giản, ổn định và dễ bảo trì.
+ */
 export default function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
-        <ScrollToTop />
-        <AppRoutes />
-      </BrowserRouter>
-    </QueryClientProvider>
+    <BrowserRouter>
+      <ScrollToTop />
+      <AppRoutes />
+    </BrowserRouter>
   )
 }

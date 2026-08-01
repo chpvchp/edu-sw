@@ -5,7 +5,13 @@ import { useLocation } from "react-router-dom";
 import { ConvertDate } from "../hook/useConvert";
 import { useQuestionAnswer } from "../hook/useQuestionAnswer";
 import type { Question } from "../type/question.type";
+import type { SubmitQuestionAnswerResponse } from "../type/submit.type";
 
+/**
+ * KetQuaPage | trang kết quả.
+ * Reconstructs the review view from the submitted result payload and shows the scoring summary beside each rendered question.
+ * Tái tạo màn hình xem lại từ payload kết quả đã nộp và hiển thị phần tổng kết điểm cùng từng câu hỏi bên cạnh nhau.
+ */
 export default function KetQuaPage() {
 
   const {
@@ -14,7 +20,25 @@ export default function KetQuaPage() {
     short_answer,
   } = useQuestionAnswer();
 
-  const { state: results } = useLocation();
+  const { state } = useLocation();
+  const storedResults = (() => {
+    try {
+      const value = sessionStorage.getItem("last_exam_result");
+      return value ? JSON.parse(value) as SubmitQuestionAnswerResponse : null;
+    } catch {
+      return null;
+    }
+  })();
+
+  const results = (state ?? storedResults) as SubmitQuestionAnswerResponse | null;
+
+  if (!results) {
+    return (
+      <main className="min-h-screen max-w-7xl flex-1 mx-auto p-4">
+        <p>Chưa có kết quả để hiển thị. Hãy quay lại trang bài tập và nộp bài.</p>
+      </main>
+    )
+  }
 
   const classNameInfo = "flex gap-4 justify-between text-gray-600"
 

@@ -6,6 +6,11 @@ type CardInfoExamProps = {
   data?: InfoExam
 }
 
+/**
+ * CardInfoExam | thẻ thông tin đề.
+ * Shows the selected exam metadata and exposes the entry point to start the practice session.
+ * Hiển thị thông tin cơ bản của đề đã chọn và cung cấp nút để bắt đầu làm bài.
+ */
 export default function CardInfoExam({ data }: CardInfoExamProps) {
 
   const classNameInfo = "flex gap-4 justify-between text-gray-600"

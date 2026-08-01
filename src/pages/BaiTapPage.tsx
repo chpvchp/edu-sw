@@ -2,6 +2,11 @@ import CardExam from "../components/CardExam";
 import { useListExam } from "../hook/useExam";
 import type { Exam } from "../type/exam.type";
 
+/**
+ * BaiTapPage | trang danh sách bài tập.
+ * Presents the available practice exams and lets the learner choose one exam card to inspect or start.
+ * Hiển thị các đề luyện tập khả dụng và cho người học chọn một thẻ bài tập để xem chi tiết hoặc bắt đầu làm bài.
+ */
 export default function BaiTapPage() {
 
   const { data, isLoading, error } = useListExam();

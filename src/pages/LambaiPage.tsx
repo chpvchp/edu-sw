@@ -7,6 +7,11 @@ import { useQuestionAnswer } from "../hook/useQuestionAnswer";
 import { useSubmitQuestionAnswer } from "../hook/useSubmit";
 import { ConvertDate } from "../hook/useConvert";
 
+/**
+ * LamBaiPage | trang làm bài.
+ * Renders the exam workspace, captures the student's answers, and submits the finished payload for local scoring and result navigation.
+ * Hiển thị không gian làm bài, ghi nhận câu trả lời của người học và nộp payload hoàn chỉnh để chấm cục bộ rồi chuyển sang trang kết quả.
+ */
 export default function LamBaiPage() {
   const { id_exam } = useParams()
   const idExam = String(id_exam)
@@ -28,6 +33,8 @@ export default function LamBaiPage() {
         id_exam: idExam,
         results: results,
       });
+
+      sessionStorage.setItem("last_exam_result", JSON.stringify(data));
 
       navigate("/bai-tap/ket-qua", {
         state: data

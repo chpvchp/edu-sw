@@ -1,6 +1,11 @@
 import { House, BookOpen } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
+/**
+ * NavBar | thanh điều hướng.
+ * Provides the small top-level route switcher for the app, keeping navigation minimal and focused on the learning flow.
+ * Cung cấp thanh chuyển trang cấp cao nhất cho ứng dụng, giữ điều hướng tối giản và tập trung vào luồng học tập.
+ */
 export default function NavBar() {
 
   const listNavLink = [

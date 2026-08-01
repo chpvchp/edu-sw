@@ -2,6 +2,11 @@ import { Link } from "react-router-dom"
 import type { InfoExam } from "../type/infoexam.type"
 import { ConvertDate } from "../hook/useConvert"
 
+/**
+ * CardExam | thẻ bài tập.
+ * Renders a compact exam summary card in the practice list, including subject, duration, and creation time.
+ * Hiển thị thẻ tóm tắt bài tập trong danh sách luyện đề, gồm môn học, thời lượng và thời điểm tạo.
+ */
 export default function CardExam({ id_exam, name_subject, name_exam, duration, created }: InfoExam) {
 
   const classNameInfo = "flex gap-4 justify-between text-gray-600"

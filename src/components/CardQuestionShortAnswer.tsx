@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { BASE_URL } from "../api/api";
 import RenderMarkDownLatex from "../components/RenderMarkDownLatex";
 import type { Question } from "../type/question.type";
 
@@ -11,6 +10,11 @@ type CardQuestionShortAnswerProps = {
   results: boolean
 }
 
+/**
+ * CardQuestionShortAnswer | thẻ câu hỏi tự luận ngắn.
+ * Accepts a numeric answer during practice and later shows both the submitted value and the correct value when reviewing results.
+ * Nhận đáp án số trong lúc làm bài và sau đó hiển thị cả giá trị đã nộp lẫn giá trị đúng khi xem lại kết quả.
+ */
 function CardQuestionShortAnswer({ question, onChange, data, results }: CardQuestionShortAnswerProps) {
   const [ value, setValue ] = useState("")
 
@@ -26,7 +30,7 @@ function CardQuestionShortAnswer({ question, onChange, data, results }: CardQues
           {question?.path_images && (
             <img 
               className="max-h-64 w-auto object-contain"
-              src={`${BASE_URL}/${question?.path_images}`} 
+              src={question.path_images} 
             />
           )}
         </div>
@@ -74,7 +78,7 @@ function CardQuestionShortAnswer({ question, onChange, data, results }: CardQues
           {question?.path_images && (
             <img 
               className="max-h-64 w-auto object-contain"
-              src={`${BASE_URL}/${question?.path_images}`} 
+              src={question.path_images} 
             />
           )}
         </div>

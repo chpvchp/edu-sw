@@ -1,5 +1,4 @@
 import React from "react";
-import { BASE_URL } from "../api/api";
 import RenderMarkDownLatex from "../components/RenderMarkDownLatex";
 import type { Question } from "../type/question.type";
 
@@ -10,6 +9,11 @@ type CardQuestionFourChoiceProps = {
   results: boolean
 }
 
+/**
+ * CardQuestionFourChoice | thẻ câu hỏi bốn lựa chọn.
+ * Renders either the answering state or the review state for multiple-choice questions, including answer highlighting after submission.
+ * Hiển thị câu hỏi trắc nghiệm bốn lựa chọn ở chế độ làm bài hoặc xem lại, đồng thời tô nổi bật đáp án sau khi nộp.
+ */
 function CardQuestionFourChoice({ question, onChange, results, data }: CardQuestionFourChoiceProps) {
   return (
     <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
@@ -25,7 +29,7 @@ function CardQuestionFourChoice({ question, onChange, results, data }: CardQuest
         {question?.path_images && (
           <img 
             className="max-h-64 w-auto object-contain"
-            src={`${BASE_URL}/${question?.path_images}`} 
+            src={question.path_images} 
           />
         )}
         

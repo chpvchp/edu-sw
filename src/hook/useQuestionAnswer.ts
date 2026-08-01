@@ -1,23 +1,11 @@
 import { useState, useCallback } from "react";
+import type { QuestionResult } from "../type/question-answer.type";
 
-export type FourChoiceResult = {
-  type: "four_choice";
-  answer: string;
-};
-
-export type TrueFalseResult = {
-  type: "true_false";
-  true_answer: string[];
-  false_answer: string[];
-};
-
-export type ShortAnswer = {
-  type: "short_answer";
-  answer: number
-}
-
-export type QuestionResult = FourChoiceResult | TrueFalseResult | ShortAnswer;
-
+/**
+ * useQuestionAnswer | hook quản lý câu trả lời của người học.
+ * Stores the in-progress answer map in a normalized structure so every question type can be submitted and reviewed consistently.
+ * Lưu bản đồ câu trả lời đang làm theo cấu trúc chuẩn hóa để mọi loại câu hỏi đều có thể nộp và xem lại theo cùng một cách.
+ */
 export function useQuestionAnswer() {
   const [results, setResults] = useState<Record<string, QuestionResult>>({});
 

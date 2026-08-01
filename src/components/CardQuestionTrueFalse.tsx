@@ -1,5 +1,4 @@
 import React from "react";
-import { BASE_URL } from "../api/api";
 import RenderMarkDownLatex from "../components/RenderMarkDownLatex";
 import type { Question } from "../type/question.type";
 
@@ -10,6 +9,11 @@ type CardQuestionTrueFalseProps = {
   results: boolean
 }
 
+/**
+ * CardQuestionTrueFalse | thẻ câu hỏi đúng sai.
+ * Handles the two-state answer model used by true/false questions and compares student selections against the exam key on review.
+ * Xử lý mô hình đáp án hai trạng thái của câu hỏi đúng/sai và so sánh lựa chọn của người học với đáp án chuẩn khi xem lại.
+ */
 function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuestionTrueFalseProps) {
   return (
     <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
@@ -25,7 +29,7 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
         {question?.path_images && (
           <img 
             className="max-h-64 w-auto object-contain"
-            src={`${BASE_URL}/${question?.path_images}`} 
+            src={question.path_images} 
           />
         )}
         

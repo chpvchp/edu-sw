@@ -1,3 +1,8 @@
+/**
+ * ConvertDate | chuyển đổi ngày giờ.
+ * Formats a raw date string into a Vietnamese locale timestamp for display in exam cards and result summaries.
+ * Định dạng chuỗi ngày giờ thô thành mốc thời gian theo locale Việt Nam để hiển thị trên thẻ bài tập và phần tổng kết kết quả.
+ */
 export const ConvertDate = (date: string) => {
   const dateObj = new Date(date);
   return dateObj.toLocaleString("vi-VN",{
