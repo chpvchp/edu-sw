@@ -1,0 +1,190 @@
+{
+  "id_exam": "pdf",
+  "id_subject": "toan",
+  "name_exam": "Bộ đề mẫu PDF",
+  "name_subject": "Toán",
+  "duration": 45,
+  "created": "2026-08-01T08:00:00.000",
+  "questions": [
+    {
+      "id_question": "pdf-q1",
+      "order": 1,
+      "question": "**Câu 1:** Lorem",
+      "path_images": null,
+      "type_question": "four_choice",
+      "answers": [
+        {"id_answer": "pdf-q1-a", "answer": "**A**. Lorem"},
+        {"id_answer": "pdf-q1-b", "answer": "**B**. Lorem"},
+        {"id_answer": "pdf-q1-c", "answer": "**C**. Lorem"},
+        {"id_answer": "pdf-q1-d", "answer": "**D**. Lorem"}
+      ],
+      "results": {
+        "explain": "Đáp án đúng là B.",
+        "correct_answer": "pdf-q1-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "pdf-q2",
+      "order": 2,
+      "question": "**Câu 2:** Lorem",
+      "path_images": null,
+      "type_question": "four_choice",
+      "answers": [
+        {"id_answer": "pdf-q2-a", "answer": "**A**. Lorem"},
+        {"id_answer": "pdf-q2-b", "answer": "**B**. Lorem"},
+        {"id_answer": "pdf-q2-c", "answer": "**C**. Lorem"},
+        {"id_answer": "pdf-q2-d", "answer": "**D**. Lorem"}
+      ],
+      "results": {
+        "explain": "Đáp án đúng là B.",
+        "correct_answer": "pdf-q2-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "pdf-q3",
+      "order": 3,
+      "question": "**Câu 3:** Lorem",
+      "path_images": null,
+      "type_question": "four_choice",
+      "answers": [
+        {"id_answer": "pdf-q3-a", "answer": "**A**. Lorem"},
+        {"id_answer": "pdf-q3-b", "answer": "**B**. Lorem"},
+        {"id_answer": "pdf-q3-c", "answer": "**C**. Lorem"},
+        {"id_answer": "pdf-q3-d", "answer": "**D**. Lorem"}
+      ],
+      "results": {
+        "explain": "Đáp án đúng là B.",
+        "correct_answer": "pdf-q3-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "pdf-q4",
+      "order": 4,
+      "question": "**Câu 4:** Lorem",
+      "path_images": null,
+      "type_question": "four_choice",
+      "answers": [
+        {"id_answer": "pdf-q4-a", "answer": "**A**. Lorem"},
+        {"id_answer": "pdf-q4-b", "answer": "**B**. Lorem"},
+        {"id_answer": "pdf-q4-c", "answer": "**C**. Lorem"},
+        {"id_answer": "pdf-q4-d", "answer": "**D**. Lorem"}
+      ],
+      "results": {
+        "explain": "Đáp án đúng là B.",
+        "correct_answer": "pdf-q4-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "pdf-q5",
+      "order": 5,
+      "question": "**Câu 5:** Lorem",
+      "path_images": null,
+      "type_question": "true_false",
+      "answers": [
+        {"id_answer": "pdf-q5-a", "answer": "*a)* Lorem"},
+        {"id_answer": "pdf-q5-b", "answer": "*b)* Lorem"},
+        {"id_answer": "pdf-q5-c", "answer": "*c)* Lorem"},
+        {"id_answer": "pdf-q5-d", "answer": "*d)* Lorem"}
+      ],
+      "results": {
+        "explain": "Các đáp án đúng là a và c.",
+        "correct_answer": "",
+        "true_answer": ["pdf-q5-a", "pdf-q5-c"],
+        "false_answer": ["pdf-q5-b", "pdf-q5-d"],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "pdf-q6",
+      "order": 6,
+      "question": "**Câu 6:** Lorem",
+      "path_images": null,
+      "type_question": "true_false",
+      "answers": [
+        {"id_answer": "pdf-q6-a", "answer": "*a)* Lorem"},
+        {"id_answer": "pdf-q6-b", "answer": "*b)* Lorem"},
+        {"id_answer": "pdf-q6-c", "answer": "*c)* Lorem"},
+        {"id_answer": "pdf-q6-d", "answer": "*d)* Lorem"}
+      ],
+      "results": {
+        "explain": "Các đáp án đúng là a và c.",
+        "correct_answer": "",
+        "true_answer": ["pdf-q6-a", "pdf-q6-c"],
+        "false_answer": ["pdf-q6-b", "pdf-q6-d"],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "pdf-q7",
+      "order": 7,
+      "question": "**Câu 7:** Lorem",
+      "path_images": null,
+      "type_question": "short_answer",
+      "answers": [],
+      "results": {
+        "explain": "Đáp án là 10.",
+        "correct_answer": "",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": 10
+      }
+    },
+    {
+      "id_question": "pdf-q8",
+      "order": 8,
+      "question": "**Câu 8:** Lorem",
+      "path_images": null,
+      "type_question": "short_answer",
+      "answers": [],
+      "results": {
+        "explain": "Đáp án là 10.",
+        "correct_answer": "",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": 10
+      }
+    },
+    {
+      "id_question": "pdf-q9",
+      "order": 9,
+      "question": "**Câu 9:** Lorem",
+      "path_images": null,
+      "type_question": "short_answer",
+      "answers": [],
+      "results": {
+        "explain": "Đáp án là 10.",
+        "correct_answer": "",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": 10
+      }
+    },
+    {
+      "id_question": "pdf-q10",
+      "order": 10,
+      "question": "**Câu 10:** Lorem",
+      "path_images": null,
+      "type_question": "short_answer",
+      "answers": [],
+      "results": {
+        "explain": "Đáp án là 10.",
+        "correct_answer": "",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": 10
+      }
+    }
+  ]
+}
