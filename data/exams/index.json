@@ -1,16 +1,9 @@
 [
   {
-    "id_exam": "pdf",
-    "name_exam": "Bộ đề mẫu PDF",
+    "id_exam": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01",
+    "name_exam": "Bài Tập Ứng Dụng Hình Học Của Tích Phân (1)",
     "name_subject": "Toán",
-    "duration": 45,
-    "created": "2026-08-01T08:00:00.000"
-  },
-  {
-    "id_exam": "protein_va_enzyme",
-    "name_exam": "Protein Và Enzyme",
-    "name_subject": "Hóa",
-    "duration": 30,
-    "created": "2026-08-01T12:02:00.000"
+    "duration": 20,
+    "created": "2026-08-02T11:15:00.000"
   }
 ]
