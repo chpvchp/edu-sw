@@ -33,6 +33,7 @@ export default function BaiTapPage() {
             key={exam.id_exam}
             id_exam={exam.id_exam}
             name_exam={exam.name_exam}
+            class_exam={exam.class_exam}
             name_subject={exam.name_subject}
             duration={exam.duration}
             updated={exam.updated}

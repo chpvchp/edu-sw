@@ -2,6 +2,7 @@ export type Exam = {
   id_exam: string;
   id_subject?: string | number;
   name_exam: string;
+  class_exam: string;
   name_subject: string;
   duration: number;
   updated: string;

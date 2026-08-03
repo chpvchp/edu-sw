@@ -3,7 +3,9 @@
     "id_exam": "pdf",
     "name_exam": "Bộ đề mẫu PDF",
     "name_subject": "Toán",
+    "class_exam": "12",
     "duration": 45,
+    "updated": "2026-08-02T13:00:00.000",
     "created": "2026-08-01T08:00:00.000"
   }
 ]

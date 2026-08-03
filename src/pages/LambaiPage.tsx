@@ -116,8 +116,16 @@ export default function LamBaiPage() {
               <p>{examInfo?.name_subject}</p>
             </div>
             <div className={classNameInfo}>
+              <p>Lớp: </p>
+              <p>{examInfo?.class_exam}</p>
+            </div>
+            <div className={classNameInfo}>
               <p>Thời gian làm bài: </p>
               <p>{examInfo?.duration} phút</p>
+            </div>
+            <div className={classNameInfo}>
+              <p>Chỉnh sửa: </p>
+              <p>{ConvertDate(examInfo?.updated ?? "")}</p>
             </div>
             <div className={classNameInfo}>
               <p>Ngày tạo: </p>

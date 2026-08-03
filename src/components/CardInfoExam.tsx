@@ -31,6 +31,11 @@ export default function CardInfoExam({ data }: CardInfoExamProps) {
         </div>
 
         <div className={classNameInfo}>
+          <p>Lớp:</p>
+          <p>{data?.class_exam}</p>
+        </div>
+
+        <div className={classNameInfo}>
           <p>Chỉnh sửa:</p>
           <p>{ConvertDate(data?.updated ?? "")}</p>
         </div>
