@@ -3,7 +3,9 @@
   "id_subject": "toan",
   "name_exam": "Bài Tập Ứng Dụng Hình Học Của Tích Phân (1)",
   "name_subject": "Toán",
+  "class_exam": "12",
   "duration": 20,
+  "updated": "2026-08-02T13:00:00.000",
   "created": "2026-08-02T11:15:00.000",
   "questions": [
     {
