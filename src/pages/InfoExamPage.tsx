@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useInfoExam } from "../hook/useExam";
 import CardInfoExam from "../components/CardInfoExam";
@@ -11,6 +12,14 @@ export default function InfoExamPage() {
   const { id_exam } = useParams();
   const idExam = String(id_exam)
   const { data } = useInfoExam( idExam );
+
+  useEffect(() => {
+    if (data?.name_exam) {
+      document.title = `${data.name_exam} | Edu SW`;
+    } else {
+      document.title = "Đang tải... | Edu SW";
+    }
+  }, [data?.name_exam]);
 
   return (
     <main className="min-h-screen max-w-7xl flex-1 mx-auto">

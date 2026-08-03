@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom"
 import { useInfoExam, useQuestions } from "../hook/useExam";
 import CardQuestionFourChoice from "../components/CardQuestionFourChoice";
@@ -45,6 +46,14 @@ export default function LamBaiPage() {
   };
 
   const classNameInfo = "flex gap-4 justify-between text-gray-600"
+
+  useEffect(() => {
+    if (examInfo?.name_exam) {
+      document.title = `${examInfo.name_exam} | Edu SW`;
+    } else {
+      document.title = "Đang tải... | Edu SW";
+    }
+  }, [examInfo?.name_exam]);
 
   if (isLoading) return <p className="p-4 mx-auto">Đang tải đề...</p>
   if (isError) return <p className="p-4 mx-auto">Máy chủ lỗi!</p>

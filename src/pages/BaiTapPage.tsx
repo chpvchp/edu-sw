@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import CardExam from "../components/CardExam";
 import { useListExam } from "../hook/useExam";
 import type { Exam } from "../type/exam.type";
@@ -11,9 +12,12 @@ export default function BaiTapPage() {
 
   const { data, isLoading, error } = useListExam();
 
+  useEffect(() => {
+    document.title = "Bài Tập | Edu SW"
+  }, [])
+
   if (isLoading) return <p className="p-4 mx-auto">Đang lấy danh sách bài tập...</p>;
   if (error) return <p className="p-4 mx-auto">Máy chủ lỗi!</p>;
-
 
   return (
     <main className="min-h-screen max-w-7xl flex-1 mx-auto">
