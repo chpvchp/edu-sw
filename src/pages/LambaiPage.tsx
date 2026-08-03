@@ -108,7 +108,7 @@ export default function LamBaiPage() {
             </div>
             <div className={classNameInfo}>
               <p>Thời gian làm bài: </p>
-              <p>{examInfo?.duration}</p>
+              <p>{examInfo?.duration} phút</p>
             </div>
             <div className={classNameInfo}>
               <p>Ngày tạo: </p>
