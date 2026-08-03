@@ -4,6 +4,7 @@ export type InfoExam = {
   name_exam: string;
   name_subject: string;
   duration: number;
+  updated: string;
   created: string;
 }
 

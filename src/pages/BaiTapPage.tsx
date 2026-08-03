@@ -35,6 +35,7 @@ export default function BaiTapPage() {
             name_exam={exam.name_exam}
             name_subject={exam.name_subject}
             duration={exam.duration}
+            updated={exam.updated}
             created={exam.created}
           />
         ))}

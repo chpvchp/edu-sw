@@ -1,0 +1,391 @@
+{
+  "id_exam": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01",
+  "id_subject": "toan",
+  "name_exam": "Bài Tập Ứng Dụng Hình Học Của Tích Phân (1)",
+  "name_subject": "Toán",
+  "duration": 20,
+  "updated": "2026-08-02T13:00:00.000",
+  "created": "2026-08-02T11:15:00.000",
+  "questions": [
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q1",
+      "order": 1,
+      "question": "**Câu 1:** Khối tròn xoay do quay xung quanh trực $Ox$ hình phẳng giới hạn bởi đường cong $y = \\frac{1}{x}$ , trực hoàn và hai đường thẳng $x = 1$ , $x = 2$ có thể tích bằng\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q1-a",
+          "answer": "**A.** $\\pi$ ."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q1-b",
+          "answer": "**B.** $\\frac{\\pi}{2}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q1-c",
+          "answer": "**C.** $\\pi \\ln 4$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q1-d",
+          "answer": "**D.** $\\pi \\ln 2$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q2",
+      "order": 2,
+      "question": "**Câu 2:** Gọi *(H)* là hình phẳng giới hạn bởi các đường: $y = \\sin x$ ; $Ox$ ; $x = 0$ ; $x = \\pi$ . Quay *(H)* quanh trực $Ox$ ta được khối tròn xoay có thể tích là\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q2-a",
+          "answer": "**A.** $\\pi^{2}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q2-b",
+          "answer": "**B.** $2 \\pi$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q2-c",
+          "answer": "**C.** $\\frac{\\pi^{2}}{2}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q2-d",
+          "answer": "**D.** $\\frac{\\pi}{2}$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q3",
+      "order": 3,
+      "question": "**Câu 3:** Gọi *(H)* là hình phẳng giới hạn bởi các đồ thị hàm số $y = \\tan x$ , trục hoành và các đường thẳng $x = 0$ , $x = \\frac{\\pi}{4}$ . Quay *(H)* xung quanh trục $Ox$ ta được khối tròn xoay có thể tích bằng\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q3-a",
+          "answer": "**A.** $\\pi^{2}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q3-b",
+          "answer": "**B.** $\\frac{\\pi^{2}}{4}+\\pi$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q3-c",
+          "answer": "**C.** $1 - \\frac{\\pi}{4}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q3-d",
+          "answer": "**D.** $\\pi - \\frac{\\pi^{2}}{4}$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q4",
+      "order": 4,
+      "question": "**Câu 4:** Gọi *D* là hình phẳng giới hạn bởi đồ thị hàm số $y = x^{2} - 4x + 3$ , trục hoành với hai đường thẳng $x = 1, x = 3$ . Thể tích của khối tròn xoay tạo thành khi quay *D* quanh trục hoành bằng\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q4-a",
+          "answer": "**A.** $\\frac{4\\pi}{3}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q4-b",
+          "answer": "**B.** $\\frac{16\\pi}{15}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q4-c",
+          "answer": "**C.** $\\frac{16}{15}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q4-d",
+          "answer": "**D.** $\\frac{4}{3}$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q5",
+      "order": 5,
+      "question": "**Câu 5:** Cho hình phẳng *(H)* giới hạn bởi đồ thị $y = 2x - x^2$ và trực hoành. Tính thể tích V vật thể tròn xoay sinh ra khi cho *(H)* quay quanh $Ox$.\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q5-a",
+          "answer": "**A.** $V = \\frac{4}{3}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q5-b",
+          "answer": "**B.** $V = \\frac{4}{3}\\pi$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q5-c",
+          "answer": "**C.** $V = \\frac{16}{15}\\pi$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q5-d",
+          "answer": "**D.** $V = \\frac{16}{15}$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q6",
+      "order": 6,
+      "question": "**Câu 6:** Thể tích của khối tròn xoay tạo thành khi quay hình phẳng *D* giới hạn bởi các đường y = $\\sqrt{x-1}$ , trục hoành, $x=2$ , $x=5$ quanh trục $Ox$ bằng\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q6-a",
+          "answer": "**A.** $\\pi \\int_{2}^{5}\\sqrt{x - 1}\\mathrm{d}x$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q6-b",
+          "answer": "**B.** $\\pi \\int_{2}^{5}(x - 1)\\mathrm{d}x$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q6-c",
+          "answer": "**C.** $\\pi \\int_{2}^{5}\\left(y^2 +1\\right)^2\\mathrm{d}x$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q6-d",
+          "answer": "**D.** $\\int_{2}^{5}(x - 1)\\mathrm{d}x$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q7",
+      "order": 7,
+      "question": "**Câu 7:** Kí hiệu *(H)* là hình phẳng giới hạn bởi đồ thị $y = x^{2} - ax$ với trực hoàn ( $a \\neq 0$ ). Quay hình *(H)* xung quanh trực hoàn ta thu được khối tròn xoay có thể tích $V = \\frac{16\\pi}{15}$ . Tìm $a$ .\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q7-a",
+          "answer": "**A.** $a = -3$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q7-b",
+          "answer": "**B.** $a = -2$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q7-c",
+          "answer": "**C.** $a = 2$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q7-d",
+          "answer": "**D.** $a = \\pm 2$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q8",
+      "order": 8,
+      "question": "**Câu 8:** Cho hình phẳng giới hạn bởi đồ thị các hàm số $y = \\sqrt{x}$ , đường thẳng $y = 2 - x$ và trực hoành. Thể tích của khối tròn xoay sinh bởi hình phẳng trên khi quay quanh trực $Ox$ bằng\n",
+      "type_question": "four_choice",
+      "path_images": "/data/images/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01_4_08.png",
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q8-a",
+          "answer": "**A.** $\\frac{4\\pi}{3}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q8-b",
+          "answer": "**B.** $\\frac{5\\pi}{6}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q8-c",
+          "answer": "**C.** $\\frac{7\\pi}{6}$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q8-d",
+          "answer": "**D.** $\\frac{5\\pi}{4}$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q9",
+      "order": 9,
+      "question": "**Câu 9:** Thế tích của vật thể tròn xoay thu được khi quay hình phẳng (phần gạch sọc của hình vẽ) xung quanh trực Ox bằng\n",
+      "type_question": "four_choice",
+      "path_images": "/data/images/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01_4_09.png",
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q9-a",
+          "answer": "**A.** $27\\pi$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q9-b",
+          "answer": "**B.** $24\\pi$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q9-c",
+          "answer": "**C.** $25\\pi$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q9-d",
+          "answer": "**D.** $26\\pi$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q10",
+      "order": 10,
+      "question": "**Câu 10:** Một bề cá có dạng là một phần hình cầu được tạo thành khi cắt hình cầu bán kính 2 dm bằng mặt phẳng cách tâm của hình cầu 1 dm (Hình bên). Tính dung tích của bề cá (kết quả làm tròn đến hàng phần muời của đềximét khối).\n",
+      "type_question": "four_choice",
+      "path_images": "/data/images/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01_4_10.png",
+      "answers": [
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q10-a",
+          "answer": "**A.** $28.7 \\, (\\text{dm}^{3})$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q10-b",
+          "answer": "**B.** $28.5 \\, (\\text{dm}^{3})$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q10-c",
+          "answer": "**C.** $28.3 \\, (\\mathrm{dm}^{3})$."
+        },
+        {
+          "id_answer": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q10-d",
+          "answer": "**D.** $28.1 \\, (\\mathrm{dm}^{3})$."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q11",
+      "order": 11,
+      "question": "**Câu 11:** Tính thể tích của phần vật thể giới hạn bởi hai mặt phẳng $x = 1$ và $x = 3$ , có thiết diện bị cắt bởi mặt phẳng vuông góc với trực $Ox$ tại điểm có hoàn độ $x (1 \\leq x \\leq 3)$ là một hình chữ nhật có hai kích thước bằng $3x$ và $2\\sqrt{3x^2 - 2}$.\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q12",
+      "order": 12,
+      "question": "**Câu 12:** Tính thể tích của phần vật thể giới hạn bởi hai mặt phẳng $x = 0$ và $x = \\pi$ , biết rằng thiết diện của vật thể bị cắt bởi mặt phẳng vuông góc với trực $Ox$ tại điểm có hoàn độ $x (0 \\leq x \\leq \\pi)$ là một tam giác đều cạnh là $2\\sqrt{\\sin x}$.\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q13",
+      "order": 13,
+      "question": "**Câu 13:** Một khối bê tông cao $2\\, \\mathrm{m}$ được đặt trên mặt đất phẳng. Nếu cắt khối bê tông này bằng mặt phẳng nằm ngang, cắt mặt đất $x\\, \\mathrm{(m)}$ $(0 \\le x \\le 2)$ thì được mặt cắt là hình chữ nhật có chiều dài $5\\, \\mathrm{m}$, chiều rộng $(0.5)^x\\, \\mathrm{m}$. Tính thể tích của khối bê tông (kết quả làm tròn đến hàng phần trăm của mét khối).\n",
+      "type_question": "short_answer",
+      "path_images": "/data/images/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01_1_13.png",
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01-q14",
+      "order": 14,
+      "question": "**Câu 14:** Để chuẩn bị cho hội trại do Đoàn trường tổ chức, lớp *12A* dự định dụng một cái lêu trại có dạng hình parabol như hình vẽ. Nền của lêu trại là một hình chữ nhật có kích thước bề ngang 3 mét, chiều dài 6 mét, định trại cách nền 3 mét. Tính thể tích phần không gian bên trong lều trại.\n",
+      "type_question": "short_answer",
+      "path_images": "/data/images/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01/bai_tap_ung_dung_hinh_hoc_cua_tich_phan_01_1_14.png",
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    }
+  ]
+}
