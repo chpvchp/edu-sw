@@ -128,6 +128,11 @@ export default function KetQuaPage() {
             </div>
 
             <div className={classNameInfo}>
+              <p>Chỉnh sửa:</p>
+              <p>{ConvertDate(results.updated)}</p>
+            </div>
+
+            <div className={classNameInfo}>
               <p>Ngày tạo:</p>
               <p>{ConvertDate(results.created)}</p>
             </div>
@@ -135,6 +140,8 @@ export default function KetQuaPage() {
           </div>
         </div>
       </div>
+
+      
 
     </main>
   )

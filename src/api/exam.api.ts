@@ -155,6 +155,7 @@ function calculateScore(exam: ExamData, studentResults: Record<string, QuestionR
     num_none: numNone,
     duration: exam.duration,
     student_duration: "N/A",
+    updated: exam.updated, 
     created: exam.created,
     questions: exam.questions,
     correct_results: correctResults,
