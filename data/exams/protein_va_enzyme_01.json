@@ -1,0 +1,1067 @@
+{
+  "id_exam": "protein_va_enzyme_01",
+  "id_subject": "hoa",
+  "name_exam": "Protein Và Enzyme (1)",
+  "name_subject": "Hóa",
+  "class_exam": "12",
+  "duration": 35,
+  "updated": "2026-08-05T12:03:25.000",
+  "created": "2026-08-05T12:03:25.000",
+  "questions": [
+    {
+      "id_question": "protein_va_enzyme_01-q1",
+      "order": 1,
+      "question": "**Câu 1:** Chất cơ sở để hình thành nên protein đơn giản là\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q1-a",
+          "answer": "**A.** Amino acid."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q1-b",
+          "answer": "**B.** Acid béo."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q1-c",
+          "answer": "**C.** Các loại đường."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q1-d",
+          "answer": "**D.** Tinh bột."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q1-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q2",
+      "order": 2,
+      "question": "**Câu 2:** Protein nào sau đây không phải là protein dạng sợi\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q2-a",
+          "answer": "**A.** Amylase."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q2-b",
+          "answer": "**B.** Collagen."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q2-c",
+          "answer": "**C.** Fibroin."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q2-d",
+          "answer": "**D.** Keratin."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q2-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q3",
+      "order": 3,
+      "question": "**Câu 3:** Tính đa dạng của phân tử protein được quy định bởi\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q3-a",
+          "answer": "**A.** số lượng liên kết peptide có trong phân tử."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q3-b",
+          "answer": "**B.** số lượng, thành phần, trật tự các amino acid trong protein."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q3-c",
+          "answer": "**C.** số chuỗi polypeptide có trong phân tử."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q3-d",
+          "answer": "**D.** số lượng các amino acid trong phân tử."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q3-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q4",
+      "order": 4,
+      "question": "**Câu 4:** Cơ thể hấp thu dinh dưỡng từ quá trình thủy phân thịt, cá, trứng trong dạ dày dưới dạng ion của\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q4-a",
+          "answer": "**A.** acid béo."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q4-b",
+          "answer": "**B.** gluconate."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q4-c",
+          "answer": "**C.** chất xơ."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q4-d",
+          "answer": "**D.** amino acid."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q4-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q5",
+      "order": 5,
+      "question": "**Câu 5:** Khi nấu món canh từ thịt cua, tôm, tép có nhiều màng thịt đóng rắn lại. Hiện tượng trên gây ra bởi tính chất nào sau đây?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q5-a",
+          "answer": "**A.** Sự đông tụ protein bởi sự thay đổi pH."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q5-b",
+          "answer": "**B.** Sự đông tụ protein bởi nhiệt độ."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q5-c",
+          "answer": "**C.** Kết tủa carbonate của các chất khoáng có trong vỏ."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q5-d",
+          "answer": "**D.** Sự thủy phân protein bởi nhiệt độ."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q5-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q6",
+      "order": 6,
+      "question": "**Câu 6:** Loại hợp chất nào sau đây chứa các thành phần “phi protein” như nucleic acid, lipid, carbohydrate?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q6-a",
+          "answer": "**A.** Protein đơn giản."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q6-b",
+          "answer": "**B.** Protein phức tạp."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q6-c",
+          "answer": "**C.** Chất béo."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q6-d",
+          "answer": "**D.** Polysaccharide."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q6-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q7",
+      "order": 7,
+      "question": "**Câu 7:** Protein không tham gia loại phản ứng nào dưới đây?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q7-a",
+          "answer": "**A.** Phản ứng thủy phân."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q7-b",
+          "answer": "**B.** Phản ứng màu với $\\mathrm{Cu(OH)_2}$."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q7-c",
+          "answer": "**C.** Phản ứng màu với $\\mathrm{HNO_3}$."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q7-d",
+          "answer": "**D.** Phản ứng khử thành alcohol."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q7-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q8",
+      "order": 8,
+      "question": "**Câu 8:** Phát biểu nào sau đây không đúng?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q8-a",
+          "answer": "**A.** Thủy phân hoàn toàn polypeptide thu được các phân tử $\\alpha$-amino acid."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q8-b",
+          "answer": "**B.** Protein tác dụng với $\\mathrm{Cu(OH)_2}$ trong môi trường kiểm tạo dung dịch màu xanh lam."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q8-c",
+          "answer": "**C.** Protein có thể bị đông tụ dưới tác dụng của nhiệt, acid hoặc base."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q8-d",
+          "answer": "**D.** Protein tác dụng với dung dịch nitric acid đặc tạo thành sản phẩm rắn có màu vàng."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q8-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q9",
+      "order": 9,
+      "question": "**Câu 9:** Phát biểu nào sau đây là không đúng?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q9-a",
+          "answer": "**A.** Khi bị đun nóng, lòng trắng trứng chuyển từ trạng thái lỏng sang trạng thái rắn."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q9-b",
+          "answer": "**B.** Protein là chuỗi polypeptide được tạo thành từ nhiều đơn vị $\\alpha$-amino acid."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q9-c",
+          "answer": "**C.** Albumin trong lòng trắng trứng là protein có dạng hình sợi và không tan trong nước."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q9-d",
+          "answer": "**D.** Khi nhỏ nitric acid vào lòng trắng trứng, màu trắng của lòng trắng trung chuyển thành màu vàng"
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q9-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q10",
+      "order": 10,
+      "question": "**Câu 10:** Các enzyme chỉ tồn tại và phát triển ở môi trường gần trung tính và nhiệt độ tương đối thấp (gần với nhiệt độ của cơ thể sinh vật). Khi đóng vai trò là chất xúc tác trong các quá trình sinh hóa, các enzyme không có đặc điểm nào sau đây?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q10-a",
+          "answer": "**A.** Có tính chọn lọc cao."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q10-b",
+          "answer": "**B.** Làm tăng tốc độ của các quá trình sinh hóa."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q10-c",
+          "answer": "**C.** Có tác dụng tốt ở nhiệt độ cao hoặc môi trường acid mạnh."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q10-d",
+          "answer": "**D.** Chỉ hoạt động trong điều kiện nhiệt độ phù hợp."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q10-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q11",
+      "order": 11,
+      "question": "**Câu 11:** Phát biểu nào sau đây đúng về phản ứng màu biuret?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q11-a",
+          "answer": "**A.** Các amino acid có thể cho phản ứng màu biuret với $\\mathrm{Cu(OH)_2}$."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q11-b",
+          "answer": "**B.** Dung dịch của các polypeptide hoà tan $\\mathrm{Cu(OH)_2}$ cho dung dịch có màu tím."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q11-c",
+          "answer": "**C.** Các peptide (trừ dipeptide) cho phản ứng màu biuret với $\\mathrm{Cu(OH)_2}$, $\\mathrm{HNO_3}$."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q11-d",
+          "answer": "**D.** Phản ứng màu biuret dùng để phân biệt sự có mặt của tinh bột và protein."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q11-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q12",
+      "order": 12,
+      "question": "**Câu 12:** Khi nói về protein, phát biểu nào sau đây sai?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q12-a",
+          "answer": "**A.** Protein có phản ứng màu biuret."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q12-b",
+          "answer": "**B.** Tất cả các protein đều tan trong nước tạo thành dung dịch keo."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q12-c",
+          "answer": "**C.** Protein là những polypeptide cao phân tử có phân tử khối từ vài chục nghìn đến vài triệu."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q12-d",
+          "answer": "**D.** Thành phần phân tử của protein luôn có nguyên tố nitrogen."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q12-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q13",
+      "order": 13,
+      "question": "**Câu 13:** Khi nói về peptide và protein, phát biểu nào sau đây là sai?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q13-a",
+          "answer": "**A.** Protein có phản ứng màu biuret với $\\mathrm{Cu(OH)_2}$."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q13-b",
+          "answer": "**B.** Liên kết của nhóm CO với nhóm NH giữa hai đơn vị $\\alpha$-amino acid được gọi là liên kết peptide."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q13-c",
+          "answer": "**C.** Thủy phân hoàn toàn protein đơn giản thu được các $\\alpha$-amino acid."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q13-d",
+          "answer": "**D.** Tất cả các protein đều tan trong nước tạo thành dung dịch keo."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q13-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q14",
+      "order": 14,
+      "question": "**Câu 14:** Phát biểu nào sau đây là sai?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q14-a",
+          "answer": "**A.** Protein bị thủy phân nhờ xúc tác acid."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q14-b",
+          "answer": "**B.** Protein được tạo nên từ các chuỗi peptide kết hợp lại với nhau."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q14-c",
+          "answer": "**C.** Amino acid có tính chất lưỡng tính."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q14-d",
+          "answer": "**D.** Dipeptide có phản ứng màu biuret."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q14-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q15",
+      "order": 15,
+      "question": "**Câu 15:** Phát biểu nào sau đây không đúng về protein?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q15-a",
+          "answer": "**A.** Protein trong lòng trắng trứng có phản ứng màu biuret."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q15-b",
+          "answer": "**B.** Protein đơn giản tạo nên từ các gốc $\\beta$- hoặc $\\gamma$-amino acid."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q15-c",
+          "answer": "**C.** Trong thành phần protein luôn có nguyên tố nitrogen."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q15-d",
+          "answer": "**D.** Protein bị thủy phân bởi acid hoặc base."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q15-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q16",
+      "order": 16,
+      "question": "**Câu 16:** Cho 4 ống nghiệm, trong mỗi ống dụng khoảng $2 - 3\\, \\mathrm{mL}$ dung dịch loãng của lòng trắng trứng. Nhỏ vào ống nghiệm *(1)* vải giọt dung dịch $\\mathrm{HNO_3}$, cho vào ống *(2)* lượng $\\mathrm{Cu(OH)_2}$ bằng hạt đậu xanh; vào ống *(3)* vải giọt dung dịch NaOH dư, đun nóng; lắc đều các chất trong 3 ống nghiệm. Đun sôi nhẹ chất lỏng trong ống nghiệm *(4)*. Kết luận nào sau đây không đúng?\n",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q16-a",
+          "answer": "**A.** Trong ống nghiệm *(1)* xuất hiện màu vàng."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q16-b",
+          "answer": "**B.** Trong ống nghiệm *(2)* xuất hiện màu tím."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q16-c",
+          "answer": "**C.** Trong ống nghiệm *(3)* xuất hiện sự đông tụ."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q16-d",
+          "answer": "**D.** Trong ống nghiệm *(4)* thu được dung dịch trong suốt."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q16-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q17",
+      "order": 17,
+      "question": "**Câu 17:** Tiến hành thí nghiệm phản ứng màu biuret theo các bước sau. Số phát biểu đúng là bao nhiêu?\n\n- Bước 1: Cho vào ống nghiệm khoảng $1\\, \\mathrm{ml}$ dung dịch $\\mathrm{NaOH}$ $30\\%$, thêm vài giọt dung dịch $\\mathrm{CuSO_4}$ $2\\%$.\n- Bước 2: Thêm tiếp vào ống nghiệm khoảng $3\\, \\mathrm{ml}$ dung dịch protein (lòng trắng trứng), lắc đều hỗn hợp rời đặt lên giá ống nghiệm khoảng 2 – 3 phút.\n*(a)* Sau bước 1, trong ống nghiệm xuất hiện kết tủa màu xanh.\n*(b)* Sau bước 2, kết tủa trong ống nghiệm bị hòa tan và xuất hiện màu\n*(c)* Kết quả thí nghiệm chứng tổ trong phân tử protein có nhiều nhóm hydroxyl (-OH) ở vị trí khác nhau.\n*(d)* Thí nghiệm này còn được dùng để nhận biết dung dịch protein",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q17-a",
+          "answer": "**A.** 3."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q17-b",
+          "answer": "**B.** 1."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q17-c",
+          "answer": "**C.** 2."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q17-d",
+          "answer": "**D.** 4."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q17-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q18",
+      "order": 18,
+      "question": "**Câu 18:** Kết quả thí nghiệm của các dung dịch X, Y, Z với thuốc thử được ghi ở bảng sau:\n",
+      "type_question": "four_choice",
+      "path_images": "/data/images/protein_va_enzyme_01/protein_va_enzyme_01_4_18.jpg",
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q18-a",
+          "answer": "**A.** glutamic acid, lòng trắng trứng, aniline."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q18-b",
+          "answer": "**B.** glutamic acid, lòng trắng trứng, alanine."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q18-c",
+          "answer": "**C.** alanine, lòng trắng trứng, aniline."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q18-d",
+          "answer": "**D.** aniline, glutamic acid, lòng trắng trứng."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q18-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q19",
+      "order": 19,
+      "question": "**Câu 19:** Cho các phát biểu sau. Số phát biểu đúng là:\n\n*(1)* Trong peptide mạch hở amino acid đầu N có nhóm $\\mathrm{NH_2}$.\n*(2)* Dung dịch lysine làm quy tím hóa xanh.\n*(3)* 1 mol Val-Val-Lys tác dụng tối đa với dung dịch chứa 3 mol $\\mathrm{HCl}$.\n*(4)* 1 mol Val-Glu tác dụng tối đa với dung dịch chứa 3 mol $\\mathrm{KOH}$.\n*(5)* Protein có phản ứng màu biuret tạo sản phẩm có màu tím đặc trung.",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q19-a",
+          "answer": "**A.** 4."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q19-b",
+          "answer": "**B.** 5."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q19-c",
+          "answer": "**C.** 3."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q19-d",
+          "answer": "**D.** 2."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q19-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q20",
+      "order": 20,
+      "question": "**Câu 20:** Một nhóm học sinh nghiên cứu về khả năng xúc tác của enzyme $\\alpha$-amylase tới quá trình thủy phân tinh bột. Trong thí nghiệm này, nhóm học sinh thực hiện thí nghiệm thủy phân tinh bột với enzyme $\\alpha$-amylase ở nhiệt độ và pH khác nhau. Kết quả được mô tả bằng hai đồ thị như hình bên. Phát biểu nào sau đây đúng?\n",
+      "type_question": "four_choice",
+      "path_images": "/data/images/protein_va_enzyme_01/protein_va_enzyme_01_4_20.jpg",
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q20-a",
+          "answer": "**A.** Khi nhiệt độ tăng trên 40 °C, hoạt hoạt tính xúc tác của enzyme sẽ giảm xuống."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q20-b",
+          "answer": "**B.** Sau khi các phản ứng xảy ra, để nguội hỗn hợp sau phản ứng thì có thể dùng dung dịch CuSO₄ để đánh giá sự thủy phản của tinh bột trong các phản ứng trên."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q20-c",
+          "answer": "**C.** Đề hiệu suất thủy phân tinh bột xảy ra tốt nhất thì phản ứng cần được tiến hành ở môi trường có pH = 6 và nhiệt độ 50 °C."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q20-d",
+          "answer": "**D.** Theo kết quả trên, dung dịch $\\mathrm{HCl}$ 0.001 M tạo môi trường tốt nhất cho phản ứng thủy phản xảy ra."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": "protein_va_enzyme_01-q20-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q21",
+      "order": 21,
+      "question": "**Câu 21:** Nhận xét đúng/sai cho các nhận định sau:\n",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q21-a",
+          "answer": "*a)* Protein dạng hình cầu và dạng hình sợi tan tốt trong nước."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q21-b",
+          "answer": "*b)* Một trong những tính chất hóa học đặc trung của protein là phản ứng thủy phân."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q21-c",
+          "answer": "*c)* Phản ứng của protein với nitric acid cho sản phẩm có màu tím."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q21-d",
+          "answer": "*d)* Khi đun nóng lòng trắng trứng sẽ xảy ra hiện tượng đông tụ."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "protein_va_enzyme_01-q21-b",
+          "protein_va_enzyme_01-q21-d"
+        ],
+        "false_answer": [
+          "protein_va_enzyme_01-q21-a"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q22",
+      "order": 22,
+      "question": "**Câu 22:** Hãy cho biết những phát biểu sau đây là đúng hay sai?\n",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q22-a",
+          "answer": "*a)* Protein phản ứng với nitric acid tạo chất rắn màu đỏ."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q22-b",
+          "answer": "*b)* Protein phản ứng với copper(II) hydroxide tạo sản phẩm màu tím."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q22-c",
+          "answer": "*c)* Phản ứng đông tụ của protein có thể xảy ra dưới tác động của nhiệt độ."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q22-d",
+          "answer": "*d)* Quá trình thủy phân hoàn toàn protein đơn giản tạo thành cá $\\alpha$-amino acid."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "protein_va_enzyme_01-q22-b",
+          "protein_va_enzyme_01-q22-c",
+          "protein_va_enzyme_01-q22-d"
+        ],
+        "false_answer": [
+          "protein_va_enzyme_01-q22-a"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q23",
+      "order": 23,
+      "question": "**Câu 23:** Hãy cho biết những phát biểu sau đây là đúng hay sai?\n",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q23-a",
+          "answer": "*a)* Phân lón enzyme là những protein xúc tác cho các phản ứng hóa học và sinh hóa."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q23-b",
+          "answer": "*b)* Mỗi enzyme chỉ xúc tác cho một hoặc một số phản ứng nhất định."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q23-c",
+          "answer": "*c)* Enzyme có hoạt tính xúc tác cao hơn xúc tác hóa học của cùng quá trình."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q23-d",
+          "answer": "*d)* Enzyme có nhiều ứng dụng trong công nghệ sinh học."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "protein_va_enzyme_01-q23-a",
+          "protein_va_enzyme_01-q23-b",
+          "protein_va_enzyme_01-q23-c",
+          "protein_va_enzyme_01-q23-d"
+        ],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q24",
+      "order": 24,
+      "question": "**Câu 24:** Hãy cho biết những phát biểu sau đây là đúng hay sai?\n",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q24-a",
+          "answer": "*a)* Protein không thể đóng vai trò như một xúc tác trong các phản ứng hóa học."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q24-b",
+          "answer": "*b)* Peptide và protein có cùng cấu tạo hóa học cơ bản."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q24-c",
+          "answer": "*c)* Tất cả peptide đều có khả năng tạo phức màu tím trong phản ứng màu biuret."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q24-d",
+          "answer": "*d)* Môi enzyme chỉ xúc tác cho một phản ứng hoặc một số phản ứng nhất định."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "protein_va_enzyme_01-q24-b",
+          "protein_va_enzyme_01-q24-c",
+          "protein_va_enzyme_01-q24-d"
+        ],
+        "false_answer": [
+          "protein_va_enzyme_01-q24-a"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q25",
+      "order": 25,
+      "question": "**Câu 25:** Mỗi phát biểu về các protein sau đây là dùng hay sai?\n",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q25-a",
+          "answer": "*a)* Tất cả các loại protein đều không tan trong nước."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q25-b",
+          "answer": "*b)* Có thể sử dụng phản ứng màu biuret để nhận biết sự có mặt của protein."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q25-c",
+          "answer": "*c)* Protein có thể tạo hợp chất màu vàng khi tác dụng với nitric acid."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q25-d",
+          "answer": "*d)* Khi thủy phân hoàn toàn protein thu được hỗn hợp các $\\alpha$-amino acid."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "protein_va_enzyme_01-q25-b",
+          "protein_va_enzyme_01-q25-c",
+          "protein_va_enzyme_01-q25-d"
+        ],
+        "false_answer": [
+          "protein_va_enzyme_01-q25-a"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q26",
+      "order": 26,
+      "question": "**Câu 26:** Tiến hành thí nghiệm sau theo các bước. Hãy cho biết những phát biểu sau đây là đúng hay sai?\n\n- Bước 1: Cho khoảng $1\\, \\mathrm{mL}$ dung dịch $\\mathrm{NaOH}$ $30\\%$ vào ống nghiệm.  Thỏ thêm 2 – 3 giọt dung dịch $\\mathrm{CuSO_4}$ $2\\%$, lắc đều.\n- Bước 2: Cho khoảng $4\\, \\mathrm{mL}$ dung dịch lòng trắng trứng vào ống nghiệm, lắc đều.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q26-a",
+          "answer": "*a)* Nếu thay dung dịch $\\mathrm{CuSO_4}$ bằng dung dịch $\\mathrm{FeSO_4}$ thì hiện tượng thu được ở cả bước 1 và bước 2 không đổi."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q26-b",
+          "answer": "*b)* Phản ứng trên có thể dùng để phân biệt lòng trắng trứng với Gly-Ala."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q26-c",
+          "answer": "*c)* Ô bước 1, nên dùng dư dung dịch $\\mathrm{NaOH}$."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q26-d",
+          "answer": "*d)* Sau bước 1, ban đầu xuất hiện kết tủa xanh lam, sau bước 2, kết tủa xanh lam tan dần tạo thành dung dịch có màu tín đặc trung."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "protein_va_enzyme_01-q26-c",
+          "protein_va_enzyme_01-q26-d"
+        ],
+        "false_answer": [
+          "protein_va_enzyme_01-q26-a",
+          "protein_va_enzyme_01-q26-b"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q27",
+      "order": 27,
+      "question": "**Câu 27:** Tiến hành thí nghiệm theo các bước sau. Hãy cho biết những phát biểu sau đây là đúng hay sai?\n\n- Bước 1: Cho vào ống nghiệm khoảng $1.0\\, \\mathrm{mL}$ dung dịch lòng trắng\n- Bước 2: Lắc đều hỗn hợp, sau đó để yên ống nghiệm trong khoảng 1 - 2 phút.\n- Bước 3: Đun nóng ống nghiệm.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q27-a",
+          "answer": "*a)* Sau bước 2, lòng trắng trứng bị đông tụ tạo thành chất rắn màu trắng."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q27-b",
+          "answer": "*b)* Trong thí nghiệm trên cần cần thận khi làm việc với $\\mathrm{HNO_3}$ đặc."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q27-c",
+          "answer": "*c)* Ô bước 3, albumin trong lòng trắng trứng hình thành sản phẩm răn màu vàng với dung dịch nitric acid đặc do sự đông tụ protein trong môi trường acid."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q27-d",
+          "answer": "*d)* Nếu thay dung dịch $\\mathrm{HNO_3}$ đặc bằng dung dịch HCl đặc thì thu được hiện tượng giống như bước 3."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "protein_va_enzyme_01-q27-a",
+          "protein_va_enzyme_01-q27-b",
+          "protein_va_enzyme_01-q27-c"
+        ],
+        "false_answer": [
+          "protein_va_enzyme_01-q27-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q28",
+      "order": 28,
+      "question": "**Câu 28:** **[BGD-2025]** Enzyme amylase là một protein có khả năng xúc tác cho phản ứng thủy phân tinh bột. Hoạt tính xúc tác của enzyme càng cao thì phản ứng thủy phân tinh bột diễn ra cảng nhanh. Hoạt tính xúc tác của enzyme phụ thuộc vào các yếu tố như nhiệt độ, pH,... Một nhóm học sinh dự đoán “pH cảng tăng thì hoạt tính xúc tác của enzyme amylase càng cao”. Từ đó, học sinh tiến hành thí nghiệm ở nhiệt độ không đổi     nhưng thay đổi pH của môi trường để kiểm tra dự đoán trên như sau. Lắp lại thí nghiệm theo ba bước trên, chỉ thay đổi pH dung dịch trong Bước 1 lần lượt là 6; 7; 8; 9. Nhóm học sinh ghi lại kết quả thời gian t (giây) mà tinh bột thủy phân hết trong môi trường pH = 5; 6; 7; 8; 9 và vẽ đồ thị như hình bên.\n\n- Bước 1: Thêm $2.0\\, \\mathrm{mL}$ dung dịch một loại enzyme amylase vào một ống nghiệm chứa $5.0\\, \\mathrm{mL}$ dung dịch có vai trò duy trì ổn định pH bằng 5.\n- Bước 2: Thêm tiếp $2.0\\, \\mathrm{mL}$ dung dịch tinh bột vào ống nghiệm trên, lắc đều.\n- Bước 3: Sau khoảng mỗi 10 giây, dùng ống hút lấy 1 - 2 giọt hỗn hợp phản ứng trong ống nghiệm và cho vào đĩa sứ chứa sẵn dung dịch iodine, quan sát để từ đó xác định thời gian tinh bột thủy phân hết.",
+      "type_question": "true_false",
+      "path_images": "/data/images/protein_va_enzyme_01/protein_va_enzyme_01_2_28.jpg",
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q28-a",
+          "answer": "*a)* Ô Bước 3, nếu dung dịch iodine chuyển sang màu xanh tím nghĩa là tinh bột thủy phân hết."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q28-b",
+          "answer": "*b)* Theo số liệu thu được, phản ứng thủy phản tinh bột ở pH = 9 diện ra nhanh hơn ở pH = 8."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q28-c",
+          "answer": "*c)* Ô các giá trị pH nghiên cứu, hoạt tính xúc tác của enzyme amylase cao nhất tại pH = 7."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q28-d",
+          "answer": "*d)* Từ kết quả thí nghiệm, kết luận được hoạt tính xúc tác của enzyme amylase tăng khi pH tăng."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "protein_va_enzyme_01-q28-c"
+        ],
+        "false_answer": [
+          "protein_va_enzyme_01-q28-a",
+          "protein_va_enzyme_01-q28-b",
+          "protein_va_enzyme_01-q28-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q29",
+      "order": 29,
+      "question": "**Câu 29:** Hoạt tính xúc tác của enzyme càng cao, tốc độ thủy phân protein càng lớn. Hoạt tính enzyme phụ thuộc vào các yếu tố như nhiệt độ, pH,... Một nhóm học sinh đã khảo sát ảnh hưởng của pH đên hoạt tính của enzyme tiêu hóa protein ở người, nhóm tiến hành thủy phân albumin bằng enzyme pepsin ở nhiệt độ không đổi nhưng thay đổi nồng độ pH của môi trường. Từ kết quả thí nghiệm, nhóm học sinh đã đưa ra các nhận định sau:\n",
+      "type_question": "true_false",
+      "path_images": "/data/images/protein_va_enzyme_01/protein_va_enzyme_01_2_29.jpg",
+      "answers": [
+        {
+          "id_answer": "protein_va_enzyme_01-q29-a",
+          "answer": "*a)* Ở ống nghiệm 3, nếu thay pepsin thành chymotrypsin thì hiện tượng quan sát được là “từ đục thành trong” sau thí nghiệm."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q29-b",
+          "answer": "*b)* Cả pepsin và chymotrypsin đều hoạt động tốt trong môi trường acid."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q29-c",
+          "answer": "*c)* Pepsin hoạt động tốt nhất ở pH = 2."
+        },
+        {
+          "id_answer": "protein_va_enzyme_01-q29-d",
+          "answer": "*d)* Albumin là protein dạng sợi, không tan trong nước nên ban đầu dung dịch bị đục."
+        }
+      ],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [
+          "protein_va_enzyme_01-q29-a",
+          "protein_va_enzyme_01-q29-c"
+        ],
+        "false_answer": [
+          "protein_va_enzyme_01-q29-b",
+          "protein_va_enzyme_01-q29-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q30",
+      "order": 30,
+      "question": "**Câu 30:** Cho các protein sau: keratin (có ở tóc, móng), collagen (có ở da, sụn), myosin (có ở cơ bắp), hemoglobin (có ở máu) và albumin (có ở lòng trắng trứng). Có bao nhiêu protein có thể tan được trong nước tạo dung dịch keo?\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "2"
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q31",
+      "order": 31,
+      "question": "**Câu 31:** Cho các điều kiện sau: *(1)* môi trường acid, *(2)* môi trường base, *(3)* đun nóng và *(4)* sự có mặt của ion kim loại nặng. Có bao nhiêu điều kiện gây ra sự đông tụ của protein?\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "4"
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q32",
+      "order": 32,
+      "question": "**Câu 32:** Cho các vai trò với sự sống của chất như: *(1)* tham gia xây dựng tế bào, *(2)* vận chuyển các chất trong cơ thể, *(3)* điều hoà quá trình trao đổi chất, *(4)* xúc tác cho các phản ứng hóa sinh, *(5)* giúp cơ thể chống lại tác nhân có hại. Protein có thể đảm nhận bao nhiêu vai trò?\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "5"
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q33",
+      "order": 33,
+      "question": "**Câu 33:** Một số phản ứng được ghi số thứ tự như sau: phản ứng màu biuret *(1)*, phản ứng tạo kết tủa vàng với nitric acid *(2)*, phản ứng tạo kết tủa trắng với bromine *(3)*, phản ứng xảy ra sự đông tụ do nhiệt độ *(4)*. Tính chất nào không phải của protein (chọn số thứ tự của phản ứng)?\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "3"
+      }
+    },
+    {
+      "id_question": "protein_va_enzyme_01-q34",
+      "order": 34,
+      "question": "**Câu 34:** Nhiều peptide và protein có phản ứng màu biuret, số liên kết peptide ít nhất cần thiết có trong phân tử để có thể xảy ra phản ứng màu biuret là bao nhiêu?\n",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": null,
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "2"
+      }
+    }
+  ]
+}
