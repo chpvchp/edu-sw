@@ -36,6 +36,12 @@ export default function CardInfoExam({ data }: CardInfoExamProps) {
         </div>
 
         <div className={classNameInfo}>
+          <p>Nguồn:</p>
+          <a className="text-blue-600 underline" href={data?.source} download>Bấm vào để tải</a>
+        </div>
+
+
+        <div className={classNameInfo}>
           <p>Chỉnh sửa:</p>
           <p>{ConvertDate(data?.updated ?? "")}</p>
         </div>

@@ -7,6 +7,7 @@ export type InfoExam = {
   duration: number;
   updated: string;
   created: string;
+  source: string;
 }
 
 /**
