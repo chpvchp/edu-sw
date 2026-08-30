@@ -135,6 +135,38 @@ export default function HomePage() {
         </div>
       </section>
 
+
+      {/* ── Footer ──────────────────────────────────────── */}
+      <footer className="px-4 pb-8 pt-4 text-center border-t border-gray-200 mt-auto">
+        <div className="flex flex-col gap-2 justify-center items-center">
+          <p className="text-sm font-medium text-gray-700">
+            Thông tin liên hệ
+          </p>
+          {/* Facebook */}
+          <div className="flex">
+            <a href="https://www.facebook.com/hoang.phuc.494074/" className="p-2">
+              <img
+                src="/icons/facebook-1.svg"
+                className="h-8 w-8"
+              />
+            </a>
+            {/* Tiktok */}
+            <a href="https://www.tiktok.com/@caohoangphuc1203" className="p-2">
+              <img
+                src="/icons/tiktok-logo.svg"
+                className="h-8 w-8"
+              />
+            </a>
+          </div>
+        </div>
+        <p className="mt-1 text-xs text-gray-500">
+          <p className="italic">"Học thì phải đi đôi với hành!"</p>
+        </p>
+        <p className="mt-2 text-xs text-gray-400">
+          © {new Date().getFullYear()} EduSW — Xây bằng và React + Vite, có dùng AI.
+        </p>
+      </footer>
+
     </main>
   );
 }
