@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom"
-import { useInfoExam, useQuestions } from "../hook/useExam";
+import { useInfoExam, useQuestions } from "../hooks/useExam";
 import CardQuestionFourChoice from "../components/CardQuestionFourChoice";
 import CardQuestionTrueFalse from "../components/CardQuestionTrueFalse";
 import CardQuestionShortAnswer from "../components/CardQuestionShortAnswer";
-import { useQuestionAnswer } from "../hook/useQuestionAnswer";
-import { useSubmitQuestionAnswer } from "../hook/useSubmit";
-import { ConvertDate } from "../hook/useConvert";
+import { useQuestionAnswer } from "../hooks/useQuestionAnswer";
+import { useSubmitQuestionAnswer } from "../hooks/useSubmit";
+import { ConvertDate } from "../hooks/useConvert";
 
 /**
  * LamBaiPage | trang làm bài.

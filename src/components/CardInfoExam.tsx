@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import type { InfoExam } from "../type/infoexam.type"
-import { ConvertDate } from "../hook/useConvert"
+import { ConvertDate } from "../hooks/useConvert"
 
 type CardInfoExamProps = {
   data?: InfoExam

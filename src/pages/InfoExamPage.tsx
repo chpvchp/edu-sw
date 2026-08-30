@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { useInfoExam } from "../hook/useExam";
+import { useInfoExam } from "../hooks/useExam";
 import CardInfoExam from "../components/CardInfoExam";
 
 /**

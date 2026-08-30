@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import CardExam from "../components/CardExam";
-import { useListExam } from "../hook/useExam";
+import { useListExam } from "../hooks/useExam";
 import type { Exam } from "../type/exam.type";
 
 /**
