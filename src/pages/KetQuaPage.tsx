@@ -33,6 +33,10 @@ export default function KetQuaPage() {
 
   const results = (state ?? storedResults) as SubmitQuestionAnswerResponse | null;
 
+  useEffect(() => {
+    document.title = "Kết Quả và Đáp Án | Edu SW"
+  }, [])
+
   if (!results) {
     return (
       <main className="min-h-screen max-w-7xl flex-1 mx-auto p-4">
@@ -43,9 +47,7 @@ export default function KetQuaPage() {
 
   const classNameInfo = "flex gap-4 justify-between text-gray-600"
 
-  useEffect(() => {
-    document.title = "Kết Quả và Đáp Án | Edu SW"
-  }, [])
+
 
   return (
     <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10 items-start mx-auto gap-8 lg:gap-2">
