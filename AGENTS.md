@@ -1,63 +1,89 @@
 # Repository Guidelines
 
-## Overview
+## Tổng quát
 
-**edu-sw** is a static-site React app for Vietnamese high-school exam practice. Exam content loads from JSON files in `public/data/` — no backend is required. Deployed via GitHub Pages.
+**EduSW** là một trang web tĩnh được xây dựng bằng React. Nó được tạo ra nhằm mục đích hỗ trợ các bạn học cùng khối trong trường được rèn luyện bài tập hằng ngày giúp đạt kết quả học tập tốt hơn. Đồng thời nó cũng rèn luyện kỹ năng viết web với framework hiện đại cho tác giả.
 
-## Project Structure & Module Organization
+## 📂 Cấu trúc dự án - Project Structure
 
-```
+Dự án EduSW được xây dựng dựa theo cấu trúc mặc định của React Vite với sự điều chỉnh phù hợp, cụ thể:
+
+```text
 edu-sw/
-├── public/data/          # Static exam JSON files + images
-│   ├── exams/            # Exam definitions (one .json per exam)
-│   └── images/           # Exam-specific images
+├── public/
+│   ├── data/            # Chứa JSON data và Images data cho các bài tập (exam)
+│   ├── documents/       # Chứa tài liệu gốc dạng pdf và md
 ├── src/
-│   ├── api/              # Data-fetching (exam.api.ts)
-│   ├── components/       # Reusable UI components
-│   ├── hook/             # React hooks
-│   ├── layouts/          # Page layout wrappers
-│   ├── pages/            # Route-level pages
-│   ├── routes/           # React Router definitions
-│   ├── type/             # TypeScript types
-│   ├── App.tsx           # App shell
-│   ├── main.tsx          # Entry point
-│   └── index.css         # Global styles (Tailwind)
-├── template/             # JSON templates for new exams
-├── dist/                 # Build output (git-ignored)
-└── vite.config.ts
+│   ├── api/             # Các lớp API
+│   ├── components/      # Các components tái sử dụng nhiều(Cards, Nav, etc.)
+│   ├── hooks/            # React Hooks (useExam, useSubmit, etc.)
+│   ├── layouts/         # Page layouts (MainLayout)
+│   ├── pages/           # Route-based pages (Home, ExamList, Results)
+│   ├── routes/          # Chuyển hướng các trang mục
+│   └── type/            # Định nghĩa kiểu dữ liệu của TypeScript
+├── AGENTS.md            # Các quy tắc, hướng dẫn khi làm việc với dự án cho AGENT
 ```
+---
 
-## Commands
+## Các câu lệnh AGENT có thể dùng
 
 | Command | Description |
 |---|---|
-| `npm run dev` | Start local dev server (HMR, `0.0.0.0`) |
-| `npm run build` | Type-check (`tsc -b`) and bundle with Vite |
-| `npm run lint` | Static analysis with `oxlint` |
-| `npm run preview` | Preview production build locally |
-| `npm run deploy` | Build + publish to GitHub Pages |
+| `npm run dev` | Chạy server ở chế độ dev (`0.0.0.0:5173`) |
+| `npm run build` | Build dự án để preview hoặc deploy |
+| `npm run lint` | Kiểm tra code có vi phạm quy tắc không |
+| `npm run preview` | Preview production sau khi build local |
+| `npm run deploy` | Build và push deploy tự động lên GitHub Pages (gh-pages) |
 
-## Coding Style & Naming
+## Phong cách viết code và đặt tên bắt buộc AGENT phải tuân theo
 
-- **2-space indentation** (oxlint-enforced). **TypeScript** (.ts / .tsx).
-- **Components & hooks:** PascalCase (`CardExam`, `useSubmitQuestionAnswer`).
-- **Functions & variables:** camelCase (`calculateScore`, `loadExamData`).
-- **JSDoc:** bilingual format — English first, Vietnamese second.
-- **File structure:** helpers before public exports so dependencies read top-to-bottom.
-- **Tailwind:** utility-first classes on JSX elements.
+* **Thụt lề 2 khoảng trắng** (được oxlint bắt buộc).
 
-## Testing
+* Sử dụng **TypeScript** (`.ts` / `.tsx`).
 
-No testing framework is configured. When added, follow:
+* **Component:** sử dụng **PascalCase** (`CardExam`).
 
-- File naming: `src/<module>/<module>.test.ts`.
-- Run with `npm test` (script to be configured).
+* **Hàm, biến và hook:** sử dụng **camelCase** (`calculateScore`, `loadExamData`, `useSubmitQuestionAnswer`).
 
-## Commit & Pull Request Guidelines
+* **JSDoc:** định dạng **song ngữ** — tiếng Anh trước, tiếng Việt sau.
 
-- **Commits:** Conventional Commits format — `type: description` (`feat`, `fix`, `chore`, `docs`, `refactor`, `data`). Example: `feat: add field class_exam and updated`.
-- **PRs:** one-paragraph summary, linked issues, screenshots for UI changes. Do not commit `dist/` or `package-lock.json` unless the PR intentionally updates dependencies.
+  - Ví dụ:
+  ```tsx
+  /**
+  CardInfoExam | thẻ thông tin đề.
+  Shows the selected exam metadata and exposes the entry point to start the practice session.
+  Hiển thị thông tin cơ bản của đề đã chọn và cung cấp nút để bắt đầu làm bài.
+  */
+  ```
 
-## Deployment
+* **Cấu trúc file:** đặt **helper trước các public export** để dependency được đọc theo thứ tự từ trên xuống dưới.
 
-`npm run deploy` builds, copies `dist/index.html` → `dist/404.html` for SPA routing, and publishes to the `gh-pages` branch. Ensure `npm run lint` passes before deploying.
+* **Tailwind:** sử dụng các **utility class** trực tiếp trên các phần tử JSX.
+
+## Kiểm thử
+
+Hiện tại chưa cấu hình framework kiểm thử. Khi được thêm vào, hãy tuân theo:
+
+* **Đặt tên file:** `src/<module>/<module>.test.ts`.
+* **Chạy kiểm thử:** sử dụng `npm test` (script sẽ được cấu hình sau).
+
+## Quy tắc Commit & Pull Request
+
+* **Commit:** sử dụng định dạng **Conventional Commits** — `type: description` (`feat`, `fix`, `chore`, `docs`, `refactor`, `data`).
+
+  * Ví dụ: `feat: add field class_exam and updated`.
+
+* **Pull Request (PR):**
+
+  * Chưa có thông tin về PR
+
+## Triển khai
+
+`npm run deploy` sẽ:
+
+1. Build project.
+2. Tự động sao chép `dist/index.html` → `dist/404.html` để hỗ trợ SPA routing.
+3. Publish lên branch `gh-pages`.
+
+**Đảm bảo `npm run lint` chạy thành công trước khi deploy.**
+
