@@ -163,7 +163,7 @@ export default function HomePage() {
           <p className="italic">"Học thì phải đi đôi với hành!"</p>
         </p>
         <p className="mt-2 text-xs text-gray-400">
-          © {new Date().getFullYear()} EduSW — Xây bằng và React + Vite, có dùng AI.
+          © 2026 EduSW — Xây bằng và React + Vite, có dùng AI.
         </p>
       </footer>
 
