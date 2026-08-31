@@ -157,6 +157,13 @@ export default function HomePage() {
                 className="h-8 w-8"
               />
             </a>
+            {/* GitHub */}
+            <a href="https://github.com/chpvchp" className="p-2">
+              <img
+                src="/icons/github.svg"
+                className="h-8 w-8"
+              />
+            </a>
           </div>
         </div>
         <p className="mt-1 text-xs text-gray-500">
