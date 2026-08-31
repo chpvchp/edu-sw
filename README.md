@@ -20,23 +20,36 @@ edu-sw/
 ├── public/
 │   ├── data/            # Chứa JSON data và Images data cho các bài tập (exam)
 │   ├── documents/       # Chứa tài liệu gốc dạng pdf và md
+│   ├── icons/           # Chứa các icon của web
 ├── src/
 │   ├── api/             # Các lớp API
-│   ├── components/      # Các components tái sử dụng nhiều(Cards, Nav, etc.)
-│   ├── hooks/            # React Hooks (useExam, useSubmit, etc.)
+│   ├── components/      # Các components tái sử dụng nhiều(Card..., etc.)
+│   ├── hooks/           # React Hooks (useExam, useSubmit, etc.)
 │   ├── layouts/         # Page layouts (MainLayout)
-│   ├── pages/           # Route-based pages (Home, ExamList, Results)
+│   ├── pages/           # Route-based pages (HomePage, BaiTapPage, ...)
 │   ├── routes/          # Chuyển hướng các trang mục
 │   └── type/            # Định nghĩa kiểu dữ liệu của TypeScript
 ├── AGENTS.md            # Các quy tắc, hướng dẫn khi làm việc với dự án cho AGENT
 ```
 ---
 
-## 📝 Giấy phép - Lisence
+## Các hướng dẫn - Instructions
 
-Dư án có giấy phép MIT License - [xem chi tiết tại đây](LICENSE)
+- [Hướng dẫn cài đặt - Install Instruction](docs/install_instruction.md)
+- [Hướng dẫn thêm bài tập và đề thi - Add Exam Instruction](docs/add_exam_instruction.md)
+
+
+
+## 📝 Giấy phép - License
+
+Dự án có giấy phép MIT License - [xem chi tiết tại đây](LICENSE)
 
 ---
+
+## Agents.md Instruction
+
+[Xem tại đây](AGENTS.md)
+
 
 ## 👨‍💻 Tác giả - Author
 
