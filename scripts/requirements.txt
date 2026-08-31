@@ -1,0 +1,5 @@
+# cd scripts
+## source .venv/bin/activate
+
+httpx
+img2pdf

@@ -21,6 +21,7 @@ edu-sw/
 │   ├── data/            # Chứa JSON data và Images data cho các bài tập (exam)
 │   ├── documents/       # Chứa tài liệu gốc dạng pdf và md
 │   ├── icons/           # Chứa các icon của web
+├── scripts/             # Nơi chứa các script convert data
 ├── src/
 │   ├── api/             # Các lớp API
 │   ├── components/      # Các components tái sử dụng nhiều(Card..., etc.)
