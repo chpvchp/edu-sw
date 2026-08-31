@@ -47,7 +47,7 @@ export default function HomePage() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Feature 1 */}
-          <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition">
+          <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition duration-300 hover:scale-105">
             <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4">
               <BookOpen className="w-6 h-6 text-blue-600" />
             </div>
@@ -58,7 +58,7 @@ export default function HomePage() {
           </div>
 
           {/* Feature 2 */}
-          <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition">
+          <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition duration-300 hover:scale-105">
             <div className="w-12 h-12 rounded-lg bg-green-100 flex items-center justify-center mb-4">
               <Target className="w-6 h-6 text-green-600" />
             </div>
@@ -69,7 +69,7 @@ export default function HomePage() {
           </div>
 
           {/* Feature 3 */}
-          <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition">
+          <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition duration-300 hover:scale-105">
             <div className="w-12 h-12 rounded-lg bg-yellow-100 flex items-center justify-center mb-4">
               <Trophy className="w-6 h-6 text-yellow-600" />
             </div>
@@ -89,17 +89,17 @@ export default function HomePage() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
-            <div className="p-6 text-center border border-gray-200 rounded-xl bg-blue-50">
+            <div className="p-6 text-center border border-gray-200 rounded-xl bg-blue-50 transition duration-200 hover:scale-110">
               <p className="text-3xl font-extrabold text-blue-600">{data.length}</p>
               <p className="text-gray-600 text-sm mt-1">Đề thi</p>
             </div>
 
-            <div className="p-6 text-center border border-gray-200 rounded-xl bg-green-50">
+            <div className="p-6 text-center border border-gray-200 rounded-xl bg-green-50 transition duration-200 hover:scale-110">
               <p className="text-3xl font-extrabold text-green-600">{subjectCount}</p>
               <p className="text-gray-600 text-sm mt-1">Môn học</p>
             </div>
 
-            <div className="p-6 text-center border border-gray-200 rounded-xl bg-purple-50">
+            <div className="p-6 text-center border border-gray-200 rounded-xl bg-purple-50 transition duration-200 hover:scale-110">
               <p className="text-3xl font-extrabold text-purple-600">{classCount}</p>
               <p className="text-gray-600 text-sm mt-1">Lớp</p>
             </div>
@@ -109,7 +109,7 @@ export default function HomePage() {
 
       {/* ── Limitations ──────────────────────────────────── */}
       <section className="px-4 pb-16">
-        <div className="max-w-xl mx-auto p-6 border border-yellow-300 rounded-xl bg-yellow-50">
+        <div className="max-w-xl mx-auto p-6 border border-yellow-300 rounded-xl bg-yellow-50 transition duration-300 hover:scale-110">
           <h2 className="text-xl font-bold text-yellow-800 mb-3">
             ⚠️ Hạn chế & Đang phát triển
           </h2>
@@ -144,21 +144,21 @@ export default function HomePage() {
           </p>
           {/* Facebook */}
           <div className="flex">
-            <a href="https://www.facebook.com/hoang.phuc.494074/" className="p-2">
+            <a href="https://www.facebook.com/hoang.phuc.494074/" className="p-2 transition duration-300 hover:scale-150">
               <img
                 src="/icons/facebook-1.svg"
                 className="h-8 w-8"
               />
             </a>
             {/* Tiktok */}
-            <a href="https://www.tiktok.com/@caohoangphuc1203" className="p-2">
+            <a href="https://www.tiktok.com/@caohoangphuc1203" className="p-2 transition duration-300 hover:scale-150">
               <img
                 src="/icons/tiktok-logo.svg"
                 className="h-8 w-8"
               />
             </a>
             {/* GitHub */}
-            <a href="https://github.com/chpvchp" className="p-2">
+            <a href="https://github.com/chpvchp" className="p-2 transition duration-300 hover:scale-150">
               <img
                 src="/icons/github.svg"
                 className="h-8 w-8"
@@ -167,7 +167,7 @@ export default function HomePage() {
           </div>
         </div>
         <p className="mt-1 text-xs text-gray-500">
-          <p className="italic">"Học thì phải đi đôi với hành!"</p>
+          <span className="italic">"Học thì phải đi đôi với hành!"</span>
         </p>
         <p className="mt-2 text-xs text-gray-400">
           © 2026 EduSW — Đươc xây dựng bằng React/Vite và Tailwind CSS.
