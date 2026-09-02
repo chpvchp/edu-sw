@@ -3,6 +3,7 @@ import type { InfoExam } from "../type/infoexam.type";
 import type { Question } from "../type/question.type";
 import type { QuestionResult } from "../type/question-answer.type";
 import type { SubmitQuestionAnswer, SubmitQuestionAnswerResponse } from "../type/submit.type";
+import { fetchJson } from "./api";
 
 type ExamData = InfoExam & {
   questions: Question[];
@@ -11,20 +12,6 @@ type ExamData = InfoExam & {
 const EXAMS_INDEX_PATH = "/data/exams/index.json";
 const examCache = new Map<string, ExamData>();
 
-/**
- * fetchJson | tải JSON.
- * Reads a JSON asset from public space and converts it into the requested type, so the app can work without any backend service.
- * Đọc một file JSON từ thư mục public và ép về kiểu dữ liệu mong muốn, giúp ứng dụng hoạt động hoàn toàn không cần backend.
- */
-async function fetchJson<T>(path: string): Promise<T> {
-  const response = await fetch(path);
-
-  if (!response.ok) {
-    throw new Error(`Không thể tải dữ liệu: ${path}`);
-  }
-
-  return response.json() as Promise<T>;
-}
 
 /**
  * loadExamData | tải dữ liệu đề.
