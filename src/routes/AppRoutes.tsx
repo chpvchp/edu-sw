@@ -5,6 +5,7 @@ import BaiTapPage from "../pages/BaiTapPage";
 import InfoExamPage from "../pages/InfoExamPage";
 import LamBaiPage from "../pages/LambaiPage";
 import KetQuaPage from "../pages/KetQuaPage";
+import FlashCardPage from "../pages/FlashCardPage";
 
 /**
  * AppRoutes | cây điều hướng của ứng dụng.
@@ -16,10 +17,13 @@ export default function AppRoutes() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
+
         <Route path="bai-tap" element={<BaiTapPage />} />
         <Route path="bai-tap/:id_exam" element={<InfoExamPage />} />
         <Route path="bai-tap/:id_exam/lam-bai" element={<LamBaiPage />} />
         <Route path="bai-tap/ket-qua" element={<KetQuaPage />} />
+
+        <Route path="flashcard" element={<FlashCardPage />} />
       </Route>
     </Routes>
   )
