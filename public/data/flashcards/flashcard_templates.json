@@ -1,0 +1,15 @@
+{
+  "id_flashcard": "flashcard_templates",
+  "name_exam": "Flashcard Templates",
+  "updated": "2026-09-02T20:45:00.000",
+  "created": "2026-09-02T20:40:00.000",
+  "cards": [
+    {
+      "vocab": "Artificial Intelligence",
+      "pos": "noun phrase", 
+      "ipa": "/ˌɑːrtɪˈfɪʃəl ɪnˈtelɪdʒəns/", 
+      "mean": "Trí tuệ nhân tạo", 
+      "example": "Artificial intelligence is changing the world"
+    }
+  ]
+}
