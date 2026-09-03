@@ -11,7 +11,7 @@ export default function NavBar() {
   const listNavLink = [
     {to: "/", label: "Trang Chủ", icon: House},
     {to: "/bai-tap", label: "Bài Tập", icon: BookOpen},
-    {to: "/flashcard", label: "Bài Tập", icon: PlayingCardsFan},
+    {to: "/flashcard", label: "FlashCard", icon: PlayingCardsFan},
   ]
 
   const classNameActive = "p-2 bg-blue-600 text-white rounded-full"
