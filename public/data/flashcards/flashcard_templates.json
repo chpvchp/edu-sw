@@ -13,6 +13,14 @@
       "ipa": "/ˌɑːrtɪˈfɪʃəl ɪnˈtelɪdʒəns/", 
       "mean": "Trí tuệ nhân tạo", 
       "example": "Artificial intelligence is changing the world"
+    },
+    {
+      "order": 2,
+      "vocab": "Photolithography",
+      "pos": "noun", 
+      "ipa": "/ˌfoʊtoʊlɪˈθɑːɡrəfi/", 
+      "mean": "Quang khắc", 
+      "example": "Photolithography Machine"
     }
   ]
 }
