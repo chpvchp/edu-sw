@@ -1,10 +1,13 @@
 {
   "id_flashcard": "flashcard_templates",
-  "name_exam": "Flashcard Templates",
+  "name_flashcard": "Flashcard Templates",
+  "num_cards": 8,
   "updated": "2026-09-02T20:45:00.000",
   "created": "2026-09-02T20:40:00.000",
+  "source": "",
   "cards": [
     {
+      "order": 1,
       "vocab": "Artificial Intelligence",
       "pos": "noun phrase", 
       "ipa": "/ˌɑːrtɪˈfɪʃəl ɪnˈtelɪdʒəns/", 
