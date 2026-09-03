@@ -3,8 +3,8 @@
 **Branch:** `feat/flashcard`  
 **Base branch:** `main`  
 **Reviewer:** AI Agent (EduSW Code Review)  
-**Ngày đánh giá:** 2026-09-02  
-**Tổng số bug tìm thấy:** 12 (3 Critical, 4 Medium, 5 Low)
+**Ngày đánh giá:** 2026-09-03 (23h30)  
+**Tổng số bug tìm thấy:** 11 (2 Critical, 4 Medium, 5 Low)
 
 ---
 
@@ -12,9 +12,8 @@
 
 | # | File | Dòng | Bug | Mô tả | Cách fix |
 |---|------|------|-----|-------|----------|
-| **C1** | `src/components/FlashCard.tsx` | 10–26 | **CSS flip animation KHÔNG HOẠT ĐỘNG** | Các class `perspective-distant`, `transform-3d`, `backface-hidden`, `rotate-y-180` **không tồn tại trong Tailwind CSS v4** (không có plugin tương ứng). Animation lật thẻ hoàn toàn không hoạt động — người dùng chỉ thấy mặt trước. | Thêm custom CSS vào `src/index.css`: `.perspective-distant { perspective: 1000px; }`, `.transform-3d { transform-style: preserve-3d; }`, `.backface-hidden { backface-visibility: hidden; }`, `.rotate-y-180 { transform: rotateY(180deg); }` |
-| **C2** | `src/pages/DoFlashCardPage.tsx` | 59 | **Hardcoded card count = "2"** | Progress bar hiển thị `{order + 1} / 2` — số total cards được hardcode là "2" thay vì `data?.length`. Hiển thị sai với mọi flashcard có ≠ 2 cards. | Thay `<p>2</p>` bằng `<p>{data?.length ?? 0}</p>` |
-| **C3** | `src/pages/DoFlashCardPage.tsx` | 19–24 | **Không bounds checking khi navigate** | Hàm `backCard(order)` và `continueCard(order)` không check bounds — có thể set `order < 0` hoặc `order >= data.length`, dẫn đến `data?.[order]` trả về `undefined` và crash UI. | Thêm guard: `if (order > 0) setOrder(order - 1)` và `if (order < (data?.length ?? 0) - 1) setOrder(order + 1)` |
+| **C1** | `src/pages/DoFlashCardPage.tsx` | 59 | **Hardcoded card count = "2"** | Progress bar hiển thị `{order + 1} / 2` — số total cards được hardcode là "2" thay vì `data?.length`. Hiển thị sai với mọi flashcard có ≠ 2 cards. | Thay `<p>2</p>` bằng `<p>{data?.length ?? 0}</p>` |
+| **C2** | `src/pages/DoFlashCardPage.tsx` | 19–24 | **Không bounds checking khi navigate** | Hàm `backCard(order)` và `continueCard(order)` không check bounds — có thể set `order < 0` hoặc `order >= data.length`, dẫn đến `data?.[order]` trả về `undefined` và crash UI. | Thêm guard: `if (order > 0) setOrder(order - 1)` và `if (order < (data?.length ?? 0) - 1) setOrder(order + 1)` |
 
 ---
 
@@ -45,10 +44,18 @@
 
 | Mức độ | Số lượng | Tỷ lệ |
 |--------|----------|-------|
-| 🔴 Critical | 3 | 25.0% |
-| 🟡 Medium | 4 | 33.3% |
-| 🔵 Low | 5 | 41.7% |
-| **Tổng** | **12** | **100%** |
+| 🔴 Critical | 2 | 18.2% |
+| 🟡 Medium | 4 | 36.4% |
+| 🔵 Low | 5 | 45.4% |
+| **Tổng** | **11** | **100%** |
+
+---
+
+## ✅ Đã xác nhận hoạt động (không phải bug)
+
+| Bug cũ | File | Lý do bác bỏ | Bằng chứng |
+|--------|------|--------------|------------|
+| CSS 3D utilities không tồn tại trong Tailwind v4 | `src/components/FlashCard.tsx` | **ĐÃ KIỂM TRA THỰC TẾ** — Các class `perspective-distant`, `transform-3d`, `backface-hidden`, `rotate-y-180` **HOẠT ĐỘNG BÌNH THƯỜNG** trong Tailwind CSS v4. Animation lật thẻ hoạt động đúng, không cần custom CSS thêm. | User đã thử nghiệm trực tiếp trên browser — flip animation hoạt động mượt mà, không có lỗi hiển thị |
 
 ---
 
@@ -68,18 +75,17 @@
 ## 📌 Thứ tự ưu tiên sửa
 
 ### 🚨 P0 — Critical (Blocker merge)
-1. **C1**: Thêm custom CSS cho flip animation vào `src/index.css`
-2. **C2**: Fix hardcoded "2" → dynamic `data?.length`
-3. **C3**: Thêm bounds checking cho `backCard` / `continueCard`
+1. **C1**: Fix hardcoded "2" → dynamic `data?.length`
+2. **C2**: Thêm bounds checking cho `backCard` / `continueCard`
 
 ### ⚠️ P1 — High (Nên fix trước release)
-4. **M1**: Thống nhất error type giữa các hooks
-5. **M2**: Defensive programming cho array access
-6. **M3**: Xóa tất cả console.log
-7. **M4**: Thêm cache limit/TTL
+3. **M1**: Thống nhất error type giữa các hooks
+4. **M2**: Defensive programming cho array access
+5. **M3**: Xóa tất cả console.log
+6. **M4**: Thêm cache limit/TTL
 
 ### 🧹 P2 — Low (Cleanup)
-8. **L1–L5**: Cleanup dead code, redundant props, optional chaining
+7. **L1–L5**: Cleanup dead code, redundant props, optional chaining
 
 ---
 
@@ -87,4 +93,4 @@
 
 | Bug cũ | Lý do bác bỏ | Bằng chứng |
 |--------|--------------|------------|
-| CSS 3D utilities không tồn tại trong Tailwind v4 | Cần kiểm tra kỹ — các class có thể cần custom config hoặc plugin riêng. Hiện tại **không hoạt động** nên vẫn là bug. | Không tìm thấy class trong Tailwind v4 default theme |
+| CSS 3D utilities không tồn tại trong Tailwind v4 | **ĐÃ XÁC NHẬN HOẠT ĐỘNG** — Các class `perspective-distant`, `transform-3d`, `backface-hidden`, `rotate-y-180` hoạt động bình thường trong Tailwind CSS v4. Animation lật thẻ hoạt động đúng, không cần custom CSS thêm. | User đã thử nghiệm trực tiếp trên browser ngày 2026-09-03 23h30 — flip animation hoạt động mượt mà, không có lỗi hiển thị |

@@ -2,31 +2,20 @@
 
 **Branch:** `feat/flashcard`  
 **Ngày tạo:** 2026-09-02  
-**Tổng số task:** 18 (3 P0, 5 P1, 4 P2, 6 P3)
+**Ngày cập nhật:** 2026-09-03 (23h30)  
+**Tổng số task:** 17 (2 P0, 5 P1, 4 P2, 6 P3)
 
 ---
 
 ## 🚨 P0 — Critical (Blocker merge vào `main`)
 
-### [P0-1] Fix CSS flip animation cho FlashCard component
-- **File:** `src/index.css`, `src/components/FlashCard.tsx`
-- **Mô tả:** Các class `perspective-distant`, `transform-3d`, `backface-hidden`, `rotate-y-180` không tồn tại trong Tailwind v4 default. Animation lật thẻ không hoạt động.
-- **Action:** Thêm custom CSS vào `src/index.css`:
-  ```css
-  .perspective-distant { perspective: 1000px; }
-  .transform-3d { transform-style: preserve-3d; }
-  .backface-hidden { backface-visibility: hidden; }
-  .rotate-y-180 { transform: rotateY(180deg); }
-  ```
-- **Estimate:** 15 phút
-
-### [P0-2] Fix hardcoded card count trong DoFlashCardPage
+### [P0-1] Fix hardcoded card count trong DoFlashCardPage
 - **File:** `src/pages/DoFlashCardPage.tsx` (dòng 59)
 - **Mô tả:** Progress hiển thị `{order + 1} / 2` — số total cards hardcode sai.
 - **Action:** Thay `<p>2</p>` bằng `<p>{data?.length ?? 0}</p>`
 - **Estimate:** 5 phút
 
-### [P0-3] Thêm bounds checking cho navigation buttons
+### [P0-2] Thêm bounds checking cho navigation buttons
 - **File:** `src/pages/DoFlashCardPage.tsx` (dòng 19–24)
 - **Mô tả:** `backCard()` và `continueCard()` không check bounds → có thể navigate ra ngoài array.
 - **Action:** Thêm guard conditions:
@@ -157,19 +146,19 @@
 
 | Priority | Số task | Tổng estimate |
 |----------|---------|---------------|
-| 🚨 P0 | 3 | ~35 phút |
+| 🚨 P0 | 2 | ~20 phút |
 | ⚠️ P1 | 5 | ~1h 45 phút |
 | 📝 P2 | 4 | ~20 phút |
 | 🧹 P3 | 6 | ~1h 25 phút |
-| **Tổng** | **18** | **~4h 25 phút** |
+| **Tổng** | **17** | **~4h 10 phút** |
 
 ---
 
 ## 📋 Checklist trước merge
 
-- [ ] P0-1: CSS flip animation hoạt động
-- [ ] P0-2: Card count hiển thị đúng
-- [ ] P0-3: Bounds checking hoạt động
+- [x] CSS flip animation hoạt động (Đã xác nhận 2026-09-03 23h30)
+- [ ] P0-1: Card count hiển thị đúng
+- [ ] P0-2: Bounds checking hoạt động
 - [ ] P1-3: Không còn console.log
 - [ ] `npm run lint` → 0 warnings, 0 errors
 - [ ] `tsc --noEmit` → 0 errors
