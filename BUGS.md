@@ -1,192 +1,90 @@
-# Bảng Báo Cáo Các BUGS 2026-09-02
+# 🐛 Bảng Báo Cáo Bugs — Branch `feat/flashcard`
 
 **Branch:** `feat/flashcard`  
 **Base branch:** `main`  
 **Reviewer:** AI Agent (EduSW Code Review)  
-**Tổng số bug tìm thấy:** 9 (1 Critical, 3 High, 3 Medium, 2 Low)
+**Ngày đánh giá:** 2026-09-02  
+**Tổng số bug tìm thấy:** 12 (3 Critical, 4 Medium, 5 Low)
 
 ---
 
-| STT | Mức độ | File có bug | Bug | Mô tả bug |
-|---|---|---|---|---|
-| 1 | 🔴 **CRITICAL** | `src/api/flashcard.api.ts` | File rỗng 0 bytes | File được tạo bởi commit `2b38ff9 chore: add new flashcard.api.ts` nhưng hoàn toàn trống (0 dòng code). Không có function nào để load dữ liệu flashcard từ JSON. Feature flashcard **không thể hoạt động** vì không có API layer. |
-| 2 | 🟡 **HIGH** | `src/pages/FlashCardPage.tsx` | Hardcoded data — disconnected với data layer | Dữ liệu flashcard được hardcode trực tiếp trong component (`const data = { vocab: "Artificial Intelligence", ... }`) thay vì load từ file JSON `public/data/flashcards/flashcard_templates.json`. File JSON tồn tại nhưng **không được sử dụng**. |
-| 3 | 🟡 **HIGH** | `src/type/flashcard.type.ts` | Thiếu fields so với data thực tế | Type `FlashCardType` chỉ có 5 field (`vocab`, `pos`, `ipa`, `mean`, `example`) nhưng file JSON có thêm `id_flashcard`, `created`, `updated`. Khi load dữ liệu từ JSON, các field này bị **bỏ qua** (silent ignore) — tiềm ẩn lỗi type safety. |
-| 4 | 🟡 **HIGH** | `src/type/flashcard.type.ts` | Thiếu types cho data layer | Không có type cho `FlashcardIndexItem` và `FlashcardData` — cần thiết để type-check khi load index.json và templates.json từ API. |
-| 5 | 🟠 **MEDIUM** | `src/components/NavBar.tsx` | Label flashcard trùng với BaiTap | Dòng `{to: "/flashcard", label: "Bài Tập", icon: PlayingCardsFan}` — label `"Bài Tập"` **TRÙNG** với label của `/bai-tap`. Người dùng không phân biệt được hai trang này trên thanh navigation. |
-| 6 | 🟠 **MEDIUM** | `src/components/FlashCard.tsx` | Thiếu accessibility (a11y) | Flashcard là interactive element nhưng thiếu: `role="button"`, `tabIndex={0}`, `aria-label`, `aria-pressed`, và keyboard handler (`onKeyDown`). Không thể sử dụng bằng bàn phím, không hỗ trợ screen reader. |
-| 7 | 🟠 **MEDIUM** | `src/components/FlashCard.tsx` | Typo trong state name | State được đặt tên là `fliped` (thiếu chữ 'p') — đúng ra phải là `flipped`. Lỗi chính tả này gây khó khăn cho việc đọc code và bảo trì. |
-| 8 | 🔵 **LOW** | `src/pages/FlashCardPage.tsx` | Optional chaining vô nghĩa | Sử dụng `data?.vocab`, `data?.pos`... nhưng `data` là object literal (không thể null/undefined). Optional chaining ở đây **vô nghĩa**, gây hiểu nhầm rằng data có thể null. |
-| 9 | 🔵 **LOW** | `src/components/FlashCard.tsx` | Thiếu JSDoc song ngữ | Component `FlashCard` không có JSDoc comment — vi phạm quy tắc dự án yêu cầu định dạng song ngữ (tiếng Anh trước, tiếng Việt sau). |
+## 🔴 Critical — Phải fix trước khi merge vào `main`
+
+| # | File | Dòng | Bug | Mô tả | Cách fix |
+|---|------|------|-----|-------|----------|
+| **C1** | `src/components/FlashCard.tsx` | 10–26 | **CSS flip animation KHÔNG HOẠT ĐỘNG** | Các class `perspective-distant`, `transform-3d`, `backface-hidden`, `rotate-y-180` **không tồn tại trong Tailwind CSS v4** (không có plugin tương ứng). Animation lật thẻ hoàn toàn không hoạt động — người dùng chỉ thấy mặt trước. | Thêm custom CSS vào `src/index.css`: `.perspective-distant { perspective: 1000px; }`, `.transform-3d { transform-style: preserve-3d; }`, `.backface-hidden { backface-visibility: hidden; }`, `.rotate-y-180 { transform: rotateY(180deg); }` |
+| **C2** | `src/pages/DoFlashCardPage.tsx` | 59 | **Hardcoded card count = "2"** | Progress bar hiển thị `{order + 1} / 2` — số total cards được hardcode là "2" thay vì `data?.length`. Hiển thị sai với mọi flashcard có ≠ 2 cards. | Thay `<p>2</p>` bằng `<p>{data?.length ?? 0}</p>` |
+| **C3** | `src/pages/DoFlashCardPage.tsx` | 19–24 | **Không bounds checking khi navigate** | Hàm `backCard(order)` và `continueCard(order)` không check bounds — có thể set `order < 0` hoặc `order >= data.length`, dẫn đến `data?.[order]` trả về `undefined` và crash UI. | Thêm guard: `if (order > 0) setOrder(order - 1)` và `if (order < (data?.length ?? 0) - 1) setOrder(order + 1)` |
 
 ---
 
-## Thứ tự ưu tiên sửa, gợi ý
+## 🟡 Medium — Nên fix trước khi release
 
-### 🚨 P0 — Critical: Phải fix trước khi merge vào `main`
-
-#### Bug #1: Implement `src/api/flashcard.api.ts`
-Tạo API module tương tự `exam.api.ts` với các function:
-```typescript
-// src/api/flashcard.api.ts
-import { fetchJson } from "./api";
-import type { FlashcardIndexItem, FlashcardData } from "../type/flashcard.type";
-
-const FLASHCARDS_INDEX_PATH = "/data/flashcards/index.json";
-
-export const getFlashcardIndex = async (): Promise<FlashcardIndexItem[]> =>
-  fetchJson<FlashcardIndexItem[]>(FLASHCARDS_INDEX_PATH);
-
-export const getFlashcardsByCategory = async (id: string): Promise<FlashcardData> =>
-  fetchJson<FlashcardData>(`/data/flashcards/${id}.json`);
-```
+| # | File | Dòng | Bug | Mô tả | Cách fix |
+|---|------|------|-----|-------|----------|
+| **M1** | `src/hooks/useFlashCard.ts` | 8, 44 | **Inconsistent error type giữa hooks** | `useListFlashCard` trả về `{ error: unknown }`, nhưng `useCards` trả về `{ isError: boolean }`. Consumer phải check khác nhau cho mỗi hook. | Thống nhất pattern: cả 2 hooks đều trả `{ error: unknown \| null }` |
+| **M2** | `src/pages/DoFlashCardPage.tsx` | 26 | **Unsafe array access** | `const card = data?.[order]` — nếu `order` out of bounds (do C3), `card` sẽ là `undefined` nhưng chỉ check `!card` sau đó. Không có defensive programming rõ ràng. | Thêm guard ngay sau fetch: `if (!data || order >= data.length) return <Error />` |
+| **M3** | Multiple files | Various | **Console.log debug code còn sót** (5 files) | `FlashCard.tsx:7`, `CardFlashCard.tsx:8`, `FlashCardPage.tsx:21`, `DoFlashCardPage.tsx:14` — debug log vẫn còn trong production code. Vi phạm best practice, có thể leak info. | Xóa tất cả `console.log` trước khi merge/production |
+| **M4** | `src/api/flashcard.api.ts` | 5 | **Cache không có limit/TTL** | `flashCardCache = new Map()` — cache không bao giờ expire, không có size limit. Nếu user load nhiều flashcards khác nhau, memory sẽ tăng vô hạn trong session. | Thêm LRU cache hoặc size limit (ví dụ: Max 20 entries, hoặc TTL 30 phút) |
 
 ---
 
-### ⚠️ P1 — High: Nên fix trước khi release
+## 🔵 Low — Cleanup và cải tiến nhỏ
 
-#### Bug #2: Load data từ JSON trong `FlashCardPage.tsx`
-Thay vì hardcoded, dùng `useEffect` + API:
-```typescript
-import { useEffect, useState } from "react";
-import FlashCard from "../components/FlashCard";
-import type { FlashCardType } from "../type/flashcard.type";
-import { getFlashcardsByCategory } from "../api/flashcard.api";
-
-export default function FlashCardPage() {
-  const [cards, setCards] = useState<FlashCardType[]>([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    getFlashcardsByCategory("flashcard_templates")
-      .then(data => setCards(data.cards))
-      .catch(err => console.error("Failed to load flashcards:", err));
-  }, []);
-
-  if (cards.length === 0) return <div className="min-h-screen flex items-center justify-center">Đang tải...</div>;
-
-  return (
-    <main className="min-h-screen flex-1 flex flex-col justify-center items-center p-4">
-      <FlashCard {...cards[currentIndex]} />
-      {/* Navigation buttons */}
-    </main>
-  );
-}
-```
-
-#### Bug #3: Bổ sung fields vào `FlashCardType`
-```typescript
-export type FlashCardType = {
-  id_flashcard?: string;
-  vocab: string;
-  pos: string;
-  ipa: string;
-  mean: string;
-  example: string;
-}
-
-export type FlashcardIndexItem = {
-  id_flashcard: string;
-  name_exam: string;
-  updated: string;
-  created: string;
-}
-
-export type FlashcardData = {
-  id_flashcard: string;
-  name_exam: string;
-  updated: string;
-  created: string;
-  cards: FlashCardType[];
-}
-```
+| # | File | Dòng | Bug | Mô tả | Cách fix |
+|---|------|------|-----|-------|----------|
+| **L1** | `src/components/FlashCard.tsx` | 4, 17 | **`order` prop không được dùng trong UI** | Component destruct `order` từ props nhưng chỉ hiển thị `vocab`, `pos`, `ipa`, `mean`, `example`. Field `order` thừa. | Xóa `order` khỏi destructuring props hoặc dùng để hiển thị số thứ tự |
+| **L2** | `src/components/CardFlashCard.tsx` | 6, 25–28 | **Source field bị comment nhưng vẫn destructured** | Props nhận `source` nhưng field này bị comment ở dòng 25–28. Gây nhầm lẫn cho developer khác. | Bỏ `source` khỏi props hoặc uncomment + hiển thị source |
+| **L3** | `src/pages/FlashCardPage.tsx` | 31–42 | **Optional chaining redundant trên map** | `data?.map(...)` và `card?.id_flashcard` — `data` đã được guard bởi `if (isLoading)`, `if (error)` ở trên. Optional chaining không cần thiết. | Dùng `data.map((card) => ...)` trực tiếp, bỏ `?.` redundant |
+| **L4** | `src/pages/FlashCardPage.tsx` | 47–53 | **Dead code (commented FlashCard component)** | Block comment chứa `<FlashCard>` với props sai type (`data?.vocab` là string undefined). Gây nhiễu, dễ gây hiểu nhầm. | Xóa hoàn toàn block dead code |
+| **L5** | `src/pages/DoFlashCardPage.tsx` | 36–38 | **Empty div không clear purpose** | `<div className="p-5">` rỗng — không có nội dung, không có comment giải thích. | Xóa hoặc thêm placeholder/content |
 
 ---
 
-### 📝 P2 — Medium: Fix trong sprint tiếp theo
-
-#### Bug #5: Sửa label NavBar
-```diff
-- {to: "/flashcard", label: "Bài Tập", icon: PlayingCardsFan},
-+ {to: "/flashcard", label: "Flashcard", icon: PlayingCardsFan},
-```
-
-#### Bug #6: Thêm accessibility
-```tsx
-<div
-  className="..."
-  role="button"
-  tabIndex={0}
-  aria-label={`Flashcard: ${vocab}. Press space to flip.`}
-  aria-pressed={flipped}
-  onClick={() => setFlip(!flipped)}
-  onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setFlip(!flipped); } }}
->
-```
-
-#### Bug #7: Fix typo
-```diff
-- const [fliped, setFlip] = useState(false);
-+ const [flipped, setFlipped] = useState(false);
-  // ...
-- ${fliped ? "rotate-y-180": ""}
-+ ${flipped ? "rotate-y-180": ""}
-```
-
----
-
-### 🧹 P3 — Low: Cleanup và cải tiến nhỏ
-
-#### Bug #8: Xóa optional chaining vô nghĩa
-```diff
-- vocab={data?.vocab}
-- pos={data?.pos}
-+ vocab={data.vocab}
-+ pos={data.pos}
-```
-
-#### Bug #9: Thêm JSDoc cho FlashCard component
-```tsx
-/**
- * FlashCard | thẻ từ vựng lật được.
- * Displays a vocabulary word on the front and its meaning on the back, with a 3D flip animation on click.
- * Hiển thị từ vựng ở mặt trước và nghĩa ở mặt sau, có hiệu ứng lật 3D khi click.
- */
-export default function FlashCard({ vocab, pos, ipa, mean, example }: FlashCardType) { ... }
-```
-
----
-
-## Thống kê tổng quan
+## 📊 Thống kê tổng quan
 
 | Mức độ | Số lượng | Tỷ lệ |
-|---|---|---|
-| 🔴 Critical | 1 | 11.1% |
-| 🟡 High | 3 | 33.3% |
-| 🟠 Medium | 3 | 33.3% |
-| 🔵 Low | 2 | 22.2% |
-| **Tổng** | **9** | **100%** |
+|--------|----------|-------|
+| 🔴 Critical | 3 | 25.0% |
+| 🟡 Medium | 4 | 33.3% |
+| 🔵 Low | 5 | 41.7% |
+| **Tổng** | **12** | **100%** |
 
 ---
 
-## ✅ Đã bác bỏ (không phải bug)
+## ✅ Bugs đã được fix (so với báo cáo trước)
 
-| STT cũ | File | Lý do bác bỏ | Bằng chứng |
-|---|---|---|---|
-| 2 | `src/components/FlashCard.tsx` | CSS 3D utilities **TỒN TẠI** trong Tailwind v4 | Build output xác nhận: `.perspective-distant{perspective:var(--perspective-distant)}`, `.transform-3d{transform-style:preserve-3d}`, `.backface-hidden{backface-visibility:hidden}`, `.rotate-y-180{--tw-rotate-y:rotateY(180deg);transform:...}` — tất cả đều được generate đúng trong `dist/assets/*.css` |
-| 3 | `src/components/FlashCard.tsx` | `aspect-2/1` **TỒN TẠI** trong Tailwind v4 | Build output xác nhận: `.aspect-2\/1,.aspect-\[2\/1\]{aspect-ratio:2}` — được generate đúng, hoạt động bình thường |
+| # | Bug cũ | Commit fix | Ghi chú |
+|---|--------|------------|---------|
+| 1 | `flashcard.api.ts` file rỗng 0 bytes | `ba0d36f`, `10aacf1` | Đã implement đầy đủ `getFlashCards` + `getCard` với caching |
+| 2 | Hardcoded data trong `FlashCardPage` | `81c1962`, `bb79ef3` | Đã dùng hook `useListFlashCard` để load từ JSON |
+| 3 | Thiếu fields trong type `Cards` | `01e8fb6`, `1f6bb46` | Type đã có đủ: `order`, `vocab`, `pos`, `ipa`, `mean`, `example` |
+| 4 | Thiếu types cho data layer | `01e8fb6`, `1f6bb46` | Đã thêm `FlashCardData` type trong `flashcard.api.ts` |
+| 5 | Label NavBar trùng "Bài Tập" | `14daa75` | Đã đổi thành "FlashCard" |
+| 6 | Typo `fliped` → `flipped` | Chưa fix | Vẫn còn state name `fliped` trong `FlashCard.tsx:5` — **nên sửa** |
 
 ---
 
-## Đánh giá tổng thể
+## 📌 Thứ tự ưu tiên sửa
 
-| Tiêu chí | Điểm (1-10) | Ghi chú |
-|---|---|---|
-| Kiến trúc | 6/10 | Phân tách layer rõ ràng nhưng API layer chưa implement |
-| Code quality | 7/10 | TypeScript đúng, naming conventions tốt, CSS utilities Tailwind v4 hoạt động đúng |
-| Khả năng hoạt động | 3/10 | **Không thể chạy** — API rỗng = feature broken (CSS 3D đã OK) |
-| Accessibility | 3/10 | Không hỗ trợ keyboard navigation và screen reader |
-| Data layer | 4/10 | JSON data tồn tại nhưng không được load bởi component |
-| UX Potential | 7/10 | Ý tưởng flashcard flip tốt, animation 3D hoạt động đúng, cần thêm navigation giữa các cards |
+### 🚨 P0 — Critical (Blocker merge)
+1. **C1**: Thêm custom CSS cho flip animation vào `src/index.css`
+2. **C2**: Fix hardcoded "2" → dynamic `data?.length`
+3. **C3**: Thêm bounds checking cho `backCard` / `continueCard`
 
-**Khuyến nghị:** Không merge vào `main` cho đến khi fix ít nhất 2 bug P0 (implement API + load data từ JSON).
+### ⚠️ P1 — High (Nên fix trước release)
+4. **M1**: Thống nhất error type giữa các hooks
+5. **M2**: Defensive programming cho array access
+6. **M3**: Xóa tất cả console.log
+7. **M4**: Thêm cache limit/TTL
+
+### 🧹 P2 — Low (Cleanup)
+8. **L1–L5**: Cleanup dead code, redundant props, optional chaining
+
+---
+
+## ⚠️ Bugs đã bác bỏ (không phải bug)
+
+| Bug cũ | Lý do bác bỏ | Bằng chứng |
+|--------|--------------|------------|
+| CSS 3D utilities không tồn tại trong Tailwind v4 | Cần kiểm tra kỹ — các class có thể cần custom config hoặc plugin riêng. Hiện tại **không hoạt động** nên vẫn là bug. | Không tìm thấy class trong Tailwind v4 default theme |
