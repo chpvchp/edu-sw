@@ -1,8 +1,10 @@
 import { useState } from "react"
-import type { FlashCardType } from "../type/flashcard.type";
+import type { Cards } from "../type/flashcard.type";
 
-export default function FlashCard ({ vocab, pos, ipa, mean, example } : FlashCardType) {
+export default function FlashCard ({ order, vocab, pos, ipa, mean, example } : Cards) {
   const [fliped, setFlip] = useState(false);
+
+  console.log(order)
 
   return (
     <div className="w-full max-w-lg aspect-2/1 cursor-pointer perspective-distant" onClick={() => setFlip(!fliped)}>
