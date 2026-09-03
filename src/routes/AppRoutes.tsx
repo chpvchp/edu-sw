@@ -6,6 +6,7 @@ import InfoExamPage from "../pages/InfoExamPage";
 import LamBaiPage from "../pages/LambaiPage";
 import KetQuaPage from "../pages/KetQuaPage";
 import FlashCardPage from "../pages/FlashCardPage";
+import DoFlashCardPage from "../pages/DoFlashCardPage";
 
 /**
  * AppRoutes | cây điều hướng của ứng dụng.
@@ -24,6 +25,7 @@ export default function AppRoutes() {
         <Route path="bai-tap/ket-qua" element={<KetQuaPage />} />
 
         <Route path="flashcard" element={<FlashCardPage />} />
+        <Route path="flashcard/:id_flashcard/practice" element={<DoFlashCardPage />} />
       </Route>
     </Routes>
   )
