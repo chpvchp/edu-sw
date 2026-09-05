@@ -10,8 +10,11 @@ export default function DoFlashCardPage () {
   const idFlashcard = String(id_flashcard)
   const { data, isLoading, isError } = useCards(idFlashcard);
   const [ order, setOrder] = useState(0);
+  const disableButtonBack = order === 0
+  const disableButtonContinue = order === 1
 
   console.log(data)
+  console.log("order: ", order)
 
   if (isLoading) return <p className="p-4 mx-auto">Đang tải đề...</p>
   if (isError) return <p className="p-4 mx-auto">Máy chủ lỗi!</p>
@@ -48,8 +51,9 @@ export default function DoFlashCardPage () {
           />
           <div className="p-2 flex gap-8">
             <button 
-              className="p-2 bg-blue-600 text-white rounded-xl shadow-lg transition duration-200 hover:scale-110"
+              className={`p-2 text-white rounded-xl shadow-lg transition duration-200 ${ disableButtonBack ? "bg-gray-400" : "bg-blue-600 hover:scale-110"}`}
               onClick={() => backCard(order)}
+              disabled={disableButtonBack}
             >
               <ArrowLeft />
             </button>
@@ -59,8 +63,9 @@ export default function DoFlashCardPage () {
               <p>2</p>
             </div>
             <button 
-              className="p-2 bg-blue-600 text-white rounded-xl shadow-lg transition duration-200 hover:scale-110"
+              className={`p-2 text-white rounded-xl shadow-lg transition duration-200 ${ disableButtonContinue ? "bg-gray-400" : "bg-blue-600 hover:scale-110"}`}
               onClick={() => continueCard(order)}
+              disabled={disableButtonContinue}
             >
               <ArrowRight />
             </button>
