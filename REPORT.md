@@ -3,31 +3,40 @@
 **Branch:** `feat/flashcard`  
 **Base branch:** `main`  
 **Reviewer:** AI Agent (EduSW Code Review)  
-**Ngày đánh giá:** 2026-09-03 (23h30)  
-**Tổng số commits so với main:** 15+  
-**Lines changed:** +592 / −20
+**Ngày đánh giá:** 2026-09-05 (22h30)  
+**Tổng số bugs tìm thấy:** 10 (2 Critical, 4 Medium, 4 Low)  
 
 ---
 
-## 1. Tổng quan Commits
+## 1. Tổng quan
 
-| STT | Commit | Type | Mô tả |
-|-----|--------|------|-------|
-| 1 | `1f6bb46` | feat(hook) | Thêm `useCards`, thay đổi type |
-| 2 | `416b69c` | fix | Fix type Cards |
-| 3 | `16d78a7` | refactor | Đổi từ component sang Link |
-| 4 | `10aacf1` | feat(api) | Update `flashcard.api.ts` |
-| 5 | `c84722c` | feat(route) | Thêm route `flashcard/:id_flashcard` → `DoFlashCardPage` |
-| 6 | `81c1962` | feat(page) | Thêm `DoFlashCardPage.tsx` |
-| 7 | `bd07d09` | data | Update templates |
-| 8 | `14daa75` | fix | Fix name route `/flashcard` từ `Bai Tap` → `FlashCard` |
-| 9 | `2409068` | component | Thêm `CardFlashCard.tsx`, update `FlashCardPage.tsx` |
-| 10 | `bb79ef3` | hook | Thêm `useFlashCard.ts` |
-| 11 | `ba0d36f` | api | Thêm API FlashCard |
-| 12 | `01e8fb6` | type | Update type FlashCard |
-| 13 | `a87fbf3` | data | Update templates data flashcard |
-| 14 | `2c4c94f` | feat(ui) | Thêm `FlashCard` reusable component, update `FlashCardPage` |
-| 15 | `a95cf5e` | feat | Thêm route và `FlashCardPage` |
+Module Flashcard là tính năng mới cho phép người dùng học từ vựng qua thẻ lật (flip cards). Dữ liệu được lưu dưới dạng JSON tĩnh trong `/public/data/flashcards/`, không cần backend.
+
+### Cấu trúc file module
+
+```
+src/
+├── api/
+│   ├── api.ts                    # fetchJson abstraction
+│   └── flashcard.api.ts          # FlashCard API layer + cache
+├── components/
+│   ├── CardFlashCard.tsx         # List item card (metadata)
+│   └── FlashCard.tsx             # Reusable flip card (content)
+├── hooks/
+│   └── useFlashCard.ts           # Custom hooks: useListFlashCard, useCards, useInfoFlashcard
+├── pages/
+│   ├── FlashCardPage.tsx         # List page — /flashcard
+│   └── DoFlashCardPage.tsx       # Practice page — /flashcard/:id/practice
+├── routes/
+│   └── AppRoutes.tsx             # Updated: thêm 2 flashcard routes
+└── type/
+    ├── flashcard.type.ts         # Cards, FlashCard types
+    └── ...
+
+public/data/flashcards/
+├── index.json                    # Metadata list
+└── flashcard_templates.json      # Full card data (12 cards)
+```
 
 ---
 
@@ -41,34 +50,46 @@
 | **Routing structure** | ✅ Tốt | Route nesting hợp lý: `/flashcard` → list, `/flashcard/:id/practice` → practice |
 | **Data model** | ⚠️ Trung bình | 2-level (index.json + {id}.json) giống exam module — phù hợp nhưng thiếu cơ chế versioning |
 
-### Cấu trúc file mới thêm
+### Điểm mạnh kiến trúc
 
-```
-src/
-├── api/
-│   ├── api.ts                    # fetchJson abstraction (NEW)
-│   └── flashcard.api.ts          # FlashCard API layer (NEW)
-├── components/
-│   ├── CardFlashCard.tsx         # List item card (NEW)
-│   └── FlashCard.tsx             # Reusable flip card (NEW)
-├── hooks/
-│   └── useFlashCard.ts           # Custom hooks (NEW)
-├── pages/
-│   ├── FlashCardPage.tsx         # List page (NEW)
-│   └── DoFlashCardPage.tsx       # Practice page (NEW)
-├── routes/
-│   └── AppRoutes.tsx             # Updated: thêm 2 flashcard routes
-└── type/
-    └── flashcard.type.ts         # Type definitions (NEW)
+- **Phân tách rõ ràng**: API layer → Hook layer → Component layer — đúng pattern React chuẩn.
+- **TypeScript typing**: `Cards` và `FlashCard` types được định nghĩa riêng, tách biệt dữ liệu card content và metadata.
+- **Cache pattern**: Singleton Map cache ở API layer — chia sẻ tốt giữa các hook dùng cùng ID.
 
-public/data/flashcards/
-├── index.json                    # Metadata list (NEW)
-└── flashcard_templates.json      # Full card data (NEW)
-```
+### Vấn đề kiến trúc
+
+| # | Mô tả | Đề xuất |
+|---|-------|---------|
+| **A1** | `useInfoFlashcard` trả về `FlashCardData` (gồm cả `cards[]`) nhưng chỉ dùng metadata. Hook này nên trả về `FlashCard` thay vì toàn bộ object nặng. | Tách API: `getInfoFlashcard` chỉ fetch metadata, không cần load `cards`. |
+| **A2** | `DoFlashCardPage` render thừa `CardFlashCard` — component info flashcard được render trong practice page nhưng không có tác dụng gì. | Xóa component `CardFlashCard` khỏi `DoFlashCardPage`. |
+| **A3** | Không có error boundary — nếu FlashCard throw lỗi (vd: missing field), toàn bộ page crash trắng. | Thêm Error Boundary wrapper cho flashcard section. |
+| **A4** | CSS 3D transform (`transform-3d`, `rotate-y-180`, `backface-hidden`) không phải Tailwind default — cần custom config hoặc plugin. Nếu build production thiếu config sẽ render phẳng (không flip). | Thêm vào `tailwind.config` hoặc dùng inline style `style={{ transformStyle: 'preserve-3d' }}`. |
+| **A5** | Key prop không tối ưu: `key={card?.order}` — dùng optional chaining trên key có thể gây warning React khi value là `undefined`. | Dùng guaranteed non-null key: `key={card.order}`. |
+| **A6** | `useCards` re-fetch mỗi lần id thay đổi, nhưng nếu user bấm Back → Forward cùng ID sẽ fetch lại thay vì dùng cache từ API layer. | Hook nên check cache trước khi gọi API, hoặc API layer trả về luôn cached data synchronously. |
 
 ---
 
-## 3. Cấu trúc dữ liệu & Types
+## 3. Hiệu năng (Performance)
+
+### ✅ Điểm tốt
+
+| Aspect | Đánh giá |
+|--------|----------|
+| **Cache API** | `flashCardCache` (Map) trong `flashcard.api.ts` tránh gọi lại cùng 1 ID → giảm network requests đáng kể khi quay lại trang. |
+| **AbortController thiếu** | Hook có `isMounted` flag để tránh state update sau unmount — đúng pattern cơ bản. |
+
+### ⚠️ Vấn đề hiệu năng
+
+| # | Mô tả | Đề xuất |
+|---|-------|---------|
+| **P1** | **Không có AbortController**: Khi user navigate nhanh giữa các route, request cũ vẫn resolve và gọi `setData` (dù có `isMounted`). Gây waste CPU. | Thêm `AbortController` vào `useEffect` cleanup. |
+| **P2** | **Cache không bao giờ expire**: `flashCardCache` là Map vô hạn. Nếu sau này có cập nhật JSON data trên server, client sẽ luôn nhận cache cũ. | Thêm TTL (time-to-live) hoặc invalidate khi reload. |
+| **P3** | **FlashCard component re-render mỗi lần flip**: State `fliped` trigger re-render toàn bộ component dù chỉ cần toggle class. Với 12 cards nếu render list sẽ ảnh hưởng. | Dùng CSS class toggle qua ref thay vì React state, hoặc memoize component. |
+| **P4** | **Không có Suspense/Loading skeleton**: Khi loading, chỉ hiện text đơn giản "Đang tải đề...". UX chưa mượt. | Thêm skeleton loader giống `CardExam`. |
+
+---
+
+## 4. Cấu trúc dữ liệu & Types
 
 ### `src/type/flashcard.type.ts`
 
@@ -77,9 +98,9 @@ export type Cards = {
   order: number;
   vocab: string;
   pos: string;
-  ipa: string;
-  mean: string;
-  example: string;
+  ipa: string; 
+  mean: string; 
+  example: string
 }
 
 export type FlashCard = {
@@ -123,11 +144,11 @@ export type FlashCard = {
 {
   "id_flashcard": "flashcard_templates",
   "name_flashcard": "Flashcard Templates",
-  "num_cards": 8,
+  "num_cards": 12,
   ...
   "cards": [
     { "order": 1, "vocab": "...", "pos": "...", "ipa": "...", "mean": "...", "example": "..." },
-    { "order": 2, "vocab": "...", "pos": "...", "ipa": "...", "mean": "...", "example": "..." }
+    // ... 12 cards total
   ]
 }
 ```
@@ -135,22 +156,16 @@ export type FlashCard = {
 | Tiêu chí | Đánh giá | Ghi chú |
 |----------|----------|---------|
 | **File structure** | ✅ Tốt | `index.json` (metadata list) + `{id}.json` (full data) — scalable pattern |
-| **Template data** | ⚠️ Ít mẫu | Chỉ có 1 template với 2 cards — cần thêm sample data để test |
+| **Template data** | ⚠️ Ít mẫu | Chỉ có 1 template — cần thêm sample data để test đa dạng |
 | **JSON structure** | ✅ Đúng | `{id_flashcard, name_flashcard, num_cards, updated, created, source, cards: [...]}` |
 | **Card order field** | ⚠️ Không enforce | `order` field trong cards không được sort — thứ tự phụ thuộc vào JSON array order |
 
 ---
 
-## 4. API Layer (`src/api/flashcard.api.ts`)
+## 5. API Layer (`src/api/flashcard.api.ts`)
 
 ```typescript
-import type { Cards, FlashCard } from "../type/flashcard.type";
-import { fetchJson } from "./api";
-
-const FLASHCARDS_INDEX_PATH = "/data/flashcards/index.json";
 const flashCardCache = new Map<string, FlashCardData>();
-
-type FlashCardData = FlashCard & { cards: Cards[] };
 
 async function loadFlashcarddata(idFlashcard: string): Promise<FlashCardData> {
   const cachedFlashcard = flashCardCache.get(idFlashcard);
@@ -178,7 +193,7 @@ export const getCard = async (idFlashcard: string): Promise<Cards[]> => {
 
 ---
 
-## 5. Hooks (`src/hooks/useFlashCard.ts`)
+## 6. Hooks (`src/hooks/useFlashCard.ts`)
 
 ```typescript
 export const useListFlashCard = () => {
@@ -196,7 +211,45 @@ export const useCards = (id_flashcard: string) => {
   // ... useEffect with isMounted pattern + [id_flashcard] dependency
   return { data, isLoading, isError };
 };
+
+export const useInfoFlashcard = (id_flashcard: string) => {
+  const [data, setData] = useState<FlashCardData>();
+  const [isLoading, setIsLoading] = useState(true);
+  const [isError, setIsError] = useState(false);
+  // ... useEffect with isMounted pattern + [id_flashcard] dependency
+  return { data, isLoading, isError };
+};
 ```
+
+| Tiêu chí | Đánh giá | Ghi chú |
+|----------|----------|---------|
+| **isMounted pattern** | ✅ Đúng | Tránh state update sau unmount — đúng pattern cơ bản |
+| **Dependency array** | ✅ Đúng | `useCards` và `useInfoFlashcard` có `[id_flashcard]` dependency — re-fetch khi ID thay đổi |
+| **Inconsistent error type** | ⚠️ Trung bình | `useListFlashCard` trả về `{ error: unknown }`, nhưng `useCards`/`useInfoFlashcard` trả về `{ isError: boolean }`. Consumer phải check khác nhau. |
+| **useInfoFlashcard không có isLoading/isError handling** | 🔴 Critical | Page `DoFlashCardPage` dùng `!flashcardInfo` để check null, nhưng nếu API fail thì hiển thị "Không thấy thông tin" thay vì "Máy chủ lỗi!". |
+
+---
+
+## 7. Điểm số tổng quan
+
+| Tiêu chí | Điểm (10) | Ghi chú |
+|----------|-----------|---------|
+| **Code Quality** | 6.5 | Nhiều `console.log` chưa xóa, type safety cơ bản tốt |
+| **Bug Count** | 3 Critical, 4 Medium, 4 Low | B1 (num_cards sai), B2 (error handling thiếu), B3 (order/index lệch) |
+| **Performance** | 6.0 | Cache tốt nhưng không expire, không có AbortController |
+| **Architecture** | 7.0 | Phân tách layer rõ ràng, nhưng có leak type và render thừa |
+| **Overall** | **6.4 / 10** | Cần fix bugs trước khi merge |
+
+---
+
+## 8. Khuyến nghị Priorities
+
+1. 🔴 **P0 — Fix `num_cards` trong JSON** (B1) — ảnh hưởng trực tiếp UX
+2. 🔴 **P0 — Xóa toàn bộ `console.log`** — vi phạm lint rules
+3. 🟡 **P1 — Thêm AbortController + Cache TTL** (P1, P2)
+4. 🟡 **P1 — Fix error handling trong `useInfoFlashcard`** (B2)
+5. 🟢 **P2 — Kiểm tra Tailwind 3D CSS custom classes** (A4)
+6. 🟢 **P2 — Xóa render thừa `CardFlashCard` trong practice page** (A2)
 
 | Tiêu chí | Đánh giá | Ghi chú |
 |----------|----------|---------|
@@ -302,24 +355,39 @@ export default function DoFlashCardPage() {
   const idFlashcard = String(id_flashcard);
   const { data, isLoading, isError } = useCards(idFlashcard);
   const [order, setOrder] = useState(0);
-  console.log(data);
+  const { data: flashcardInfo } = useInfoFlashcard(idFlashcard)
 
-  if (isLoading) return <p>Đang tải đề...</p>;
-  if (isError) return <p>Máy chủ lỗi!</p>;
+  console.log(flashcardInfo)
+
+  if (!flashcardInfo) {
+    return <p className="p-4 mx-auto">Không thấy thông tin</p>
+  }
+
+  const disableButtonBack = order === 0
+  const disableButtonContinue = order === flashcardInfo.num_cards - 1
+
+  // ... console.log(data), console.log("order: ", order) commented out
+
+  if (isLoading) return <p className="p-4 mx-auto">Đang tải đề...</p>
+  if (isError) return <p className="p-4 mx-auto">Máy chủ lỗi!</p>
 
   function continueCard(order: number) { setOrder(order + 1); }
   function backCard(order: number) { setOrder(order - 1); }
 
   const card = data?.[order];
-  if (!card) return <p>Không tìm thấy thẻ!</p>;
+  if (!card) return <p className="p-4 mx-auto">Không tìm thấy thẻ!</p>;
 
   return (
     <main className="...">
-      <FlashCard {...card} />
+      {/* Render thừa CardFlashCard — không cần thiết trong practice page */}
+      <CardFlashCard key={flashcardInfo?.id_flashcard} {...flashcardInfo} />
+      
+      <FlashCard key={card?.order} order={card?.order} vocab={card?.vocab} ... />
+      
       <div className="...">
-        <button onClick={() => backCard(order)}><ArrowLeft /></button>
-        <div>{order + 1} / 2</div>  {/* ← HARDCODED "2" */}
-        <button onClick={() => continueCard(order)}><ArrowRight /></button>
+        <button onClick={() => backCard(order)} disabled={disableButtonBack}><ArrowLeft /></button>
+        <div>{order + 1} / {flashcardInfo.num_cards}</div>  {/* ← Dynamic num_cards */}
+        <button onClick={() => continueCard(order)} disabled={disableButtonContinue}><ArrowRight /></button>
       </div>
     </main>
   );
@@ -329,12 +397,11 @@ export default function DoFlashCardPage() {
 | Tiêu chí | Đánh giá | Ghi chú | Severity |
 |----------|----------|---------|----------|
 | **useParams handling** | ✅ Tốt | `String(id_flashcard)` — null-safe | 🟢 |
-| **Hardcoded card count** | ❌ **BUG** | Line 59: `<p>2</p>` — số total cards được hardcode là "2" thay vì `data?.length` | 🔴 Critical |
-| **No bounds checking** | ❌ **BUG** | `backCard(order)` và `continueCard(order)` không check bounds — có thể navigate đến index < 0 hoặc >= length | 🔴 Critical |
-| **Progress display** | ⚠️ Sai | Hiển thị `{order + 1} / 2` — luôn hiển thị "/2" dù có bao nhiêu cards | 🔴 Critical |
-| **Card access** | ⚠️ Unsafe | `data?.[order]` — có thể return undefined nếu order out of bounds | 🟡 Medium |
-| **Empty div** | ⚠️ Dead code | Line 36–38: `<div className="p-5">` rỗng — không clear purpose | 🟢 Low |
-| **Console.log** | ❌ Cần xóa | Line 14: `console.log(data)` — debug code còn sót | 🟡 Medium |
+| **Card count display** | ✅ Đã fix | Dùng `{flashcardInfo.num_cards}` thay vì hardcode "2" | ✅ Fixed |
+| **Error handling thiếu** | ❌ **BUG** | `useInfoFlashcard` không có `isError` guard — nếu API fail hiển thị "Không thấy thông tin" sai UX | 🔴 Critical (B1) |
+| **Order/index lệch** | ⚠️ **BUG** | State `order` là 0-based index, nhưng JSON `card.order` là 1-based. Logic navigation dựa trên index mảng. | 🟡 Medium (B2) |
+| **Render thừa CardFlashCard** | ⚠️ Dead code | Component info flashcard được render trong practice page nhưng không có tác dụng — user đang làm bài không cần xem lại card info. | 🟡 Medium (M4) |
+| **Console.log** | ❌ Cần xóa | Line 16: `console.log(flashcardInfo)` — debug code còn sót | 🟡 Medium (M2) |
 | **No keyboard nav** | ⚠️ Thiếu UX | Không hỗ trợ phím ← → để chuyển card, Space để flip | 🟡 Medium |
 
 ---
@@ -382,17 +449,18 @@ export default function DoFlashCardPage() {
 
 ### 🔴 Critical (Phải fix trước merge)
 
-| # | File | Dòng | Mô tả | Cách fix |
-|---|------|------|-------|----------|
-| 1 | `DoFlashCardPage.tsx` | 59 | **Hardcoded card count "2"** — hiển thị sai progress | Thay `<p>2</p>` bằng `<p>{data?.length ?? 0}</p>` |
-| 2 | `DoFlashCardPage.tsx` | 19–24 | **Không bounds checking** — navigate ra ngoài array bounds | Thêm check: `if (order > 0)` và `if (order < data.length - 1)` |
+| # | File | Dòng/Mô tả | Bug | Mô tả | Cách fix |
+|---|------|-----------|-----|-------|----------|
+| **B1** | `src/hooks/useFlashCard.ts`, `src/pages/DoFlashCardPage.tsx` | `useInfoFlashcard` không có xử lý `isLoading`/`isError` | **Error handling thiếu** | Page dùng `!flashcardInfo` để check null, nhưng nếu API fail thì hiển thị "Không thấy thông tin" thay vì "Máy chủ lỗi!". | Thêm guard `if (isError) return <p>Máy chủ lỗi!</p>` trong `DoFlashCardPage`. |
+| **B2** | `src/pages/DoFlashCardPage.tsx`, JSON data | `order` state khởi tạo từ **0**, nhưng `card.order` trong JSON bắt đầu từ **1** | **Order/index lệch** | Logic `disableButtonBack = order === 0` dựa trên index mảng chứ không phải `order` thực tế. Nếu sau này sắp xếp lại mảng sẽ bị lệch. | Thống nhất dùng index mảng (0-based) hoặc dùng `card.order` (1-based) cho logic navigation. |
+| **B3** | `public/data/flashcards/index.json` | `num_cards: 1` nhưng `flashcard_templates.json` có **12 cards** | **Data inconsistency giữa index và detail** | Metadata trong index.json không khớp với dữ liệu thực tế → hiển thị sai số lượng card cho user. | Sửa `num_cards: 12` trong `index.json`. |
 
 ### ✅ Đã xác nhận hoạt động (không phải bug)
 
 | Bug cũ | File | Lý do bác bỏ | Bằng chứng |
 |--------|------|--------------|------------|
-| CSS 3D utilities không tồn tại trong Tailwind v4 | `FlashCard.tsx` | **ĐÃ KIỂM TRA THỰC TẾ** — Các class `perspective-distant`, `transform-3d`, `backface-hidden`, `rotate-y-180` **HOẠT ĐỘNG BÌNH THƯỜNG** trong Tailwind CSS v4. Animation lật thẻ hoạt động đúng, không cần custom CSS thêm. | User đã thử nghiệm trực tiếp trên browser ngày 2026-09-03 23h30 — flip animation hoạt động mượt mà, không có lỗi hiển thị |
-
+| CSS 3D utilities không tồn tại trong Tailwind v4 | `FlashCard.tsx` | **ĐÃ KIỂM TRA THỰC TẾ** — Các class `perspective-distant`, `transform-3d`, `backface-hidden`, `rotate-y-180` **HOẠT ĐỘNG BÌNH THƯỜNG** trong Tailwind CSS v4. Animation lật thẻ hoạt động đúng, không cần custom CSS thêm. | User đã thử nghiệm trực tiếp trên browser ngày 2026-09-03 23h30 — flip animation hoạt động mượt mà, không có lỗi hiển thị || Hardcoded card count "2" | `src/pages/DoFlashCardPage.tsx` | **ĐÃ FIX** — Code hiện tại dùng `flashcardInfo.num_cards` thay vì hardcode "2". Tuy nhiên, `num_cards` trong index.json vẫn sai (xem B3). | Kiểm tra code: `const disableButtonContinue = order === flashcardInfo.num_cards - 1` ✅ |
+| num_cards sai lệch thực tế | `public/data/flashcards/flashcard_templates.json` | **ĐÃ FIX** — File JSON hiện tại có đầy đủ 12 cards (order 1→12), khớp với `num_cards: 12`. | Kiểm tra thực tế file JSON — 12 object trong mảng `cards` ✅ |
 ### 🟡 Medium (Nên fix)
 
 | # | File | Dòng | Mô tả | Cách fix |
