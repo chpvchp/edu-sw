@@ -63,6 +63,7 @@ export default function DoFlashCardPage () {
 
         <div className="flex flex-col gap-6 items-center justify-center">
           <FlashCard 
+            key={card?.order}
             order={card?.order}
             vocab={card?.vocab}
             pos={card?.pos}
