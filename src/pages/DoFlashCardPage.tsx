@@ -82,7 +82,7 @@ export default function DoFlashCardPage () {
             <div className="flex justify-center items-center text-gray-600">
               <p>{order + 1}</p>
               <p>/</p>
-              <p>2</p>
+              <p>{flashcardInfo.num_cards}</p>
             </div>
             <button 
               className={`p-2 text-white rounded-xl shadow-lg transition duration-200 ${ disableButtonContinue ? "bg-gray-400" : "bg-blue-600 hover:scale-110"}`}
