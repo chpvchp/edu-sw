@@ -4,7 +4,7 @@ import { fetchJson } from "./api";
 const FLASHCARDS_INDEX_PATH = "/data/flashcards/index.json";
 const flashCardCache = new Map<string, FlashCardData>();
 
-type FlashCardData = FlashCard & {
+export type FlashCardData = FlashCard & {
   cards: Cards[]
 }
 
@@ -27,3 +27,8 @@ export const getCard = async (idFlashcard: string): Promise<Cards[]> => {
   const flashcard = await loadFlashcarddata(idFlashcard);
   return flashcard.cards
 }
+
+export const getInfoFlashcard = async (idFlashcard: string): Promise<FlashCardData> => {
+  const infoFlashcard = await loadFlashcarddata(idFlashcard);
+  return infoFlashcard;
+};
