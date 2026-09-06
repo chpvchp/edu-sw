@@ -1,5 +1,6 @@
 export type Cards = {
   order: number;
+  audio: string;
   vocab: string;
   pos: string;
   ipa: string; 
