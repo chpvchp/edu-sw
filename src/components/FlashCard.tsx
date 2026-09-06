@@ -14,7 +14,7 @@
     console.log(order)
 
     return (
-      <div className="w-full max-w-lg aspect-2/1 cursor-pointer perspective-distant" onClick={() => setFlip(!fliped)}>
+      <div className="w-full max-w-lg aspect-3/2  cursor-pointer perspective-distant" onClick={() => setFlip(!fliped)}>
         
         {/* Flashcard */}
         <div className={`w-full h-full bg-white shadow-lg p-2 border border-gray-200 rounded-2xl relative transform-3d transition duration-400 ${fliped ? "rotate-y-180": ""} `}>
@@ -34,7 +34,7 @@
                   e.stopPropagation();
                   playAudio();
                 }}
-                className="p-2 rounded-full hover:bg-gray-100"
+                className="p-2 rounded-full hover:bg-gray-100 absolute bottom-2 right-2"
               >
                 <Volume2 size={24} />
               </button>
@@ -47,6 +47,19 @@
             <p className="font-bold text-xl lg:text-4xl">{mean}</p>
             <div className="p-2 flex gap-2">
               <p className="text-gray-600 text-sm lg:text-md">{example}</p>
+            </div>
+            <div>
+              {/* Audio */}
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  playAudio();
+                }}
+                className="p-2 rounded-full hover:bg-gray-100 absolute bottom-2 right-2"
+              >
+                <Volume2 size={24} />
+              </button>
+              <audio ref={audioRef} src={audio} />
             </div>
           </div>
 
