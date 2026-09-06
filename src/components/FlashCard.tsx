@@ -21,7 +21,7 @@
 
           {/* Front Face Card (Vocab) */}
           <div className="absolute inset-0 flex flex-col gap-1 justify-center items-center backface-hidden">
-              <p className="font-bold text-xl lg:text-4xl">{vocab}</p>
+              <p className="font-bold text-3xl lg:text-4xl">{vocab}</p>
             <div className="p-2 flex gap-2">
               <p className="text-gray-600 text-xs lg:text-sm">{pos}</p>
               <p className="text-gray-600 text-xs lg:text-sm">-</p>
@@ -44,7 +44,7 @@
 
           {/* Back Face Card (Mean) */}
           <div className="absolute inset-0 flex flex-col gap-1 justify-center items-center backface-hidden rotate-y-180">
-            <p className="font-bold text-xl lg:text-4xl">{mean}</p>
+            <p className="font-bold text-3xl lg:text-4xl">{mean}</p>
             <div className="p-2 flex gap-2">
               <p className="text-gray-600 text-sm lg:text-md">{example}</p>
             </div>
