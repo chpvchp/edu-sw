@@ -40,16 +40,16 @@ export default function BaiTapPage() {
     );
 
   return (
-    <main className="min-h-screen max-w-7xl flex-1 mx-auto">
+    <main className="min-h-screen flex-1">
 
       <div className="flex justify-center">
-        <p className="p-4 italic">
+        <p className="p-4 italic text-xs lg:text-base">
           Chọn các bài tập bên dưới để rèn luyện nhé :3
         </p>
       </div>
 
       {/* Bộ lọc */}
-      <div className="p-2 mb-4 flex flex-wrap gap-4">
+      <div className="p-2 mb-4 flex flex-wrap gap-4 justify-center">
 
         {/* Môn học */}
         <div className="flex flex-col gap-2">
@@ -86,22 +86,24 @@ export default function BaiTapPage() {
       </div>
 
       {/* Danh sách */}
-      <div className="p-2 flex flex-col lg:grid lg:grid-cols-4 justify-center gap-2 lg:gap-6 lg:mx-auto">
+      <section className="max-w-7xl mx-auto">
+        <div className="p-2 flex flex-col lg:grid lg:grid-cols-4 justify-center gap-2 lg:gap-6 lg:mx-auto">
 
-        {filteredExams?.map((exam: Exam) => (
-          <CardExam
-            key={exam.id_exam}
-            id_exam={exam.id_exam}
-            name_exam={exam.name_exam}
-            class_exam={exam.class_exam}
-            name_subject={exam.name_subject}
-            duration={exam.duration}
-            updated={exam.updated}
-            created={exam.created}
-          />
-        ))}
+          {filteredExams?.map((exam: Exam) => (
+            <CardExam
+              key={exam.id_exam}
+              id_exam={exam.id_exam}  
+              name_exam={exam.name_exam}
+              class_exam={exam.class_exam}
+              name_subject={exam.name_subject}
+              duration={exam.duration}
+              updated={exam.updated}
+              created={exam.created}
+            />
+          ))}
 
-      </div>
+        </div>
+      </section>
 
     </main>
   );
