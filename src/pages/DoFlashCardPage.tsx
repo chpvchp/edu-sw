@@ -65,6 +65,7 @@ export default function DoFlashCardPage () {
           <FlashCard 
             key={card?.order}
             order={card?.order}
+            audio={card?.audio}
             vocab={card?.vocab}
             pos={card?.pos}
             ipa={card?.ipa}
