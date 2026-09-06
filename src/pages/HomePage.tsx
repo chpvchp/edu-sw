@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { BookOpen, Target, Trophy, ArrowRight } from "lucide-react";
 import { useListExam } from "../hooks/useExam";
+import { useListFlashCard } from "../hooks/useFlashCard";
 
 /**
  * HomePage | trang chủ.
@@ -9,15 +10,19 @@ import { useListExam } from "../hooks/useExam";
  */
 export default function HomePage() {
   const { data } = useListExam();
+  const { data: dataFlashcard } = useListFlashCard();
 
   const subjectCount = new Set(data?.map((e) => e.name_subject)).size;
   const classCount = new Set(data?.map((e) => e.class_exam)).size;
+
+  const languageCount = new Set(dataFlashcard?.map((e) => e.language)).size;
+  const vocabCount = dataFlashcard?.reduce((sum, e) => sum + e.num_cards, 0);
 
   return (
     <main className="min-h-screen max-w-7xl flex-1 mx-auto flex flex-col">
 
       {/* ── Hero ─────────────────────────────────────────── */}
-      <section className="flex flex-col items-center justify-center text-center py-20 px-4 gap-6">
+      <section className="flex flex-col items-center justify-center text-center py-16 px-4 gap-6">
         <div className="flex items-center gap-3">
           <BookOpen className="w-12 h-12 text-blue-600" />
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800">
@@ -35,6 +40,14 @@ export default function HomePage() {
                      shadow-md hover:bg-blue-800 hover:shadow-lg transition duration-300 hover:scale-110"
         >
           Bắt đầu luyện tập :D
+          <ArrowRight className="w-5 h-5" />
+        </Link>
+        <Link
+          to="/flashcard"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-full
+                     shadow-md hover:bg-blue-800 hover:shadow-lg transition duration-300 hover:scale-110"
+        >
+          Muốn luyện ngoại ngữ :^
           <ArrowRight className="w-5 h-5" />
         </Link>
       </section>
@@ -82,30 +95,51 @@ export default function HomePage() {
       </section>
 
       {/* ── Stats ────────────────────────────────────────── */}
-      {data && data.length > 0 && (
-        <section className="px-4 pb-16">
-          <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
-            Thông tin bài tập hiện tại
-          </h2>
+      <section className="px-4 pb-16">
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
+          Thông tin bài tập hiện tại
+        </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
-            <div className="p-6 text-center border border-gray-200 rounded-xl bg-blue-50 transition duration-200 hover:scale-110">
-              <p className="text-3xl font-extrabold text-blue-600">{data.length}</p>
-              <p className="text-gray-600 text-sm mt-1">Đề thi</p>
-            </div>
-
-            <div className="p-6 text-center border border-gray-200 rounded-xl bg-green-50 transition duration-200 hover:scale-110">
-              <p className="text-3xl font-extrabold text-green-600">{subjectCount}</p>
-              <p className="text-gray-600 text-sm mt-1">Môn học</p>
-            </div>
-
-            <div className="p-6 text-center border border-gray-200 rounded-xl bg-purple-50 transition duration-200 hover:scale-110">
-              <p className="text-3xl font-extrabold text-purple-600">{classCount}</p>
-              <p className="text-gray-600 text-sm mt-1">Lớp</p>
-            </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
+          <div className="p-6 text-center border border-gray-200 rounded-xl bg-blue-50 transition duration-200 hover:scale-110">
+            <p className="text-3xl font-extrabold text-blue-600">{data?.length}</p>
+            <p className="text-gray-600 text-sm mt-1">Đề thi</p>
           </div>
-        </section>
-      )}
+
+          <div className="p-6 text-center border border-gray-200 rounded-xl bg-green-50 transition duration-200 hover:scale-110">
+            <p className="text-3xl font-extrabold text-green-600">{subjectCount}</p>
+            <p className="text-gray-600 text-sm mt-1">Môn học</p>
+          </div>
+
+          <div className="p-6 text-center border border-gray-200 rounded-xl bg-purple-50 transition duration-200 hover:scale-110">
+            <p className="text-3xl font-extrabold text-purple-600">{classCount}</p>
+            <p className="text-gray-600 text-sm mt-1">Lớp</p>
+          </div>
+        </div>
+      </section>
+      <section className="px-4 pb-16">
+        <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
+          Thông tin flashcard hiện tại
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
+          <div className="p-6 text-center border border-gray-200 rounded-xl bg-blue-50 transition duration-200 hover:scale-110">
+            <p className="text-3xl font-extrabold text-blue-600">{dataFlashcard?.length}</p>
+            <p className="text-gray-600 text-sm mt-1">Thẻ</p>
+          </div>
+
+          <div className="p-6 text-center border border-gray-200 rounded-xl bg-green-50 transition duration-200 hover:scale-110">
+            <p className="text-3xl font-extrabold text-green-600">{vocabCount}</p>
+            <p className="text-gray-600 text-sm mt-1">Từ vựng</p>
+          </div>
+
+          <div className="p-6 text-center border border-gray-200 rounded-xl bg-purple-50 transition duration-200 hover:scale-110">
+            <p className="text-3xl font-extrabold text-purple-600">{languageCount}</p>
+            <p className="text-gray-600 text-sm mt-1">Ngôn ngữ</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* ── Limitations ──────────────────────────────────── */}
       <section className="px-4 pb-16">
