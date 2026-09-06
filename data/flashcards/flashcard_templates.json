@@ -1,0 +1,106 @@
+{
+  "id_flashcard": "flashcard_templates",
+  "name_flashcard": "Flashcard Templates",
+  "num_cards": 12,
+  "updated": "2026-09-05T22:10:00.000",
+  "created": "2026-09-02T20:40:00.000",
+  "source": "",
+  "cards": [
+    {
+      "order": 1,
+      "vocab": "Artificial Intelligence",
+      "pos": "noun phrase", 
+      "ipa": "/ˌɑːrtɪˈfɪʃəl ɪnˈtelɪdʒəns/", 
+      "mean": "Trí tuệ nhân tạo", 
+      "example": "Artificial intelligence is changing the world"
+    },
+    {
+      "order": 2,
+      "vocab": "Photolithography",
+      "pos": "noun", 
+      "ipa": "/ˌfoʊtoʊlɪˈθɑːɡrəfi/", 
+      "mean": "Quang khắc", 
+      "example": "Photolithography Machine"
+    },
+    {
+      "order": 3,
+      "vocab": "Semiconductor",
+      "pos": "noun", 
+      "ipa": "/ˌsemikənˈdʌktər/", 
+      "mean": "Chất bán dẫn", 
+      "example": "Semiconductors are essential for modern electronics."
+    },
+    {
+      "order": 4,
+      "vocab": "Nanotechnology",
+      "pos": "noun", 
+      "ipa": "/ˌnænətekˈnɑːlədʒi/", 
+      "mean": "Công nghệ nano", 
+      "example": "Nanotechnology is revolutionizing medicine and materials science."
+    },
+    {
+      "order": 5,
+      "vocab": "Algorithm",
+      "pos": "noun", 
+      "ipa": "/ˈælɡərɪðəm/", 
+      "mean": "Thuật toán", 
+      "example": "The search engine relies on a complex algorithm to rank results."
+    },
+    {
+      "order": 6,
+      "vocab": "Quantum Computing",
+      "pos": "noun phrase", 
+      "ipa": "/ˈkwɑːntəm kəmˈpjuːtɪŋ/", 
+      "mean": "Điện toán lượng tử", 
+      "example": "Quantum computing promises to solve problems beyond classical computers."
+    },
+    {
+      "order": 7,
+      "vocab": "Biometrics",
+      "pos": "noun (plural)", 
+      "ipa": "/baɪˈɑːmətrɪks/", 
+      "mean": "Sinh trắc học", 
+      "example": "Biometrics like fingerprints are widely used for secure authentication."
+    },
+    {
+      "order": 8,
+      "vocab": "Augmented Reality",
+      "pos": "noun phrase", 
+      "ipa": "/ˌɔːɡmənˈteɪd riˈæləti/", 
+      "mean": "Thực tế tăng cường", 
+      "example": "Augmented reality apps are transforming retail and education experiences."
+    },
+    {
+      "order": 9,
+      "vocab": "Cloud Infrastructure",
+      "pos": "noun phrase", 
+      "ipa": "/klaʊd ˌɪnfrəˈstrʌktʃər/", 
+      "mean": "Hạ tầng đám mây", 
+      "example": "Companies are migrating their cloud infrastructure to improve scalability."
+    },
+    {
+      "order": 10,
+      "vocab": "Machine Learning",
+      "pos": "noun phrase", 
+      "ipa": "/məˈʃiːn ˈlɜːrnɪŋ/", 
+      "mean": "Học máy", 
+      "example": "Machine learning models require large datasets for training."
+    },
+    {
+      "order": 11,
+      "vocab": "Data Analytics",
+      "pos": "noun phrase", 
+      "ipa": "/ˈdeɪtə əˈnælətɪks/", 
+      "mean": "Phân tích dữ liệu", 
+      "example": "Data analytics helps businesses make informed decisions."
+    },
+    {
+      "order": 12,
+      "vocab": "Cybersecurity",
+      "pos": "noun", 
+      "ipa": "/ˌsaɪbərˈsɪkjʊrəti/", 
+      "mean": "An ninh mạng", 
+      "example": "Cybersecurity measures are critical for protecting sensitive information."
+    }
+  ]
+}
