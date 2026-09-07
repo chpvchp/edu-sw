@@ -1,0 +1,208 @@
+{
+  "id_flashcard": "mathematics_topics",
+  "name_flashcard": "Mathematics Topics",
+  "num_cards": 22,
+  "updated": "2026-09-07T21:15:00.000",
+  "created": "2026-09-07T21:15:00.000",
+  "source": "",
+  "cards": [
+    {
+      "order": 1,
+      "audio": "/data/audios/mathematics_topics/Algebra.wav",
+      "vocab": "Algebra",
+      "pos": "noun",
+      "ipa": "/ˈældʒɪbrə/",
+      "mean": "đại số",
+      "example": "Algebra is a branch of mathematics dealing with symbols and the rules for manipulating those symbols. (Đại số là một nhánh của toán học xử lý các ký hiệu và quy tắc thao tác trên những ký hiệu đó.)"
+    },
+    {
+      "order": 2,
+      "audio": "/data/audios/mathematics_topics/Foundations.wav",
+      "vocab": "Foundations",
+      "pos": "noun (plural)",
+      "ipa": "/faʊnˈdeɪʃənz/",
+      "mean": "nền tảng, cơ sở",
+      "example": "A strong foundation in math is crucial for engineering studies. (Nền tảng toán học vững chắc là rất quan trọng cho các nghiên cứu kỹ thuật.)"
+    },
+    {
+      "order": 3,
+      "audio": "/data/audios/mathematics_topics/Functions.wav",
+      "vocab": "Functions",
+      "pos": "noun (plural)",
+      "ipa": "/ˈfʌŋkʃənz/",
+      "mean": "hàm số, chức năng",
+      "example": "In this chapter, we will explore linear functions and quadratic functions. (Trong chương này, chúng ta sẽ khám phá các hàm tuyến tính và hàm bậc hai.)"
+    },
+    {
+      "order": 4,
+      "audio": "/data/audios/mathematics_topics/Graphs.wav",
+      "vocab": "Graphs",
+      "pos": "noun (plural)",
+      "ipa": "/ɡræfs/",
+      "mean": "đồ thị, biểu đồ",
+      "example": "Plotting graphs helps visualize the relationship between variables. (Vẽ đồ thị giúp trực quan hóa mối quan hệ giữa các biến số.)"
+    },
+    {
+      "order": 5,
+      "audio": "/data/audios/mathematics_topics/Trigonometry.wav",
+      "vocab": "Trigonometry",
+      "pos": "noun",
+      "ipa": "/ˌtrɪɡəˈnɒmətri/",
+      "mean": "lượng giác",
+      "example": "Trigonometry is used to calculate angles and distances in triangles. (Lượng giác được sử dụng để tính toán góc và khoảng cách trong các tam giác.)"
+    },
+    {
+      "order": 6,
+      "audio": "/data/audios/mathematics_topics/Sequences.wav",
+      "vocab": "Sequences",
+      "pos": "noun (plural)",
+      "ipa": "/ˈsiːkwənsɪz/",
+      "mean": "dãy số, chuỗi",
+      "example": "An arithmetic sequence has a constant difference between consecutive terms. (Một cấp số cộng có hiệu không đổi giữa các số hạng liên tiếp.)"
+    },
+    {
+      "order": 7,
+      "audio": "/data/audios/mathematics_topics/Series.wav",
+      "vocab": "Series",
+      "pos": "noun (plural)",
+      "ipa": "/ˈsɪəriːz/",
+      "mean": "chuỗi, cấp số (tổng của dãy)",
+      "example": "The sum of an infinite geometric series can be calculated using a specific formula. (Tổng của một cấp số nhân vô hạn có thể được tính bằng một công thức cụ thể.)"
+    },
+    {
+      "order": 8,
+      "audio": "/data/audios/mathematics_topics/Exponents.wav",
+      "vocab": "Exponents",
+      "pos": "noun (plural)",
+      "ipa": "/ɪkˈspəʊnənts/",
+      "mean": "số mũ, lũy thừa",
+      "example": "When multiplying terms with the same base, you add their exponents. (Khi nhân các số hạng có cùng cơ số, bạn cộng các số mũ của chúng.)"
+    },
+    {
+      "order": 9,
+      "audio": "/data/audios/mathematics_topics/Logarithms.wav",
+      "vocab": "Logarithms",
+      "pos": "noun (plural)",
+      "ipa": "/ˈlɒɡərɪðəmz/",
+      "mean": "logarit",
+      "example": "Logarithms are the inverse operations of exponents. (Logarit là phép toán nghịch đảo của lũy thừa.)"
+    },
+    {
+      "order": 10,
+      "audio": "/data/audios/mathematics_topics/Complex Numbers.wav",
+      "vocab": "Complex Numbers",
+      "pos": "noun phrase",
+      "ipa": "/ˈkɒmpleks ˈnʌmbəz/",
+      "mean": "số phức",
+      "example": "Complex numbers consist of a real part and an imaginary part. (Số phức bao gồm một phần thực và một phần ảo.)"
+    },
+    {
+      "order": 11,
+      "audio": "/data/audios/mathematics_topics/Vectors.wav",
+      "vocab": "Vectors",
+      "pos": "noun (plural)",
+      "ipa": "/ˈvektəz/",
+      "mean": "vectơ, vector",
+      "example": "A vector has both magnitude and direction. (Một vectơ có cả độ lớn và hướng.)"
+    },
+    {
+      "order": 12,
+      "audio": "/data/audios/mathematics_topics/Coordinates.wav",
+      "vocab": "Coordinates",
+      "pos": "noun (plural)",
+      "ipa": "/kəʊˈɔːdɪnəts/",
+      "mean": "tọa độ",
+      "example": "The coordinates of the point are (3, 4). (Tọa độ của điểm đó là (3, 4).)"
+    },
+    {
+      "order": 13,
+      "audio": "/data/audios/mathematics_topics/Limits.wav",
+      "vocab": "Limits",
+      "pos": "noun (plural)",
+      "ipa": "/ˈlɪmɪts/",
+      "mean": "giới hạn",
+      "example": "The limit of a function describes the behavior as the input approaches a certain value. (Giới hạn của một hàm số mô tả hành vi khi đầu vào tiến tới một giá trị nhất định.)"
+    },
+    {
+      "order": 14,
+      "audio": "/data/audios/mathematics_topics/Continuity.wav",
+      "vocab": "Continuity",
+      "pos": "noun",
+      "ipa": "/ˌkɒntɪˈnjuːəti/",
+      "mean": "tính liên tục",
+      "example": "A function is continuous if its graph has no breaks or holes. (Một hàm số là liên tục nếu đồ thị của nó không có vết đứt hoặc lỗ hổng.)"
+    },
+    {
+      "order": 15,
+      "audio": "/data/audios/mathematics_topics/Derivatives.wav",
+      "vocab": "Derivatives",
+      "pos": "noun (plural)",
+      "ipa": "/dɪˈrɪvətɪvz/",
+      "mean": "đạo hàm",
+      "example": "The derivative of a function at a point gives the slope of the tangent line. (Đạo hàm của một hàm số tại một điểm cho biết độ dốc của đường tiếp tuyến.)"
+    },
+    {
+      "order": 16,
+      "audio": "/data/audios/mathematics_topics/Antiderivatives.wav",
+      "vocab": "Antiderivatives",
+      "pos": "noun (plural)",
+      "ipa": "/ˌæntidɪˈrɪvətɪvz/",
+      "mean": "nguyên hàm",
+      "example": "Finding antiderivatives is the reverse process of differentiation. (Tìm nguyên hàm là quá trình ngược lại của phép lấy đạo hàm.)"
+    },
+    {
+      "order": 17,
+      "audio": "/data/audios/mathematics_topics/Integrals.wav",
+      "vocab": "Integrals",
+      "pos": "noun (plural)",
+      "ipa": "/ˈɪntɪɡrəlz/",
+      "mean": "tích phân",
+      "example": "Definite integrals can be used to calculate the area under a curve. (Tích phân xác định có thể được sử dụng để tính diện tích dưới một đường cong.)"
+    },
+    {
+      "order": 18,
+      "audio": "/data/audios/mathematics_topics/Combinatorics.wav",
+      "vocab": "Combinatorics",
+      "pos": "noun",
+      "ipa": "/ˌkɒmbɪnəˈtɒrɪks/",
+      "mean": "tổ hợp, lý thuyết tổ hợp",
+      "example": "Combinatorics involves counting the number of ways to arrange or select items. (Tổ hợp liên quan đến việc đếm số cách sắp xếp hoặc chọn các mục.)"
+    },
+    {
+      "order": 19,
+      "audio": "/data/audios/mathematics_topics/Statistics.wav",
+      "vocab": "Statistics",
+      "pos": "noun",
+      "ipa": "/stəˈtɪstɪks/",
+      "mean": "thống kê",
+      "example": "Statistics helps us analyze and interpret data collected from surveys. (Thống kê giúp chúng ta phân tích và diễn giải dữ liệu thu thập từ các cuộc khảo sát.)"
+    },
+    {
+      "order": 20,
+      "audio": "/data/audios/mathematics_topics/Probability.wav",
+      "vocab": "Probability",
+      "pos": "noun",
+      "ipa": "/ˌprɒbəˈbɪləti/",
+      "mean": "xác suất",
+      "example": "The probability of rolling a six on a fair die is one-sixth. (Xác suất để gieo được mặt sáu trên một con xúc xắc công bằng là một phần sáu.)"
+    },
+    {
+      "order": 21,
+      "audio": "/data/audios/mathematics_topics/Plane Geometry.wav",
+      "vocab": "Plane Geometry",
+      "pos": "noun phrase",
+      "ipa": "/pleɪn dʒiˈɒmətri/",
+      "mean": "hình học phẳng",
+      "example": "Plane geometry focuses on two-dimensional shapes like circles and triangles. (Hình học phẳng tập trung vào các hình hai chiều như đường tròn và tam giác.)"
+    },
+    {
+      "order": 22,
+      "audio": "/data/audios/mathematics_topics/Solid Geometry.wav",
+      "vocab": "Solid Geometry",
+      "pos": "noun phrase",
+      "ipa": "/ˈsɒlɪd dʒiˈɒmətri/",
+      "mean": "hình học không gian",
+      "example": "Solid geometry deals with three-dimensional objects such as cubes and spheres. (Hình học không gian xử lý các đối tượng ba chiều như khối lập phương và quả cầu.)"
+    }
+  ]
+}
