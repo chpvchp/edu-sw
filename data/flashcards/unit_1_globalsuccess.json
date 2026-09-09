@@ -1,0 +1,802 @@
+{
+  "id_flashcard": "unit_1_globalsuccess",
+  "name_flashcard": "Unit 1 Global Success",
+  "num_cards": 100,
+  "updated": "2026-09-09T22:05:00.000",
+  "created": "2026-09-09T22:05:00.000",
+  "source": "",
+  "cards": [
+    {
+      "order": 1,
+      "audio": "/data/audios/unit_1_globalsuccess/Account.wav",
+      "vocab": "Account",
+      "pos": "noun",
+      "ipa": "/əˈkaʊnt/",
+      "mean": "tài khoản; sự tường thuật",
+      "example": "I created an account on the website."
+    },
+    {
+      "order": 2,
+      "audio": "/data/audios/unit_1_globalsuccess/Army.wav",
+      "vocab": "Army",
+      "pos": "noun",
+      "ipa": "/ˈɑːrmi/",
+      "mean": "quân đội; lục quân",
+      "example": "He joined the army after leaving school."
+    },
+    {
+      "order": 3,
+      "audio": "/data/audios/unit_1_globalsuccess/Attack.wav",
+      "vocab": "Attack",
+      "pos": "noun / verb",
+      "ipa": "/əˈtæk/",
+      "mean": "cuộc tấn công; tấn công",
+      "example": "The army launched an attack on the enemy."
+    },
+    {
+      "order": 4,
+      "audio": "/data/audios/unit_1_globalsuccess/Battle.wav",
+      "vocab": "Battle",
+      "pos": "noun",
+      "ipa": "/ˈbætəl/",
+      "mean": "trận chiến",
+      "example": "Many soldiers died in the battle."
+    },
+    {
+      "order": 5,
+      "audio": "/data/audios/unit_1_globalsuccess/Biography.wav",
+      "vocab": "Biography",
+      "pos": "noun",
+      "ipa": "/baɪˈɑːɡrəfi/",
+      "mean": "tiểu sử",
+      "example": "I am reading a biography of a famous scientist."
+    },
+    {
+      "order": 6,
+      "audio": "/data/audios/unit_1_globalsuccess/Blockbuster.wav",
+      "vocab": "Blockbuster",
+      "pos": "noun",
+      "ipa": "/ˈblɑːkbʌstər/",
+      "mean": "bộ phim bom tấn; tác phẩm thành công lớn",
+      "example": "The movie became a worldwide blockbuster."
+    },
+    {
+      "order": 7,
+      "audio": "/data/audios/unit_1_globalsuccess/Childhood.wav",
+      "vocab": "Childhood",
+      "pos": "noun",
+      "ipa": "/ˈtʃaɪldhʊd/",
+      "mean": "thời thơ ấu",
+      "example": "He spent his childhood in the countryside."
+    },
+    {
+      "order": 8,
+      "audio": "/data/audios/unit_1_globalsuccess/Death.wav",
+      "vocab": "Death",
+      "pos": "noun",
+      "ipa": "/deθ/",
+      "mean": "cái chết; sự qua đời",
+      "example": "His death shocked the whole country."
+    },
+    {
+      "order": 9,
+      "audio": "/data/audios/unit_1_globalsuccess/Diary.wav",
+      "vocab": "Diary",
+      "pos": "noun",
+      "ipa": "/ˈdaɪəri/",
+      "mean": "nhật ký",
+      "example": "She writes about her experiences in her diary."
+    },
+    {
+      "order": 10,
+      "audio": "/data/audios/unit_1_globalsuccess/Electronics.wav",
+      "vocab": "Electronics",
+      "pos": "noun",
+      "ipa": "/ɪˌlekˈtrɑːnɪks/",
+      "mean": "điện tử học; thiết bị điện tử",
+      "example": "He is interested in electronics and computer technology."
+    },
+    {
+      "order": 11,
+      "audio": "/data/audios/unit_1_globalsuccess/Enemy.wav",
+      "vocab": "Enemy",
+      "pos": "noun",
+      "ipa": "/ˈenəmi/",
+      "mean": "kẻ thù; quân địch",
+      "example": "The soldiers fought against the enemy."
+    },
+    {
+      "order": 12,
+      "audio": "/data/audios/unit_1_globalsuccess/General.wav",
+      "vocab": "General",
+      "pos": "noun",
+      "ipa": "/ˈdʒenərəl/",
+      "mean": "tướng",
+      "example": "The general led his army into battle."
+    },
+    {
+      "order": 13,
+      "audio": "/data/audios/unit_1_globalsuccess/Genius.wav",
+      "vocab": "Genius",
+      "pos": "noun",
+      "ipa": "/ˈdʒiːniəs/",
+      "mean": "thiên tài",
+      "example": "Many people considered him a mathematical genius."
+    },
+    {
+      "order": 14,
+      "audio": "/data/audios/unit_1_globalsuccess/Hero.wav",
+      "vocab": "Hero",
+      "pos": "noun",
+      "ipa": "/ˈhɪroʊ/",
+      "mean": "anh hùng",
+      "example": "He became a national hero after the war."
+    },
+    {
+      "order": 15,
+      "audio": "/data/audios/unit_1_globalsuccess/Innovation.wav",
+      "vocab": "Innovation",
+      "pos": "noun",
+      "ipa": "/ˌɪnəˈveɪʃən/",
+      "mean": "sự đổi mới; sáng kiến",
+      "example": "Innovation is important for technological development."
+    },
+    {
+      "order": 16,
+      "audio": "/data/audios/unit_1_globalsuccess/Marriage.wav",
+      "vocab": "Marriage",
+      "pos": "noun",
+      "ipa": "/ˈmerɪdʒ/",
+      "mean": "hôn nhân; cuộc hôn nhân",
+      "example": "Their marriage lasted for more than fifty years."
+    },
+    {
+      "order": 17,
+      "audio": "/data/audios/unit_1_globalsuccess/Medicine.wav",
+      "vocab": "Medicine",
+      "pos": "noun",
+      "ipa": "/ˈmedɪsɪn/",
+      "mean": "y học; thuốc",
+      "example": "She decided to study medicine at university."
+    },
+    {
+      "order": 18,
+      "audio": "/data/audios/unit_1_globalsuccess/Military.wav",
+      "vocab": "Military",
+      "pos": "noun",
+      "ipa": "/ˈmɪləteri/",
+      "mean": "quân đội; quân sự",
+      "example": "He had a long career in the military."
+    },
+    {
+      "order": 19,
+      "audio": "/data/audios/unit_1_globalsuccess/Minor.wav",
+      "vocab": "Minor",
+      "pos": "noun",
+      "ipa": "/ˈmaɪnər/",
+      "mean": "trẻ vị thành niên",
+      "example": "The law provides special protection for minors."
+    },
+    {
+      "order": 20,
+      "audio": "/data/audios/unit_1_globalsuccess/Navy.wav",
+      "vocab": "Navy",
+      "pos": "noun",
+      "ipa": "/ˈneɪvi/",
+      "mean": "hải quân",
+      "example": "He served in the navy for ten years."
+    },
+    {
+      "order": 21,
+      "audio": "/data/audios/unit_1_globalsuccess/Phonograph.wav",
+      "vocab": "Phonograph",
+      "pos": "noun",
+      "ipa": "/ˈfoʊnəɡræf/",
+      "mean": "máy hát đĩa; máy quay đĩa",
+      "example": "The phonograph was an important invention in music history."
+    },
+    {
+      "order": 22,
+      "audio": "/data/audios/unit_1_globalsuccess/Post.wav",
+      "vocab": "Post",
+      "pos": "noun",
+      "ipa": "/poʊst/",
+      "mean": "chức vụ; bài đăng; bưu điện",
+      "example": "He was offered an important post in the government."
+    },
+    {
+      "order": 23,
+      "audio": "/data/audios/unit_1_globalsuccess/Rule.wav",
+      "vocab": "Rule",
+      "pos": "noun / verb",
+      "ipa": "/ruːl/",
+      "mean": "quy tắc; cai trị",
+      "example": "The king ruled the country for many years."
+    },
+    {
+      "order": 24,
+      "audio": "/data/audios/unit_1_globalsuccess/Soldier.wav",
+      "vocab": "Soldier",
+      "pos": "noun",
+      "ipa": "/ˈsoʊldʒər/",
+      "mean": "người lính; binh sĩ",
+      "example": "The soldier returned home after the war."
+    },
+    {
+      "order": 25,
+      "audio": "/data/audios/unit_1_globalsuccess/Statement.wav",
+      "vocab": "Statement",
+      "pos": "noun",
+      "ipa": "/ˈsteɪtmənt/",
+      "mean": "lời tuyên bố; phát biểu",
+      "example": "The president made a statement about the situation."
+    },
+    {
+      "order": 26,
+      "audio": "/data/audios/unit_1_globalsuccess/Surgeon.wav",
+      "vocab": "Surgeon",
+      "pos": "noun",
+      "ipa": "/ˈsɜːrdʒən/",
+      "mean": "bác sĩ phẫu thuật",
+      "example": "The surgeon performed a successful operation."
+    },
+    {
+      "order": 27,
+      "audio": "/data/audios/unit_1_globalsuccess/Youth.wav",
+      "vocab": "Youth",
+      "pos": "noun",
+      "ipa": "/juːθ/",
+      "mean": "tuổi trẻ; thanh niên",
+      "example": "He spent his youth studying and traveling."
+    },
+    {
+      "order": 28,
+      "audio": "/data/audios/unit_1_globalsuccess/Accessible.wav",
+      "vocab": "Accessible",
+      "pos": "adjective",
+      "ipa": "/əkˈsesəbəl/",
+      "mean": "dễ tiếp cận; có thể sử dụng được",
+      "example": "The information is accessible to everyone."
+    },
+    {
+      "order": 29,
+      "audio": "/data/audios/unit_1_globalsuccess/Alive.wav",
+      "vocab": "Alive",
+      "pos": "adjective",
+      "ipa": "/əˈlaɪv/",
+      "mean": "còn sống",
+      "example": "Fortunately, all the passengers were still alive."
+    },
+    {
+      "order": 30,
+      "audio": "/data/audios/unit_1_globalsuccess/Ambitious.wav",
+      "vocab": "Ambitious",
+      "pos": "adjective",
+      "ipa": "/æmˈbɪʃəs/",
+      "mean": "tham vọng; có hoài bão",
+      "example": "She is ambitious and wants to become a doctor."
+    },
+    {
+      "order": 31,
+      "audio": "/data/audios/unit_1_globalsuccess/Cutting-edge.wav",
+      "vocab": "Cutting-edge",
+      "pos": "adjective",
+      "ipa": "/ˌkʌtɪŋ ˈedʒ/",
+      "mean": "tiên tiến nhất; hiện đại nhất",
+      "example": "The company develops cutting-edge technology."
+    },
+    {
+      "order": 32,
+      "audio": "/data/audios/unit_1_globalsuccess/Dedicated.wav",
+      "vocab": "Dedicated",
+      "pos": "adjective",
+      "ipa": "/ˈdedɪkeɪtɪd/",
+      "mean": "tận tâm; cống hiến",
+      "example": "She is a dedicated teacher."
+    },
+    {
+      "order": 33,
+      "audio": "/data/audios/unit_1_globalsuccess/Full-length.wav",
+      "vocab": "Full-length",
+      "pos": "adjective",
+      "ipa": "/ˌfʊl ˈleŋθ/",
+      "mean": "đầy đủ độ dài; toàn thời lượng",
+      "example": "He directed his first full-length movie."
+    },
+    {
+      "order": 34,
+      "audio": "/data/audios/unit_1_globalsuccess/Injured.wav",
+      "vocab": "Injured",
+      "pos": "adjective",
+      "ipa": "/ˈɪndʒərd/",
+      "mean": "bị thương",
+      "example": "The injured soldier was taken to a field hospital."
+    },
+    {
+      "order": 35,
+      "audio": "/data/audios/unit_1_globalsuccess/Inspiring.wav",
+      "vocab": "Inspiring",
+      "pos": "adjective",
+      "ipa": "/ɪnˈspaɪərɪŋ/",
+      "mean": "truyền cảm hứng",
+      "example": "Her story is truly inspiring."
+    },
+    {
+      "order": 36,
+      "audio": "/data/audios/unit_1_globalsuccess/Lengthy.wav",
+      "vocab": "Lengthy",
+      "pos": "adjective",
+      "ipa": "/ˈleŋθi/",
+      "mean": "dài; kéo dài",
+      "example": "The meeting became lengthy and boring."
+    },
+    {
+      "order": 37,
+      "audio": "/data/audios/unit_1_globalsuccess/Powerful.wav",
+      "vocab": "Powerful",
+      "pos": "adjective",
+      "ipa": "/ˈpaʊərfəl/",
+      "mean": "mạnh mẽ; có sức ảnh hưởng",
+      "example": "He gave a powerful speech."
+    },
+    {
+      "order": 38,
+      "audio": "/data/audios/unit_1_globalsuccess/Touch-screen.wav",
+      "vocab": "Touch-screen",
+      "pos": "adjective",
+      "ipa": "/ˈtʌtʃ skriːn/",
+      "mean": "có màn hình cảm ứng",
+      "example": "The device has a large touch-screen display."
+    },
+    {
+      "order": 39,
+      "audio": "/data/audios/unit_1_globalsuccess/Visionary.wav",
+      "vocab": "Visionary",
+      "pos": "adjective",
+      "ipa": "/ˈvɪʒəneri/",
+      "mean": "có tầm nhìn xa; có tính tiên phong",
+      "example": "He was a visionary leader who changed the industry."
+    },
+    {
+      "order": 40,
+      "audio": "/data/audios/unit_1_globalsuccess/Well-educated.wav",
+      "vocab": "Well-educated",
+      "pos": "adjective",
+      "ipa": "/ˌwel ˈedʒukeɪtɪd/",
+      "mean": "được giáo dục tốt; có học thức",
+      "example": "She is a well-educated and experienced woman."
+    },
+    {
+      "order": 41,
+      "audio": "/data/audios/unit_1_globalsuccess/Admire.wav",
+      "vocab": "Admire",
+      "pos": "verb",
+      "ipa": "/ədˈmaɪər/",
+      "mean": "ngưỡng mộ",
+      "example": "I really admire his determination."
+    },
+    {
+      "order": 42,
+      "audio": "/data/audios/unit_1_globalsuccess/Bond.wav",
+      "vocab": "Bond",
+      "pos": "verb",
+      "ipa": "/bɑːnd/",
+      "mean": "gắn kết; tạo mối quan hệ",
+      "example": "The two friends bonded over their love of music."
+    },
+    {
+      "order": 43,
+      "audio": "/data/audios/unit_1_globalsuccess/Defeat.wav",
+      "vocab": "Defeat",
+      "pos": "verb",
+      "ipa": "/dɪˈfiːt/",
+      "mean": "đánh bại",
+      "example": "The team defeated its strongest opponent."
+    },
+    {
+      "order": 44,
+      "audio": "/data/audios/unit_1_globalsuccess/Diagnose.wav",
+      "vocab": "Diagnose",
+      "pos": "verb",
+      "ipa": "/ˈdaɪəɡnoʊz/",
+      "mean": "chẩn đoán",
+      "example": "The doctor diagnosed him with pancreatic cancer."
+    },
+    {
+      "order": 45,
+      "audio": "/data/audios/unit_1_globalsuccess/Resign.wav",
+      "vocab": "Resign",
+      "pos": "verb",
+      "ipa": "/rɪˈzaɪn/",
+      "mean": "từ chức; xin thôi việc",
+      "example": "The minister decided to resign from his position."
+    },
+    {
+      "order": 46,
+      "audio": "/data/audios/unit_1_globalsuccess/Brave.wav",
+      "vocab": "Brave",
+      "pos": "adjective",
+      "ipa": "/breɪv/",
+      "mean": "dũng cảm",
+      "example": "The brave soldier saved several lives."
+    },
+    {
+      "order": 47,
+      "audio": "/data/audios/unit_1_globalsuccess/Intelligent.wav",
+      "vocab": "Intelligent",
+      "pos": "adjective",
+      "ipa": "/ɪnˈtelɪdʒənt/",
+      "mean": "thông minh",
+      "example": "She is an intelligent and hardworking student."
+    },
+    {
+      "order": 48,
+      "audio": "/data/audios/unit_1_globalsuccess/Jungle.wav",
+      "vocab": "Jungle",
+      "pos": "noun",
+      "ipa": "/ˈdʒʌŋɡəl/",
+      "mean": "rừng rậm",
+      "example": "The soldiers had to cross the jungle."
+    },
+    {
+      "order": 49,
+      "audio": "/data/audios/unit_1_globalsuccess/Translate.wav",
+      "vocab": "Translate",
+      "pos": "verb",
+      "ipa": "/trænzˈleɪt/",
+      "mean": "dịch",
+      "example": "Can you translate this sentence into Vietnamese?"
+    },
+    {
+      "order": 50,
+      "audio": "/data/audios/unit_1_globalsuccess/Devote.wav",
+      "vocab": "Devote",
+      "pos": "verb",
+      "ipa": "/dɪˈvoʊt/",
+      "mean": "cống hiến; dành hết cho",
+      "example": "He devoted his life to helping others."
+    },
+    {
+      "order": 51,
+      "audio": "/data/audios/unit_1_globalsuccess/Adopt.wav",
+      "vocab": "Adopt",
+      "pos": "verb",
+      "ipa": "/əˈdɑːpt/",
+      "mean": "nhận nuôi; áp dụng",
+      "example": "They decided to adopt a child."
+    },
+    {
+      "order": 52,
+      "audio": "/data/audios/unit_1_globalsuccess/Adoption.wav",
+      "vocab": "Adoption",
+      "pos": "noun",
+      "ipa": "/əˈdɑːpʃən/",
+      "mean": "sự nhận nuôi; việc áp dụng",
+      "example": "The adoption process took several months."
+    },
+    {
+      "order": 53,
+      "audio": "/data/audios/unit_1_globalsuccess/Animated.wav",
+      "vocab": "Animated",
+      "pos": "adjective",
+      "ipa": "/ˈænəmeɪtɪd/",
+      "mean": "hoạt hình; sống động",
+      "example": "She enjoys watching animated movies."
+    },
+    {
+      "order": 54,
+      "audio": "/data/audios/unit_1_globalsuccess/Animator.wav",
+      "vocab": "Animator",
+      "pos": "noun",
+      "ipa": "/ˈænəmeɪtər/",
+      "mean": "họa sĩ hoạt hình; người làm hoạt hình",
+      "example": "The animator created the characters by hand."
+    },
+    {
+      "order": 55,
+      "audio": "/data/audios/unit_1_globalsuccess/Computer Animation.wav",
+      "vocab": "Computer Animation",
+      "pos": "noun phrase",
+      "ipa": "/kəmˈpjuːtər ˌænəˈmeɪʃən/",
+      "mean": "hoạt hình máy tính",
+      "example": "Computer animation has transformed the film industry."
+    },
+    {
+      "order": 56,
+      "audio": "/data/audios/unit_1_globalsuccess/Computer-Animated.wav",
+      "vocab": "Computer-Animated",
+      "pos": "adjective",
+      "ipa": "/kəmˈpjuːtər ˌænəˈmeɪtɪd/",
+      "mean": "được tạo bằng hoạt hình máy tính",
+      "example": "It is a computer-animated movie."
+    },
+    {
+      "order": 57,
+      "audio": "/data/audios/unit_1_globalsuccess/Contribute.wav",
+      "vocab": "Contribute",
+      "pos": "verb",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "mean": "đóng góp",
+      "example": "Everyone can contribute to the project."
+    },
+    {
+      "order": 58,
+      "audio": "/data/audios/unit_1_globalsuccess/Contribution.wav",
+      "vocab": "Contribution",
+      "pos": "noun",
+      "ipa": "/ˌkɑːntrɪˈbjuːʃən/",
+      "mean": "sự đóng góp",
+      "example": "His contribution to science was significant."
+    },
+    {
+      "order": 59,
+      "audio": "/data/audios/unit_1_globalsuccess/Determination.wav",
+      "vocab": "Determination",
+      "pos": "noun",
+      "ipa": "/dɪˌtɜːrmɪˈneɪʃən/",
+      "mean": "sự quyết tâm",
+      "example": "Her determination helped her overcome many difficulties."
+    },
+    {
+      "order": 60,
+      "audio": "/data/audios/unit_1_globalsuccess/Determined.wav",
+      "vocab": "Determined",
+      "pos": "adjective",
+      "ipa": "/dɪˈtɜːrmɪnd/",
+      "mean": "quyết tâm",
+      "example": "He is determined to achieve his goals."
+    },
+    {
+      "order": 61,
+      "audio": "/data/audios/unit_1_globalsuccess/Expand.wav",
+      "vocab": "Expand",
+      "pos": "verb",
+      "ipa": "/ɪkˈspænd/",
+      "mean": "mở rộng",
+      "example": "The company plans to expand its business."
+    },
+    {
+      "order": 62,
+      "audio": "/data/audios/unit_1_globalsuccess/Expanding.wav",
+      "vocab": "Expanding",
+      "pos": "adjective",
+      "ipa": "/ɪkˈspændɪŋ/",
+      "mean": "đang mở rộng; ngày càng phát triển",
+      "example": "The expanding technology industry offers many opportunities."
+    },
+    {
+      "order": 63,
+      "audio": "/data/audios/unit_1_globalsuccess/Poem.wav",
+      "vocab": "Poem",
+      "pos": "noun",
+      "ipa": "/ˈpoʊəm/",
+      "mean": "bài thơ",
+      "example": "She wrote a beautiful poem about her childhood."
+    },
+    {
+      "order": 64,
+      "audio": "/data/audios/unit_1_globalsuccess/Poetry.wav",
+      "vocab": "Poetry",
+      "pos": "noun",
+      "ipa": "/ˈpoʊətri/",
+      "mean": "thơ ca",
+      "example": "He has always been interested in poetry."
+    },
+    {
+      "order": 65,
+      "audio": "/data/audios/unit_1_globalsuccess/Devote To.wav",
+      "vocab": "Devote To",
+      "pos": "verb phrase",
+      "ipa": "/dɪˈvoʊt tuː/",
+      "mean": "cống hiến cho; dành cho",
+      "example": "She devoted her life to helping children."
+    },
+    {
+      "order": 66,
+      "audio": "/data/audios/unit_1_globalsuccess/On Top of the World.wav",
+      "vocab": "On Top of the World",
+      "pos": "phrase",
+      "ipa": "/ɑːn tɑːp əv ðə wɜːrld/",
+      "mean": "cực kỳ hạnh phúc; sung sướng",
+      "example": "After winning the competition, she felt on top of the world."
+    },
+    {
+      "order": 67,
+      "audio": "/data/audios/unit_1_globalsuccess/On Cloud Nine.wav",
+      "vocab": "On Cloud Nine",
+      "pos": "phrase",
+      "ipa": "/ɑːn klaʊd naɪn/",
+      "mean": "cực kỳ hạnh phúc",
+      "example": "He was on cloud nine after receiving the good news."
+    },
+    {
+      "order": 68,
+      "audio": "/data/audios/unit_1_globalsuccess/Over the Moon.wav",
+      "vocab": "Over the Moon",
+      "pos": "phrase",
+      "ipa": "/ˈoʊvər ðə muːn/",
+      "mean": "cực kỳ vui sướng",
+      "example": "Her parents were over the moon when she passed the exam."
+    },
+    {
+      "order": 69,
+      "audio": "/data/audios/unit_1_globalsuccess/Biological Parent.wav",
+      "vocab": "Biological Parent",
+      "pos": "noun phrase",
+      "ipa": "/ˌbaɪəˈlɑːdʒɪkəl ˈperənt/",
+      "mean": "cha/mẹ ruột",
+      "example": "The child was raised by adoptive parents but later met his biological parents."
+    },
+    {
+      "order": 70,
+      "audio": "/data/audios/unit_1_globalsuccess/Communist Party of Viet Nam.wav",
+      "vocab": "Communist Party of Viet Nam",
+      "pos": "phrase",
+      "ipa": "/ˈkɑːmjənɪst ˈpɑːrti əv ˌvjet ˈnɑːm/",
+      "mean": "Đảng Cộng sản Việt Nam",
+      "example": "He studied the history of the Communist Party of Viet Nam."
+    },
+    {
+      "order": 71,
+      "audio": "/data/audios/unit_1_globalsuccess/Field Hospital.wav",
+      "vocab": "Field Hospital",
+      "pos": "noun phrase",
+      "ipa": "/fiːld ˈhɑːspɪtəl/",
+      "mean": "bệnh viện dã chiến",
+      "example": "The injured soldiers were taken to a field hospital."
+    },
+    {
+      "order": 72,
+      "audio": "/data/audios/unit_1_globalsuccess/Historical Figure.wav",
+      "vocab": "Historical Figure",
+      "pos": "noun phrase",
+      "ipa": "/hɪˈstɔːrɪkəl ˈfɪɡjər/",
+      "mean": "nhân vật lịch sử",
+      "example": "Ho Chi Minh is an important historical figure in Vietnamese history."
+    },
+    {
+      "order": 73,
+      "audio": "/data/audios/unit_1_globalsuccess/Human Being.wav",
+      "vocab": "Human Being",
+      "pos": "noun phrase",
+      "ipa": "/ˈhjuːmən ˈbiːɪŋ/",
+      "mean": "con người",
+      "example": "Every human being deserves respect."
+    },
+    {
+      "order": 74,
+      "audio": "/data/audios/unit_1_globalsuccess/Impressive Achievement.wav",
+      "vocab": "Impressive Achievement",
+      "pos": "noun phrase",
+      "ipa": "/ɪmˈpresɪv əˈtʃiːvmənt/",
+      "mean": "thành tựu ấn tượng",
+      "example": "Winning the competition was an impressive achievement."
+    },
+    {
+      "order": 75,
+      "audio": "/data/audios/unit_1_globalsuccess/National Hero.wav",
+      "vocab": "National Hero",
+      "pos": "noun phrase",
+      "ipa": "/ˈnæʃənəl ˈhɪroʊ/",
+      "mean": "anh hùng dân tộc",
+      "example": "He is remembered as a national hero."
+    },
+    {
+      "order": 76,
+      "audio": "/data/audios/unit_1_globalsuccess/Pancreatic Cancer.wav",
+      "vocab": "Pancreatic Cancer",
+      "pos": "noun phrase",
+      "ipa": "/ˌpæŋkriˈætɪk ˈkænsər/",
+      "mean": "ung thư tuyến tụy",
+      "example": "The doctor explained the symptoms of pancreatic cancer."
+    },
+    {
+      "order": 77,
+      "audio": "/data/audios/unit_1_globalsuccess/Resistance War.wav",
+      "vocab": "Resistance War",
+      "pos": "noun phrase",
+      "ipa": "/rɪˈzɪstəns wɔːr/",
+      "mean": "cuộc kháng chiến",
+      "example": "He played an important role in the resistance war."
+    },
+    {
+      "order": 78,
+      "audio": "/data/audios/unit_1_globalsuccess/War Hero.wav",
+      "vocab": "War Hero",
+      "pos": "noun phrase",
+      "ipa": "/wɔːr ˈhɪroʊ/",
+      "mean": "anh hùng chiến tranh",
+      "example": "The war hero was honored by the government."
+    },
+    {
+      "order": 79,
+      "audio": "/data/audios/unit_1_globalsuccess/Attend School / College.wav",
+      "vocab": "Attend School / College",
+      "pos": "verb phrase",
+      "ipa": "/əˈtend skuːl/ /əˈtend ˈkɑːlɪdʒ/",
+      "mean": "đi học; theo học trường đại học",
+      "example": "Children are required to attend school."
+    },
+    {
+      "order": 80,
+      "audio": "/data/audios/unit_1_globalsuccess/Be Admired For.wav",
+      "vocab": "Be Admired For",
+      "pos": "phrase",
+      "ipa": "/biː ədˈmaɪərd fɔːr/",
+      "mean": "được ngưỡng mộ vì",
+      "example": "He is admired for his courage and determination."
+    },
+    {
+      "order": 81,
+      "audio": "/data/audios/unit_1_globalsuccess/Be Held in Prison.wav",
+      "vocab": "Be Held in Prison",
+      "pos": "phrase",
+      "ipa": "/biː held ɪn ˈprɪzən/",
+      "mean": "bị giam trong tù",
+      "example": "He was held in prison for several years."
+    },
+    {
+      "order": 82,
+      "audio": "/data/audios/unit_1_globalsuccess/Do One's Duty.wav",
+      "vocab": "Do One's Duty",
+      "pos": "phrase",
+      "ipa": "/duː wʌnz ˈduːti/",
+      "mean": "làm tròn bổn phận",
+      "example": "The soldiers did their duty to protect their country."
+    },
+    {
+      "order": 83,
+      "audio": "/data/audios/unit_1_globalsuccess/Fight the Disease.wav",
+      "vocab": "Fight the Disease",
+      "pos": "phrase",
+      "ipa": "/faɪt ðə dɪˈziːz/",
+      "mean": "chống lại bệnh tật",
+      "example": "Scientists are working hard to fight the disease."
+    },
+    {
+      "order": 84,
+      "audio": "/data/audios/unit_1_globalsuccess/Hold the Record.wav",
+      "vocab": "Hold the Record",
+      "pos": "phrase",
+      "ipa": "/hoʊld ðə ˈrekərd/",
+      "mean": "giữ kỷ lục",
+      "example": "She currently holds the record for the fastest time."
+    },
+    {
+      "order": 85,
+      "audio": "/data/audios/unit_1_globalsuccess/Bond Over.wav",
+      "vocab": "Bond Over",
+      "pos": "verb phrase",
+      "ipa": "/bɑːnd ˈoʊvər/",
+      "mean": "gắn kết nhờ cùng có chung điều gì",
+      "example": "They bonded over their love of science."
+    },
+    {
+      "order": 86,
+      "audio": "/data/audios/unit_1_globalsuccess/Carry Out.wav",
+      "vocab": "Carry Out",
+      "pos": "phrasal verb",
+      "ipa": "/ˈkæri aʊt/",
+      "mean": "thực hiện; tiến hành",
+      "example": "The scientists carried out an important experiment."
+    },
+    {
+      "order": 87,
+      "audio": "/data/audios/unit_1_globalsuccess/Drop Out Of.wav",
+      "vocab": "Drop Out Of",
+      "pos": "phrasal verb",
+      "ipa": "/drɑːp aʊt əv/",
+      "mean": "bỏ học; bỏ dở",
+      "example": "He dropped out of college to start his own business."
+    },
+    {
+      "order": 88,
+      "audio": "/data/audios/unit_1_globalsuccess/Pass Away.wav",
+      "vocab": "Pass Away",
+      "pos": "phrasal verb",
+      "ipa": "/pæs əˈweɪ/",
+      "mean": "qua đời",
+      "example": "His grandfather passed away at the age of ninety."
+    }
+  ]
+}

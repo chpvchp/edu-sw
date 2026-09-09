@@ -1,0 +1,73 @@
+{
+  "id_flashcard": "dai_tu_tieng_trung",
+  "name_flashcard": "Đại Từ Tiếng Trung",
+  "num_cards": 7,
+  "updated": "2026-09-05T22:10:00.000",
+  "created": "2026-09-02T20:40:00.000",
+  "source": "",
+  "cards": [
+    {
+      "order": 1,
+      "audio": "/data/audios/dai_tu_tieng_trung/我.wav",
+      "vocab": "我",
+      "pos": "đại từ",
+      "ipa": "wǒ",
+      "mean": "tôi (ngã)",
+      "example": ""
+    },
+    {
+      "order": 2,
+      "audio": "/data/audios/dai_tu_tieng_trung/你.wav",
+      "vocab": "你",
+      "pos": "đại từ",
+      "ipa": "nǐ",
+      "mean": "bạn (nhĩ)",
+      "example": ""
+    },
+    {
+      "order": 3,
+      "audio": "/data/audios/dai_tu_tieng_trung/他.wav",
+      "vocab": "他",
+      "pos": "đại từ",
+      "ipa": "tā",
+      "mean": "anh ấy, ông ấy (tha)",
+      "example": ""
+    },
+    {
+      "order": 4,
+      "audio": "/data/audios/dai_tu_tieng_trung/她.wav",
+      "vocab": "她",
+      "pos": "đại từ",
+      "ipa": "tā",
+      "mean": "cô ấy, bà ấy (tha)",
+      "example": ""
+    },
+    {
+      "order": 5,
+      "audio": "/data/audios/dai_tu_tieng_trung/我们.wav",
+      "vocab": "我们",
+      "pos": "đại từ",
+      "ipa": "wǒmen",
+      "mean": "chúng tôi, chúng ta (ngã môn)",
+      "example": ""
+    },
+    {
+      "order": 6,
+      "audio": "/data/audios/dai_tu_tieng_trung/你们.wav",
+      "vocab": "你们",
+      "pos": "đại từ",
+      "ipa": "nǐmen",
+      "mean": "các bạn (nhĩ môn)",
+      "example": ""
+    },
+    {
+      "order": 7,
+      "audio": "/data/audios/dai_tu_tieng_trung/他们.wav",
+      "vocab": "他们",
+      "pos": "đại từ",
+      "ipa": "tāmen",
+      "mean": "họ, bọn họ (tha môn)",
+      "example": ""
+    }
+  ]
+}
