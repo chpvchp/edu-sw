@@ -12,6 +12,28 @@ type ExamData = InfoExam & {
 const EXAMS_INDEX_PATH = "/data/exams/index.json";
 const examCache = new Map<string, ExamData>();
 
+function shuffle<T>(items: T[]): T[] {
+  const shuffled = [...items];
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+  }
+
+  return shuffled;
+}
+
+function shuffleExam(exam: ExamData): ExamData {
+  return {
+    ...exam,
+    questions: shuffle(exam.questions).map((question, questionIndex) => ({
+      ...question,
+      order: questionIndex + 1,
+      answers: shuffle(question.answers),
+    })),
+  };
+}
+
 
 /**
  * loadExamData | tải dữ liệu đề.
@@ -25,7 +47,7 @@ async function loadExamData(idExam: string): Promise<ExamData> {
     return cachedExam;
   }
 
-  const exam = await fetchJson<ExamData>(`/data/exams/${idExam}.json`);
+  const exam = shuffleExam(await fetchJson<ExamData>(`/data/exams/${idExam}.json`));
   examCache.set(idExam, exam);
   return exam;
 }

@@ -22,11 +22,12 @@ function CardQuestionShortAnswer({ question, onChange, data, results }: CardQues
     return (
       <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
         <div className="p-2 flex flex-col border border-gray-400 rounded">
-          <h2 id={question.id_question}>
-            <RenderMarkDownLatex
-              text={question.question}
-            />
-          </h2>
+          <div id={question.id_question} className="flex items-start gap-1">
+            <span className="shrink-0 font-bold">Câu {question.order}:</span>
+            <div className="min-w-0">
+              <RenderMarkDownLatex text={question.question} />
+            </div>
+          </div>
           {question?.path_images && (
             <img 
               className="max-h-64 w-auto object-contain"
@@ -70,10 +71,11 @@ function CardQuestionShortAnswer({ question, onChange, data, results }: CardQues
     return (
       <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
         <div className="p-2 flex flex-col border border-gray-400 rounded">
-          <div id={question.id_question}>
-            <RenderMarkDownLatex
-              text={question.question}
-            />
+          <div id={question.id_question} className="flex items-start gap-1">
+            <span className="shrink-0 font-bold">Câu {question.order}:</span>
+            <div className="min-w-0">
+              <RenderMarkDownLatex text={question.question} />
+            </div>
           </div>
           {question?.path_images && (
             <img 

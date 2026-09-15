@@ -21,9 +21,12 @@ function CardQuestionFourChoice({ question, onChange, results, data }: CardQuest
       <div className="p-2 flex flex-col border border-gray-400 rounded">
 
         <div id={question?.id_question} style={{ whiteSpace: "pre-line" }}>
-          <RenderMarkDownLatex
-            text={question?.question}
-          />
+          <div className="flex items-start gap-1">
+            <span className="shrink-0 font-bold">Câu {question.order}:</span>
+            <div className="min-w-0">
+              <RenderMarkDownLatex text={question.question} />
+            </div>
+          </div>
         </div>
         
         {question?.path_images && (
@@ -37,7 +40,7 @@ function CardQuestionFourChoice({ question, onChange, results, data }: CardQuest
 
       <div className="p-2 flex flex-col gap-2">
 
-        {question?.answers.map((answer) => {
+        {question?.answers.map((answer, answerIndex) => {
 
           if (!results) {
             return (
@@ -48,10 +51,11 @@ function CardQuestionFourChoice({ question, onChange, results, data }: CardQuest
                   value={answer?.id_answer}
                   onChange={() => onChange(question?.id_question, answer?.id_answer)}
                 />
-                <div>
-                  <RenderMarkDownLatex 
-                    text={answer?.answer}
-                  />
+                <div className="flex min-w-0 items-start gap-1">
+                  <span className="font-bold">{String.fromCharCode(65 + answerIndex)}. </span>
+                  <div className="min-w-0">
+                    <RenderMarkDownLatex text={answer.answer} />
+                  </div>
                 </div>
               </div>
             )
@@ -88,10 +92,11 @@ function CardQuestionFourChoice({ question, onChange, results, data }: CardQuest
                   checked={checked}
                   readOnly
                 />
-                <div className={classNameInput}>
-                  <RenderMarkDownLatex 
-                    text={answer?.answer}
-                  />
+                <div className={`flex min-w-0 items-start gap-1 ${classNameInput}`}>
+                  <span className="font-bold">{String.fromCharCode(65 + answerIndex)}. </span>
+                  <div className="min-w-0">
+                    <RenderMarkDownLatex text={answer.answer} />
+                  </div>
                 </div>
               </div>
             )

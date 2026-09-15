@@ -1,7 +1,5 @@
-import os
 import re
 import json
-import uuid
 from pathlib import Path
 
 def clean_line(line):
@@ -31,6 +29,15 @@ def is_correct_four_choice(line):
     else:
         return True
 
+def clean_question(line):
+    return re.sub(r"^\*\*Câu\s+\d+(?::\*\*|\*\*:)?\s*", "", line)
+
+def remove_correct_marker(line):
+    return re.sub(r"\s+\*\*ĐápÁnĐúng\*\*|\s+ĐápÁnĐúng", "", line)
+
+def clean_answer(line):
+    return re.sub(r"^\*\*[A-D]\.\*\*\s*|^\*[a-d]\)\*\s*", "", line)
+
 def parse(path, id_exam, id_subject, name_exam, name_subject, class_exam, duration, created, source):
     path_exam = path
     
@@ -59,7 +66,7 @@ def parse(path, id_exam, id_subject, name_exam, name_subject, class_exam, durati
 
             if is_question(line):
                 a = 1
-                line = line + "\n"
+                line = clean_question(line)
                 id_question = id_exam + f"-q{q}"
                 q += 1
                 
@@ -71,7 +78,7 @@ def parse(path, id_exam, id_subject, name_exam, name_subject, class_exam, durati
                     "path_images": None,
                     "answers": [],
                     "results": {
-                        "explain": None,
+                        "explain": "",
                         "correct_answer": None,
                         "true_answer": [],
                         "false_answer": [],
@@ -98,8 +105,9 @@ def parse(path, id_exam, id_subject, name_exam, name_subject, class_exam, durati
                 
                 if is_correct_four_choice(line):
                     current_question["results"]["correct_answer"] = id_answer
-                    line = line.replace("ĐápÁnĐúng", "")
-                    line = clean_line(line)
+                    line = remove_correct_marker(line)
+
+                line = clean_answer(line)
                     
                 answer = {
                     "id_answer": id_answer,
@@ -116,12 +124,12 @@ def parse(path, id_exam, id_subject, name_exam, name_subject, class_exam, durati
                     
                 if "ĐápÁnĐúng" in line:
                     current_question["results"]["true_answer"].append(id_answer)
-                    line = line.replace("ĐápÁnĐúng", "")
-                    line = clean_line(line)
+                    line = remove_correct_marker(line)
                 elif "ĐápÁnSai" in line:
                     current_question["results"]["false_answer"].append(id_answer)
-                    line = line.replace("ĐápÁnSai", "")
-                    line = clean_line(line)
+                    line = re.sub(r"\s+\*\*ĐápÁnSai\*\*|\s+ĐápÁnSai", "", line)
+
+                line = clean_answer(line)
                     
                 answer = {
                     "id_answer": id_answer,
@@ -130,29 +138,30 @@ def parse(path, id_exam, id_subject, name_exam, name_subject, class_exam, durati
                 current_question["answers"].append(answer)
                 
             elif is_answer_short_answer(line) and current_question:
-                id_answer = uuid.uuid4().hex
-                
                 if current_question["type_question"] != "short_answer":
                     current_question["type_question"] = "short_answer"
                 
                 current_question["results"]["short_answer"] = line[11:]
                 
                 
-    with open(f"{id_exam}.json", "w", encoding="utf-8") as file:
+    output_path = Path("./public/data/exams") / f"{id_exam}.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with output_path.open("w", encoding="utf-8") as file:
         data_json = json.dumps(exam, indent=2, ensure_ascii=False)
         file.write(data_json)
 
 
 
-path = "./cache/exam/exam.md"
-id_exam = "pdf" 
-id_subject = "toan"
-name_exam = "Bộ đề mẫu PDF"
-name_subject = "Toán"
+path = "./public/documents/md/ls12_bai1_lhc_tn4lc.md"
+id_exam = "ls12_bai1_lhc_tn4lc"
+id_subject = "lichsu"
+name_exam = "LỊCH SỬ 12 - BÀI 1: LIÊN HỢP QUỐC - TN4LC (1)"
+name_subject = "Lịch Sử"
 class_exam = 12
-duration = 45
-created = "2026-08-01T08:00:00.000"
-source = "/documents/pdf/pdf.pdf"
+duration = 15
+created = "2026-09-15T18:54:00.000"
+source = f"/documents/pdf/{id_exam}.pdf"
 
 
     

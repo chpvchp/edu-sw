@@ -21,9 +21,12 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
       <div className="p-2 flex flex-col border border-gray-400 rounded">
 
         <div id={question.id_question}>
-          <RenderMarkDownLatex
-            text={question.question}
-          />
+          <div className="flex items-start gap-1">
+            <span className="shrink-0 font-bold">Câu {question.order}:</span>
+            <div className="min-w-0">
+              <RenderMarkDownLatex text={question.question} />
+            </div>
+          </div>
         </div>
         
         {question?.path_images && (
@@ -37,16 +40,17 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
 
       <div className="mt-2 flex flex-col gap-2">
 
-        {question.answers.map((answer) => {
+        {question.answers.map((answer, answerIndex) => {
 
           if (!results) {
             return (
               <div className="flex flex-col gap-2" key={answer.id_answer}>
                 <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
-                  <div>
-                    <RenderMarkDownLatex 
-                      text={answer.answer}
-                    />
+                  <div className="flex min-w-0 items-start gap-1">
+                    <span className="font-bold">{String.fromCharCode(97 + answerIndex)}. </span>
+                    <div className="min-w-0">
+                      <RenderMarkDownLatex text={answer.answer} />
+                    </div>
                   </div>
                   <div className="flex gap-8">
                     <div className="flex gap-2 italic">
@@ -115,10 +119,11 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
             return (
               <div className="flex flex-col gap-2" key={answer.id_answer}>
                 <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
-                  <div>
-                    <RenderMarkDownLatex 
-                      text={answer.answer}
-                    />
+                  <div className="flex min-w-0 items-start gap-1">
+                    <span className="font-bold">{String.fromCharCode(97 + answerIndex)}. </span>
+                    <div className="min-w-0">
+                      <RenderMarkDownLatex text={answer.answer} />
+                    </div>
                   </div>
                   <div className="flex gap-8">
                     <div className="flex gap-2 italic items-center justify-center">

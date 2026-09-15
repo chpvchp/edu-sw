@@ -17,17 +17,17 @@ Data bài tập trong EduSW được lưu dưới dạng các file JSON trong `p
     {
       "id_question": "pdf-q1",
       "order": 1,
-      "question": "**Câu 1:** Lorem",
+      "question": "Lorem",
       "path_images": null,
       "type_question": "four_choice",
       "answers": [
-        {"id_answer": "pdf-q1-a", "answer": "**A**. Lorem"},
-        {"id_answer": "pdf-q1-b", "answer": "**B**. Lorem"},
-        {"id_answer": "pdf-q1-c", "answer": "**C**. Lorem"},
-        {"id_answer": "pdf-q1-d", "answer": "**D**. Lorem"}
+        {"id_answer": "pdf-q1-a", "answer": "Lorem"},
+        {"id_answer": "pdf-q1-b", "answer": "Lorem"},
+        {"id_answer": "pdf-q1-c", "answer": "Lorem"},
+        {"id_answer": "pdf-q1-d", "answer": "Lorem"}
       ],
       "results": {
-        "explain": "Đáp án đúng là B.",
+        "explain": "",
         "correct_answer": "pdf-q1-b",
         "true_answer": [],
         "false_answer": [],
@@ -37,17 +37,17 @@ Data bài tập trong EduSW được lưu dưới dạng các file JSON trong `p
     {
       "id_question": "pdf-q5",
       "order": 5,
-      "question": "**Câu 5:** Lorem",
+      "question": "Lorem",
       "path_images": "/data/images/pdf/pdf_2_5.jpg",
       "type_question": "true_false",
       "answers": [
-        {"id_answer": "pdf-q5-a", "answer": "*a)* Lorem"},
-        {"id_answer": "pdf-q5-b", "answer": "*b)* Lorem"},
-        {"id_answer": "pdf-q5-c", "answer": "*c)* Lorem"},
-        {"id_answer": "pdf-q5-d", "answer": "*d)* Lorem"}
+        {"id_answer": "pdf-q5-a", "answer": "Lorem"},
+        {"id_answer": "pdf-q5-b", "answer": "Lorem"},
+        {"id_answer": "pdf-q5-c", "answer": "Lorem"},
+        {"id_answer": "pdf-q5-d", "answer": "Lorem"}
       ],
       "results": {
-        "explain": "Các đáp án đúng là a và c.",
+        "explain": "",
         "correct_answer": "",
         "true_answer": ["pdf-q5-a", "pdf-q5-c"],
         "false_answer": ["pdf-q5-b", "pdf-q5-d"],
@@ -57,12 +57,12 @@ Data bài tập trong EduSW được lưu dưới dạng các file JSON trong `p
     {
       "id_question": "pdf-q10",
       "order": 10,
-      "question": "**Câu 10:** Lorem",
+      "question": "Lorem",
       "path_images": null,
       "type_question": "short_answer",
       "answers": [],
       "results": {
-        "explain": "Đáp án là 10.",
+        "explain": "",
         "correct_answer": "",
         "true_answer": [],
         "false_answer": [],
