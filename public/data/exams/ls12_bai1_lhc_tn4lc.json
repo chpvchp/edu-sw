@@ -648,6 +648,44 @@
         "false_answer": [],
         "short_answer": ""
       }
+    },
+    {
+      "id_question": "ls12_bai1_lhc_tn4lc-q21",
+      "order": 21,
+      "question": "Đọc bảng dữ kiện và xác định tính đúng/sai của các phát biểu sau về quá trình hình thành tổ chức Liên hợp quốc:",
+      "type_question": "true_false",
+      "path_images": "/data/images/ls12_bai1_lhc_tn4lc/ls12_bai1_lhc_tn4lc_1_2_1.png",
+      "answers": [
+        {
+          "id_answer": "ls12_bai1_lhc_tn4lc-q21-a",
+          "answer": "Theo quyết định của hội nghị I – an – ta, từ tháng 4 đến tháng 6 – 1945, một hội nghị quốc tế được tổ chức tại Xan Phran – xi – xcô (Mỹ) đã thông qua bản Hiến chương Liên hợp quốc."
+        },
+        {
+          "id_answer": "ls12_bai1_lhc_tn4lc-q21-b",
+          "answer": "Tổ chức Liên hợp quốc chính thức được thành lập khi cuộc chiến tranh thế giới thứ hai bước vào giai đoạn cuối."
+        },
+        {
+          "id_answer": "ls12_bai1_lhc_tn4lc-q21-c",
+          "answer": "Quá trình thành lập Liên hợp quốc diễn ra vào nửa đầu những năm 40 của thế kỷ XX, trải qua nhiều hội nghị quốc tế khác nhau."
+        },
+        {
+          "id_answer": "ls12_bai1_lhc_tn4lc-q21-d",
+          "answer": "Sự ra đời của Liên hợp quốc chứng tỏ duy trì hòa bình thế giới là vấn đề toàn cầu, cần có sự chung tay của toàn thể nhân loại và một công cụ để bảo vệ nó."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai1_lhc_tn4lc-q21-a",
+          "ls12_bai1_lhc_tn4lc-q21-c",
+          "ls12_bai1_lhc_tn4lc-q21-d"
+        ],
+        "false_answer": [
+          "ls12_bai1_lhc_tn4lc-q21-b"
+        ],
+        "short_answer": ""
+      }
     }
   ]
 }
