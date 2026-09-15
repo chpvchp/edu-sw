@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom"
 import { useInfoExam, useQuestions } from "../hooks/useExam";
 import CardQuestionFourChoice from "../components/CardQuestionFourChoice";
@@ -25,14 +25,28 @@ export default function LamBaiPage() {
     short_answer,
   } = useQuestionAnswer();
   const { mutateAsync, isPending } = useSubmitQuestionAnswer();
+  const [remainingSeconds, setRemainingSeconds] = useState<number | null>(null);
+  const [deadline, setDeadline] = useState<number | null>(null);
+  const hasSubmitted = useRef(false);
+  const resultsRef = useRef(results);
 
   const navigate = useNavigate();
 
-  const handleSubmit = async () => {
+  useEffect(() => {
+    resultsRef.current = results;
+  }, [results]);
+
+  const handleSubmit = useCallback(async () => {
+    if (hasSubmitted.current) {
+      return;
+    }
+
+    hasSubmitted.current = true;
+
     try {
       const data = await mutateAsync({
         id_exam: idExam,
-        results: results,
+        results: resultsRef.current,
       });
 
       sessionStorage.setItem("last_exam_result", JSON.stringify(data));
@@ -43,7 +57,45 @@ export default function LamBaiPage() {
     } catch (err) {
       console.log(err)
     }
-  };
+  }, [idExam, mutateAsync, navigate]);
+
+  useEffect(() => {
+    if (!examInfo?.duration) {
+      return;
+    }
+
+    const nextDeadline = Date.now() + examInfo.duration * 60 * 1000;
+
+    setDeadline(nextDeadline);
+    setRemainingSeconds(examInfo.duration * 60);
+    hasSubmitted.current = false;
+  }, [examInfo?.duration]);
+
+  useEffect(() => {
+    if (deadline === null || hasSubmitted.current) {
+      return;
+    }
+
+    const updateRemainingTime = () => {
+      const seconds = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+      setRemainingSeconds(seconds);
+    };
+
+    updateRemainingTime();
+    const timer = window.setInterval(updateRemainingTime, 1000);
+
+    return () => window.clearInterval(timer);
+  }, [deadline]);
+
+  useEffect(() => {
+    if (remainingSeconds === 0 && deadline !== null) {
+      void handleSubmit();
+    }
+  }, [deadline, handleSubmit, remainingSeconds]);
+
+  const formattedRemainingTime = remainingSeconds === null
+    ? "--:--"
+    : `${String(Math.floor(remainingSeconds / 60)).padStart(2, "0")}:${String(remainingSeconds % 60).padStart(2, "0")}`;
 
   const classNameInfo = "flex gap-4 justify-between text-gray-600"
 
@@ -132,10 +184,16 @@ export default function LamBaiPage() {
               <p>{ConvertDate(examInfo?.created ?? "")}</p>
             </div>
           </div>
+          <div className="p-3 rounded border border-green-700 bg-green-600 text-center text-white">
+            <p className="text-sm font-semibold">Thời gian còn lại</p>
+            <p className="text-3xl font-bold tabular-nums" aria-live="polite">
+              {formattedRemainingTime}
+            </p>
+          </div>
           <div className="flex justify-center items-center">
             <button
               className="p-2 flex justify-center items-center bg-blue-600 text-white font-bold rounded border border-gray-50 transition duration-200 hover:bg-blue-800 hover:scale-105 active:scale-90"
-              disabled={isPending}
+              disabled={isPending || remainingSeconds === 0}
               onClick={handleSubmit}
             >
               {isPending ? "Đang nộp..." : "Nộp bài"}
