@@ -291,11 +291,8 @@ _d)_ Dung dịch còn lại phía dưới sau khi tách xà phòng không hòa t
 **Câu 30:** Trong các phát biểu dưới đây, có bao nhiêu phát biểu **ĐÚNG**?
   
 (1) Xà phòng được sản xuất chủ yếu từ dầu mỏ.
-  
 (2) Chất giặt rửa tổng hợp không bị kết tủa trong nước cứng.
-  
 (3) Đuôi không phân cực của chất giặt rửa là phần ưa nước.
-  
 (4) Phản ứng xà phòng hóa chất béo là phản ứng một chiều.
   
 **Đáp án là:** 2
