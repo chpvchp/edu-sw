@@ -153,14 +153,14 @@ def parse(path, id_exam, id_subject, name_exam, name_subject, class_exam, durati
 
 
 
-path = "./public/documents/md/ls12_bai1_lhc_tn4lc.md"
-id_exam = "ls12_bai1_lhc_tn4lc"
-id_subject = "lichsu"
-name_exam = "LỊCH SỬ 12 - BÀI 1: LIÊN HỢP QUỐC - TN4LC (1)"
-name_subject = "Lịch Sử"
+path = "./public/documents/md/dlt_th_chuong1_hoa12_ketnoitrithuc.md"
+id_exam = "dlt_th_chuong1_hoa12_ketnoitrithuc"
+id_subject = "hoa"
+name_exam = "ĐỀ LUYỆN TẬP TỔNG HỢP CHƯƠNG 1 ESTER – LIPID. XÀ PHÒNG VÀ CHẤT GIẶT RỬA TỔNG HỢP - ĐỀ SỐ 1"
+name_subject = "Hóa"
 class_exam = 12
-duration = 15
-created = "2026-09-15T18:54:00.000"
+duration = 40
+created = "2026-09-16T21:56:00.000"
 source = f"/documents/pdf/{id_exam}.pdf"
 
 

@@ -29,7 +29,7 @@ export default function BaiTapPage() {
 
       const matchClass =
         classExam === "all" ||
-        exam.class_exam === classExam;
+        Number(exam.class_exam) === Number(classExam);
 
       return matchSubject && matchClass;
     })
@@ -63,7 +63,7 @@ export default function BaiTapPage() {
             <option value="all">Tất cả</option>
             <option value="Toán">Toán</option>
             <option value="Vật lý">Vật lý</option>
-            <option value="Hóa học">Hóa học</option>
+            <option value="Hóa">Hóa học</option>
           </select>
         </div>
 
