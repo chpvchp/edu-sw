@@ -719,7 +719,7 @@
     {
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q30",
       "order": 30,
-      "question": "Trong các phát biểu dưới đây, có bao nhiêu phát biểu **ĐÚNG**?",
+      "question": "Trong các phát biểu dưới đây, có bao nhiêu phát biểu **ĐÚNG**?\n\n(1) Xà phòng được sản xuất chủ yếu từ dầu mỏ.\n\n(2) Chất giặt rửa tổng hợp không bị kết tủa trong nước cứng.\n\n(3) Đuôi không phân cực của chất giặt rửa là phần ưa nước.\n\n(4) Phản ứng xà phòng hóa chất béo là phản ứng một chiều.",
       "type_question": "short_answer",
       "path_images": null,
       "answers": [],
