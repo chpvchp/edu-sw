@@ -1,17 +1,16 @@
 [
   {
     "id_exam": "dlt_th_chuong1_hoa12_ketnoitrithuc",
-    "id_subject": "hoa",
-    "name_exam": "ĐỀ LUYỆN TẬP TỔNG HỢP CHƯƠNG 1 ESTER – LIPID. XÀ PHÒNG VÀ CHẤT GIẶT RỬA TỔNG HỢP - ĐỀ SỐ 1",
+    "name_exam": "ĐỀ LUYỆN TẬP TỔNG HỢP CHƯƠNG 1: ESTER – LIPID. XÀ PHÒNG VÀ CHẤT GIẶT RỬA TỔNG HỢP",
     "name_subject": "Hóa",
     "class_exam": 12,
     "duration": 40,
-    "updated": "2026-09-16T21:56:00.000",
-    "created": "2026-09-16T21:56:00.000"
+    "updated": "2026-09-17T22:07:00.00",
+    "created": "2026-09-16T18:07:00.00"
   },
   {
     "id_exam": "ls12_bai1_lhc_tn4lc",
-    "name_exam": "LỊCH SỬ 12 - BÀI 1: LIÊN HỢP QUỐC - TN4LC",
+    "name_exam": "LỊCH SỬ 12 - BÀI 1: LIÊN HỢP QUỐC - TN4LC (1)",
     "name_subject": "Lịch Sử",
     "class_exam": 12,
     "duration": 15,

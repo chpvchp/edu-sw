@@ -1,9 +1,12 @@
 ---
-title: ĐỀ LUYỆN TẬP TỔNG HỢP CHƯƠNG 1 ESTER – LIPID. XÀ PHÒNG VÀ CHẤT GIẶT RỬA TỔNG HỢP - ĐỀ SỐ 1
-tags:
-  - exam
-updated: 2026-09-16
-created: 2026-09-16
+id_exam: dlt_th_chuong1_hoa12_ketnoitrithuc
+id_subject: hoa
+name_exam: ĐỀ LUYỆN TẬP TỔNG HỢP CHƯƠNG 1: ESTER – LIPID. XÀ PHÒNG VÀ CHẤT GIẶT RỬA TỔNG HỢP
+name_subject: Hóa
+class_exam: 12
+duration: 40
+created: 2026-09-17T22:07:00.00
+source: /documents/pdf/dlt_th_chuong1_hoa12_ketnoitrithuc.pdf
 ---
 # ĐỀ LUYỆN TẬP TỔNG HỢP CHƯƠNG 1: ESTER – LIPID. XÀ PHÒNG VÀ CHẤT GIẶT RỬA TỔNG HỢP
 **Môn:** Hóa học 12 (Bộ sách Kết nối tri thức với cuộc sống)
@@ -176,36 +179,36 @@ created: 2026-09-16
 ### 2. Đúng / Sai
 **Câu 17:** Cho các phát biểu sau về ester và chất béo:
   
-_a)_ Ester no, đơn chức, mạch hở có công thức phân tử dạng $\text{C}_n\text{H}_{2n}\text{O}_2$ với $n \ge 2$. **ĐápÁnĐúng**
+a) Ester no, đơn chức, mạch hở có công thức phân tử dạng $\text{C}_n\text{H}_{2n}\text{O}_2$ với $n \ge 2$. **ĐápÁnĐúng**
   
-_b)_ Tất cả các ester đều có nhiệt độ sôi cao hơn alcohol có cùng số nguyên tử carbon. **ĐápÁnSai**
+b) Tất cả các ester đều có nhiệt độ sôi cao hơn alcohol có cùng số nguyên tử carbon. **ĐápÁnSai**
   
-_c)_ Chất béo chứa chủ yếu các gốc acid béo không no (như oleic acid) thường ở trạng thái lỏng ở nhiệt độ phòng. **ĐápÁnĐúng**
+c) Chất béo chứa chủ yếu các gốc acid béo không no (như oleic acid) thường ở trạng thái lỏng ở nhiệt độ phòng. **ĐápÁnĐúng**
   
-_d)_ Thủy phân ester trong môi trường acid là phản ứng một chiều. **ĐápÁnSai**
+d) Thủy phân ester trong môi trường acid là phản ứng một chiều. **ĐápÁnSai**
   
 **Câu 18:** Xét sơ đồ phản ứng hóa học sau:
   
 $$\text{Ester X } (\text{C}_4\text{H}_8\text{O}_2) + \text{NaOH} \xrightarrow{t^\circ} \text{Chất Y} + \text{Chất Z}$$
 Biết chất $\text{Z}$ có khả năng tác dụng với $\text{Na}$ giải phóng khí $\text{H}_2$ và làm mất màu dung dịch $\text{CuO}$ đun nóng tạo aldehyde.
   
-_a)_ Ester $\text{X}$ có tên gọi là ethyl acetate ($\text{CH}_3\text{COOC}_2\text{H}_5$). **ĐápÁnĐúng**
+a) Ester $\text{X}$ có tên gọi là ethyl acetate ($\text{CH}_3\text{COOC}_2\text{H}_5$). **ĐápÁnĐúng**
   
-_b)_ Chất $\text{Y}$ là sodium acetate ($\text{CH}_3\text{COONa}$). **ĐápÁnĐúng**
+b) Chất $\text{Y}$ là sodium acetate ($\text{CH}_3\text{COONa}$). **ĐápÁnĐúng**
   
-_c)_ Chất $\text{Z}$ là methyl alcohol ($\text{CH}_3\text{OH}$). **ĐápÁnSai**
+c) Chất $\text{Z}$ là methyl alcohol ($\text{CH}_3\text{OH}$). **ĐápÁnSai**
   
-_d)_ Phản ứng trên thuộc loại phản ứng xà phòng hóa. **ĐápÁnĐúng**
+d) Phản ứng trên thuộc loại phản ứng xà phòng hóa. **ĐápÁnĐúng**
   
 **Câu 19:** Cho triolein tác dụng với các chất trong điều kiện thích hợp:
   
-_a)_ Triolein làm mất màu dung dịch nước bromine ở nhiệt độ thường. **ĐápÁnĐúng**
+a) Triolein làm mất màu dung dịch nước bromine ở nhiệt độ thường. **ĐápÁnĐúng**
   
-_b)_ Cho triolein tác dụng với $\text{H}_2$ dư ($\text{Ni}, t^\circ$) thu được tristearin. **ĐápÁnĐúng**
+b) Cho triolein tác dụng với $\text{H}_2$ dư ($\text{Ni}, t^\circ$) thu được tristearin. **ĐápÁnĐúng**
   
-_c)_ Phản ứng thủy phân triolein trong dung dịch $\text{NaOH}$ đun nóng là phản ứng thuận nghịch. **ĐápÁnSai**
+c) Phản ứng thủy phân triolein trong dung dịch $\text{NaOH}$ đun nóng là phản ứng thuận nghịch. **ĐápÁnSai**
   
-_d)_ $1\text{ mol}$ triolein phản ứng tối đa với $3\text{ mol } \text{H}_2$. **ĐápÁnĐúng**
+d) $1\text{ mol}$ triolein phản ứng tối đa với $3\text{ mol } \text{H}_2$. **ĐápÁnĐúng**
   
 **Câu 20:** Tiến hành thí nghiệm thủy phân ethyl acetate trong hai ống nghiệm:
   
@@ -219,53 +222,53 @@ _d)_ $1\text{ mol}$ triolein phản ứng tối đa với $3\text{ mol } \text{H
     
       
     
-_a)_ Trước khi đun nóng, cả hai ống nghiệm đều có sự phân thành 2 lớp chất lỏng. **ĐápÁnĐúng**
+a) Trước khi đun nóng, cả hai ống nghiệm đều có sự phân thành 2 lớp chất lỏng. **ĐápÁnĐúng**
   
-_b)_ Sau khi đun nóng, ống nghiệm 1 thu được dung dịch đồng nhất hoàn toàn. **ĐápÁnSai**
+b) Sau khi đun nóng, ống nghiệm 1 thu được dung dịch đồng nhất hoàn toàn. **ĐápÁnSai**
   
-_c)_ Sau khi đun nóng, ống nghiệm 2 thu được dung dịch đồng nhất. **ĐápÁnĐúng**
+c) Sau khi đun nóng, ống nghiệm 2 thu được dung dịch đồng nhất. **ĐápÁnĐúng**
   
-_d)_ Thêm dung dịch $\text{NaCl}$ bão hòa vào ống 1 giúp phản ứng xảy ra nhanh hơn. **ĐápÁnSai**
+d) Thêm dung dịch $\text{NaCl}$ bão hòa vào ống 1 giúp phản ứng xảy ra nhanh hơn. **ĐápÁnSai**
   
 **Câu 21:** Các nhận định sau đây liên quan đến ứng dụng của ester và chất béo:
   
-_a)_ Một số ester có mùi thơm an toàn được dùng làm hương liệu trong công nghiệp thực phẩm và mỹ phẩm. **ĐápÁnĐúng**
+a) Một số ester có mùi thơm an toàn được dùng làm hương liệu trong công nghiệp thực phẩm và mỹ phẩm. **ĐápÁnĐúng**
   
-_b)_ Chất béo là nguồn cung cấp và tích trữ năng lượng quan trọng cho cơ thể con người. **ĐápÁnĐúng**
+b) Chất béo là nguồn cung cấp và tích trữ năng lượng quan trọng cho cơ thể con người. **ĐápÁnĐúng**
   
-_c)_ Dầu mỡ động thực vật sau khi sử dụng có thể tái chế làm nhiên liệu sinh học (biodiesel). **ĐápÁnĐúng**
+c) Dầu mỡ động thực vật sau khi sử dụng có thể tái chế làm nhiên liệu sinh học (biodiesel). **ĐápÁnĐúng**
   
-_d)_ Dầu mỡ ăn uống có cùng thành phần hóa học chính với dầu mỡ bôi trơn máy móc. **ĐápÁnSai**
+d) Dầu mỡ ăn uống có cùng thành phần hóa học chính với dầu mỡ bôi trơn máy móc. **ĐápÁnSai**
   
 **Câu 22:** Khi nói về đặc điểm phân tử và tính chất của xà phòng và chất giặt rửa tổng hợp:
   
-_a)_ Phân tử xà phòng có đầu ưa nước là gốc $-\text{COO}^-\text{Na}^+$ hoặc $-\text{COO}^-\text{K}^+$. **ĐápÁnĐúng**
+a) Phân tử xà phòng có đầu ưa nước là gốc $-\text{COO}^-\text{Na}^+$ hoặc $-\text{COO}^-\text{K}^+$. **ĐápÁnĐúng**
   
-_b)_ Đuôi kị nước của chất giặt rửa tổng hợp thường là gốc hydrocarbon mạch dài. **ĐápÁnĐúng**
+b) Đuôi kị nước của chất giặt rửa tổng hợp thường là gốc hydrocarbon mạch dài. **ĐápÁnĐúng**
   
-_c)_ Xà phòng và chất giặt rửa tổng hợp đều làm giảm căng bề mặt của nước, giúp nước dễ thấm vào vật giặt. **ĐápÁnĐúng**
+c) Xà phòng và chất giặt rửa tổng hợp đều làm giảm căng bề mặt của nước, giúp nước dễ thấm vào vật giặt. **ĐápÁnĐúng**
   
-_d)_ Chất giặt rửa tổng hợp chứa gốc alkyl sulfate có đầu ưa nước là $-\text{COONa}$. **ĐápÁnSai**
+d) Chất giặt rửa tổng hợp chứa gốc alkyl sulfate có đầu ưa nước là $-\text{COONa}$. **ĐápÁnSai**
   
 **Câu 23:** So sánh tác động đến môi trường và ứng dụng sinh hoạt của xà phòng và chất giặt rửa tổng hợp:
   
-_a)_ Xà phòng dễ bị phân hủy sinh học bởi vi sinh vật trong tự nhiên hơn chất giặt rửa tổng hợp có nhánh. **ĐápÁnĐúng**
+a) Xà phòng dễ bị phân hủy sinh học bởi vi sinh vật trong tự nhiên hơn chất giặt rửa tổng hợp có nhánh. **ĐápÁnĐúng**
   
-_b)_ Việc sử dụng rộng rãi các chất giặt rửa khó phân hủy sinh học góp phần gây ô nhiễm nguồn nước và môi trường. **ĐápÁnĐúng**
+b) Việc sử dụng rộng rãi các chất giặt rửa khó phân hủy sinh học góp phần gây ô nhiễm nguồn nước và môi trường. **ĐápÁnĐúng**
   
-_c)_ Trong môi trường nước cứng, xà phòng tạo bọt tốt hơn chất giặt rửa tổng hợp. **ĐápÁnSai**
+c) Trong môi trường nước cứng, xà phòng tạo bọt tốt hơn chất giặt rửa tổng hợp. **ĐápÁnSai**
   
-_d)_ Có thể dùng xà phòng để giặt quần áo trong nước giếng khoan chứa hàm lượng ion $\text{Ca}^{2+}, \text{Mg}^{2+}$ cao mà không làm mòn hỏng vải. **ĐápÁnSai**
+d) Có thể dùng xà phòng để giặt quần áo trong nước giếng khoan chứa hàm lượng ion $\text{Ca}^{2+}, \text{Mg}^{2+}$ cao mà không làm mòn hỏng vải. **ĐápÁnSai**
   
 **Câu 24:** Trong quá trình sản xuất xà phòng trong phòng thí nghiệm từ chất béo (mỡ lợn hoặc dầu thực vật) và dung dịch $\text{NaOH}$:
   
-_a)_ Cần thỉnh thoảng thêm nước đun sôi để nguội (hoặc nước cất) để giữ cho thể tích hỗn hợp không đổi. **ĐápÁnĐúng**
+a) Cần thỉnh thoảng thêm nước đun sôi để nguội (hoặc nước cất) để giữ cho thể tích hỗn hợp không đổi. **ĐápÁnĐúng**
   
-_b)_ Thêm dung dịch $\text{NaCl}$ bão hòa vào sau phản ứng để xà phòng tách ra và nổi lên trên. **ĐápÁnĐúng**
+b) Thêm dung dịch $\text{NaCl}$ bão hòa vào sau phản ứng để xà phòng tách ra và nổi lên trên. **ĐápÁnĐúng**
   
-_c)_ Xà phòng nổi lên trên là do muối sodium của acid béo kém tan trong dung dịch $\text{NaCl}$ bão hòa và có khối lượng riêng nhỏ hơn. **ĐápÁnĐúng**
+c) Xà phòng nổi lên trên là do muối sodium của acid béo kém tan trong dung dịch $\text{NaCl}$ bão hòa và có khối lượng riêng nhỏ hơn. **ĐápÁnĐúng**
   
-_d)_ Dung dịch còn lại phía dưới sau khi tách xà phòng không hòa tan được $\text{Cu(OH)}_2$. **ĐápÁnSai**
+d) Dung dịch còn lại phía dưới sau khi tách xà phòng không hòa tan được $\text{Cu(OH)}_2$. **ĐápÁnSai**
   
 ### 3. Trả lời ngắn
 **Câu 25:** Số lượng đồng phân ester cấu tạo có công thức phân tử $\text{C}_3\text{H}_6\text{O}_2$ là bao nhiêu?
