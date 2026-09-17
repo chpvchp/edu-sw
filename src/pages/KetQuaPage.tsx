@@ -10,6 +10,19 @@ import type { SubmitQuestionAnswerResponse } from "../type/submit.type";
 import { ArrowLeft, CheckCircle2, RotateCcw, XCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 
+function formatDuration(seconds: number): string {
+  const normalizedSeconds = Number(seconds);
+
+  if (!Number.isFinite(normalizedSeconds)) {
+    return "Chưa xác định";
+  }
+
+  const minutes = Math.floor(normalizedSeconds / 60);
+  const remainingSeconds = normalizedSeconds % 60;
+
+  return `${minutes} phút ${String(remainingSeconds).padStart(2, "0")} giây`;
+}
+
 /**
  * KetQuaPage | trang kết quả.
  * Reconstructs the review view from the submitted result payload and shows the scoring summary beside each rendered question.
@@ -107,7 +120,7 @@ export default function KetQuaPage() {
             <div className="rounded-xl bg-[#fff0ef] p-3"><XCircle className="mx-auto h-4 w-4 text-[#b42318]" /><p className="mt-1 text-lg font-extrabold text-[#b42318]">{results.num_wrong}</p><p className="text-[11px] text-[#6c8494]">Sai</p></div>
             <div className="rounded-xl bg-[#f1f5f7] p-3"><p className="text-lg font-extrabold text-[#587084]">{results.num_none}</p><p className="mt-5 text-[11px] text-[#6c8494]">Bỏ trống</p></div>
           </div>
-          <div className="mt-5 border-t border-[#edf2f5] pt-4 text-sm text-[#6c8494]"><div className="flex justify-between"><span>Thời gian</span><span className="font-bold text-[#18324b]">{results.student_duration}/{results.duration} phút</span></div><div className="mt-2 flex justify-between"><span>Cập nhật</span><span className="font-bold text-[#18324b]">{ConvertDate(results.updated)}</span></div></div>
+          <div className="mt-5 border-t border-[#edf2f5] pt-4 text-sm text-[#6c8494]"><div className="flex justify-between gap-4"><span>Thời gian</span><span className="text-right font-bold text-[#18324b]">{formatDuration(results.student_duration)} / {results.duration} phút</span></div><div className="mt-2 flex justify-between gap-4"><span>Cập nhật</span><span className="text-right font-bold text-[#18324b]">{ConvertDate(results.updated)}</span></div></div>
           <div className="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-1">
             <Link to="/bai-tap" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#18324b] p-3 text-sm font-bold text-white transition hover:bg-[#264d6b]"><ArrowLeft className="h-4 w-4" aria-hidden="true" />Về danh sách</Link>
             {lastExamId && <Link to={`/bai-tap/${lastExamId}/lam-bai`} className="inline-flex items-center justify-center gap-2 rounded-xl border border-[#cbdde6] p-3 text-sm font-bold text-[#18324b] transition hover:bg-[#f2faf7]"><RotateCcw className="h-4 w-4" aria-hidden="true" />Làm lại</Link>}

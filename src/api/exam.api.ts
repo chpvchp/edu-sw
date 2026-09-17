@@ -73,7 +73,11 @@ function buildCorrectResults(questions: Question[]) {
  * Compares the student's submitted answers against the exam key, computes score and counters, and returns the full result payload used by the UI.
  * So sánh đáp án người học với đáp án chuẩn của đề, tính điểm cùng các thống kê liên quan, rồi trả về toàn bộ payload kết quả cho giao diện.
  */
-function calculateScore(exam: ExamData, studentResults: Record<string, QuestionResult>): SubmitQuestionAnswerResponse {
+function calculateScore(
+  exam: ExamData,
+  studentResults: Record<string, QuestionResult>,
+  elapsedSeconds: number,
+): SubmitQuestionAnswerResponse {
   const correctResults = buildCorrectResults(exam.questions);
   const totalQuestions = exam.questions.length;
   const scorePerQuestion = totalQuestions > 0 ? 10 / totalQuestions : 0;
@@ -163,7 +167,7 @@ function calculateScore(exam: ExamData, studentResults: Record<string, QuestionR
     num_wrong: numWrong,
     num_none: numNone,
     duration: exam.duration,
-    student_duration: "N/A",
+    student_duration: Math.min(exam.duration * 60, Math.max(0, Math.round(elapsedSeconds))),
     updated: exam.updated, 
     created: exam.created,
     questions: exam.questions,
@@ -206,5 +210,5 @@ export const getQuestionsExam = async (idExam: string): Promise<Question[]> => {
  */
 export const postQuestionAnswer = async (studentSubmit: SubmitQuestionAnswer): Promise<SubmitQuestionAnswerResponse> => {
   const exam = await loadExamData(studentSubmit.id_exam);
-  return calculateScore(exam, studentSubmit.results);
+  return calculateScore(exam, studentSubmit.results, studentSubmit.elapsed_seconds);
 };

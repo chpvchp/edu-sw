@@ -4,6 +4,7 @@ import type { Question } from "./question.type";
 export type SubmitQuestionAnswer = {
   id_exam: string;
   results: Record<string, QuestionResult>
+  elapsed_seconds: number;
 }
 
 export type SubmitQuestionAnswerResponse = {
@@ -14,7 +15,7 @@ export type SubmitQuestionAnswerResponse = {
   num_wrong: number;
   num_none: number;
   duration: number;
-  student_duration: number | string;
+  student_duration: number;
   updated: string;
   created: string;
   questions: Question[];

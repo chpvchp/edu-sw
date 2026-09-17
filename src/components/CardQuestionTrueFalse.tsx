@@ -16,60 +16,52 @@ type CardQuestionTrueFalseProps = {
  */
 function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuestionTrueFalseProps) {
   return (
-    <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
-
-      <div className="p-2 flex flex-col border border-gray-400 rounded">
-
-        <div id={question.id_question}>
-          <div className="flex items-start gap-1">
-            <span className="shrink-0 font-bold">Câu {question.order}:</span>
+    <article className="overflow-hidden rounded-2xl border border-[#dbe7ee] bg-white shadow-sm transition hover:border-[#b8dfd0] hover:shadow-md">
+      <div className="border-b border-[#edf2f5] bg-[#f7fafc] p-5 sm:p-6">
+        <div id={question.id_question} className="flex items-start gap-3">
+            <span className="flex h-8 min-w-8 shrink-0 items-center justify-center rounded-lg bg-[#e9f7f0] px-2 text-sm font-extrabold text-[#27735f]">{question.order}</span>
             <div className="min-w-0">
               <RenderMarkDownLatex text={question.question} />
             </div>
-          </div>
         </div>
-        
         {question?.path_images && (
-          <img 
-            className="max-h-64 w-auto object-contain"
+          <img
+            className="mt-5 max-h-72 w-full rounded-xl border border-[#dbe7ee] bg-white object-contain p-2"
             src={question.path_images} 
+            alt={`Hình minh họa câu ${question.order}`}
           />
         )}
-        
       </div>
-
-      <div className="mt-2 flex flex-col gap-2">
-
+      <div className="flex flex-col gap-3 p-5 sm:p-6">
         {question.answers.map((answer, answerIndex) => {
-
           if (!results) {
             return (
-              <div className="flex flex-col gap-2" key={answer.id_answer}>
-                <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
-                  <div className="flex min-w-0 items-start gap-1">
-                    <span className="font-bold">{String.fromCharCode(97 + answerIndex)}. </span>
+              <div className="rounded-xl border border-[#dbe7ee] p-4" key={answer.id_answer}>
+                <div className="flex min-w-0 items-start gap-2 text-[#18324b]">
+                    <span className="font-extrabold text-[#6c8494]">{String.fromCharCode(97 + answerIndex)}.</span>
                     <div className="min-w-0">
                       <RenderMarkDownLatex text={answer.answer} />
                     </div>
-                  </div>
-                  <div className="flex gap-8">
-                    <div className="flex gap-2 italic">
+                </div>
+                <div className="mt-4 grid grid-cols-2 gap-2">
+                    <label className="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-[#b8dfd0] p-2 text-sm font-bold text-[#27735f] transition hover:bg-[#e9f7f0]">
                       <input 
+                        className="accent-[#27735f]"
                         type="radio"
                         name={answer.id_answer}
                         onChange={() => onChange(question.id_question, answer.id_answer, true)}
                       />
-                      <p>Đúng</p>
-                    </div>
-                    <div className="flex gap-2 italic">
+                      Đúng
+                    </label>
+                    <label className="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-[#e5aaa5] p-2 text-sm font-bold text-[#b42318] transition hover:bg-[#fff0ef]">
                       <input 
+                        className="accent-[#b42318]"
                         type="radio"
                         name={answer.id_answer}
                         onChange={() => onChange(question.id_question, answer.id_answer, false)} 
                       />
-                      <p>Sai</p>
-                    </div>
-                  </div>
+                      Sai
+                    </label>
                 </div>
               </div>
             )
@@ -89,63 +81,53 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
             const isCorrectTrue = trueAnswer.includes(answer.id_answer);
             const isCorrectFalse = falseAnswer.includes(answer.id_answer);
 
-            let classNameTrue = "";
-            let classNameFalse = "";
-            let classNameInputTrue = ""
-            let classNameInputFalse = ""
+            let classNameTrue = "border-[#dbe7ee] bg-white text-[#6c8494]";
+            let classNameFalse = "border-[#dbe7ee] bg-white text-[#6c8494]";
 
             if (isStudentTrue && isCorrectTrue) {
-              classNameTrue = "px-2 py-1 border border-blue-400 bg-blue-100 rounded"
-              classNameInputTrue = "accent-blue-600"
+              classNameTrue = "border-[#58ad8d] bg-[#e9f7f0] text-[#27735f]"
             } else if (isStudentTrue && !isCorrectTrue) {
-              classNameTrue = "px-2 py-1 border border-red-400 bg-red-100 rounded"
-              classNameInputTrue = "accent-red-600"
+              classNameTrue = "border-[#e5aaa5] bg-[#fff0ef] text-[#b42318]"
             } else if (!isStudentTrue && isCorrectTrue) {
-              classNameTrue = "px-2 py-1 border border-blue-400 bg-blue-100 rounded"
-              classNameInputTrue = "accent-blue-600"
+              classNameTrue = "border-[#58ad8d] bg-[#e9f7f0] text-[#27735f]"
             }
 
             if (isStudentFalse && isCorrectFalse) {
-              classNameFalse = "px-2 py-1 border border-blue-400 bg-blue-100 rounded"
-              classNameInputFalse = "accent-blue-600"
+              classNameFalse = "border-[#58ad8d] bg-[#e9f7f0] text-[#27735f]"
             } else if (isStudentFalse && !isCorrectFalse) {
-              classNameFalse = "px-2 py-1 border border-red-400 bg-red-100 rounded"
-              classNameInputFalse = "accent-red-600"
+              classNameFalse = "border-[#e5aaa5] bg-[#fff0ef] text-[#b42318]"
             } else if (!isStudentFalse && isCorrectFalse) {
-              classNameFalse = "px-2 py-1 border border-blue-400 bg-blue-100 rounded"
-              classNameInputFalse = "accent-blue-600"
+              classNameFalse = "border-[#58ad8d] bg-[#e9f7f0] text-[#27735f]"
             }
 
             return (
-              <div className="flex flex-col gap-2" key={answer.id_answer}>
-                <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
-                  <div className="flex min-w-0 items-start gap-1">
-                    <span className="font-bold">{String.fromCharCode(97 + answerIndex)}. </span>
+              <div className="rounded-xl border border-[#dbe7ee] p-4" key={answer.id_answer}>
+                  <div className="flex min-w-0 items-start gap-2 text-[#18324b]">
+                    <span className="font-extrabold text-[#6c8494]">{String.fromCharCode(97 + answerIndex)}.</span>
                     <div className="min-w-0">
                       <RenderMarkDownLatex text={answer.answer} />
                     </div>
                   </div>
-                  <div className="flex gap-8">
-                    <div className="flex gap-2 italic items-center justify-center">
+                  <div className="mt-4 grid grid-cols-2 gap-2">
+                    <div className={`flex items-center justify-center gap-2 rounded-lg border p-2 text-sm font-bold ${classNameTrue}`}>
                       <input
-                        className={classNameInputTrue}
+                        className="accent-[#27735f]"
                         type="radio"
                         checked={isStudentTrue || isCorrectTrue}
                         readOnly
                       />
-                      <p className={classNameTrue}>Đúng</p>
+                      <span>Đúng</span>
                     </div>
-                    <div className="flex gap-2 italic items-center justify-center">
+                    <div className={`flex items-center justify-center gap-2 rounded-lg border p-2 text-sm font-bold ${classNameFalse}`}>
                       <input
-                        className={classNameInputFalse}
+                        className="accent-[#b42318]"
                         type="radio"
                         checked={isStudentFalse || isCorrectFalse}
                         readOnly
                       />
-                      <p className={classNameFalse}>Sai</p>
+                      <span>Sai</span>
                     </div>
                   </div>
-                </div>
               </div>
             )
           }
@@ -160,7 +142,7 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
 
 
 
-    </div>
+    </article>
   )
 };
 

@@ -28,6 +28,7 @@ export default function LamBaiPage() {
   const { mutateAsync, isPending } = useSubmitQuestionAnswer();
   const [remainingSeconds, setRemainingSeconds] = useState<number | null>(null);
   const [deadline, setDeadline] = useState<number | null>(null);
+  const startedAt = useRef<number | null>(null);
   const hasSubmitted = useRef(false);
   const resultsRef = useRef(results);
 
@@ -48,6 +49,7 @@ export default function LamBaiPage() {
       const data = await mutateAsync({
         id_exam: idExam,
         results: resultsRef.current,
+        elapsed_seconds: startedAt.current === null ? 0 : (Date.now() - startedAt.current) / 1000,
       });
 
       sessionStorage.setItem("last_exam_result", JSON.stringify(data));
@@ -68,6 +70,7 @@ export default function LamBaiPage() {
 
     const nextDeadline = Date.now() + examInfo.duration * 60 * 1000;
 
+    startedAt.current = Date.now();
     setDeadline(nextDeadline);
     setRemainingSeconds(examInfo.duration * 60);
     hasSubmitted.current = false;

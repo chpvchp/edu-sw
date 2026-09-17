@@ -16,99 +16,74 @@ type CardQuestionFourChoiceProps = {
  */
 function CardQuestionFourChoice({ question, onChange, results, data }: CardQuestionFourChoiceProps) {
   return (
-    <div className="p-2 flex flex-col border border-gray-400 rounded bg-white shadow">
-
-      <div className="p-2 flex flex-col border border-gray-400 rounded">
-
-        <div id={question?.id_question} style={{ whiteSpace: "pre-line" }}>
-          <div className="flex items-start gap-1">
-            <span className="shrink-0 font-bold">Câu {question.order}:</span>
+    <article className="overflow-hidden rounded-2xl border border-[#dbe7ee] bg-white shadow-sm transition hover:border-[#b8dfd0] hover:shadow-md">
+      <div className="border-b border-[#edf2f5] bg-[#f7fafc] p-5 sm:p-6">
+        <div id={question?.id_question} className="flex items-start gap-3" style={{ whiteSpace: "pre-line" }}>
+          <span className="flex h-8 min-w-8 shrink-0 items-center justify-center rounded-lg bg-[#e9f7f0] px-2 text-sm font-extrabold text-[#27735f]">{question.order}</span>
             <div className="min-w-0">
               <RenderMarkDownLatex text={question.question} />
             </div>
-          </div>
         </div>
-        
         {question?.path_images && (
-          <img 
-            className="max-h-64 w-auto object-contain"
+          <img
+            className="mt-5 max-h-72 w-full rounded-xl border border-[#dbe7ee] bg-white object-contain p-2"
             src={question.path_images} 
+            alt={`Hình minh họa câu ${question.order}`}
           />
         )}
-        
       </div>
-
-      <div className="p-2 flex flex-col gap-2">
-
+      <div className="flex flex-col gap-3 p-5 sm:p-6">
         {question?.answers.map((answer, answerIndex) => {
-
           if (!results) {
             return (
-              <div className="flex gap-2" key={answer?.id_answer}>
-                <input 
+              <label className="group flex cursor-pointer items-start gap-3 rounded-xl border border-[#dbe7ee] p-3 transition hover:border-[#58ad8d] hover:bg-[#f2faf7] has-[:checked]:border-[#58ad8d] has-[:checked]:bg-[#e9f7f0]" key={answer?.id_answer}>
+                <input
+                  className="mt-1 h-4 w-4 accent-[#27735f]"
                   type="radio"
                   name={question?.id_question}
                   value={answer?.id_answer}
                   onChange={() => onChange(question?.id_question, answer?.id_answer)}
                 />
-                <div className="flex min-w-0 items-start gap-1">
-                  <span className="font-bold">{String.fromCharCode(65 + answerIndex)}. </span>
+                <div className="flex min-w-0 items-start gap-2 text-[#18324b]">
+                  <span className="font-extrabold text-[#6c8494]">{String.fromCharCode(65 + answerIndex)}.</span>
                   <div className="min-w-0">
                     <RenderMarkDownLatex text={answer.answer} />
                   </div>
                 </div>
-              </div>
+              </label>
             )
           }
+          const isStudentAnswer = data?.student_results?.[question.id_question]?.answer === answer.id_answer;
+          const isCorrectAnswer = data?.correct_results?.[question.id_question]?.results.correct_answer === answer.id_answer;
+          const resultClassName = isCorrectAnswer
+            ? "border-[#58ad8d] bg-[#e9f7f0]"
+            : isStudentAnswer
+              ? "border-[#e5aaa5] bg-[#fff0ef]"
+              : "border-[#dbe7ee] bg-white";
 
-          if (results) {
-
-            let classNameInput = ""
-            let checked
-
-            const isStudentAnswer = data?.student_results?.[question.id_question]?.answer === answer.id_answer;
-            const isCorrectAnswer = data?.correct_results?.[question.id_question]?.results.correct_answer === answer.id_answer;
-
-
-            if (isCorrectAnswer) {
-              classNameInput = "px-2 py-1 accent-blue-600 border border-blue-400 bg-blue-100 rounded";
-            }
-
-            if (isStudentAnswer && !isCorrectAnswer) {
-              classNameInput = "px-2 py-1 accent-red-600 border border-red-400 bg-red-100 rounded";
-            }
-
-            if (isStudentAnswer || isCorrectAnswer) {
-              checked = true
-              
-            }
-
-            return (
-              <div className={`flex gap-2`} key={answer?.id_answer}>
+          return (
+              <div className={`flex items-start gap-3 rounded-xl border p-3 ${resultClassName}`} key={answer?.id_answer}>
                 <input
-                  className={classNameInput}
+                  className={`mt-1 h-4 w-4 ${isCorrectAnswer ? "accent-[#27735f]" : "accent-[#b42318]"}`}
                   type="radio"
                   value={answer?.id_answer}
-                  checked={checked}
+                  checked={isStudentAnswer || isCorrectAnswer}
                   readOnly
                 />
-                <div className={`flex min-w-0 items-start gap-1 ${classNameInput}`}>
-                  <span className="font-bold">{String.fromCharCode(65 + answerIndex)}. </span>
+                <div className="flex min-w-0 flex-1 items-start gap-2 text-[#18324b]">
+                  <span className="font-extrabold text-[#6c8494]">{String.fromCharCode(65 + answerIndex)}.</span>
                   <div className="min-w-0">
                     <RenderMarkDownLatex text={answer.answer} />
                   </div>
                 </div>
+                {isCorrectAnswer && <span className="shrink-0 text-xs font-bold text-[#27735f]">Đúng</span>}
+                {isStudentAnswer && !isCorrectAnswer && <span className="shrink-0 text-xs font-bold text-[#b42318]">Bạn chọn</span>}
               </div>
-            )
-          }
+          )
 
         })}
-
       </div>
-
-
-
-    </div>
+    </article>
   );
 };
 
