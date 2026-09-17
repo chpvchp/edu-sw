@@ -51,6 +51,7 @@ export default function LamBaiPage() {
       });
 
       sessionStorage.setItem("last_exam_result", JSON.stringify(data));
+      sessionStorage.setItem("last_exam_id", idExam);
 
       navigate("/bai-tap/ket-qua", {
         state: data

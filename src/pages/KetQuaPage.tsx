@@ -7,6 +7,8 @@ import { ConvertDate } from "../hooks/useConvert";
 import { useQuestionAnswer } from "../hooks/useQuestionAnswer";
 import type { Question } from "../type/question.type";
 import type { SubmitQuestionAnswerResponse } from "../type/submit.type";
+import { ArrowLeft, CheckCircle2, RotateCcw, XCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 
 /**
  * KetQuaPage | trang kết quả.
@@ -32,6 +34,7 @@ export default function KetQuaPage() {
   })();
 
   const results = (state ?? storedResults) as SubmitQuestionAnswerResponse | null;
+  const lastExamId = sessionStorage.getItem("last_exam_id");
 
   useEffect(() => {
     document.title = "Kết Quả và Đáp Án | Edu SW"
@@ -45,13 +48,9 @@ export default function KetQuaPage() {
     )
   }
 
-  const classNameInfo = "flex gap-4 justify-between text-gray-600"
-
-
-
   return (
-    <main className="min-h-screen max-w-7xl p-4 grid grid-cols-1 lg:grid-cols-10 items-start mx-auto gap-8 lg:gap-2">
-      <div className="lg:px-4 lg:py-4 flex flex-col lg:col-span-6 gap-8 order-2 lg:order-1">
+    <main className="mx-auto grid min-h-screen w-full max-w-7xl grid-cols-1 items-start gap-8 py-10 lg:grid-cols-10">
+      <div className="flex flex-col gap-6 lg:col-span-7 lg:order-1 order-2">
         {results?.questions?.map((question: Question) => {
           if (question.type_question === "four_choice") {
             return (
@@ -94,51 +93,24 @@ export default function KetQuaPage() {
         })}
       </div>
 
-      <div className="lg:px-4 lg:py-4 lg:sticky lg:top-4 gap-4 lg:col-span-4 order-1 lg:order-2">
-        <div className="p-2 border border-gray-400 rounded flex flex-col gap-2">
-          <h1 className="p-2 font-bold border border-gray-200 rounded-md text-center">{results.score}</h1>
-          <div>
-
-            <div className={classNameInfo}>
-              <p>Bài Tập:</p>
-              <p>{results.name_exam}</p>
-            </div>
-
-            <div className={classNameInfo}>
-              <p>Môn:</p>
-              <p>{results.subject}</p>
-            </div>
-
-            <div className={classNameInfo}>
-              <p>Câu đúng:</p>
-              <p>{results.num_correct}</p>
-            </div>
-
-            <div className={classNameInfo}>
-              <p>Câu sai:</p>
-              <p>{results.num_wrong}</p>
-            </div>
-
-            <div className={classNameInfo}>
-              <p>Câu chưa làm:</p>
-              <p>{results.num_none}</p>
-            </div>
-
-            <div className={classNameInfo}>
-              <p>Thời gian làm bài:</p>
-              <p>{results.student_duration}/{results.duration} phút</p>
-            </div>
-
-            <div className={classNameInfo}>
-              <p>Chỉnh sửa:</p>
-              <p>{ConvertDate(results.updated)}</p>
-            </div>
-
-            <div className={classNameInfo}>
-              <p>Ngày tạo:</p>
-              <p>{ConvertDate(results.created)}</p>
-            </div>
-
+      <div className="order-1 flex flex-col gap-4 lg:sticky lg:top-24 lg:order-2 lg:col-span-3">
+        <div className="rounded-2xl border border-[#dbe7ee] bg-white p-5 shadow-sm">
+          <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#27735f]">Kết quả luyện tập</p>
+          <div className="mt-4 rounded-2xl bg-[#18324b] p-5 text-center text-white">
+            <p className="text-5xl font-extrabold">{results.score}</p>
+            <p className="mt-1 text-sm text-white/65">điểm số</p>
+          </div>
+          <h1 className="mt-5 font-bold leading-snug text-[#18324b]">{results.name_exam}</h1>
+          <p className="mt-1 text-sm text-[#6c8494]">{results.subject}</p>
+          <div className="mt-5 grid grid-cols-3 gap-2 text-center">
+            <div className="rounded-xl bg-[#e9f7f0] p-3"><CheckCircle2 className="mx-auto h-4 w-4 text-[#27735f]" /><p className="mt-1 text-lg font-extrabold text-[#27735f]">{results.num_correct}</p><p className="text-[11px] text-[#6c8494]">Đúng</p></div>
+            <div className="rounded-xl bg-[#fff0ef] p-3"><XCircle className="mx-auto h-4 w-4 text-[#b42318]" /><p className="mt-1 text-lg font-extrabold text-[#b42318]">{results.num_wrong}</p><p className="text-[11px] text-[#6c8494]">Sai</p></div>
+            <div className="rounded-xl bg-[#f1f5f7] p-3"><p className="text-lg font-extrabold text-[#587084]">{results.num_none}</p><p className="mt-5 text-[11px] text-[#6c8494]">Bỏ trống</p></div>
+          </div>
+          <div className="mt-5 border-t border-[#edf2f5] pt-4 text-sm text-[#6c8494]"><div className="flex justify-between"><span>Thời gian</span><span className="font-bold text-[#18324b]">{results.student_duration}/{results.duration} phút</span></div><div className="mt-2 flex justify-between"><span>Cập nhật</span><span className="font-bold text-[#18324b]">{ConvertDate(results.updated)}</span></div></div>
+          <div className="mt-5 grid gap-2 sm:grid-cols-2 lg:grid-cols-1">
+            <Link to="/bai-tap" className="inline-flex items-center justify-center gap-2 rounded-xl bg-[#18324b] p-3 text-sm font-bold text-white transition hover:bg-[#264d6b]"><ArrowLeft className="h-4 w-4" aria-hidden="true" />Về danh sách</Link>
+            {lastExamId && <Link to={`/bai-tap/${lastExamId}/lam-bai`} className="inline-flex items-center justify-center gap-2 rounded-xl border border-[#cbdde6] p-3 text-sm font-bold text-[#18324b] transition hover:bg-[#f2faf7]"><RotateCcw className="h-4 w-4" aria-hidden="true" />Làm lại</Link>}
           </div>
         </div>
       </div>
