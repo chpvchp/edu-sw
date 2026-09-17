@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BookOpen, Target, Trophy, ArrowRight } from "lucide-react";
+import { ArrowRight, BookOpen, Layers3, Target, Trophy } from "lucide-react";
 import { useListExam } from "../hooks/useExam";
 import { useListFlashCard } from "../hooks/useFlashCard";
 
@@ -13,198 +13,106 @@ export default function HomePage() {
   const { data: dataFlashcard } = useListFlashCard();
 
   const subjectCount = new Set(data?.map((e) => e.name_subject)).size;
-  const classCount = new Set(data?.map((e) => e.class_exam)).size;
 
   const languageCount = new Set(dataFlashcard?.map((e) => e.language)).size;
   const vocabCount = dataFlashcard?.reduce((sum, e) => sum + e.num_cards, 0);
 
   return (
-    <main className="min-h-screen max-w-7xl flex-1 mx-auto flex flex-col">
-
-      {/* ── Hero ─────────────────────────────────────────── */}
-      <section className="flex flex-col items-center justify-center text-center py-16 px-4 gap-6">
-        <div className="flex items-center gap-3">
-          <BookOpen className="w-12 h-12 text-blue-600" />
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800">
-            Chào mừng đến với EduSW :D
+    <main className="mx-auto flex min-h-screen w-full max-w-7xl flex-1 flex-col">
+      <section className="grid items-center gap-10 py-14 lg:grid-cols-[1.15fr_0.85fr] lg:py-20">
+        <div>
+          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#c8e8dc] bg-[#e9f7f0] px-3 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-[#27735f]">
+            <Target className="h-4 w-4" aria-hidden="true" />
+            Học chủ động mỗi ngày
+          </div>
+          <h1 className="max-w-3xl text-4xl font-extrabold leading-tight tracking-tight text-[#18324b] sm:text-5xl lg:text-6xl">
+            Học chắc hơn, tiến bộ rõ hơn.
           </h1>
+          <p className="mt-5 max-w-xl text-base leading-8 text-[#587084] sm:text-lg">
+            EduSW giúp bạn luyện đề, xem lại lỗi sai và ghi nhớ từ vựng trong một không gian học tập gọn gàng, tập trung.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link to="/bai-tap" className="inline-flex items-center gap-2 rounded-xl bg-[#18324b] px-5 py-3 font-bold text-white shadow-lg shadow-[#18324b]/15 transition hover:-translate-y-0.5 hover:bg-[#264d6b]">
+              Bắt đầu luyện tập
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+            <Link to="/flashcard" className="inline-flex items-center gap-2 rounded-xl border border-[#cbdde6] bg-white px-5 py-3 font-bold text-[#18324b] transition hover:-translate-y-0.5 hover:border-[#91cbb9] hover:bg-[#f2faf7]">
+              <Layers3 className="h-4 w-4" aria-hidden="true" />
+              Ôn bằng flashcard
+            </Link>
+          </div>
         </div>
 
-        <p className="max-w-xl text-gray-600 leading-relaxed">
-          Trang web miễn phí, giúp các bạn ôn tập và kiểm tra kiến thức mỗi ngày qua các bài tập tổng hợp :^
-        </p>
-
-        <Link
-          to="/bai-tap"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-full
-                     shadow-md hover:bg-blue-800 hover:shadow-lg transition duration-300 hover:scale-110"
-        >
-          Bắt đầu luyện tập :D
-          <ArrowRight className="w-5 h-5" />
-        </Link>
-        <Link
-          to="/flashcard"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-full
-                     shadow-md hover:bg-blue-800 hover:shadow-lg transition duration-300 hover:scale-110"
-        >
-          Muốn luyện ngoại ngữ :^
-          <ArrowRight className="w-5 h-5" />
-        </Link>
-      </section>
-
-      {/* ── Features ─────────────────────────────────────── */}
-      <section className="px-4 pb-16">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
-          Hãy cùng nhau luyện tập nào, cố gắng đạt kết quả tốt nhá ;3
-        </h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Feature 1 */}
-          <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition duration-300 hover:scale-105">
-            <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4">
-              <BookOpen className="w-6 h-6 text-blue-600" />
-            </div>
-            <h3 className="font-semibold text-lg text-gray-800 mb-2">Đề thi đa dạng</h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
-              Hỗ trợ nhiều môn học, lớp với dạng câu hỏi trắc nghiệm, đúng/sai và trả lời ngắn, có ảnh đầy đủ.
-            </p>
-          </div>
-
-          {/* Feature 2 */}
-          <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition duration-300 hover:scale-105">
-            <div className="w-12 h-12 rounded-lg bg-green-100 flex items-center justify-center mb-4">
-              <Target className="w-6 h-6 text-green-600" />
-            </div>
-            <h3 className="font-semibold text-lg text-gray-800 mb-2">Chấm điểm tự động</h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
-              Nộp bài và nhận kết quả ngay lập tức — biết được mình đúng bao nhiêu, sai bao nhiêu và câu nào chưa làm.
-            </p>
-          </div>
-
-          {/* Feature 3 */}
-          <div className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition duration-300 hover:scale-105">
-            <div className="w-12 h-12 rounded-lg bg-yellow-100 flex items-center justify-center mb-4">
-              <Trophy className="w-6 h-6 text-yellow-600" />
-            </div>
-            <h3 className="font-semibold text-lg text-gray-800 mb-2">Theo dõi tiến độ</h3>
-            <p className="text-gray-600 text-sm leading-relaxed">
-              Xem lại kết quả của đề, học từ sai lầm và cải thiện điểm số theo thời gian.
-            </p>
+        <div className="relative overflow-hidden rounded-[2rem] bg-[#18324b] p-7 text-white shadow-2xl shadow-[#18324b]/20 sm:p-9">
+          <div className="absolute -right-16 -top-16 h-48 w-48 rounded-full border-[24px] border-[#8ed5bd]/25" />
+          <BookOpen className="relative h-10 w-10 text-[#a9e5cf]" aria-hidden="true" />
+          <p className="relative mt-14 text-sm font-semibold uppercase tracking-[0.14em] text-[#a9e5cf]">Không gian học tập</p>
+          <p className="relative mt-3 text-2xl font-bold leading-snug">Mỗi lần luyện tập là một bước tiến gần hơn tới mục tiêu.</p>
+          <div className="relative mt-8 grid grid-cols-2 gap-3 border-t border-white/15 pt-5">
+            <div><p className="text-2xl font-extrabold">{data?.length ?? 0}</p><p className="text-xs text-white/65">bài tập</p></div>
+            <div><p className="text-2xl font-extrabold">{vocabCount ?? 0}</p><p className="text-xs text-white/65">từ vựng</p></div>
           </div>
         </div>
       </section>
 
-      {/* ── Stats ────────────────────────────────────────── */}
-      <section className="px-4 pb-16">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
-          Thông tin bài tập hiện tại
-        </h2>
-
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
-          <div className="p-6 text-center border border-gray-200 rounded-xl bg-blue-50 transition duration-200 hover:scale-110">
-            <p className="text-3xl font-extrabold text-blue-600">{data?.length}</p>
-            <p className="text-gray-600 text-sm mt-1">Đề thi</p>
+      <section className="grid grid-cols-2 gap-3 border-y border-[#dbe7ee] py-5 sm:grid-cols-4 sm:gap-6">
+        {[{value: data?.length ?? 0, label: "Đề thi"}, {value: subjectCount, label: "Môn học"}, {value: dataFlashcard?.length ?? 0, label: "Bộ flashcard"}, {value: languageCount, label: "Ngôn ngữ"}].map(({value, label}) => (
+          <div key={label} className="px-2 sm:px-4">
+            <p className="text-2xl font-extrabold text-[#18324b]">{value}</p>
+            <p className="mt-1 text-sm text-[#6c8494]">{label}</p>
           </div>
-
-          <div className="p-6 text-center border border-gray-200 rounded-xl bg-green-50 transition duration-200 hover:scale-110">
-            <p className="text-3xl font-extrabold text-green-600">{subjectCount}</p>
-            <p className="text-gray-600 text-sm mt-1">Môn học</p>
-          </div>
-
-          <div className="p-6 text-center border border-gray-200 rounded-xl bg-purple-50 transition duration-200 hover:scale-110">
-            <p className="text-3xl font-extrabold text-purple-600">{classCount}</p>
-            <p className="text-gray-600 text-sm mt-1">Lớp</p>
-          </div>
-        </div>
-      </section>
-      <section className="px-4 pb-16">
-        <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
-          Thông tin flashcard hiện tại
-        </h2>
-
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
-          <div className="p-6 text-center border border-gray-200 rounded-xl bg-blue-50 transition duration-200 hover:scale-110">
-            <p className="text-3xl font-extrabold text-blue-600">{dataFlashcard?.length}</p>
-            <p className="text-gray-600 text-sm mt-1">Thẻ</p>
-          </div>
-
-          <div className="p-6 text-center border border-gray-200 rounded-xl bg-green-50 transition duration-200 hover:scale-110">
-            <p className="text-3xl font-extrabold text-green-600">{vocabCount}</p>
-            <p className="text-gray-600 text-sm mt-1">Từ vựng</p>
-          </div>
-
-          <div className="p-6 text-center border border-gray-200 rounded-xl bg-purple-50 transition duration-200 hover:scale-110">
-            <p className="text-3xl font-extrabold text-purple-600">{languageCount}</p>
-            <p className="text-gray-600 text-sm mt-1">Ngôn ngữ</p>
-          </div>
-        </div>
+        ))}
       </section>
 
-
-      {/* ── Limitations ──────────────────────────────────── */}
-      <section className="px-4 pb-16">
-        <div className="max-w-xl mx-auto p-6 border border-yellow-300 rounded-xl bg-yellow-50 transition duration-300 hover:scale-110">
-          <h2 className="text-xl font-bold text-yellow-800 mb-3">
-            ⚠️ Hạn chế & Đang phát triển
-          </h2>
-
-          <ul className="space-y-2 text-gray-700 text-sm leading-relaxed">
-            <li className="flex gap-2">
-              <span className="text-yellow-600 font-bold">•</span>
-              <span>Web chưa hỗ trợ dạng bài tập Tiếng Anh và chỉ có bài tập lớp 12.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-yellow-600 font-bold">•</span>
-              <span>Hiện tại chưa có bài tập, các bài tập sẽ được thêm trong thời gian nhanh nhất.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-yellow-600 font-bold">•</span>
-              <span>Chưa có tính năng đăng nhập, lưu trữ kết quả cá nhân hay thống kê dài hạn.</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-yellow-600 font-bold">•</span>
-              <span>Giao diện và tính năng sẽ còn được cải thiện — mong các bạn thông cảm và góp ý nhé :3</span>
-            </li>
-          </ul>
-        </div>
+      <section className="grid gap-5 py-14 md:grid-cols-3">
+        {[{icon: BookOpen, title: "Luyện đề đa dạng", text: "Làm quen nhiều môn học và dạng câu hỏi trong kho bài tập được sắp xếp rõ ràng."}, {icon: Target, title: "Biết mình đang ở đâu", text: "Nhận kết quả ngay sau khi nộp bài, xem lại từng câu và hiểu chính xác lỗi sai."}, {icon: Trophy, title: "Tạo nhịp học bền vững", text: "Kết hợp luyện đề với flashcard để duy trì thói quen học tập mỗi ngày."}].map(({icon: Icon, title, text}) => (
+          <article key={title} className="rounded-2xl border border-[#dbe7ee] bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-[#18324b]/8">
+            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#e9f7f0] text-[#27735f]"><Icon className="h-5 w-5" aria-hidden="true" /></div>
+            <h2 className="mt-5 text-lg font-bold text-[#18324b]">{title}</h2>
+            <p className="mt-2 text-sm leading-7 text-[#6c8494]">{text}</p>
+          </article>
+        ))}
       </section>
 
 
       {/* ── Footer ──────────────────────────────────────── */}
-      <footer className="px-4 pb-8 pt-4 text-center border-t border-gray-200 mt-auto">
+      <footer className="mt-auto border-t border-[#dbe7ee] px-4 pb-8 pt-8 text-center">
         <div className="flex flex-col gap-2 justify-center items-center">
-          <p className="text-sm font-medium text-gray-700">
+          <p className="text-sm font-bold text-[#18324b]">
             Thông tin liên hệ
           </p>
           {/* Facebook */}
           <div className="flex">
-            <a href="https://www.facebook.com/hoang.phuc.494074/" className="p-2 transition duration-300 hover:scale-150">
+            <a aria-label="Facebook EduSW" href="https://www.facebook.com/hoang.phuc.494074/" className="p-2 transition duration-300 hover:-translate-y-1">
               <img
                 src="/icons/facebook-1.svg"
-                className="h-8 w-8"
+                alt=""
+                className="h-7 w-7"
               />
             </a>
             {/* Tiktok */}
-            <a href="https://www.tiktok.com/@caohoangphuc1203" className="p-2 transition duration-300 hover:scale-150">
+            <a aria-label="TikTok EduSW" href="https://www.tiktok.com/@caohoangphuc1203" className="p-2 transition duration-300 hover:-translate-y-1">
               <img
                 src="/icons/tiktok-logo.svg"
-                className="h-8 w-8"
+                alt=""
+                className="h-7 w-7"
               />
             </a>
             {/* GitHub */}
-            <a href="https://github.com/chpvchp" className="p-2 transition duration-300 hover:scale-150">
+            <a aria-label="GitHub EduSW" href="https://github.com/chpvchp" className="p-2 transition duration-300 hover:-translate-y-1">
               <img
                 src="/icons/github.svg"
-                className="h-8 w-8"
+                alt=""
+                className="h-7 w-7"
               />
             </a>
           </div>
         </div>
-        <p className="mt-1 text-xs text-gray-500">
-          <span className="italic">"Học thì phải đi đôi với hành!"</span>
+        <p className="mt-2 text-xs text-[#6c8494]">
+          <span className="italic">"Học thì phải đi đôi với hành."</span>
         </p>
-        <p className="mt-2 text-xs text-gray-400">
-          © 2026 EduSW — Đươc xây dựng bằng React/Vite và Tailwind CSS.
+        <p className="mt-2 text-xs text-[#91a5b1]">
+          © 2026 EduSW · React, Vite và Tailwind CSS.
         </p>
       </footer>
 
