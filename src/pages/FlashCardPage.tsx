@@ -21,12 +21,13 @@ export default function FlashCardPage() {
   console.log(data)
 
   return (
-    <main className="min-h-screen max-w-7xl flex-1 mx-auto">
-      <div className="flex justify-center">
-        <p className="p-4 italic">Chọn các flashcard bên dưới để rèn luyện nhé :3</p>
+    <main className="mx-auto min-h-screen w-full max-w-7xl flex-1 py-10">
+      <div className="mb-8 flex items-end justify-between gap-4">
+        <div><p className="text-sm font-bold uppercase tracking-[0.14em] text-[#a85c18]">Ghi nhớ thông minh</p><h1 className="mt-2 text-3xl font-extrabold tracking-tight text-[#18324b]">Flashcard</h1><p className="mt-2 text-sm text-[#6c8494]">Ôn lại từ vựng theo nhịp học của riêng bạn.</p></div>
+        <p className="text-sm font-semibold text-[#587084]">{data?.length ?? 0} bộ thẻ</p>
       </div>
 
-      <div className="p-2 flex flex-col lg:grid lg:grid-cols-4 justify-center gap-2 lg:gap-6 lg:mx-auto">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
         {data?.map((card: FlashCard) => (
           <CardFlashCard
@@ -40,7 +41,7 @@ export default function FlashCardPage() {
             source={card?.source}
           />
         ))}
-        
+        {data?.length === 0 && <div className="col-span-full rounded-2xl border border-dashed border-[#b9cfd9] bg-white px-6 py-14 text-center"><p className="font-bold text-[#18324b]">Chưa có bộ flashcard</p><p className="mt-2 text-sm text-[#6c8494]">Nội dung mới sẽ được cập nhật sớm.</p></div>}
 
       </div>
 

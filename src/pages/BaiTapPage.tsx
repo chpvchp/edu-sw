@@ -40,25 +40,26 @@ export default function BaiTapPage() {
     );
 
   return (
-    <main className="min-h-screen flex-1">
-
-      <div className="flex justify-center">
-        <p className="p-4 italic text-xs lg:text-base">
-          Chọn các bài tập bên dưới để rèn luyện nhé :3
-        </p>
+    <main className="mx-auto min-h-screen w-full max-w-7xl flex-1 py-10">
+      <div className="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#27735f]">Kho học tập</p>
+          <h1 className="mt-2 text-3xl font-extrabold tracking-tight text-[#18324b]">Bài tập</h1>
+          <p className="mt-2 text-sm text-[#6c8494]">Chọn một đề để luyện tập và kiểm tra kiến thức.</p>
+        </div>
+        <p className="text-sm font-semibold text-[#587084]">{filteredExams?.length ?? 0} bài tập</p>
       </div>
 
-      {/* Bộ lọc */}
-      <div className="p-2 mb-4 flex flex-wrap gap-4 justify-center">
+      <div className="mb-8 flex flex-wrap items-end gap-3 rounded-2xl border border-[#dbe7ee] bg-white p-4 shadow-sm">
 
         {/* Môn học */}
-        <div className="flex flex-col gap-2">
-          <label>Môn học:</label>
+        <div className="flex min-w-40 flex-1 flex-col gap-2">
+          <label className="text-xs font-bold uppercase tracking-wide text-[#6c8494]">Môn học</label>
 
           <select
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
-            className="p-2 border border-gray-400 rounded-lg"
+            className="rounded-xl border border-[#cbdde6] bg-[#f7fafc] p-2.5 text-sm text-[#18324b]"
           >
             <option value="all">Tất cả</option>
             <option value="Toán">Toán</option>
@@ -68,13 +69,13 @@ export default function BaiTapPage() {
         </div>
 
         {/* Lớp */}
-        <div className="flex flex-col gap-2">
-          <label>Lớp:</label>
+        <div className="flex min-w-40 flex-1 flex-col gap-2">
+          <label className="text-xs font-bold uppercase tracking-wide text-[#6c8494]">Lớp</label>
 
           <select
             value={classExam}
             onChange={(e) => setClassExam(e.target.value)}
-            className="p-2 border border-gray-400 rounded-lg"
+            className="rounded-xl border border-[#cbdde6] bg-[#f7fafc] p-2.5 text-sm text-[#18324b]"
           >
             <option value="all">Tất cả</option>
             <option value="10">Lớp 10</option>
@@ -86,8 +87,8 @@ export default function BaiTapPage() {
       </div>
 
       {/* Danh sách */}
-      <section className="max-w-7xl mx-auto">
-        <div className="p-2 flex flex-col lg:grid lg:grid-cols-4 justify-center gap-2 lg:gap-6 lg:mx-auto">
+      <section>
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
           {filteredExams?.map((exam: Exam) => (
             <CardExam
@@ -101,7 +102,12 @@ export default function BaiTapPage() {
               created={exam.created}
             />
           ))}
-
+          {filteredExams?.length === 0 && (
+            <div className="col-span-full rounded-2xl border border-dashed border-[#b9cfd9] bg-white px-6 py-14 text-center">
+              <p className="font-bold text-[#18324b]">Không tìm thấy bài tập phù hợp</p>
+              <p className="mt-2 text-sm text-[#6c8494]">Thử thay đổi bộ lọc để xem thêm nội dung.</p>
+            </div>
+          )}
         </div>
       </section>
 
