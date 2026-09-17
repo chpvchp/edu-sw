@@ -1,0 +1,30 @@
+---
+id_exam: demo_exam
+id_subject: toan
+name_exam: Đề mẫu demo
+name_subject: Toán
+class_exam: 12
+duration: 45
+source: /documents/pdf/demo_exam.pdf
+created: 2026-09-17
+---
+
+# Đề mẫu demo
+
+**Câu 1:** Công thức của nước là gì?
+
+**A.** CO2
+**B.** H2O **ĐápÁnĐúng**
+**C.** O2
+**D.** NaCl
+
+**Câu 2:** Xác định tính đúng/sai của các phát biểu sau:
+
+*a)* Nước có công thức H2O. **ĐápÁnĐúng**
+*b)* Nước chỉ tồn tại ở thể lỏng. **ĐápÁnSai**
+*c)* Nước có thể ở dạng rắn. **ĐápÁnĐúng**
+*d)* Nước bay hơi ở 100°C ở áp suất thường. **ĐápÁnĐúng**
+
+**Câu 3:** Một cộng một bằng bao nhiêu?
+
+**Đáp án là:** 2
