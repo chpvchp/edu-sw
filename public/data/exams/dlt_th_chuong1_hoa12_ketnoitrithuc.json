@@ -1,12 +1,12 @@
 {
   "id_exam": "dlt_th_chuong1_hoa12_ketnoitrithuc",
   "id_subject": "hoa",
-  "name_exam": "ĐỀ LUYỆN TẬP TỔNG HỢP CHƯƠNG 1 ESTER – LIPID. XÀ PHÒNG VÀ CHẤT GIẶT RỬA TỔNG HỢP - ĐỀ SỐ 1",
+  "name_exam": "ĐỀ LUYỆN TẬP TỔNG HỢP CHƯƠNG 1: ESTER – LIPID. XÀ PHÒNG VÀ CHẤT GIẶT RỬA TỔNG HỢP",
   "name_subject": "Hóa",
   "class_exam": 12,
   "duration": 40,
-  "updated": "2026-09-16T21:56:00.000",
-  "created": "2026-09-16T21:56:00.000",
+  "updated": "2026-09-17T22:07:00.00",
+  "created": "2026-09-16T18:07:00.00",
   "source": "/documents/pdf/dlt_th_chuong1_hoa12_ketnoitrithuc.pdf",
   "questions": [
     {
@@ -525,14 +525,37 @@
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q17",
       "order": 17,
       "question": "Cho các phát biểu sau về ester và chất béo:",
-      "type_question": "",
+      "type_question": "true_false",
       "path_images": null,
-      "answers": [],
+      "answers": [
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q17-a",
+          "answer": "Ester no, đơn chức, mạch hở có công thức phân tử dạng $\\text{C}_n\\text{H}_{2n}\\text{O}_2$ với $n \\ge 2$."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q17-b",
+          "answer": "Tất cả các ester đều có nhiệt độ sôi cao hơn alcohol có cùng số nguyên tử carbon."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q17-c",
+          "answer": "Chất béo chứa chủ yếu các gốc acid béo không no (như oleic acid) thường ở trạng thái lỏng ở nhiệt độ phòng."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q17-d",
+          "answer": "Thủy phân ester trong môi trường acid là phản ứng một chiều."
+        }
+      ],
       "results": {
         "explain": "",
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q17-a",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q17-c"
+        ],
+        "false_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q17-b",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q17-d"
+        ],
         "short_answer": ""
       }
     },
@@ -540,14 +563,37 @@
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q18",
       "order": 18,
       "question": "Xét sơ đồ phản ứng hóa học sau:",
-      "type_question": "",
+      "type_question": "true_false",
       "path_images": null,
-      "answers": [],
+      "answers": [
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q18-a",
+          "answer": "Ester $\\text{X}$ có tên gọi là ethyl acetate ($\\text{CH}_3\\text{COOC}_2\\text{H}_5$)."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q18-b",
+          "answer": "Chất $\\text{Y}$ là sodium acetate ($\\text{CH}_3\\text{COONa}$)."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q18-c",
+          "answer": "Chất $\\text{Z}$ là methyl alcohol ($\\text{CH}_3\\text{OH}$)."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q18-d",
+          "answer": "Phản ứng trên thuộc loại phản ứng xà phòng hóa."
+        }
+      ],
       "results": {
         "explain": "",
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q18-a",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q18-b",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q18-d"
+        ],
+        "false_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q18-c"
+        ],
         "short_answer": ""
       }
     },
@@ -555,14 +601,37 @@
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q19",
       "order": 19,
       "question": "Cho triolein tác dụng với các chất trong điều kiện thích hợp:",
-      "type_question": "",
+      "type_question": "true_false",
       "path_images": null,
-      "answers": [],
+      "answers": [
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q19-a",
+          "answer": "Triolein làm mất màu dung dịch nước bromine ở nhiệt độ thường."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q19-b",
+          "answer": "Cho triolein tác dụng với $\\text{H}_2$ dư ($\\text{Ni}, t^\\circ$) thu được tristearin."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q19-c",
+          "answer": "Phản ứng thủy phân triolein trong dung dịch $\\text{NaOH}$ đun nóng là phản ứng thuận nghịch."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q19-d",
+          "answer": "$1\\text{ mol}$ triolein phản ứng tối đa với $3\\text{ mol } \\text{H}_2$."
+        }
+      ],
       "results": {
         "explain": "",
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q19-a",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q19-b",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q19-d"
+        ],
+        "false_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q19-c"
+        ],
         "short_answer": ""
       }
     },
@@ -570,14 +639,37 @@
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q20",
       "order": 20,
       "question": "Tiến hành thí nghiệm thủy phân ethyl acetate trong hai ống nghiệm:",
-      "type_question": "",
+      "type_question": "true_false",
       "path_images": null,
-      "answers": [],
+      "answers": [
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q20-a",
+          "answer": "Trước khi đun nóng, cả hai ống nghiệm đều có sự phân thành 2 lớp chất lỏng."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q20-b",
+          "answer": "Sau khi đun nóng, ống nghiệm 1 thu được dung dịch đồng nhất hoàn toàn."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q20-c",
+          "answer": "Sau khi đun nóng, ống nghiệm 2 thu được dung dịch đồng nhất."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q20-d",
+          "answer": "Thêm dung dịch $\\text{NaCl}$ bão hòa vào ống 1 giúp phản ứng xảy ra nhanh hơn."
+        }
+      ],
       "results": {
         "explain": "",
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q20-a",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q20-c"
+        ],
+        "false_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q20-b",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q20-d"
+        ],
         "short_answer": ""
       }
     },
@@ -585,14 +677,37 @@
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q21",
       "order": 21,
       "question": "Các nhận định sau đây liên quan đến ứng dụng của ester và chất béo:",
-      "type_question": "",
+      "type_question": "true_false",
       "path_images": null,
-      "answers": [],
+      "answers": [
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q21-a",
+          "answer": "Một số ester có mùi thơm an toàn được dùng làm hương liệu trong công nghiệp thực phẩm và mỹ phẩm."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q21-b",
+          "answer": "Chất béo là nguồn cung cấp và tích trữ năng lượng quan trọng cho cơ thể con người."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q21-c",
+          "answer": "Dầu mỡ động thực vật sau khi sử dụng có thể tái chế làm nhiên liệu sinh học (biodiesel)."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q21-d",
+          "answer": "Dầu mỡ ăn uống có cùng thành phần hóa học chính với dầu mỡ bôi trơn máy móc."
+        }
+      ],
       "results": {
         "explain": "",
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q21-a",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q21-b",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q21-c"
+        ],
+        "false_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q21-d"
+        ],
         "short_answer": ""
       }
     },
@@ -600,14 +715,37 @@
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q22",
       "order": 22,
       "question": "Khi nói về đặc điểm phân tử và tính chất của xà phòng và chất giặt rửa tổng hợp:",
-      "type_question": "",
+      "type_question": "true_false",
       "path_images": null,
-      "answers": [],
+      "answers": [
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q22-a",
+          "answer": "Phân tử xà phòng có đầu ưa nước là gốc $-\\text{COO}^-\\text{Na}^+$ hoặc $-\\text{COO}^-\\text{K}^+$."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q22-b",
+          "answer": "Đuôi kị nước của chất giặt rửa tổng hợp thường là gốc hydrocarbon mạch dài."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q22-c",
+          "answer": "Xà phòng và chất giặt rửa tổng hợp đều làm giảm căng bề mặt của nước, giúp nước dễ thấm vào vật giặt."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q22-d",
+          "answer": "Chất giặt rửa tổng hợp chứa gốc alkyl sulfate có đầu ưa nước là $-\\text{COONa}$."
+        }
+      ],
       "results": {
         "explain": "",
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q22-a",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q22-b",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q22-c"
+        ],
+        "false_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q22-d"
+        ],
         "short_answer": ""
       }
     },
@@ -615,14 +753,37 @@
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q23",
       "order": 23,
       "question": "So sánh tác động đến môi trường và ứng dụng sinh hoạt của xà phòng và chất giặt rửa tổng hợp:",
-      "type_question": "",
+      "type_question": "true_false",
       "path_images": null,
-      "answers": [],
+      "answers": [
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q23-a",
+          "answer": "Xà phòng dễ bị phân hủy sinh học bởi vi sinh vật trong tự nhiên hơn chất giặt rửa tổng hợp có nhánh."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q23-b",
+          "answer": "Việc sử dụng rộng rãi các chất giặt rửa khó phân hủy sinh học góp phần gây ô nhiễm nguồn nước và môi trường."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q23-c",
+          "answer": "Trong môi trường nước cứng, xà phòng tạo bọt tốt hơn chất giặt rửa tổng hợp."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q23-d",
+          "answer": "Có thể dùng xà phòng để giặt quần áo trong nước giếng khoan chứa hàm lượng ion $\\text{Ca}^{2+}, \\text{Mg}^{2+}$ cao mà không làm mòn hỏng vải."
+        }
+      ],
       "results": {
         "explain": "",
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q23-a",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q23-b"
+        ],
+        "false_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q23-c",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q23-d"
+        ],
         "short_answer": ""
       }
     },
@@ -630,14 +791,37 @@
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q24",
       "order": 24,
       "question": "Trong quá trình sản xuất xà phòng trong phòng thí nghiệm từ chất béo (mỡ lợn hoặc dầu thực vật) và dung dịch $\\text{NaOH}$:",
-      "type_question": "",
+      "type_question": "true_false",
       "path_images": null,
-      "answers": [],
+      "answers": [
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q24-a",
+          "answer": "Cần thỉnh thoảng thêm nước đun sôi để nguội (hoặc nước cất) để giữ cho thể tích hỗn hợp không đổi."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q24-b",
+          "answer": "Thêm dung dịch $\\text{NaCl}$ bão hòa vào sau phản ứng để xà phòng tách ra và nổi lên trên."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q24-c",
+          "answer": "Xà phòng nổi lên trên là do muối sodium của acid béo kém tan trong dung dịch $\\text{NaCl}$ bão hòa và có khối lượng riêng nhỏ hơn."
+        },
+        {
+          "id_answer": "dlt_th_chuong1_hoa12_ketnoitrithuc-q24-d",
+          "answer": "Dung dịch còn lại phía dưới sau khi tách xà phòng không hòa tan được $\\text{Cu(OH)}_2$."
+        }
+      ],
       "results": {
         "explain": "",
         "correct_answer": null,
-        "true_answer": [],
-        "false_answer": [],
+        "true_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q24-a",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q24-b",
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q24-c"
+        ],
+        "false_answer": [
+          "dlt_th_chuong1_hoa12_ketnoitrithuc-q24-d"
+        ],
         "short_answer": ""
       }
     },
@@ -698,7 +882,7 @@
         "correct_answer": null,
         "true_answer": [],
         "false_answer": [],
-        "short_answer": "0.1"
+        "short_answer": "0,1"
       }
     },
     {
@@ -713,13 +897,13 @@
         "correct_answer": null,
         "true_answer": [],
         "false_answer": [],
-        "short_answer": "1.4874"
+        "short_answer": "1,4874"
       }
     },
     {
       "id_question": "dlt_th_chuong1_hoa12_ketnoitrithuc-q30",
       "order": 30,
-      "question": "Trong các phát biểu dưới đây, có bao nhiêu phát biểu **ĐÚNG**?\n\n(1) Xà phòng được sản xuất chủ yếu từ dầu mỏ.\n\n(2) Chất giặt rửa tổng hợp không bị kết tủa trong nước cứng.\n\n(3) Đuôi không phân cực của chất giặt rửa là phần ưa nước.\n\n(4) Phản ứng xà phòng hóa chất béo là phản ứng một chiều.",
+      "question": "Trong các phát biểu dưới đây, có bao nhiêu phát biểu **ĐÚNG**?",
       "type_question": "short_answer",
       "path_images": null,
       "answers": [],
@@ -743,7 +927,7 @@
         "correct_answer": null,
         "true_answer": [],
         "false_answer": [],
-        "short_answer": "74.4"
+        "short_answer": "74,4"
       }
     },
     {
@@ -758,7 +942,7 @@
         "correct_answer": null,
         "true_answer": [],
         "false_answer": [],
-        "short_answer": "8.26"
+        "short_answer": "8,26"
       }
     }
   ]
