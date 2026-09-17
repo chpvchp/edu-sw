@@ -1,4 +1,4 @@
-import { BookOpen, House, Layers3 } from "lucide-react";
+import { BookOpen, House } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 /**
@@ -11,7 +11,6 @@ export default function NavBar() {
   const listNavLink = [
     {to: "/", label: "Trang chủ", icon: House, end: true},
     {to: "/bai-tap", label: "Bài tập", icon: BookOpen},
-    {to: "/flashcard", label: "Flashcard", icon: Layers3},
   ]
 
   return (

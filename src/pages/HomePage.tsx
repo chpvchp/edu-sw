@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, BookOpen, Layers3, Target, Trophy } from "lucide-react";
+import { ArrowRight, BookOpen, Target, Trophy } from "lucide-react";
 import { useListExam } from "../hooks/useExam";
-import { useListFlashCard } from "../hooks/useFlashCard";
 
 /**
  * HomePage | trang chủ.
@@ -10,12 +9,8 @@ import { useListFlashCard } from "../hooks/useFlashCard";
  */
 export default function HomePage() {
   const { data } = useListExam();
-  const { data: dataFlashcard } = useListFlashCard();
 
   const subjectCount = new Set(data?.map((e) => e.name_subject)).size;
-
-  const languageCount = new Set(dataFlashcard?.map((e) => e.language)).size;
-  const vocabCount = dataFlashcard?.reduce((sum, e) => sum + e.num_cards, 0);
 
   return (
     <main className="mx-auto flex min-h-screen w-full max-w-7xl flex-1 flex-col">
@@ -36,10 +31,6 @@ export default function HomePage() {
               Bắt đầu luyện tập
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
-            <Link to="/flashcard" className="inline-flex items-center gap-2 rounded-xl border border-[#cbdde6] bg-white px-5 py-3 font-bold text-[#18324b] transition hover:-translate-y-0.5 hover:border-[#91cbb9] hover:bg-[#f2faf7]">
-              <Layers3 className="h-4 w-4" aria-hidden="true" />
-              Ôn bằng flashcard
-            </Link>
           </div>
         </div>
 
@@ -50,13 +41,13 @@ export default function HomePage() {
           <p className="relative mt-3 text-2xl font-bold leading-snug">Mỗi lần luyện tập là một bước tiến gần hơn tới mục tiêu.</p>
           <div className="relative mt-8 grid grid-cols-2 gap-3 border-t border-white/15 pt-5">
             <div><p className="text-2xl font-extrabold">{data?.length ?? 0}</p><p className="text-xs text-white/65">bài tập</p></div>
-            <div><p className="text-2xl font-extrabold">{vocabCount ?? 0}</p><p className="text-xs text-white/65">từ vựng</p></div>
+            <div><p className="text-2xl font-extrabold">{subjectCount}</p><p className="text-xs text-white/65">môn học</p></div>
           </div>
         </div>
       </section>
 
       <section className="grid grid-cols-2 gap-3 border-y border-[#dbe7ee] py-5 sm:grid-cols-4 sm:gap-6">
-        {[{value: data?.length ?? 0, label: "Đề thi"}, {value: subjectCount, label: "Môn học"}, {value: dataFlashcard?.length ?? 0, label: "Bộ flashcard"}, {value: languageCount, label: "Ngôn ngữ"}].map(({value, label}) => (
+        {[{value: data?.length ?? 0, label: "Đề thi"}, {value: subjectCount, label: "Môn học"}].map(({value, label}) => (
           <div key={label} className="px-2 sm:px-4">
             <p className="text-2xl font-extrabold text-[#18324b]">{value}</p>
             <p className="mt-1 text-sm text-[#6c8494]">{label}</p>
@@ -65,7 +56,7 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-5 py-14 md:grid-cols-3">
-        {[{icon: BookOpen, title: "Luyện đề đa dạng", text: "Làm quen nhiều môn học và dạng câu hỏi trong kho bài tập được sắp xếp rõ ràng."}, {icon: Target, title: "Biết mình đang ở đâu", text: "Nhận kết quả ngay sau khi nộp bài, xem lại từng câu và hiểu chính xác lỗi sai."}, {icon: Trophy, title: "Tạo nhịp học bền vững", text: "Kết hợp luyện đề với flashcard để duy trì thói quen học tập mỗi ngày."}].map(({icon: Icon, title, text}) => (
+        {[{icon: BookOpen, title: "Luyện đề đa dạng", text: "Làm quen nhiều môn học và dạng câu hỏi trong kho bài tập được sắp xếp rõ ràng."}, {icon: Target, title: "Biết mình đang ở đâu", text: "Nhận kết quả ngay sau khi nộp bài, xem lại từng câu và hiểu chính xác lỗi sai."}, {icon: Trophy, title: "Tạo nhịp học bền vững", text: "Duy trì thói quen học tập mỗi ngày và theo dõi tiến bộ qua từng lần luyện đề."}].map(({icon: Icon, title, text}) => (
           <article key={title} className="rounded-2xl border border-[#dbe7ee] bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-[#18324b]/8">
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#e9f7f0] text-[#27735f]"><Icon className="h-5 w-5" aria-hidden="true" /></div>
             <h2 className="mt-5 text-lg font-bold text-[#18324b]">{title}</h2>
