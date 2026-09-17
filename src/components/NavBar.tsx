@@ -1,4 +1,4 @@
-import { House, BookOpen } from "lucide-react";
+import { BookOpen, House, Layers3 } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 /**
@@ -9,29 +9,42 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
 
   const listNavLink = [
-    {to: "/", label: "Trang Chủ", icon: House},
-    {to: "/bai-tap", label: "Bài Tập", icon: BookOpen},
-    // {to: "/flashcard", label: "FlashCard", icon: PlayingCardsFan},
+    {to: "/", label: "Trang chủ", icon: House, end: true},
+    {to: "/bai-tap", label: "Bài tập", icon: BookOpen},
+    {to: "/flashcard", label: "Flashcard", icon: Layers3},
   ]
 
-  const classNameActive = "p-2 bg-blue-600 text-white rounded-full"
-  const classNameNotActive = "p-2 bg-white rounded-full"
-
   return (
-    <nav className="p-2 flex gap-2 border border-gray-200 shadow mx-auto rounded-full">
-      {listNavLink.map(({to, icon: Icon}) => (
+    <header className="sticky top-0 z-20 border-b border-[#dbe7ee]/80 bg-[#f4f8fb]/90 px-4 py-3 backdrop-blur-md sm:px-6 lg:px-8">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4" aria-label="Điều hướng chính">
+        <NavLink to="/" className="flex items-center gap-2 text-lg font-extrabold tracking-tight text-[#18324b]">
+          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#18324b] text-[#d9f2e7] shadow-sm">
+            <BookOpen className="h-5 w-5" aria-hidden="true" />
+          </span>
+          <span>EduSW</span>
+        </NavLink>
+
+        <div className="flex items-center gap-1 rounded-2xl border border-[#dbe7ee] bg-white/80 p-1 shadow-sm">
+          {listNavLink.map(({to, label, icon: Icon, end}) => (
         <NavLink 
           key={to}
           to={to}
+          end={end}
+          aria-label={label}
           className={({ isActive }) =>
-            isActive ? classNameActive : classNameNotActive
+            `flex items-center gap-2 rounded-xl px-3 py-2 text-sm font-semibold transition-colors ${
+              isActive
+                ? "bg-[#18324b] text-white shadow-sm"
+                : "text-[#587084] hover:bg-[#eaf4f3] hover:text-[#18324b]"
+            }`
           }
         >
-          <Icon />
+          <Icon className="h-4 w-4" aria-hidden="true" />
+          <span className="hidden sm:inline">{label}</span>
         </NavLink>
       ))}
-
-
-    </nav>
+        </div>
+      </nav>
+    </header>
   )
 }

@@ -8,10 +8,12 @@ import NavBar from "../components/NavBar";
  */
 export default function MainLayout() {
   return (
-    <div className="min-h-screen font-sans flex flex-col p-2">
+    <div className="min-h-screen flex flex-col">
       <NavBar />
 
-      <Outlet />
+      <div className="flex-1 px-4 sm:px-6 lg:px-8">
+        <Outlet />
+      </div>
 
     </div>
   )

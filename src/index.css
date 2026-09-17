@@ -1,2 +1,44 @@
 @import 'tailwindcss';
 @import "katex/dist/katex.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
+
+:root {
+	font-family: 'Be Vietnam Pro', sans-serif;
+	color: #18324b;
+	background: #f4f8fb;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+	background:
+		radial-gradient(circle at 12% 8%, rgba(186, 229, 218, 0.38), transparent 27rem),
+		radial-gradient(circle at 90% 16%, rgba(190, 222, 246, 0.42), transparent 24rem),
+		#f4f8fb;
+}
+
+button,
+a,
+select,
+input {
+	font: inherit;
+}
+
+a,
+button,
+select,
+input {
+	-webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+	outline: 3px solid #f4a261;
+	outline-offset: 3px;
+}
