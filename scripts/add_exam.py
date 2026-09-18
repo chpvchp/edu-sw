@@ -54,9 +54,9 @@ def clean_question(line: str) -> str:
 def is_question_continuation(line: str) -> bool:
     return bool(
         re.match(r"^\*\([a-z]\)\*", line)
-        or re.match(r"^\*\(\d+\)\*", line)
+        # or re.match(r"^\*\(\d+\)\*", line)
         or re.match(r"^- Bước ", line)
-        or re.match(r"^\*[a-z]\)\*", line)
+        # or re.match(r"^\*[a-z]\)\*", line)
         or re.match(r"^\*\d+\)\*", line)
     )
 

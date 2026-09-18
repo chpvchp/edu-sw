@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id_exam": "exam_template",
+    "name_exam": "Exam Template",
+    "name_subject": "Toán",
+    "class_exam": 12,
+    "duration": 45,
+    "updated": "2026-09-17",
+    "created": "2026-09-17"
+  }
+]
