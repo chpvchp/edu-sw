@@ -56,10 +56,8 @@ def is_question_continuation(line: str) -> bool:
         re.match(r"^\*\([a-z]\)\*", line)
         or re.match(r"^\*\(\d+\)\*", line)
         or re.match(r"^- Bước ", line)
-        or re.match(r"^_a\)_", line)
-        or re.match(r"^_b\)_", line)
-        or re.match(r"^_c\)_", line)
-        or re.match(r"^_d\)_", line)
+        or re.match(r"^\*[a-z]\)\*", line)
+        or re.match(r"^\*\d+\)\*", line)
     )
 
 
@@ -68,7 +66,7 @@ def is_answer_four_choice(line: str) -> bool:
 
 
 def is_answer_true_false(line: str) -> bool:
-    return bool(re.match(r"^\*?[a-d]\)", line) or re.match(r"^_?[a-d]\)", line))
+    return bool(re.match(r"^\*[a-d]\)\*", line))
 
 
 def is_answer_short_answer(line: str) -> bool:
@@ -89,10 +87,8 @@ def remove_true_false_marker(line: str) -> str:
 
 def clean_answer(line: str) -> str:
     line = re.sub(r"^\*\*[A-D]\.?\*\*\s*", "", line)
-    line = re.sub(r"^\*?[a-d]\)\s*", "", line)
-    line = re.sub(r"^_?[a-d]\)\s*", "", line)
+    line = re.sub(r"^\*[a-d]\)\*", "", line)
     line = re.sub(r"^\*\(\s*[a-d]\s*\)\*\s*", "", line)
-    line = re.sub(r"^\*\([a-d]\)\*\s*", "", line)
     line = re.sub(r"^\*\*Đáp án là:\*\*\s*", "", line)
     return line.strip()
 
