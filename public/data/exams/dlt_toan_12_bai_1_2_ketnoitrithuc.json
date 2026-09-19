@@ -1,0 +1,737 @@
+{
+  "id_exam": "dlt_toan_12_bai_1_2_ketnoitrithuc",
+  "id_subject": "toan",
+  "name_exam": "ĐỀ LUYỆN TẬP TOÁN 12 BÀI 1,2 KẾT NỐI TRI THỨC",
+  "name_subject": "Toán",
+  "class_exam": 12,
+  "duration": 45,
+  "updated": "2026-09-19T11:08",
+  "created": "2026-09-19T11:08",
+  "source": "/data/documents/pdf/dlt_toan_12_bai_1_2_ketnoitrithuc.pdf",
+  "questions": [
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q1",
+      "order": 1,
+      "question": "Cho hàm số $y=f(x)$ có bảng biến thiên như bên dưới. Hàm số đã cho đồng biến trên khoảng nào dưới đây?",
+      "type_question": "four_choice",
+      "path_images": "/data/images/dlt_toan_12_bai_1_2_ketnoitrithuc/dlt_toan_12_bai_1_2_ketnoitrithuc_fourchoie_q1.png",
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q1-a",
+          "answer": "$(-1; 3)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q1-b",
+          "answer": "$(-\\infty; 4)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q1-c",
+          "answer": "$(3; +\\infty)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q1-d",
+          "answer": "$(-2; +\\infty)$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q1-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q2",
+      "order": 2,
+      "question": "Cho hàm số $y=f(x)$ liên tục trên $\\mathbb{R}$ và có đồ thị như một đường cong bậc ba với một điểm cực đại tại $A(-1; 3)$ và một điểm cực tiểu tại $B(1; -1)$. Giá trị cực đại của hàm số đã cho bằng bao nhiêu?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q2-a",
+          "answer": "$x = -1$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q2-b",
+          "answer": "$y = -1$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q2-c",
+          "answer": "$x = 1$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q2-d",
+          "answer": "$y = 3$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q2-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q3",
+      "order": 3,
+      "question": "Hàm số $y = -x^3 + 3x^2 + 9x - 1$ nghịch biến trên khoảng nào dưới đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q3-a",
+          "answer": "$(-\\infty; -1)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q3-b",
+          "answer": ". $(-1; 3)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q3-c",
+          "answer": "$(3; +\\infty)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q3-d",
+          "answer": "Cả A và C đều đúng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q3-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q4",
+      "order": 4,
+      "question": "Điểm cực tiểu của đồ thị hàm số $y = x^4 - 2x^2 + 3$ là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q4-a",
+          "answer": "$(1; 2)$ và $(-1; 2)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q4-b",
+          "answer": "$x = 1$ và $x = -1$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q4-c",
+          "answer": "$(0; 3)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q4-d",
+          "answer": "$y = 2$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q4-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q5",
+      "order": 5,
+      "question": "Cho hàm số $y=f(x)$ có đạo hàm liên tục trên $\\mathbb{R}$. Đồ thị của hàm số $y=f'(x)$ cắt trục hoành tại ba điểm phân biệt có hoành độ lần lượt là $x = -2$, $x = 1$, $x = 4$ và nằm phía trên trục hoành trên các khoảng $(-2; 1)$ và $(4; +\\infty)$, nằm phía dưới trục hoành trên các khoảng $(-\\infty; -2)$ và $(1; 4)$. Hàm số $y=f(x)$ có bao nhiêu điểm cực trị?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q5-a",
+          "answer": "$1$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q5-b",
+          "answer": "$2$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q5-c",
+          "answer": "$3$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q5-d",
+          "answer": "$4$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q5-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q6",
+      "order": 6,
+      "question": "Cho hàm số $f(x)$ có đạo hàm $f'(x) = (x-1)^2(x+2)(x-3)$. Hàm số $y=f(x)$ đồng biến trên khoảng nào dưới đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q6-a",
+          "answer": "$(-2; 1)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q6-b",
+          "answer": "$(1; 3)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q6-c",
+          "answer": "$(-\\infty; +2)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q6-d",
+          "answer": "$(3; +\\infty)$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q6-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q7",
+      "order": 7,
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m$ để hàm số $y = \\frac{x+m^2}{x+4}$ đồng biến trên từng khoảng xác định của nó?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q7-a",
+          "answer": "$3$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q7-b",
+          "answer": "$4$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q7-c",
+          "answer": "$5$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q7-d",
+          "answer": "Vô số"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q7-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q8",
+      "order": 8,
+      "question": "Tìm tất cả các giá trị của tham số $m$ để hàm số $y = \\frac{1}{3}x^3 - mx^2 + (2m+3)x + 1$ đồng biến trên $\\mathbb{R}$.",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q8-a",
+          "answer": "$m \\in (-\\infty; -1] \\cup [3; +\\infty)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q8-b",
+          "answer": "$m \\in [-1; 3]$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q8-c",
+          "answer": "$m \\in (-1; 3)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q8-d",
+          "answer": "$m \\in [-3; 1]$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q8-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q9",
+      "order": 9,
+      "question": "Tìm khoảng giá trị của $m$ để hàm số $y = \\frac{1}{3}x^3 - mx^2 + (m+2)x - 5$ có hai điểm cực trị phân biệt.",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q9-a",
+          "answer": "$(-1; 2)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q9-b",
+          "answer": "$(-\\infty; -1) \\cup (2; +\\infty)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q9-c",
+          "answer": "$(-\\infty; -2) \\cup (1; +\\infty)$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q9-d",
+          "answer": "$[-1; 2]$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q9-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q10",
+      "order": 10,
+      "question": "Cho hàm số $y = \\frac{1}{3}x^3 - mx^2 + (m^2-1)x + 1$ (với $m$ là tham số thực). Có bao nhiêu giá trị nguyên dương của $m$ để hàm số đạt cực trị tại hai điểm $x_1, x_2$ thỏa mãn $x_1^2 + x_2^2 - x_1 x_2 = 7$?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q10-a",
+          "answer": "$0$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q10-b",
+          "answer": "$1$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q10-c",
+          "answer": "$2$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q10-d",
+          "answer": "$3$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q10-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q11",
+      "order": 11,
+      "question": "Cho hàm số $y=f(x)$ liên tục trên đoạn $[-1; 3]$ và có bảng biến thiên như bên dưới. Giá trị nhỏ nhất của hàm số trên đoạn $[-1; 3]$ bằng bao nhiêu?",
+      "type_question": "four_choice",
+      "path_images": "/data/images/dlt_toan_12_bai_1_2_ketnoitrithuc/dlt_toan_12_bai_1_2_ketnoitrithuc_fourchoie_q11.png",
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q11-a",
+          "answer": "$-2$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q11-b",
+          "answer": "$1$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q11-c",
+          "answer": "$4$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q11-d",
+          "answer": "$5$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q11-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q12",
+      "order": 12,
+      "question": "Giá trị lớn nhất của hàm số $y = x^3 - 3x$ trên đoạn $[0; 2]$ bằng:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q12-a",
+          "answer": "$0$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q12-b",
+          "answer": "$2$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q12-c",
+          "answer": "$-2$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q12-d",
+          "answer": "$4$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q12-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q13",
+      "order": 13,
+      "question": "Giá trị nhỏ nhất của hàm số $y = \\frac{x^2+3}{x-1}$ trên đoạn $[2; 4]$ bằng:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q13-a",
+          "answer": "$7$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q13-b",
+          "answer": "$\\frac{19}{3}$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q13-c",
+          "answer": "$6$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q13-d",
+          "answer": "$2$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q13-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q14",
+      "order": 14,
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m \\in [-5; 5]$ để hàm số $y = \\frac{x-m}{x+1}$ có giá trị lớn nhất trên đoạn $[0; 2]$ bằng $3$?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q14-a",
+          "answer": "$0$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q14-b",
+          "answer": "$1$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q14-c",
+          "answer": "$2$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q14-d",
+          "answer": "$3$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q14-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q15",
+      "order": 15,
+      "question": "Giá trị nhỏ nhất của hàm số $y = x + \\sqrt{4-x^2}$ trên tập xác định của nó là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q15-a",
+          "answer": "$-2$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q15-b",
+          "answer": "$2\\sqrt{2}$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q15-c",
+          "answer": "$2$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q15-d",
+          "answer": "$0$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q15-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q16",
+      "order": 16,
+      "question": "(Tình huống thực tế) Một xưởng cơ khí cần làm một thùng chứa nước hình hộp chữ nhật không có nắp đậy, đáy là hình vuông, với thể tích không đổi là $8 \\text{ m}^3$. Biết đơn giá của vật liệu làm đáy thùng là $200.000 \\text{ VNĐ/m}^2$, đơn giá của vật liệu làm mặt xung quanh là $100.000 \\text{ VNĐ/m}^2$. Hỏi chi phí vật liệu thấp nhất để hoàn thành chiếc thùng này là bao nhiêu?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q16-a",
+          "answer": "$1.200.000 \\text{ VNĐ}$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q16-b",
+          "answer": "$2.400.000 \\text{ VNĐ}$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q16-c",
+          "answer": "$1.800.000 \\text{ VNĐ}$"
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q16-d",
+          "answer": "$3.200.000 \\text{ VNĐ}$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q16-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q17",
+      "order": 17,
+      "question": "Cho hàm số $y = f(x)$ có đạo hàm trên khoảng $(a; b)$.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q17-a",
+          "answer": "Nếu $f'(x) > 0, \\forall x \\in (a; b)$ thì hàm số $f(x)$ đồng biến trên $(a; b)$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q17-b",
+          "answer": "Nếu hàm số $f(x)$ nghịch biến trên $(a; b)$ thì $f'(x) < 0, \\forall x \\in (a; b)$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q17-c",
+          "answer": "Điểm cực đại của hàm số luôn là điểm mà tại đó đạo hàm $f'(x)$ bằng $0$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q17-d",
+          "answer": "Nếu đạo hàm $f'(x)$ đổi dấu từ âm sang dương khi đi qua điểm $x_0 \\in (a;b)$ thì $x_0$ là điểm cực tiểu của hàm số."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q17-a",
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q17-d"
+        ],
+        "false_answer": [
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q17-b",
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q17-c"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q18",
+      "order": 18,
+      "question": "Cho hàm số $y = \\frac{2x-1}{x+1}$.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q18-a",
+          "answer": "Tập xác định của hàm số là $D = \\mathbb{R} \\setminus \\{-1\\}$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q18-b",
+          "answer": "Đạo hàm của hàm số là $y' = \\frac{1}{(x+1)^2} > 0, \\forall x \\neq -1$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q18-c",
+          "answer": "Hàm số đồng biến trên toàn bộ tập xác định $\\mathbb{R} \\setminus \\{-1\\}$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q18-d",
+          "answer": "Đồ thị hàm số không có điểm cực trị."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q18-a",
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q18-d"
+        ],
+        "false_answer": [
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q18-b",
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q18-c"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q19",
+      "order": 19,
+      "question": "Cho hàm số $y = x + \\frac{4}{x}$ xét trên khoảng $(0; +\\infty)$.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q19-a",
+          "answer": "$\\lim\\limits_{x \\to 0^+} y = +\\infty$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q19-b",
+          "answer": "Hàm số đạt giá trị nhỏ nhất tại $x=4$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q19-c",
+          "answer": "Giá trị nhỏ nhất của hàm số trên $(0; +\\infty)$ là $4$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q19-d",
+          "answer": "Hàm số có giá trị lớn nhất trên $(0; +\\infty)$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q19-a",
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q19-c"
+        ],
+        "false_answer": [
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q19-b",
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q19-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q20",
+      "order": 20,
+      "question": "(Ứng dụng thực tế) Một công ty quản lý một khu chung cư có $50$ căn hộ cho thuê. Nếu giá thuê mỗi căn là $2.000.000 \\text{ VNĐ/tháng}$ thì tất cả các căn hộ đều được thuê hết. Nghiên cứu thị trường cho thấy, cứ tăng giá thuê mỗi căn thêm $100.000 \\text{ VNĐ/tháng}$ thì sẽ có thêm $1$ căn hộ bị bỏ trống không có người thuê. Gọi $x$ là số lần tăng giá $100.000 \\text{ VNĐ}$ ($x \\in \\mathbb{N}$).",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q20-a",
+          "answer": "Hàm số biểu diễn tổng doanh thu (đơn vị: nghìn đồng) theo $x$ là $f(x) = (50 - x)(2000 + 100x)$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q20-b",
+          "answer": "Đạo hàm của hàm doanh thu theo $x$ là $f'(x) = 3000 - 200x$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q20-c",
+          "answer": "Doanh thu đạt giá trị lớn nhất khi ban quản lý tăng giá thuê mỗi căn hộ thêm $1.500.000 \\text{ VNĐ/tháng}$."
+        },
+        {
+          "id_answer": "dlt_toan_12_bai_1_2_ketnoitrithuc-q20-d",
+          "answer": "Giá trị lớn nhất của tổng doanh thu đạt được là $125.000.000 \\text{ VNĐ/tháng}$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q20-a",
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q20-b",
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q20-c"
+        ],
+        "false_answer": [
+          "dlt_toan_12_bai_1_2_ketnoitrithuc-q20-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q21",
+      "order": 21,
+      "question": "Có bao nhiêu giá trị nguyên của tham số $m \\in [0; 10]$ để hàm số $y = x^3 - 3x^2 + mx - 1$ đồng biến trên khoảng $(0; +\\infty)$?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "8"
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q22",
+      "order": 22,
+      "question": "Cho hàm số $y=f(x)$ có đạo hàm $f'(x) = x(x-1)^2(x-2)$ với mọi $x \\in \\mathbb{R}$. Hỏi hàm số $g(x) = f(x^2 - 2x)$ có bao nhiêu điểm cực trị?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "5"
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q23",
+      "order": 23,
+      "question": "Gọi $M, m$ lần lượt là giá trị lớn nhất và giá trị nhỏ nhất của hàm số $y = \\frac{x^2+x+4}{x+1}$ trên đoạn $[0; 2]$. Tính tổng $M+m$.",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "7"
+      }
+    },
+    {
+      "id_question": "dlt_toan_12_bai_1_2_ketnoitrithuc-q24",
+      "order": 24,
+      "question": "(V-ACT) Một doanh nghiệp dự định sản xuất các thùng đựng nước hình trụ không có nắp đậy với thể tích $V = 1 \\text{ m}^3$. Biết chi phí sản xuất mặt đáy là $500.000 \\text{ VNĐ/m}^2$, chi phí sản xuất mặt xung quanh là $300.000 \\text{ VNĐ/m}^2$. Gọi $r$ (mét) là bán kính đáy của hình trụ để chi phí sản xuất một chiếc thùng là thấp nhất. Tính $r$ (làm tròn kết quả đến hàng phần trăm).",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "0.58"
+      }
+    }
+  ]
+}
