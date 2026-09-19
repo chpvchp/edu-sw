@@ -110,7 +110,7 @@ export default function KetQuaPage() {
         <div className="rounded-2xl border border-[#dbe7ee] bg-white p-5 shadow-sm">
           <p className="text-xs font-bold uppercase tracking-[0.12em] text-[#27735f]">Kết quả luyện tập</p>
           <div className="mt-4 rounded-2xl bg-[#18324b] p-5 text-center text-white">
-            <p className="text-5xl font-extrabold">{results.score}</p>
+            <p className="text-5xl font-extrabold"> {Number(results.score.toFixed(3))}</p>
             <p className="mt-1 text-sm text-white/65">điểm số</p>
           </div>
           <h1 className="mt-5 font-bold leading-snug text-[#18324b]">{results.name_exam}</h1>

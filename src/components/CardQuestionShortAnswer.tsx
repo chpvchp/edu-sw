@@ -57,7 +57,7 @@ function CardQuestionShortAnswer({ question, onChange, data, results }: CardQues
   
   if (results) {
 
-    let classNameInput = "px-2 py-1 border border-red-400 bg-red-100 rounded"
+    let classNameInput = "px-2 py-1 border border-red-800 bg-red-400 rounded"
 
     const studentAnswer = data?.student_results?.[question.id_question]?.answer
 
@@ -94,7 +94,7 @@ function CardQuestionShortAnswer({ question, onChange, data, results }: CardQues
               readOnly
             />
             <input
-              className="rounded-xl border border-[#b8dfd0] bg-[#e9f7f0] p-3 font-semibold text-[#27735f]"
+              className="rounded-xl border border-green-800 bg-green-200 p-3 font-semibold text-[#27735f]"
               type="text" 
               value={`Đáp án đúng: ${correctAnswer}`}
               readOnly
