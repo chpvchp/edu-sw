@@ -55,8 +55,10 @@ function CardQuestionFourChoice({ question, onChange, results, data }: CardQuest
           }
           const isStudentAnswer = data?.student_results?.[question.id_question]?.answer === answer.id_answer;
           const isCorrectAnswer = data?.correct_results?.[question.id_question]?.results.correct_answer === answer.id_answer;
-          const resultClassName = isCorrectAnswer
-            ? "border-green-800 bg-green-200"
+          const resultClassName = isCorrectAnswer && isStudentAnswer
+            ? "border-blue-400 bg-blue-100"
+            : isCorrectAnswer
+              ? "border-green-800 bg-green-200"
             : isStudentAnswer
               ? "border-red-800 bg-red-400"
               : "border-[#dbe7ee] bg-white";

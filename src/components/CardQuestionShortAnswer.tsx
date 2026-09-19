@@ -63,7 +63,8 @@ function CardQuestionShortAnswer({ question, onChange, data, results }: CardQues
 
     const correctAnswer = data?.correct_results?.[question.id_question]?.results.short_answer
 
-    const isCorrect = Number(studentAnswer) === Number(correctAnswer)
+    const hasStudentAnswer = studentAnswer !== undefined && studentAnswer !== null && studentAnswer !== ""
+    const isCorrect = hasStudentAnswer && Number(studentAnswer) === Number(correctAnswer)
 
     if (isCorrect) {
       classNameInput = "px-2 py-1 border border-blue-400 bg-blue-100 rounded";

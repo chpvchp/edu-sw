@@ -85,7 +85,7 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
             let classNameFalse = "border-[#dbe7ee] bg-white text-[#6c8494]";
 
             if (isStudentTrue && isCorrectTrue) {
-              classNameTrue = "border-green-800 bg-green-200 text-[#27735f]"
+              classNameTrue = "border-blue-400 bg-blue-100 text-[#18324b]"
             } else if (isStudentTrue && !isCorrectTrue) {
               classNameTrue = "border-red-800 bg-red-400 text-[#b42318]"
             } else if (!isStudentTrue && isCorrectTrue) {
@@ -93,7 +93,7 @@ function CardQuestionTrueFalse({ question, onChange, data, results }: CardQuesti
             }
 
             if (isStudentFalse && isCorrectFalse) {
-              classNameFalse = "border-green-800 bg-green-200 text-[#27735f]"
+              classNameFalse = "border-blue-400 bg-blue-100 text-[#18324b]"
             } else if (isStudentFalse && !isCorrectFalse) {
               classNameFalse = "border-red-800 bg-red-400 text-[#b42318]"
             } else if (!isStudentFalse && isCorrectFalse) {
