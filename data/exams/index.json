@@ -16,5 +16,14 @@
     "duration": 45,
     "updated": "2026-09-22T21:30",
     "created": "2026-09-22T21:30"
+  },
+  {
+    "id_exam": "ls12_bai2",
+    "name_exam": "BÀI 2 TRẬT TỰ THẾ GIỚI TRONG CHIẾN TRANH LẠNH",
+    "name_subject": "Lịch Sử",
+    "class_exam": 12,
+    "duration": 45,
+    "updated": "2026-09-22T22:00",
+    "created": "2026-09-22T22:00"
   }
 ]
