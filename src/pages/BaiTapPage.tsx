@@ -65,6 +65,7 @@ export default function BaiTapPage() {
             <option value="Toán">Toán</option>
             <option value="Vật lý">Vật lý</option>
             <option value="Hóa">Hóa học</option>
+            <option value="Lịch Sử">Lịch Sử</option>
           </select>
         </div>
 
