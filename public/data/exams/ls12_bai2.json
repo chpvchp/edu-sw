@@ -1,0 +1,1485 @@
+{
+  "id_exam": "ls12_bai2",
+  "id_subject": "lichsu",
+  "name_exam": "BÀI 2 TRẬT TỰ THẾ GIỚI TRONG CHIẾN TRANH LẠNH",
+  "name_subject": "Lịch Sử",
+  "class_exam": 12,
+  "duration": 45,
+  "updated": "2026-09-22T22:00",
+  "created": "2026-09-22T22:00",
+  "source": "/documents/pdf/BÀI 2 TRẬT TỰ THẾ GIỚI TRONG CHIẾN TRANH LẠNH.pdf",
+  "questions": [
+    {
+      "id_question": "ls12_bai2-q1",
+      "order": 1,
+      "question": "Đâu không phải là vấn đề quan trọng đặt ra với các nước Đồng minh khi CTTG II bước vào giai đoạn kết thúc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q1-a",
+          "answer": "Nhanh chóng đánh bại hoàn toàn các nước Phát xít."
+        },
+        {
+          "id_answer": "ls12_bai2-q1-b",
+          "answer": "Tổ chức lại trật tự thế giới sau chiến tranh."
+        },
+        {
+          "id_answer": "ls12_bai2-q1-c",
+          "answer": "Phân chia thanh quả chiến thắng giữa các nước thắng trận."
+        },
+        {
+          "id_answer": "ls12_bai2-q1-d",
+          "answer": "Hỗ trợ các nước khôi phục kinh tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q1-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q2",
+      "order": 2,
+      "question": "Tháng 2/1945 các cường quốc trong phe Đồng minh họp tại Ianta với mục đích:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q2-a",
+          "answer": "Thống nhất kế hoạch và thành lập khối bộ chỉ huy chung để tấn công phát xít Đức."
+        },
+        {
+          "id_answer": "ls12_bai2-q2-b",
+          "answer": "Phối hợp hành động giữa các nước đồng Minh để tiêu diệt phát xít Nhật."
+        },
+        {
+          "id_answer": "ls12_bai2-q2-c",
+          "answer": "Giải quyết những mâu thuẩn và tranh chấp trong nội bộ các nước Đồng Minh."
+        },
+        {
+          "id_answer": "ls12_bai2-q2-d",
+          "answer": "Đàm phán, kí kết các hiệp ước với các nước phát xít bại trận"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q2-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q3",
+      "order": 3,
+      "question": "Nguyên thủ những nước nào sau đây tham dự Hội nghị Ianta - Liên Xô (2/1945)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q3-a",
+          "answer": "Anh, Pháp, Mĩ."
+        },
+        {
+          "id_answer": "ls12_bai2-q3-b",
+          "answer": "Liên Xô, Mĩ, Anh. (Xtalin, Rudoven, Sócsin.)."
+        },
+        {
+          "id_answer": "ls12_bai2-q3-c",
+          "answer": "Anh, Pháp, Đức."
+        },
+        {
+          "id_answer": "ls12_bai2-q3-d",
+          "answer": "Mĩ, Liên Xô, Trung Quốc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q3-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q4",
+      "order": 4,
+      "question": "Một trong những nội dung quan trọng của Hội nghị Ianta là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q4-a",
+          "answer": "đàm phán, kí kết các hiệp ước với các nước phát xít bại trận."
+        },
+        {
+          "id_answer": "ls12_bai2-q4-b",
+          "answer": "thỏa thuận việc giải giáp phát xít Nhật ở Đông Dương."
+        },
+        {
+          "id_answer": "ls12_bai2-q4-c",
+          "answer": "thỏa thuận phân chia phạm vi ảnh hưởng ở châu Âu và châu Á."
+        },
+        {
+          "id_answer": "ls12_bai2-q4-d",
+          "answer": "các nước phát xít Đức, Italia kí văn kiện đầu hàng phe Đồng minh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q4-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q5",
+      "order": 5,
+      "question": "Nội dung nào không có trong Hội nghị Ianta?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q5-a",
+          "answer": "Thông nhất tiêu diệt tận gốc CNPX Đức và CNQP Nhật."
+        },
+        {
+          "id_answer": "ls12_bai2-q5-b",
+          "answer": "Thành lập tổ chức Liên Hiệp Quốc để duy trì hòa bình và an ninh thế giới."
+        },
+        {
+          "id_answer": "ls12_bai2-q5-c",
+          "answer": "Phân chia khu vực đóng quân và phạm vi ảnh hưởng ở châu Âu và châu Á."
+        },
+        {
+          "id_answer": "ls12_bai2-q5-d",
+          "answer": "đàm phán, kí kết các hiệp ước với các nước phát xít bại trận."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q5-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q6",
+      "order": 6,
+      "question": "Theo quyết định của Hội nghị Ianta (2/1945), khu vực nào dưới đây thuộc phạm vi ảnh hưởng của Liên Xô?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q6-a",
+          "answer": "Đông Âu, đông Đức, đông Bec-lin, Bắc Triều Tiên."
+        },
+        {
+          "id_answer": "ls12_bai2-q6-b",
+          "answer": "Tây Âu, tây Đức, tây Bec-lin, Nam Triều Tiên"
+        },
+        {
+          "id_answer": "ls12_bai2-q6-c",
+          "answer": "Đông Nam Á, Nam Á, Tây Á"
+        },
+        {
+          "id_answer": "ls12_bai2-q6-d",
+          "answer": "Nhật Bản"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q6-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q7",
+      "order": 7,
+      "question": "Theo quyết định của Hội nghị Ianta, quân đội của những nước nào sẽ làm nhiệm vụ giải giáp chủ nghĩa phát xít tại nước Đức?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q7-a",
+          "answer": "Anh, Pháp, Liên Xô, Mĩ."
+        },
+        {
+          "id_answer": "ls12_bai2-q7-b",
+          "answer": "Anh, Liên Xô, Trung Quốc, Mĩ."
+        },
+        {
+          "id_answer": "ls12_bai2-q7-c",
+          "answer": "Mĩ, Liên Xô, Canada, Pháp."
+        },
+        {
+          "id_answer": "ls12_bai2-q7-d",
+          "answer": "Mĩ, Pháp, Anh, Canada."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q7-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q8",
+      "order": 8,
+      "question": "Sự hình thành nhà nước Cộng hòa Liên bang Đức (9/1949) là :",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q8-a",
+          "answer": "kết quả của cuộc đấu tranh vì độc lập, tự do của người dân Đức."
+        },
+        {
+          "id_answer": "ls12_bai2-q8-b",
+          "answer": "sự thoả thuận của Anh, Mĩ, Liên Xô tại Hội nghị I-an-ta."
+        },
+        {
+          "id_answer": "ls12_bai2-q8-c",
+          "answer": "âm mưu của các nước Anh, Pháp, Mĩ nhằm xây dựng một tiền đồn chống chủ nghĩa xã hội ở châu Âu."
+        },
+        {
+          "id_answer": "ls12_bai2-q8-d",
+          "answer": "hậu quả của những chính sách phản động mà chủ nghĩa phát xít đã thi hành ở đất nước này."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q8-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q9",
+      "order": 9,
+      "question": "Theo quyết định của Hội nghị I-an-ta, nước nào sẽ chiếm đóng Nhật Bản và Nam Triều Tiên sau Chiến tranh thế giới thứ hai?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q9-a",
+          "answer": "Mỹ."
+        },
+        {
+          "id_answer": "ls12_bai2-q9-b",
+          "answer": "Anh."
+        },
+        {
+          "id_answer": "ls12_bai2-q9-c",
+          "answer": "Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai2-q9-d",
+          "answer": "Trung"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q9-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q10",
+      "order": 10,
+      "question": "Theo quyết định của Hội nghị Ianta (2/1945), hai quốc gia nào ở châu Âu trở thành những nước trung lập?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q10-a",
+          "answer": "Pháp và Áo."
+        },
+        {
+          "id_answer": "ls12_bai2-q10-b",
+          "answer": "Anh và Đức."
+        },
+        {
+          "id_answer": "ls12_bai2-q10-c",
+          "answer": "Áo và Phần Lan."
+        },
+        {
+          "id_answer": "ls12_bai2-q10-d",
+          "answer": "Bỉ và Đức."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q10-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q11",
+      "order": 11,
+      "question": "Theo quyết định của Hội nghị Ianta (2/1945), Trung Quốc cần trở thành một quốc gia",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q11-a",
+          "answer": "độc lập và tự do."
+        },
+        {
+          "id_answer": "ls12_bai2-q11-b",
+          "answer": "thống nhất và dân chủ."
+        },
+        {
+          "id_answer": "ls12_bai2-q11-c",
+          "answer": "tự trị và dân chủ."
+        },
+        {
+          "id_answer": "ls12_bai2-q11-d",
+          "answer": "độc lập và thống nhất."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q11-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q12",
+      "order": 12,
+      "question": "Theo quyết định của Hội nghị Ianta (2/1945), quân đội những nước nào sẽ chiếm đóng bán đảo Triều Tiên?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q12-a",
+          "answer": "Anh và Pháp."
+        },
+        {
+          "id_answer": "ls12_bai2-q12-b",
+          "answer": "Trung Hoa Dân quốc và Anh."
+        },
+        {
+          "id_answer": "ls12_bai2-q12-c",
+          "answer": "Liên Xô và Mĩ."
+        },
+        {
+          "id_answer": "ls12_bai2-q12-d",
+          "answer": "Mĩ và Trung Hoa Dân quốc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q12-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q13",
+      "order": 13,
+      "question": "Nội dung gây nhiều tranh cãi nhất giữa ba cường quốc Liên Xô, Mỹ, Anh tại Hội nghị Ianta (LX):",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q13-a",
+          "answer": "Kết thúc chiến tranh thế giới thứ hai để tiêu diệt tận gốc chủ nghĩa phát xít Đức và chủ nghĩa quân phiệt Nhật."
+        },
+        {
+          "id_answer": "ls12_bai2-q13-b",
+          "answer": "Thành lập tổ chức quốc tế - Liên Hợp Quốc."
+        },
+        {
+          "id_answer": "ls12_bai2-q13-c",
+          "answer": "Phân chia khu vực chiếm đóng và phạm vi ảnh hưởng của các cường quốc thắng trận."
+        },
+        {
+          "id_answer": "ls12_bai2-q13-d",
+          "answer": "Giải quyết các hậu quả chiến tranh, phân chia chiến lợi phẩm"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q13-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q14",
+      "order": 14,
+      "question": "Kết quả của hội nghị Ianta:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q14-a",
+          "answer": "Trật tự thế giới mới được hình thành: TT hai cực Ianta."
+        },
+        {
+          "id_answer": "ls12_bai2-q14-b",
+          "answer": "Trật tự thế giới mới được hình thành theo hướng đa cực."
+        },
+        {
+          "id_answer": "ls12_bai2-q14-c",
+          "answer": "Một cuộc chiến tranh thế mới bùng nổ"
+        },
+        {
+          "id_answer": "ls12_bai2-q14-d",
+          "answer": "Mỹ làm bá chủ thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q14-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q15",
+      "order": 15,
+      "question": "Những quyết định của Hội nghị Ianta (2/1945) có ảnh hưởng như thế nào đến tình hình thế giới sau Chiến tranh thế giới thứ hai?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q15-a",
+          "answer": "Mở đầu cho cuộc Chiến tranh lạnh giữa Mĩ và Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai2-q15-b",
+          "answer": "Đánh dấu sự hình thành một trật tự thế giới mới sau chiến tranh."
+        },
+        {
+          "id_answer": "ls12_bai2-q15-c",
+          "answer": "Trở thành khuôn khổ của một trật tự thế giới sau chiến tranh."
+        },
+        {
+          "id_answer": "ls12_bai2-q15-d",
+          "answer": "Đánh dấu sự xác lập vai trò thống trị thế giới của chủ nghĩa đế quốc Mĩ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q15-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q16",
+      "order": 16,
+      "question": "Đặc điểm nổi bật của trật tự thế giới mới được hình thành sau Chiến tranh thế giới thứ hai là gì?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q16-a",
+          "answer": "Được thiết lập trên cơ sở các nước TB thắng trận áp đặt quyền thống trị đối với các nước bại trận."
+        },
+        {
+          "id_answer": "ls12_bai2-q16-b",
+          "answer": "Là trật tự thế giới hoàn toàn do chủ nghĩa tư bản thao túng."
+        },
+        {
+          "id_answer": "ls12_bai2-q16-c",
+          "answer": "Có sự phân tuyến triệt để giữa hai phe: xã hội chủ nghĩa và tư bản chủ nghĩa."
+        },
+        {
+          "id_answer": "ls12_bai2-q16-d",
+          "answer": "Được thiết lập trên cơ sở các nước thắng trận cùng nhau hợp tác để thống trị, bóc lột các nước bại trận và các dân tộc thuộc địa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q16-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q17",
+      "order": 17,
+      "question": "“Trật tự thế giới hai cực I-an-ta sau Chiến tranh thế giới thứ hai bị chi phối bởi hai cường quốc",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q17-a",
+          "answer": "Mỹ và Trung Quốc."
+        },
+        {
+          "id_answer": "ls12_bai2-q17-b",
+          "answer": "Mỹ và Anh."
+        },
+        {
+          "id_answer": "ls12_bai2-q17-c",
+          "answer": "Mỹ và Đức."
+        },
+        {
+          "id_answer": "ls12_bai2-q17-d",
+          "answer": "Mỹ và Liên Xô."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q17-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q18",
+      "order": 18,
+      "question": "Sau Chiến tranh thế giới thứ hai, một trật tự thế giới mới được thiết lập, thường được gọi là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q18-a",
+          "answer": "Trật tự thế giới đa cực."
+        },
+        {
+          "id_answer": "ls12_bai2-q18-b",
+          "answer": "Trật tự thế giới dơn cực."
+        },
+        {
+          "id_answer": "ls12_bai2-q18-c",
+          "answer": "Trật tự thế giới đơn cực I-an-ta."
+        },
+        {
+          "id_answer": "ls12_bai2-q18-d",
+          "answer": "Trật tự thế giới hai cực 1-an-ta."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q18-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q19",
+      "order": 19,
+      "question": "Hội nghị Pốtxdam (7–8/1945) được triệu tập ở đâu?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q19-a",
+          "answer": "Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai2-q19-b",
+          "answer": "Mĩ."
+        },
+        {
+          "id_answer": "ls12_bai2-q19-c",
+          "answer": "Đức."
+        },
+        {
+          "id_answer": "ls12_bai2-q19-d",
+          "answer": "Anh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q19-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q20",
+      "order": 20,
+      "question": "Theo thỏa thuận của Hội nghị Pốtxđam (1945), các nước tham gia giải giáp phát xít Nhật ở Đông Dương là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q20-a",
+          "answer": "Anh và Pháp."
+        },
+        {
+          "id_answer": "ls12_bai2-q20-b",
+          "answer": "Mĩ và Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai2-q20-c",
+          "answer": "Trung Hoa Dân quốc và Anh."
+        },
+        {
+          "id_answer": "ls12_bai2-q20-d",
+          "answer": "Trung Hoa Dân quốc và Liên Xô."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q20-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q21",
+      "order": 21,
+      "question": "Theo thỏa thuận của Hội nghị Pốtxdam (1945), quân đội nước nào tiến hành giải giáp phát xít Nhật vào phía Nam vĩ tuyến 16 ở Đông Dương?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q21-a",
+          "answer": "An."
+        },
+        {
+          "id_answer": "ls12_bai2-q21-b",
+          "answer": "Pháp."
+        },
+        {
+          "id_answer": "ls12_bai2-q21-c",
+          "answer": "Liên Xô"
+        },
+        {
+          "id_answer": "ls12_bai2-q21-d",
+          "answer": "Mĩ"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q21-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q22",
+      "order": 22,
+      "question": "Theo thỏa thuận của Hội nghị Pốtxdam (1945), quân đội nước nào tiến hành giải giáp phát xít Nhật ở phía Bắc vĩ tuyến 16 ở Đông Dương?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q22-a",
+          "answer": "Pháp."
+        },
+        {
+          "id_answer": "ls12_bai2-q22-b",
+          "answer": "Trung Hoa Dân quốc."
+        },
+        {
+          "id_answer": "ls12_bai2-q22-c",
+          "answer": "Anh."
+        },
+        {
+          "id_answer": "ls12_bai2-q22-d",
+          "answer": "Mĩ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q22-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q23",
+      "order": 23,
+      "question": "Tại sao LX và Mỹ chuyển sang đối đầu sau CTTG II?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q23-a",
+          "answer": "Do sự đối lập về mục tiêu và chiến lược giữa hai cường quốc."
+        },
+        {
+          "id_answer": "ls12_bai2-q23-b",
+          "answer": "Do sự phân chia quyền lợi sau CT không đều."
+        },
+        {
+          "id_answer": "ls12_bai2-q23-c",
+          "answer": "Do Mỹ muốn tiêu diệt Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai2-q23-d",
+          "answer": "Do Liên Xô muốn tiêu diệt Mỹ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q23-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q24",
+      "order": 24,
+      "question": "Tháng 6-1947, Mỹ thực hiện Kế hoạch Mác-san nhằm mục đích cơ bản là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q24-a",
+          "answer": "tập hợp các nước tư bản Tây Âu vào liên minh kiên tế - chính trị với Mỹ."
+        },
+        {
+          "id_answer": "ls12_bai2-q24-b",
+          "answer": "tạo điều kiện để phục hưng nền kinh tế châu Âu sang Chiến tranh thế giới thứ hai."
+        },
+        {
+          "id_answer": "ls12_bai2-q24-c",
+          "answer": "thực hiện cam kết của Mĩ đối với quân Đồng minh trong Chiến tranh thế giới thứ hai."
+        },
+        {
+          "id_answer": "ls12_bai2-q24-d",
+          "answer": "viện trợ cho các nước Tây Âu khôi phục kinh tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q24-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q25",
+      "order": 25,
+      "question": "Tháng 1-1949, Liên Xô và các nước Đông Âu thành lập Hội đồng tương trợ kinh tế (SEV) nhằm mục đích gì?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q25-a",
+          "answer": "Tạo ra một cộng đồng kinh tế của các nước Xã hội chủ nghĩa giàu mạnh."
+        },
+        {
+          "id_answer": "ls12_bai2-q25-b",
+          "answer": "Tạo các mối quan hệ chặt chẽ về kinh tế."
+        },
+        {
+          "id_answer": "ls12_bai2-q25-c",
+          "answer": "Tăng cường sự hợp tác, giúp đỡ lẫn nhau giữa các nước Đông Âu."
+        },
+        {
+          "id_answer": "ls12_bai2-q25-d",
+          "answer": "Tạo ra một cộng đồng kinh tế của các nước Tư bản chủ nghĩa giàu mạnh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q25-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q26",
+      "order": 26,
+      "question": "Tổ chức Hiệp ước VACSAVA (1955) của LX và các nước Đông Âu mang tinh chất là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q26-a",
+          "answer": "Liên minh chính trị-quân sự mang tính chất phòng thủ của các nước XHCN ở châu Âu."
+        },
+        {
+          "id_answer": "ls12_bai2-q26-b",
+          "answer": "Liên minh chính trị-quân sự mang tính chất phòng thủ của các nước XHCN trên thế giới."
+        },
+        {
+          "id_answer": "ls12_bai2-q26-c",
+          "answer": "Liên minh kinh tế-chính trị của các nước Đông Âu."
+        },
+        {
+          "id_answer": "ls12_bai2-q26-d",
+          "answer": "Liên minh quân sự của các nước Đông Âu"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q26-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q27",
+      "order": 27,
+      "question": "Sự kiện nào chứng tỏ rằng đã đến lúc chiến tranh lạnh bao trùm cả thế giới ?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q27-a",
+          "answer": "Mỹ thông qua Kế hoạch Mác-san."
+        },
+        {
+          "id_answer": "ls12_bai2-q27-b",
+          "answer": "Kế hoạch Mác-san và sự ra đời của khối quân sự NATO."
+        },
+        {
+          "id_answer": "ls12_bai2-q27-c",
+          "answer": "Sự ra đời của tổ chức quân sự NATO và Tổ chức Hiệp ước Vác-sa-va. (cả hai khối ra sức chạy đua vũ trang, duy trì sự đối đầu về lực lượng quân sự, vũ khí hiện đại nhất là vũ khí hạt nhân)"
+        },
+        {
+          "id_answer": "ls12_bai2-q27-d",
+          "answer": "Sự ra đời và hoạt động của Tổ chức Hiệp ước Vác-sa-va."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q27-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q28",
+      "order": 28,
+      "question": "Nội dung nào sau đây là mục tiêu của Mỹ khi phát động Chiến tranh lạnh (1947)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q28-a",
+          "answer": "Đàn áp phong trào giải phóng dân tộc ở các nước thuộc địa."
+        },
+        {
+          "id_answer": "ls12_bai2-q28-b",
+          "answer": "Chống lại các lực lượng khủng bố ở châu Âu."
+        },
+        {
+          "id_answer": "ls12_bai2-q28-c",
+          "answer": "Chống lại Liên Xô và các nước Đông Âu."
+        },
+        {
+          "id_answer": "ls12_bai2-q28-d",
+          "answer": "Thiết lập khối kinh tế ở các nước Đông Âu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q28-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q29",
+      "order": 29,
+      "question": "Thế nào là “ Chiến tranh lạnh theo phương thức đầy đủ nhất?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q29-a",
+          "answer": "Chuẩn bị gây ra một cuộc chiến tranh thế giới mới."
+        },
+        {
+          "id_answer": "ls12_bai2-q29-b",
+          "answer": "Dùng sức mạnh quân sự đe dọa dối phương."
+        },
+        {
+          "id_answer": "ls12_bai2-q29-c",
+          "answer": "Thực tế chưa gây ra chiến tranh, nhưng sự chay dua vũ trang làm cho nhân loại “luôn luôn ở trong tình trạng chiến tranh”, thực hiện “chính sách du dưa trên miệng hố chiến tranh\"."
+        },
+        {
+          "id_answer": "ls12_bai2-q29-d",
+          "answer": "Chưa gây chiến tranh nhưng dùng chính sách viện trợ để khống chế nước khác"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q29-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q30",
+      "order": 30,
+      "question": "Nội dung nào sau đây là biểu hiện của Chiến tranh lạnh?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q30-a",
+          "answer": "Các cuộc chiến tranh cục bộ diễn ra ở nhiều nơi."
+        },
+        {
+          "id_answer": "ls12_bai2-q30-b",
+          "answer": "Trung Quốc và Liên Xô chạy đua vũ trang."
+        },
+        {
+          "id_answer": "ls12_bai2-q30-c",
+          "answer": "Trung Quốc và Mỹ trở thành hai cực lớn nhất."
+        },
+        {
+          "id_answer": "ls12_bai2-q30-d",
+          "answer": "Mỹ phát triển trở thành một cực duy nhất."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q30-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q31",
+      "order": 31,
+      "question": "Mục tiêu của “Chiến tranh lạnh do Mỹ phat động là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q31-a",
+          "answer": "Mỹ thực hiện chính sách thù địch chống Liên Xô và các nước XHCN."
+        },
+        {
+          "id_answer": "ls12_bai2-q31-b",
+          "answer": "Mỹ lôi kéo Đồng minh của mình chống Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai2-q31-c",
+          "answer": "Chống lại sự ảnh hưởng của Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai2-q31-d",
+          "answer": "Phá hoại phóng trào cách mạng thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q31-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q32",
+      "order": 32,
+      "question": "Hậu quả của chiến tranh lạnh:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q32-a",
+          "answer": "Thế giới luôn trong tình trạng căng thẳng, phức tạp."
+        },
+        {
+          "id_answer": "ls12_bai2-q32-b",
+          "answer": "Các cường quốc phải chi tiêu một khoản tiền khổng lồ để chế tạo và sản xuất vũ khí."
+        },
+        {
+          "id_answer": "ls12_bai2-q32-c",
+          "answer": "Nội chiến, xung đột, chiến tranh cục bộ diễn ra ở nhiều nơi trên thế giới"
+        },
+        {
+          "id_answer": "ls12_bai2-q32-d",
+          "answer": "Cả 3 hậu quả trên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q32-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q33",
+      "order": 33,
+      "question": "Những năm 70 của thế kỉ XX, thế giới xuất hiện xu thế nào sau đây ảnh hưởng đến cục diện của Chiến tranh lạnh?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q33-a",
+          "answer": "Đa quốc gia."
+        },
+        {
+          "id_answer": "ls12_bai2-q33-b",
+          "answer": "Hoà hoãn Đông - Tây."
+        },
+        {
+          "id_answer": "ls12_bai2-q33-c",
+          "answer": "Công nghiệp hoá."
+        },
+        {
+          "id_answer": "ls12_bai2-q33-d",
+          "answer": "Đơn cực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q33-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q34",
+      "order": 34,
+      "question": "Giai đoạn Trật tự thế giới hai cực I-an-ta suy yếu và đi đến sụp đổ diễn ra trong khoảng thời gian",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q34-a",
+          "answer": "Từ cuối những năm 80 của thế kỉ XX đến năm 1991."
+        },
+        {
+          "id_answer": "ls12_bai2-q34-b",
+          "answer": "Từ đầu những năm 70 của thế kỉ XX đến năm 1991."
+        },
+        {
+          "id_answer": "ls12_bai2-q34-c",
+          "answer": "Từ năm 1946 đến đầu những năm 70 của thế kỉ XX."
+        },
+        {
+          "id_answer": "ls12_bai2-q34-d",
+          "answer": "Từ năm 1946 đến đầu những năm 80 của thế kỉ XX."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q34-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q35",
+      "order": 35,
+      "question": "Tháng 12-1989, tại đảo Man-ta (Địa Trung Hải), Tổng bí thư Đảng Cộng sản Liên Xô và Tổng thống Mỹ đã",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q35-a",
+          "answer": "bàn về việc đi đến chấm dứt Chiến tranh lạnh."
+        },
+        {
+          "id_answer": "ls12_bai2-q35-b",
+          "answer": "tuyên bố hạn chế chạy đua vũ trang."
+        },
+        {
+          "id_answer": "ls12_bai2-q35-c",
+          "answer": "chính thức cùng tuyên bố chấm dứt Chiến tranh lạnh."
+        },
+        {
+          "id_answer": "ls12_bai2-q35-d",
+          "answer": "tuyên bố chuyển từ đối đầu sang đối thoại."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q35-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q36",
+      "order": 36,
+      "question": "Sự kiện nào dẫn đến Trật tự thế giới hai cực I-an-ta tan rã?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q36-a",
+          "answer": "Hội đồng tương trợ kinh tế (SEV) giải thể."
+        },
+        {
+          "id_answer": "ls12_bai2-q36-b",
+          "answer": "Tổ chức Hiệp ước Vác-sa-va ngừng hoạt động."
+        },
+        {
+          "id_answer": "ls12_bai2-q36-c",
+          "answer": "Chiến tranh lạnh chấm dứt."
+        },
+        {
+          "id_answer": "ls12_bai2-q36-d",
+          "answer": "Liên Xô tan rã, hệ thống xã hội chủ nghĩa thế giới sụp đổ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q36-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q37",
+      "order": 37,
+      "question": "Sự kiện nào sau đây chính thức chấm dứt sự tồn tại của Trật tự thế giới hai cực I-an-ta?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q37-a",
+          "answer": "Cuộc gặp giữa hai nhà lãnh đạo Liên Xô và Mỹ ở đảo Man-ta (1989)."
+        },
+        {
+          "id_answer": "ls12_bai2-q37-b",
+          "answer": "Liên Xô và Mỹ ki Hiệp ước hạn chế vũ khí chiến lược (SALT I)."
+        },
+        {
+          "id_answer": "ls12_bai2-q37-c",
+          "answer": "Sự tan rã của Liên Xô năm 1991."
+        },
+        {
+          "id_answer": "ls12_bai2-q37-d",
+          "answer": "Liên Xô và Mỹ suy yếu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q37-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q38",
+      "order": 38,
+      "question": "Nội dung nào sau đây không phải là một trong những nguyên nhân dẫn tới sự sụp đổ của trật tự thế giới hai cực Ianta ở nửa sau thế kỷ 20?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q38-a",
+          "answer": "Cuộc chạy đua vũ trang gây tốn kém, làm suy giảm vị thế Liên Xô và Mĩ."
+        },
+        {
+          "id_answer": "ls12_bai2-q38-b",
+          "answer": "Xu thế hòa hoãn, toàn cầu hóa và cuộc cách mạng công nghiệp lần thứ ba."
+        },
+        {
+          "id_answer": "ls12_bai2-q38-c",
+          "answer": "Sự vươn lên của các cường quốc trong trật tự xu thế da cực, nhiều trung tâm."
+        },
+        {
+          "id_answer": "ls12_bai2-q38-d",
+          "answer": "Phong trào giải phóng dân tộc giành thắng lợi, các quốc gia độc lập ra đời."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q38-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q39",
+      "order": 39,
+      "question": "Nội dung nào sau đây là tác động của sự sụp đổ Trật tự thế giới hai cực 1-an-ta?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q39-a",
+          "answer": "Một trật tự thế giới mới dần hình thành theo xu thế đơn cực."
+        },
+        {
+          "id_answer": "ls12_bai2-q39-b",
+          "answer": "Mở ra chiều hướng và điều kiện thuận lợi để giải quyết hoà bình các cuộc tranh chấp, xung đột."
+        },
+        {
+          "id_answer": "ls12_bai2-q39-c",
+          "answer": "Sự phát triển vượt trội của các nước xã hội chủ nghĩa, đặc biệt là về kinh tế, khoa học, quân sự."
+        },
+        {
+          "id_answer": "ls12_bai2-q39-d",
+          "answer": "Các vấn đề về DT, bản sắc cộng đồng, tôn giáo trên thế giới đã được giải quyết một cách căn bản."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q39-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q40",
+      "order": 40,
+      "question": "Chiến tranh lạnh kết thúc hoàn toàn đã tác động như thế nào đến tình hình thế giới?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q40-a",
+          "answer": "Phạm vi ảnh hưởng của Mĩ và Liên Xô trên thế giới ngày càng bị thu hẹp."
+        },
+        {
+          "id_answer": "ls12_bai2-q40-b",
+          "answer": "Tạo điều kiện cho sự phát triển của chủ nghĩa khủng bố quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai2-q40-c",
+          "answer": "Nhiều cuộc tranh chấp, xung đột được giải quyết bằng biện pháp hòa bình."
+        },
+        {
+          "id_answer": "ls12_bai2-q40-d",
+          "answer": "Đánh dấu mốc chuyển từ đối đầu sang đối thoại trong quan hệ Mĩ – Xô."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q40-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q41",
+      "order": 41,
+      "question": "Ý nào dưới đây không phải là tác động của sự sụp đổ Trật tự thế giới hai cực I-an-ta đến tình hình thế giới?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q41-a",
+          "answer": "Một trật tự thế giới mới dần được hình thành theo xu thế đa cực."
+        },
+        {
+          "id_answer": "ls12_bai2-q41-b",
+          "answer": "Sự tan rã của Liên Xô đã làm thay đổi so sánh tương quan lực lượng trên thế giới với ưu thế tạm thời thuộc về Mỹ."
+        },
+        {
+          "id_answer": "ls12_bai2-q41-c",
+          "answer": "Mỹ bình thường hóa quan hệ với Việt Nam."
+        },
+        {
+          "id_answer": "ls12_bai2-q41-d",
+          "answer": "Mở ra chiều hướng và điều kiện để giải quyết hòa bình các vụ tranh chấp, xung đột"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q41-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q42",
+      "order": 42,
+      "question": "Sự tồn tại của Trật tự hai cực Ianta trong phần lớn nửa sau thế kỉ XX",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q42-a",
+          "answer": "gắn liền với sự căng thẳng của hai cực Mĩ – Trung Quốc."
+        },
+        {
+          "id_answer": "ls12_bai2-q42-b",
+          "answer": "đã không phù hợp với lợi ích của cộng đồng quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai2-q42-c",
+          "answer": "là nguyên nhân chính dẫn tới chiến tranh thế giới mới."
+        },
+        {
+          "id_answer": "ls12_bai2-q42-d",
+          "answer": "làm cho tình hình ở châu Âu và châu Á bớt căng thẳng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q42-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q43",
+      "order": 43,
+      "question": "(Lần 1):** Một trong những biểu hiện của xu thế hoà hoãn Đông – Tây là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q43-a",
+          "answer": "các cuộc gặp gỡ cấp cao Xô - Mỹ, đạt được những thỏa thuận hạn chế vũ khí chiến lược."
+        },
+        {
+          "id_answer": "ls12_bai2-q43-b",
+          "answer": "khủng hoảng năng lượng, dầu mỏ."
+        },
+        {
+          "id_answer": "ls12_bai2-q43-c",
+          "answer": "Cách mạng Trung Quốc thắng lợi ."
+        },
+        {
+          "id_answer": "ls12_bai2-q43-d",
+          "answer": "sự vươn lên mạnh mẽ của Nhật Bản."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q43-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q44",
+      "order": 44,
+      "question": "(Lần 2):** Tác động của Trật tự hai cực I-an-ta đối với nền chính trị thế giới và các quan hệ quốc tế trong phần lớn thời gian nửa sau thế kỉ XX là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q44-a",
+          "answer": "quyết định mọi vấn đề."
+        },
+        {
+          "id_answer": "ls12_bai2-q44-b",
+          "answer": "nhân tố đầu tiên quyết định."
+        },
+        {
+          "id_answer": "ls12_bai2-q44-c",
+          "answer": "làm cho quan hệ quốc tế hòa dịu."
+        },
+        {
+          "id_answer": "ls12_bai2-q44-d",
+          "answer": "nhân tố hàng đầu chi phối."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q44-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q45",
+      "order": 45,
+      "question": "“Từ Vũ trụ, tôi không còn nhìn thấy biên giới các quốc gia! Trái Đất xanh một màu xanh vĩnh cửu là câu nói của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q45-a",
+          "answer": "Ph. Ma-gien-lăng – người đầu tiên thực hiện chuyến đi vòng quanh Trái Đấy bằng đường biển."
+        },
+        {
+          "id_answer": "ls12_bai2-q45-b",
+          "answer": "B. Đi-a-xơ – người phát hiện ra điểm cực nam châu Phi."
+        },
+        {
+          "id_answer": "ls12_bai2-q45-c",
+          "answer": "nhà du hành vũ trụ Ga-ga-rin (Liên Xô) – người đầu tiên thực hiện chuyến bay vào vũ trụ."
+        },
+        {
+          "id_answer": "ls12_bai2-q45-d",
+          "answer": "phi hành gia Nây Am-xtroong (Mỹ) – người đầu tiên đặt chân lên về mặt Mặt Trăng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q45-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai2-q46",
+      "order": 46,
+      "question": "So với TT thế giới theo hệ thống Vécxai – Oa-sinh-tơn, TT hai cực I-an-ta có điểm gì khác biệt?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai2-q46-a",
+          "answer": "Có một tổ chức quốc tế được thành lập để giám sát và duy trì trật tự thế giới."
+        },
+        {
+          "id_answer": "ls12_bai2-q46-b",
+          "answer": "Tồn tại sự đối lập gay gắt giữa hai hệ thống: xã hội chủ nghĩa và tư bản chủ nghĩa."
+        },
+        {
+          "id_answer": "ls12_bai2-q46-c",
+          "answer": "Do các cường quốc thắng trận thiết lập nên để phục vụ lợi ích cao nhất của các nước đó."
+        },
+        {
+          "id_answer": "ls12_bai2-q46-d",
+          "answer": "Hình thành trên cơ sở những quyết định của các hội nghị quốc tế sau chiến tranh thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai2-q46-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    }
+  ]
+}
