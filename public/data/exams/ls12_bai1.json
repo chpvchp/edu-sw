@@ -1,0 +1,1547 @@
+{
+  "id_exam": "ls12_bai1",
+  "id_subject": "lichsu",
+  "name_exam": "BÀI 1 LIÊN HỢP QUỐC",
+  "name_subject": "Lịch Sử",
+  "class_exam": 12,
+  "duration": 45,
+  "updated": "2026-09-22T21:30",
+  "created": "2026-09-22T21:30",
+  "source": "/documents/pdf/BÀI 1 LIÊN HỢP QUỐC.pdf",
+  "questions": [
+    {
+      "id_question": "ls12_bai1-q1",
+      "order": 1,
+      "question": "Liên hợp quốc được thành lập trong bối cảnh lịch sử nào sau dây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q1-a",
+          "answer": "Chiến tranh thế giới thứ hai bùng nổ và lan rộng."
+        },
+        {
+          "id_answer": "ls12_bai1-q1-b",
+          "answer": "Chiến tranh thế giới thứ hai bước vào giai đoạn kết thúc."
+        },
+        {
+          "id_answer": "ls12_bai1-q1-c",
+          "answer": "Chiến tranh thế giới thứ hai dã hoàn toàn kết thúc."
+        },
+        {
+          "id_answer": "ls12_bai1-q1-d",
+          "answer": "Chiến tranh thế giới thứ hai dang diễn ra vô cùng quyết liệt."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q1-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q2",
+      "order": 2,
+      "question": "Bối cảnh lịch sử nào sau dây dẫn đến sự hình thành Liên hợp quốc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q2-a",
+          "answer": "Liên Xô và Mỹ thực hiện Chiến tranh lạnh."
+        },
+        {
+          "id_answer": "ls12_bai1-q2-b",
+          "answer": "Chiến tranh thế giới thứ hai bắt đầu diễn ra ác liệt."
+        },
+        {
+          "id_answer": "ls12_bai1-q2-c",
+          "answer": "Nhu cầu xác lập một tổ chức quốc tế nhằm duy trì hòa bình và trật tự thế giới sau chiến tranh."
+        },
+        {
+          "id_answer": "ls12_bai1-q2-d",
+          "answer": "Các nước thắng trận trong chiến tranh thế giới thứ nhất phân chia phạm vi ảnh hưởng trên toàn cầu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q2-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q3",
+      "order": 3,
+      "question": "Ngày 1-1-1942, đại diện của 26 nước đã ký văn kiện nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q3-a",
+          "answer": "Xoá bỏ phân biệt chủng tộc."
+        },
+        {
+          "id_answer": "ls12_bai1-q3-b",
+          "answer": "Xoá bỏ chế độ thuộc địa."
+        },
+        {
+          "id_answer": "ls12_bai1-q3-c",
+          "answer": "Tuyên bố Liên hợp quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q3-d",
+          "answer": "Tuyên ngôn Liên hợp quốc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q3-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q4",
+      "order": 4,
+      "question": "Một trong những yếu tố dẫn đến sự ra đời của tổ chức Liên Hợp Quốc là gì?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q4-a",
+          "answer": "Sự cần thiết phải hợp tác để tiêu diệt chủ nghĩa khủng bố."
+        },
+        {
+          "id_answer": "ls12_bai1-q4-b",
+          "answer": "Sự thành lập của các tổ chức liên kết khu vực như EU, ASEAN."
+        },
+        {
+          "id_answer": "ls12_bai1-q4-c",
+          "answer": "Sự hình thành của các công ty độc quyền xuyên quốc gia."
+        },
+        {
+          "id_answer": "ls12_bai1-q4-d",
+          "answer": "Sự cần thiết phải thành lập tổ chức mới thay thế Hội Quốc liên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q4-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q5",
+      "order": 5,
+      "question": "Bá cường quốc Liên Xô, Mĩ, Anh thống nhất thành lập Liên hợp Quốc tại Hội nghị nào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q5-a",
+          "answer": "Hội nghị Ianta - Liên Xô (2 - 1945)."
+        },
+        {
+          "id_answer": "ls12_bai1-q5-b",
+          "answer": "Hội nghị Xan Phranxixcô - Mĩ (4 - 6 - 1945)."
+        },
+        {
+          "id_answer": "ls12_bai1-q5-c",
+          "answer": "Hội nghị Pốtxđam - Đức (7-8-1945)."
+        },
+        {
+          "id_answer": "ls12_bai1-q5-d",
+          "answer": "Hội nghị Têhêran - Iran (2-1943)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q5-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q6",
+      "order": 6,
+      "question": "Hiến chương Liên hợp quốc được thông qua tại Hội nghị nào ?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q6-a",
+          "answer": "Hội nghị Ianta (1945)."
+        },
+        {
+          "id_answer": "ls12_bai1-q6-b",
+          "answer": "Hội nghị Xan Phranxixcô (1945)."
+        },
+        {
+          "id_answer": "ls12_bai1-q6-c",
+          "answer": "Hội nghị Pốtxđam (1946)."
+        },
+        {
+          "id_answer": "ls12_bai1-q6-d",
+          "answer": "Hội nghị Pari (1973)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q6-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q7",
+      "order": 7,
+      "question": "Sự kiện nào sau đây đánh dấu việc Liên hợp quốc chính thức được thành lập?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q7-a",
+          "answer": "Tháng 1/1942 đại diện 26 nước kí tuyên bố Liên Hợp Quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q7-b",
+          "answer": "Từ tháng 04 đến tháng 6 năm 1945 đại diện 50 nước thông qua Hiến Chương Liên hợp quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q7-c",
+          "answer": "Ngày 24/10/1945 các nước thành viên phê chuẩn Hiến Chương Liên hợp quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q7-d",
+          "answer": "Tháng 2 năm 1945, Liên Xô, Mỹ, Anh thống Nhất thành lập Liên hợp quốc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q7-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q8",
+      "order": 8,
+      "question": "Tại sao lấy ngày 24/10/1945 là ngày thành lập LHQ?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q8-a",
+          "answer": "Ngày Hiến chương LHQ chính thức có hiệu lực."
+        },
+        {
+          "id_answer": "ls12_bai1-q8-b",
+          "answer": "Ngày tuyên bố quyết định thành lập LHQ."
+        },
+        {
+          "id_answer": "ls12_bai1-q8-c",
+          "answer": "Ngày thông qua Hiến chương LHQ."
+        },
+        {
+          "id_answer": "ls12_bai1-q8-d",
+          "answer": "Ngày Hội nghị Ianta quyết định thành lập LHQ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q8-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q9",
+      "order": 9,
+      "question": "Nơi nào được chọn để đặt trụ sở Liên Hợp Quốc:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q9-a",
+          "answer": "Xan Phoranxixcô."
+        },
+        {
+          "id_answer": "ls12_bai1-q9-b",
+          "answer": "Niu Ióoc."
+        },
+        {
+          "id_answer": "ls12_bai1-q9-c",
+          "answer": "Oasinhton."
+        },
+        {
+          "id_answer": "ls12_bai1-q9-d",
+          "answer": "Caliphoócnia."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q9-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q10",
+      "order": 10,
+      "question": "Duy trì hòa bình và an ninh thế giới là nhiệm vụ chính của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q10-a",
+          "answer": "Liên minh châu Âu"
+        },
+        {
+          "id_answer": "ls12_bai1-q10-b",
+          "answer": "Hội nghị I-an-ta."
+        },
+        {
+          "id_answer": "ls12_bai1-q10-c",
+          "answer": "tổ chức ASEAN."
+        },
+        {
+          "id_answer": "ls12_bai1-q10-d",
+          "answer": "Liên hợp quốc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q10-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q11",
+      "order": 11,
+      "question": "Nội dung nào sau đây là mục tiêu hoạt động của Liên hợp quốc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q11-a",
+          "answer": "Xây dựng một tổ chức Liên hợp quốc vững mạnh về quân sự và thịnh vượng về kinh tế."
+        },
+        {
+          "id_answer": "ls12_bai1-q11-b",
+          "answer": "Hợp tác quốc tế trong việc giải quyết các vấn đề quốc tế về kinh tế, xã hội, văn hoá, nhân đạo."
+        },
+        {
+          "id_answer": "ls12_bai1-q11-c",
+          "answer": "Giải quyết thành công vấn đề an sinh, xã hội của từng quốc gia."
+        },
+        {
+          "id_answer": "ls12_bai1-q11-d",
+          "answer": "Liên kết các quốc gia thành các trung tâm kinh tế - văn hoá."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q11-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q12",
+      "order": 12,
+      "question": "Nội dung nào không phải là mục đích của tổ chức Liên hợp quốc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q12-a",
+          "answer": "Thúc đẩy mối quan hệ hữu giữa các dân tộc. Trên cơ sở tôn trọng quyền bình đẳng..."
+        },
+        {
+          "id_answer": "ls12_bai1-q12-b",
+          "answer": "Hợp tác quốc tế trong việc giải quyết các vấn đề quốc tế về kinh tế, xã hội, văn hoá, nhân dao..."
+        },
+        {
+          "id_answer": "ls12_bai1-q12-c",
+          "answer": "Trở thành trung tâm điều phối mọi hành động cả các dân tộc."
+        },
+        {
+          "id_answer": "ls12_bai1-q12-d",
+          "answer": "Hỗ trợ các nước sớm khắc phục hậu quả chiến tranh thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q12-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q13",
+      "order": 13,
+      "question": "Nội dung nào không phải là nguyên tắc hoạt động của Liên hợp quốc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q13-a",
+          "answer": "Bình đẳng chủ quyền của tất cả các quốc gia thành viên."
+        },
+        {
+          "id_answer": "ls12_bai1-q13-b",
+          "answer": "Tôn trọng toàn vẹn lãnh thổ và độc lập chính trị quốc gia."
+        },
+        {
+          "id_answer": "ls12_bai1-q13-c",
+          "answer": "Hợp tác có hiệu quả trong các lĩnh vực kinh tế, văn hóa, xã hội."
+        },
+        {
+          "id_answer": "ls12_bai1-q13-d",
+          "answer": "Giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q13-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q14",
+      "order": 14,
+      "question": "Hội đồng Bảo an Liên hợp quốc có bao nhiêu nước thành viên ?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q14-a",
+          "answer": "15 thành viên"
+        },
+        {
+          "id_answer": "ls12_bai1-q14-b",
+          "answer": "5 thành viên."
+        },
+        {
+          "id_answer": "ls12_bai1-q14-c",
+          "answer": "20 thành viên"
+        },
+        {
+          "id_answer": "ls12_bai1-q14-d",
+          "answer": "10 thành viên"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q14-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q15",
+      "order": 15,
+      "question": "Nhóm P5 – Ủy viên thường trực Hội đồng Bảo an Liên hợp quốc có quyền quyết định các vấn đề trọng đại của thế giới, bao gồm các nước nào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q15-a",
+          "answer": "Mỹ, Anh, Pháp, Việt Nam và Trung Quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q15-b",
+          "answer": "Mỹ, Anh, Pháp, Liên bang Nga và Trung Quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q15-c",
+          "answer": "Ai Cập, Áo, Ấn Độ, Liên bang Nga và Bỉ."
+        },
+        {
+          "id_answer": "ls12_bai1-q15-d",
+          "answer": "Ba Lan, Đức, Cuba, Trung Quốc và Việt Nam."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q15-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q16",
+      "order": 16,
+      "question": "Nhiệm vụ của Hội đồng bảo an Liên Hiệp Quốc là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q16-a",
+          "answer": "Giải quyết mọi công việc hành chính của Liên Hiệp Quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q16-b",
+          "answer": "Chịu trách nhiệm chính về duy trì hòa bình và an ninh thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q16-c",
+          "answer": "Giải quyết kịp thời những việc bức thiết của nhân loại: nạn đói, bệnh tật..."
+        },
+        {
+          "id_answer": "ls12_bai1-q16-d",
+          "answer": "Tất cả các nhiệm vụ trên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q16-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q17",
+      "order": 17,
+      "question": "Cơ quan quan trọng nhất của LHQ là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q17-a",
+          "answer": "Hội đồng bảo an vì nó chịu trách nhiệm chính về duy trì hòa bình và an ninh thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q17-b",
+          "answer": "Đại hội đồng, vì dây là hội nghị các nước thành viên."
+        },
+        {
+          "id_answer": "ls12_bai1-q17-c",
+          "answer": "Ban thư kí, vì dây là cơ quan hành chính của LHQ."
+        },
+        {
+          "id_answer": "ls12_bai1-q17-d",
+          "answer": "Các tổ chức chuyên môn vì nó làm nhiều việc có ích cho các nước thành viên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q17-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q18",
+      "order": 18,
+      "question": "Việt Nam được bầu làm Ủy viên không thường trực Hội đồng Bảo an Liên hợp quốc ở nhiệm kì nào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q18-a",
+          "answer": "2005-2006 và 2020-2021."
+        },
+        {
+          "id_answer": "ls12_bai1-q18-b",
+          "answer": "2020-2021 và 2023-2024."
+        },
+        {
+          "id_answer": "ls12_bai1-q18-c",
+          "answer": "2009-2010 và 2015-2016."
+        },
+        {
+          "id_answer": "ls12_bai1-q18-d",
+          "answer": "2008-2009 và 2020-2021."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q18-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q19",
+      "order": 19,
+      "question": "Từ tháng 9 năm 1977, Việt Nam trở thành thành viên thứ mấy của Liên hợp quốc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q19-a",
+          "answer": "Thành viên thứ 148."
+        },
+        {
+          "id_answer": "ls12_bai1-q19-b",
+          "answer": "Thành viên thứ 146."
+        },
+        {
+          "id_answer": "ls12_bai1-q19-c",
+          "answer": "Thành viên thứ 149."
+        },
+        {
+          "id_answer": "ls12_bai1-q19-d",
+          "answer": "Thành viên thứ 147."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q19-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q20",
+      "order": 20,
+      "question": "Sự tham gia của Liên Xô trong ban thường trực Hội đồng Bảo an Liên hợp quốc đã",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q20-a",
+          "answer": "làm cho xu thế hòa bình trở nên phổ biến sau Chiến tranh thế giới thứ hai."
+        },
+        {
+          "id_answer": "ls12_bai1-q20-b",
+          "answer": "góp phần hạn chế sự thao túng của chủ nghĩa tư bản dối với Liên hợp quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q20-c",
+          "answer": "khẳng định vai trò tối cao của chủ nghĩa xã hội trong tổ chức Liên hợp quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q20-d",
+          "answer": "xoa dịu mâu thuẫn giữa khối tư bản chủ nghĩa và xã hội chủ nghĩa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q20-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q21",
+      "order": 21,
+      "question": "Vai trò của Liên hợp quốc trong lĩnh vực duy trì hòa bình, an ninh quốc tế là?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q21-a",
+          "answer": "Giải quyết xung đột và tranh chấp ở nhiều khu vực, khôi phục hòa bình và hỗ trợ tái thiết ở nhiều quốc gia."
+        },
+        {
+          "id_answer": "ls12_bai1-q21-b",
+          "answer": "Hỗ trợ các nền kinh tế kém phát triển thông qua các chương trình, quỹ, các cơ quan chuyên môn,..."
+        },
+        {
+          "id_answer": "ls12_bai1-q21-c",
+          "answer": "Thực thi quyền con người, xây dựng một thế giới công bằng hơn."
+        },
+        {
+          "id_answer": "ls12_bai1-q21-d",
+          "answer": "Phát triển bền vững trên ba lĩnh vực chính là kinh tế, xã hội và môi trường."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q21-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q22",
+      "order": 22,
+      "question": "Đặc điểm nào dưới đây thể hiện vai trò của tổ chức Liên hợp quốc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q22-a",
+          "answer": "Tổ chức phi chính phủ lớn nhất hành tinh,"
+        },
+        {
+          "id_answer": "ls12_bai1-q22-b",
+          "answer": "Tổ chức kinh tế, chính trị lớn nhất hành tinh."
+        },
+        {
+          "id_answer": "ls12_bai1-q22-c",
+          "answer": "Diễn đàn quốc tế vừa hợp tác và tương trợ."
+        },
+        {
+          "id_answer": "ls12_bai1-q22-d",
+          "answer": "Diễn đàn quốc tế vừa hợp tác, vừa đấu tranh nhằm duy trì hòa bình, an ninh quốc tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q22-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q23",
+      "order": 23,
+      "question": "ND nào không phải là Vai trò của Liên hợp quốc trong lĩnh vực duy trì hòa bình, an ninh quốc tế",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q23-a",
+          "answer": "Giải quyết xung đột và tranh chấp ở nhiều khu vực, khôi phục hòa bình và hỗ trợ tái thiết ở nhiều quốc gia."
+        },
+        {
+          "id_answer": "ls12_bai1-q23-b",
+          "answer": "Xây dựng hệ thống các công ước, hiệp ước giải trừ quân bị, ngăn chặn vũ khí hủy diệt."
+        },
+        {
+          "id_answer": "ls12_bai1-q23-c",
+          "answer": "Thúc đẩy quá trình ph thực dân hóa... xoal bỏ chế độ phân biệt chủng tộc"
+        },
+        {
+          "id_answer": "ls12_bai1-q23-d",
+          "answer": "Thông qua Tuyên ngôn Quốc tế Nhân quyền."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q23-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q24",
+      "order": 24,
+      "question": "Đâu không phải là công ước, hiệp ước quốc tế về giải trừ quân bị cũng như ngăn chặn phổ biến vũ khí hủy diệt hàng loạt do Liên hợp quốc xây dựng?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q24-a",
+          "answer": "Hiệp ước cấm phổ biến vũ khí hạt nhân (1968)."
+        },
+        {
+          "id_answer": "ls12_bai1-q24-b",
+          "answer": "Công ước cấm sử dụng, phát triển và tàng trữ vũ khí hóa học và về việc phá hủy các loại vũ khí này (1993)."
+        },
+        {
+          "id_answer": "ls12_bai1-q24-c",
+          "answer": "Công ước quốc tế về các quyền kinh tế, xã hội và văn hóa."
+        },
+        {
+          "id_answer": "ls12_bai1-q24-d",
+          "answer": "Hiệp ước cầm vũ khí hạt nhân (2017)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q24-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q25",
+      "order": 25,
+      "question": "Ngày quốc tế xóa nghèo ( 17/10 hằng năm), được Đại hội đồng Liên hợp quốc thông qua từ năm 1992 nhằm",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q25-a",
+          "answer": "hạn chế việc sở hữu các loại vũ khí hạt nhân."
+        },
+        {
+          "id_answer": "ls12_bai1-q25-b",
+          "answer": "kêu gọi tất cả các quốc gia hợp lực, bằng các hoạt động cụ thể nhằm loại bỏ nghèo đói và khổ đầu."
+        },
+        {
+          "id_answer": "ls12_bai1-q25-c",
+          "answer": "tôn trọng và quan tâm đối với trẻ em, là diều kiện cần thiết để trẻ em được phát triển đầy đủ."
+        },
+        {
+          "id_answer": "ls12_bai1-q25-d",
+          "answer": "bảo vệ hành tinh và dảm bảo hòa bình, thịnh vượng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q25-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q26",
+      "order": 26,
+      "question": "Tháng 9/2015 tại Hội nghị thượng đỉnh ở Niu Óoc, LHQ thông qua Chương trình nghị sự 2030 với 17 mục tiêu, lấy phát triển bền vững là định hướng thường xuyên của ba trụ cột",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q26-a",
+          "answer": "kinh tế, xã hội, môi trường."
+        },
+        {
+          "id_answer": "ls12_bai1-q26-b",
+          "answer": "kinh tế, chính trị, xã hội."
+        },
+        {
+          "id_answer": "ls12_bai1-q26-c",
+          "answer": "hòa bình, hợp tác, phát triển,"
+        },
+        {
+          "id_answer": "ls12_bai1-q26-d",
+          "answer": "kinh tế, quân sự, chính trị."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q26-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q27",
+      "order": 27,
+      "question": "Nội dung nào dưới đây không phải là vai trò của Liên hợp quốc trong lĩnh vực phát triển?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q27-a",
+          "answer": "Đề ra từng chiến lược cho từng thập kỉ nhằm huy động sự hợp tác quốc tế cho các mục tiêu phát triển chung."
+        },
+        {
+          "id_answer": "ls12_bai1-q27-b",
+          "answer": "Chú trọng phát triển các vấn đề về giáo dục, nhân đạo."
+        },
+        {
+          "id_answer": "ls12_bai1-q27-c",
+          "answer": "Lấy phát triển bền vững là định hướng xuyên suốt của ba trụ cột kinh tế, xã hội và môi trường."
+        },
+        {
+          "id_answer": "ls12_bai1-q27-d",
+          "answer": "Hỗ trợ trực tiếp về vốn, tri thức,... nhằm thúc đẩy phát triển, tạo môi trường thuận lợi để phát triển kinh tế, tài chính, thương mại quốc tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q27-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q28",
+      "order": 28,
+      "question": "Năm 1948 Đại hội đồng Liên hợp quốc thông qua Tuyên ngôn Quốc tế Nhân quyền để",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q28-a",
+          "answer": "khẳng định những quyền cơ bản của con người."
+        },
+        {
+          "id_answer": "ls12_bai1-q28-b",
+          "answer": "thúc đẩy quá trình phi thực dân hóa."
+        },
+        {
+          "id_answer": "ls12_bai1-q28-c",
+          "answer": "thủ tiêu các hình thức của chế độ phân biệt chủng tộc."
+        },
+        {
+          "id_answer": "ls12_bai1-q28-d",
+          "answer": "xóa bỏ chủ nghĩa thực dân trên phạm vi toàn cầu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q28-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q29",
+      "order": 29,
+      "question": "Văn kiện nào làm cơ sở cho việc ra đời hơn 80 công ước và tuyên bố về quyền con người?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q29-a",
+          "answer": "Chương trình lương thực thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q29-b",
+          "answer": "Quỹ Nhi đồng."
+        },
+        {
+          "id_answer": "ls12_bai1-q29-c",
+          "answer": "Tuyên ngôn Quốc tế Nhân quyền."
+        },
+        {
+          "id_answer": "ls12_bai1-q29-d",
+          "answer": "Tuyên ngôn Nghĩa vụ con người."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q29-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q30",
+      "order": 30,
+      "question": "Ý nghĩa của việc thành lập các Công ước và tuyên bố quốc tế về quyền con người của LHQ là?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q30-a",
+          "answer": "đảm bảo thực thi quyền con người, xây dựng một thế giới an toàn và công bằng hơn."
+        },
+        {
+          "id_answer": "ls12_bai1-q30-b",
+          "answer": "thắt chặt sự hợp tác về giáo dục, khoa học, văn hóa, xã hội giữa các quốc gia thành viên."
+        },
+        {
+          "id_answer": "ls12_bai1-q30-c",
+          "answer": "đảm bảo quyền có việc làm, quyền được được chăm sóc y tế,..."
+        },
+        {
+          "id_answer": "ls12_bai1-q30-d",
+          "answer": "giải quyết các vấn đề thách thức toàn cầu, chú trọng về giáo dục, nhân đạo,..."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q30-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q31",
+      "order": 31,
+      "question": "Nội dung nào sau đây là vai trò của LHQ về bảo đảm quyền con người, phát triển văn hoá, xã hội?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q31-a",
+          "answer": "Giảm lãi suất cho vay ở hầu hết các nước phát triển."
+        },
+        {
+          "id_answer": "ls12_bai1-q31-b",
+          "answer": "Tăng cường bình đẳng giới và vị thế, năng lực của phụ nữ."
+        },
+        {
+          "id_answer": "ls12_bai1-q31-c",
+          "answer": "Cải thiện năng lực công nghệ thông tin."
+        },
+        {
+          "id_answer": "ls12_bai1-q31-d",
+          "answer": "Hoàn thành phổ cập giáo dục đại học."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q31-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q32",
+      "order": 32,
+      "question": "Là một tổ chức chuyên môn của Liên hợp quốc hoạt động có hiệu quả ở Việt Nam. UNESCO là tên viết tắt của tổ chức nào",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q32-a",
+          "answer": "Y tế thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q32-b",
+          "answer": "Văn hóa, Giáo dục và Khoa học thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q32-c",
+          "answer": "Kinh tế thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q32-d",
+          "answer": "Nông nghiệp thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q32-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q33",
+      "order": 33,
+      "question": "WHO là tên viết tắt của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q33-a",
+          "answer": "Tổ chức Lao động quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai1-q33-b",
+          "answer": "Tổ chức Y tế thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q33-c",
+          "answer": "Quỹ Dân số Liên hợp quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q33-d",
+          "answer": "Tổ chức thương mại thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q33-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q34",
+      "order": 34,
+      "question": "Tổ chức quốc tế di dầu trong lĩnh vực thúc đẩy và bảo vệ quyền trẻ em là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q34-a",
+          "answer": "Quỹ Dân số Liên hợp quốc (UNFPA)."
+        },
+        {
+          "id_answer": "ls12_bai1-q34-b",
+          "answer": "Chương trình Phát triển Liên Hợp Quốc (UNDP)."
+        },
+        {
+          "id_answer": "ls12_bai1-q34-c",
+          "answer": "Tổ chức Di cư Quốc tế (IOM)."
+        },
+        {
+          "id_answer": "ls12_bai1-q34-d",
+          "answer": "Quỹ Nhi đồng Liên hợp quốc (UNICEF)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q34-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q35",
+      "order": 35,
+      "question": "Việt Nam có thể vận dụng nguyên tắc nào của Liên hợp quốc trong cuộc đấu tranh bảo vệ chủ quyền biển đảo hiện nay?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q35-a",
+          "answer": "Bình đẳng chủ quyền giữa các quốc gia và quyền tự quyết của các dân tộc."
+        },
+        {
+          "id_answer": "ls12_bai1-q35-b",
+          "answer": "Tôn trọng toàn vẹn lãnh thổ và độc lập chính trị của tất cả các nước."
+        },
+        {
+          "id_answer": "ls12_bai1-q35-c",
+          "answer": "Chung sống hòa bình và sự nhất trí của 5 nước lớn."
+        },
+        {
+          "id_answer": "ls12_bai1-q35-d",
+          "answer": "Giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q35-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q36",
+      "order": 36,
+      "question": "Sau Hiệp định Giơ-ne-vơ, Mỹ viện trợ kinh tế, quân sự để xây dựng một chính quyền thân Mỹ ở miền Nam Việt Nam hòng chia cắt lâu dài đất nước ta. Hành động đó của Mỹ đã vì phạm nguyên tắc nào trong Hiến chương của Liên hợp quốc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q36-a",
+          "answer": "Không sử dụng vũ lực hoặc đe dọa bằng vũ lực đối với nhau."
+        },
+        {
+          "id_answer": "ls12_bai1-q36-b",
+          "answer": "Giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình."
+        },
+        {
+          "id_answer": "ls12_bai1-q36-c",
+          "answer": "Không can thiệp vào công việc nội bộ của bất kì nước nào."
+        },
+        {
+          "id_answer": "ls12_bai1-q36-b",
+          "answer": "Chung sống hòa bình và sự nhất trí giữa năm nước lớn: Liên Xô, Mỹ, Anh, Pháp và Trung Quốc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q36-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q37",
+      "order": 37,
+      "question": "Nội dung nào sau đây là một trong những cơ sở quan trọng để Liên hợp quốc đề ra nguyên tắc “giải quyết tranh các tranh chấp bằng biện pháp hoà bình”?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q37-a",
+          "answer": "Hoà bình là điều kiện quyết định để duy trì chế độ chính trị."
+        },
+        {
+          "id_answer": "ls12_bai1-q37-b",
+          "answer": "Hoà bình là nguyện vọng, xu thế của các dân tộc trên thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q37-c",
+          "answer": "Mục đích của Liên hợp quốc là cân bằng lợi ích giữa các nước."
+        },
+        {
+          "id_answer": "ls12_bai1-q37-d",
+          "answer": "Tranh chấp, xung đột xảy ra ở hầu hết các khu vực trên thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q37-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q38",
+      "order": 38,
+      "question": "Việt Nam gia nhập Liên hiệp quốc năm nào? Là thành viên thứ mấy?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q38-a",
+          "answer": "4/1975- thứ 7."
+        },
+        {
+          "id_answer": "ls12_bai1-q38-b",
+          "answer": "9/1977-thứ 7"
+        },
+        {
+          "id_answer": "ls12_bai1-q38-c",
+          "answer": "1975-thứ 149"
+        },
+        {
+          "id_answer": "ls12_bai1-q38-d",
+          "answer": "9/1977-thứ 149."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q38-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q39",
+      "order": 39,
+      "question": "Nhận định nào về vị trí, vai trò của của Liên hợp quốc trên trường quốc tế là không đúng?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q39-a",
+          "answer": "Là diễn đàn quốc tế lớn nhất vừa hợp tác, vừa đấu tranh."
+        },
+        {
+          "id_answer": "ls12_bai1-q39-b",
+          "answer": "Thúc đẩy mối quan hệ hợp tác, hữu nghị giữa các dân tộc."
+        },
+        {
+          "id_answer": "ls12_bai1-q39-c",
+          "answer": "Giúp đỡ các quốc gia dân tộc về y tế, văn hoá, giáo dục."
+        },
+        {
+          "id_answer": "ls12_bai1-q39-d",
+          "answer": "Là tổ chức liên kết kinh tế - chính trị lớn nhất hành tinh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q39-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q40",
+      "order": 40,
+      "question": "Sau Chiến tranh thế giới thứ hai, tổ chức Liên hợp quốc được thành lập xuất phát từ",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q40-a",
+          "answer": "yêu cầu của Liên Xô và các nước ở Đông Âu."
+        },
+        {
+          "id_answer": "ls12_bai1-q40-b",
+          "answer": "sự lớn mạnh của phong trào cách mạng thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q40-c",
+          "answer": "ảnh hưởng chương trình 14 điểm của nước Mỹ."
+        },
+        {
+          "id_answer": "ls12_bai1-q40-d",
+          "answer": "nhu cầu duy trì hòa bình bền vững của nhân loại."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q40-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q41",
+      "order": 41,
+      "question": "Nội dung nào sau đây là một trong những cơ sở quan trọng để Liên hợp quốc đề ra nguyên tắc “giải quyết tranh các tranh chấp bằng biện pháp hoà bình ?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q41-a",
+          "answer": "Hoà bình là điều kiện quyết định để duy trì chế độ chính trị."
+        },
+        {
+          "id_answer": "ls12_bai1-q41-b",
+          "answer": "Hoà bình là nguyện vọng, xu thế của các dân tộc trên thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q41-c",
+          "answer": "Mục đích của Liên hợp quốc là cân bằng lợi ích giữa các nước."
+        },
+        {
+          "id_answer": "ls12_bai1-q41-d",
+          "answer": "Tranh chấp, xung đột xảy ra ở hầu hết các khu vực trên thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q41-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q42",
+      "order": 42,
+      "question": "Đâu là nguyên nhân chủ yếu làm cho số lượng các nước thành viên của Liên hợp quốc tăng nhạnh trong giai đoạn 1945-2000?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q42-a",
+          "answer": "Giai đoạn này có nhiều quốc gia đã giành được độc lập."
+        },
+        {
+          "id_answer": "ls12_bai1-q42-b",
+          "answer": "Tác động của trật tự thế giới hai cực và Chiến tranh lạnh."
+        },
+        {
+          "id_answer": "ls12_bai1-q42-c",
+          "answer": "Gia nhập Liên hợp quốc để nhận dược viện trợ kinh tế."
+        },
+        {
+          "id_answer": "ls12_bai1-q42-d",
+          "answer": "Nhiều vấn đề vượt quá sức giải quyết dơn độc của các nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai1-q42-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q43",
+      "order": 43,
+      "question": "Đọc đoạn tư liệu sau dây, trong mỗi ý A, B, C, D, học sinh chọn dùng hoặc sai.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q43-a",
+          "answer": "Đoạn tư liệu thể hiện mục tiêu của Liên hợp quốc là duy trì hoà bình và an ninh quốc phòng cho tất cả các quốc gia."
+        },
+        {
+          "id_answer": "ls12_bai1-q43-b",
+          "answer": "Một trong những mục tiêu của Liên hợp quốc là giải quyết các vụ tranh chấp quốc tế bằng pháp luật của các quốc gia."
+        },
+        {
+          "id_answer": "ls12_bai1-q43-c",
+          "answer": "Trong số các mục tiêu của Liên hợp quốc, duy trì hoà bình và an ninh quốc tế là mục tiêu được đặt lên hàng đầu."
+        },
+        {
+          "id_answer": "ls12_bai1-q43-d",
+          "answer": "Ngày nay, Liên hợp quốc vẫn tiếp tục thực hiện mục tiêu giải quyết các vụ tranh chấp, xung đột quốc tế bằng biện pháp hoà bình."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai1-q43-a",
+          "ls12_bai1-q43-c",
+          "ls12_bai1-q43-d"
+        ],
+        "false_answer": [
+          "ls12_bai1-q43-b"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q44",
+      "order": 44,
+      "question": "Đọc đoạn tư liệu sau đây, trong mỗi ý A, B, C, D, học sinh chọn đúng hoặc sai.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q44-a",
+          "answer": "Đoạn tư liệu thể hiện mục tiêu hoạt động cơ bản của Liên hợp quốc là các quốc gia làm tròn nghĩa vụ đối với tổ chức này."
+        },
+        {
+          "id_answer": "ls12_bai1-q44-b",
+          "answer": "Đoạn tư liệu cho thấy một trong những nguyễn tắc hoạt động của Liên hợp quốc là các quốc gia thành viên thực hiện những nghĩa vụ đảm nhận theo Hiến chương Liên hợp quốc."
+        },
+        {
+          "id_answer": "ls12_bai1-q44-c",
+          "answer": "Đoạn tư liệu là văn bản pháp lí giúp Liên hợp quốc ngăn chặn mọi xung đột giữa các thành viên từ khi tổ chức này thành lập."
+        },
+        {
+          "id_answer": "ls12_bai1-q44-d",
+          "answer": "Mặc dù Liên hợp quốc có những nguyên tắc hoạt động chặt chẽ, nhưng hiện nay giữa một số quốc gia thành viên vẫn diễn ra chiến tranh, xung đột."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai1-q44-b",
+          "ls12_bai1-q44-c",
+          "ls12_bai1-q44-d"
+        ],
+        "false_answer": [
+          "ls12_bai1-q44-a"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q45",
+      "order": 45,
+      "question": "Đọc đoạn tư liệu sau đây:",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q45-a",
+          "answer": "Đoạn tư liệu cho thấy dóng góp của Liên Hợp Quốc đối với duy trì hòa bình và an ninh thế giới."
+        },
+        {
+          "id_answer": "ls12_bai1-q45-b",
+          "answer": "Chỉ có Liên Hợp Quốc mới có thể giúp các nước thuộc địa giành độc lập."
+        },
+        {
+          "id_answer": "ls12_bai1-q45-c",
+          "answer": "Liên hợp quốc là liên minh quân sự trừng trị các nước xâm lược."
+        },
+        {
+          "id_answer": "ls12_bai1-q45-d",
+          "answer": "Đoạn tư liệu cho thấy tính hợp pháp của các cuộc đấu tranh giành độc lập ở các nước thuộc địa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai1-q45-a",
+          "ls12_bai1-q45-d"
+        ],
+        "false_answer": [
+          "ls12_bai1-q45-b",
+          "ls12_bai1-q45-c"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q46",
+      "order": 46,
+      "question": "Đọc đoạn tư liệu sau đây:",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q46-a",
+          "answer": "Tuyên ngôn Quốc tế nhân quyền là văn kiện nhằm bảo đảm quyền cơ bản của con người."
+        },
+        {
+          "id_answer": "ls12_bai1-q46-b",
+          "answer": "Tuyên ngôn Quốc tế nhân quyền là văn kiện nhằm xây dựng một thế giới công bằng, cùng phát triển."
+        },
+        {
+          "id_answer": "ls12_bai1-q46-c",
+          "answer": "Tuyên ngôn Quốc tế nhân quyền là văn kiện được ban hành ngay khi Liên hợp quốc được thành lập."
+        },
+        {
+          "id_answer": "ls12_bai1-q46-d",
+          "answer": "Tuyên ngôn Quốc tế nhân quyền là văn kiện thể hiện vai trò của Liên hợp quốc đối với việc thúc đẩy hợp tác quốc tế về kinh tế, tài chính."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai1-q46-a",
+          "ls12_bai1-q46-b"
+        ],
+        "false_answer": [
+          "ls12_bai1-q46-c",
+          "ls12_bai1-q46-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai1-q47",
+      "order": 47,
+      "question": "Đọc đoạn tư liệu sau đây:",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai1-q47-a",
+          "answer": "Mục tiêu của Tổ chức UNESCO là thúc đẩy hòa bình và an ninh thế giới thông qua hợp tác quốc tế trong các lĩnh vực Giáo dục, Văn hóa, Khoa học."
+        },
+        {
+          "id_answer": "ls12_bai1-q47-b",
+          "answer": "Tổ chức UNESCO đã góp phần bảo vệ các di sản “Quần thể di tích Cố đô Huế”, “Thành nhà Hồ” của Việt Nam."
+        },
+        {
+          "id_answer": "ls12_bai1-q47-c",
+          "answer": "UNESCO là Tổ chức của Liên Hợp Quốc có vai trò quan trọng trong việc giải trừ chủ nghĩa thực dân cũ sau chiến tranh thế giới thứ hai."
+        },
+        {
+          "id_answer": "ls12_bai1-q47-d",
+          "answer": "UNESCO có vai trò quan trọng trong việc thúc đẩy hợp tác quốc tế về Giáo dục, Văn hóa, Khoa học, Quân sự."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai1-q47-a",
+          "ls12_bai1-q47-b"
+        ],
+        "false_answer": [
+          "ls12_bai1-q47-c",
+          "ls12_bai1-q47-d"
+        ],
+        "short_answer": ""
+      }
+    }
+  ]
+}
