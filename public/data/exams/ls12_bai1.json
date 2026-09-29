@@ -5,7 +5,7 @@
   "name_subject": "Lịch Sử",
   "class_exam": 12,
   "duration": 45,
-  "updated": "2026-09-22T21:30",
+  "updated": "2026-09-29T18:35",
   "created": "2026-09-22T21:30",
   "source": "/documents/pdf/BÀI 1 LIÊN HỢP QUỐC.pdf",
   "questions": [
@@ -434,7 +434,7 @@
       "answers": [
         {
           "id_answer": "ls12_bai1-q14-a",
-          "answer": "15 thành viên"
+          "answer": "15 thành viên."
         },
         {
           "id_answer": "ls12_bai1-q14-b",
@@ -451,7 +451,7 @@
       ],
       "results": {
         "explain": "",
-        "correct_answer": "ls12_bai1-q14-b",
+        "correct_answer": "ls12_bai1-q14-a",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
@@ -1381,11 +1381,11 @@
         "explain": "",
         "correct_answer": null,
         "true_answer": [
-          "ls12_bai1-q43-a",
           "ls12_bai1-q43-c",
           "ls12_bai1-q43-d"
         ],
         "false_answer": [
+          "ls12_bai1-q43-a",
           "ls12_bai1-q43-b"
         ],
         "short_answer": ""
@@ -1419,12 +1419,12 @@
         "explain": "",
         "correct_answer": null,
         "true_answer": [
-          "ls12_bai1-q44-b",
-          "ls12_bai1-q44-c",
+          "ls12_bai1-q44-a",
           "ls12_bai1-q44-d"
         ],
         "false_answer": [
-          "ls12_bai1-q44-a"
+          "ls12_bai1-q44-b",
+          "ls12_bai1-q44-c"
         ],
         "short_answer": ""
       }

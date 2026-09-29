@@ -6,13 +6,12 @@ name_subject: Lịch Sử
 class_exam: 12
 duration: 45
 source: /documents/pdf/BÀI 2 TRẬT TỰ THẾ GIỚI TRONG CHIẾN TRANH LẠNH.pdf
+updated: 2026-09-29T18:35
 created: 2026-09-22T22:00
 ---
 
 # Bài 2. TRẬT TỰ THẾ GIỚI TRONG CHIẾN TRANH LẠNH
 ## 1. Trắc nghiệm 4 lựa chọn
-
-
 
 **Câu 2:** Đâu không phải là vấn đề quan trọng đặt ra với các nước Đồng minh khi CTTG II bước vào giai đoạn kết thúc?
 **A.** Nhanh chóng đánh bại hoàn toàn các nước Phát xít. 
@@ -21,9 +20,9 @@ created: 2026-09-22T22:00
 **D.** Hỗ trợ các nước khôi phục kinh tế. **ĐápÁnĐúng**
 
 **Câu 3:** Tháng 2/1945 các cường quốc trong phe Đồng minh họp tại Ianta với mục đích:
-**A.** Thống nhất kế hoạch và thành lập khối bộ chỉ huy chung để tấn công phát xít Đức. **ĐápÁnĐúng**
+**A.** Thống nhất kế hoạch và thành lập khối bộ chỉ huy chung để tấn công phát xít Đức. 
 **B.** Phối hợp hành động giữa các nước đồng Minh để tiêu diệt phát xít Nhật. 
-**C.** Giải quyết những mâu thuẩn và tranh chấp trong nội bộ các nước Đồng Minh. 
+**C.** Giải quyết những mâu thuẩn và tranh chấp trong nội bộ các nước Đồng Minh. **ĐápÁnĐúng**
 **D.** Đàm phán, kí kết các hiệp ước với các nước phát xít bại trận
 
 **Câu 4:** Nguyên thủ những nước nào sau đây tham dự Hội nghị Ianta - Liên Xô (2/1945)?
@@ -129,13 +128,13 @@ created: 2026-09-22T22:00
 **D.** Anh.
 
 **Câu 21:** Theo thỏa thuận của Hội nghị Pốtxđam (1945), các nước tham gia giải giáp phát xít Nhật ở Đông Dương là
-**A.** Anh và Pháp. **ĐápÁnĐúng**
+**A.** Anh và Pháp.
 **B.** Mĩ và Liên Xô. 
-**C.** Trung Hoa Dân quốc và Anh. 
+**C.** Trung Hoa Dân quốc và Anh. **ĐápÁnĐúng**
 **D.** Trung Hoa Dân quốc và Liên Xô.
 
 **Câu 22:** Theo thỏa thuận của Hội nghị Pốtxdam (1945), quân đội nước nào tiến hành giải giáp phát xít Nhật vào phía Nam vĩ tuyến 16 ở Đông Dương?
-**A.** An.  **ĐápÁnĐúng**
+**A.** Anh.  **ĐápÁnĐúng**
 **B.** Pháp.
 **C.** Liên Xô 
 **D.** Mĩ
@@ -146,8 +145,6 @@ created: 2026-09-22T22:00
 **C.** Anh.
 **D.** Mĩ.
 
-
-
 **Câu 25:** Tại sao LX và Mỹ chuyển sang đối đầu sau CTTG II?
 **A.** Do sự đối lập về mục tiêu và chiến lược giữa hai cường quốc.  **ĐápÁnĐúng**
 **B.** Do sự phân chia quyền lợi sau CT không đều. 
@@ -155,17 +152,16 @@ created: 2026-09-22T22:00
 **D.** Do Liên Xô muốn tiêu diệt Mỹ.
 
 **Câu 26:** Tháng 6-1947, Mỹ thực hiện Kế hoạch Mác-san nhằm mục đích cơ bản là
-**A.** tập hợp các nước tư bản Tây Âu vào liên minh kiên tế - chính trị với Mỹ.  **ĐápÁnĐúng**
+**A.** tập hợp các nước tư bản Tây Âu vào liên minh kiên tế - chính trị với Mỹ.
 **B.** tạo điều kiện để phục hưng nền kinh tế châu Âu sang Chiến tranh thế giới thứ hai. 
 **C.** thực hiện cam kết của Mĩ đối với quân Đồng minh trong Chiến tranh thế giới thứ hai. 
-**D.** viện trợ cho các nước Tây Âu khôi phục kinh tế. 
+**D.** viện trợ cho các nước Tây Âu khôi phục kinh tế.  **ĐápÁnĐúng**
 
 **Câu 27:** Tháng 1-1949, Liên Xô và các nước Đông Âu thành lập Hội đồng tương trợ kinh tế (SEV) nhằm mục đích gì?
 **A.** Tạo ra một cộng đồng kinh tế của các nước Xã hội chủ nghĩa giàu mạnh. 
 **B.** Tạo các mối quan hệ chặt chẽ về kinh tế. 
 **C.** Tăng cường sự hợp tác, giúp đỡ lẫn nhau giữa các nước Đông Âu.  **ĐápÁnĐúng**
 **D.** Tạo ra một cộng đồng kinh tế của các nước Tư bản chủ nghĩa giàu mạnh.
-
 
 
 **Câu 29:** Tổ chức Hiệp ước VACSAVA (1955) của LX và các nước Đông Âu mang tinh chất là:
@@ -198,10 +194,10 @@ created: 2026-09-22T22:00
 **C.** Trung Quốc và Mỹ trở thành hai cực lớn nhất. 
 **D.** Mỹ phát triển trở thành một cực duy nhất.
 
-**Câu 34:** Mục tiêu của “Chiến tranh lạnh do Mỹ phat động là:
-**A.** Mỹ thực hiện chính sách thù địch chống Liên Xô và các nước XHCN.
+**Câu 34:** Mục tiêu của "Chiến tranh lạnh do" Mỹ phát động là:
+**A.** Mỹ thực hiện chính sách thù địch chống Liên Xô và các nước XHCN.   **ĐápÁnĐúng**
 **B.** Mỹ lôi kéo Đồng minh của mình chống Liên Xô. 
-**C.** Chống lại sự ảnh hưởng của Liên Xô. **ĐápÁnĐúng**
+**C.** Chống lại sự ảnh hưởng của Liên Xô.
 **D.** Phá hoại phóng trào cách mạng thế giới.
 
 **Câu 35:** Hậu quả của chiến tranh lạnh:
