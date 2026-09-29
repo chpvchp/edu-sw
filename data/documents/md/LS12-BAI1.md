@@ -6,9 +6,9 @@ name_subject: Lịch Sử
 class_exam: 12
 duration: 45
 source: /documents/pdf/BÀI 1 LIÊN HỢP QUỐC.pdf
+updated: 2026-09-29T18:35
 created: 2026-09-22T21:30
 ---
-
 # BÀI 1 LIÊN HỢP QUỐC
 ## 1. Trắc nghiệm 4 lựa chọn
 
@@ -34,7 +34,7 @@ created: 2026-09-22T21:30
 **A.** Sự cần thiết phải hợp tác để tiêu diệt chủ nghĩa khủng bố.
 **B.** Sự thành lập của các tổ chức liên kết khu vực như EU, ASEAN.
 **C.** Sự hình thành của các công ty độc quyền xuyên quốc gia.
-**D.** Sự cần thiết phải thành lập tổ chức mới thay thế Hội Quốc liên. **ĐápÁnĐúng**
+**D.** Sự cần thiết phải thành lập tổ chức mới thay thế Hội Quốc liên.  **ĐápÁnĐúng**
 
 **Câu 5:** Bá cường quốc Liên Xô, Mĩ, Anh thống nhất thành lập Liên hợp Quốc tại Hội nghị nào?
 **A.** Hội nghị Ianta - Liên Xô (2 - 1945). **ĐápÁnĐúng**
@@ -91,8 +91,8 @@ created: 2026-09-22T21:30
 **D.** Giải quyết các tranh chấp quốc tế bằng biện pháp hòa bình.
 
 **Câu 14:** Hội đồng Bảo an Liên hợp quốc có bao nhiêu nước thành viên ? 
-**A.** 15 thành viên
-**B.** 5 thành viên. **ĐápÁnĐúng**
+**A.** 15 thành viên.  **ĐápÁnĐúng**
+**B.** 5 thành viên. 
 **C.** 20 thành viên
 **D.** 10 thành viên
 
@@ -270,7 +270,7 @@ created: 2026-09-22T21:30
 **Câu 1:** Đọc đoạn tư liệu sau dây, trong mỗi ý A, B, C, D, học sinh chọn dùng hoặc sai.
 "Duy trì hoà bình và an ninh quốc tế, và để đạt được mục đích đó, thi hành những biện pháp tập thể có hiệu quả để phòng ngừa và loại trừ các mối đe doạ hoà bình, cấm mọi hành vi xâm lược và phá hoại hoà bình khác, điều chỉnh hoặc giải quyết các vụ tranh chấp hoặc những tình thế có tính chất quốc tế có thể đưa đến sự phá hoại hoà bình, bằng biện pháp hoà bình theo đúng nguyên tắc của công lí và pháp luật quốc tế.
 (Trích: Điều 1, Hiến chương Liên hợp quốc, ngày 24-10-1945)
-*a)* Đoạn tư liệu thể hiện mục tiêu của Liên hợp quốc là duy trì hoà bình và an ninh quốc phòng cho tất cả các quốc gia. **ĐápÁnĐúng**
+*a)* Đoạn tư liệu thể hiện mục tiêu của Liên hợp quốc là duy trì hoà bình và an ninh quốc phòng cho tất cả các quốc gia. **ĐápÁnSai**
 *b)* Một trong những mục tiêu của Liên hợp quốc là giải quyết các vụ tranh chấp quốc tế bằng pháp luật của các quốc gia. **ĐápÁnSai**
 *c)* Trong số các mục tiêu của Liên hợp quốc, duy trì hoà bình và an ninh quốc tế là mục tiêu được đặt lên hàng đầu. **ĐápÁnĐúng**
 *d)* Ngày nay, Liên hợp quốc vẫn tiếp tục thực hiện mục tiêu giải quyết các vụ tranh chấp, xung đột quốc tế bằng biện pháp hoà bình. **ĐápÁnĐúng**
@@ -278,9 +278,9 @@ created: 2026-09-22T21:30
 **Câu 7:** Đọc đoạn tư liệu sau đây, trong mỗi ý A, B, C, D, học sinh chọn đúng hoặc sai.
 “Tất cả các quốc gia thành viên Liên hợp quốc đều phải làm tròn những nghĩa vụ mà họ phải đảm nhận theo Hiến chương này để được bảo đảm hưởng toàn bộ các quyền và ưu đãi do tư cách thành viên mà có: Tất cả các thành viên của Liên hợp quốc giải quyết các tranh chấp quốc tế của họ bằng biện pháp hoà bình, sao cho không tổn hại đến hoà bình, an ninh quốc tế và công lí".
 (Trích: Điều 2, Hiến chương Liên hợp quốc, ngày 24-10-1945)
-*a)* Đoạn tư liệu thể hiện mục tiêu hoạt động cơ bản của Liên hợp quốc là các quốc gia làm tròn nghĩa vụ đối với tổ chức này. **ĐápÁnSai**
-*b)* Đoạn tư liệu cho thấy một trong những nguyễn tắc hoạt động của Liên hợp quốc là các quốc gia thành viên thực hiện những nghĩa vụ đảm nhận theo Hiến chương Liên hợp quốc. **ĐápÁnĐúng**
-*c)* Đoạn tư liệu là văn bản pháp lí giúp Liên hợp quốc ngăn chặn mọi xung đột giữa các thành viên từ khi tổ chức này thành lập. **ĐápÁnĐúng**
+*a)* Đoạn tư liệu thể hiện mục tiêu hoạt động cơ bản của Liên hợp quốc là các quốc gia làm tròn nghĩa vụ đối với tổ chức này. **ĐápÁnĐúng**
+*b)* Đoạn tư liệu cho thấy một trong những nguyễn tắc hoạt động của Liên hợp quốc là các quốc gia thành viên thực hiện những nghĩa vụ đảm nhận theo Hiến chương Liên hợp quốc. **ĐápÁnSai**
+*c)* Đoạn tư liệu là văn bản pháp lí giúp Liên hợp quốc ngăn chặn mọi xung đột giữa các thành viên từ khi tổ chức này thành lập. **ĐápÁnSai**
 *d)* Mặc dù Liên hợp quốc có những nguyên tắc hoạt động chặt chẽ, nhưng hiện nay giữa một số quốc gia thành viên vẫn diễn ra chiến tranh, xung đột. **ĐápÁnĐúng**
 
 **Câu 2:** Đọc đoạn tư liệu sau đây:

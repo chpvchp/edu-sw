@@ -5,7 +5,7 @@
   "name_subject": "Lịch Sử",
   "class_exam": 12,
   "duration": 45,
-  "updated": "2026-09-22T22:00",
+  "updated": "2026-09-29T18:35",
   "created": "2026-09-22T22:00",
   "source": "/documents/pdf/BÀI 2 TRẬT TỰ THẾ GIỚI TRONG CHIẾN TRANH LẠNH.pdf",
   "questions": [
@@ -67,7 +67,7 @@
       ],
       "results": {
         "explain": "",
-        "correct_answer": "ls12_bai2-q2-a",
+        "correct_answer": "ls12_bai2-q2-c",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
@@ -643,7 +643,7 @@
       ],
       "results": {
         "explain": "",
-        "correct_answer": "ls12_bai2-q20-a",
+        "correct_answer": "ls12_bai2-q20-c",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
@@ -658,7 +658,7 @@
       "answers": [
         {
           "id_answer": "ls12_bai2-q21-a",
-          "answer": "An."
+          "answer": "Anh."
         },
         {
           "id_answer": "ls12_bai2-q21-b",
@@ -771,7 +771,7 @@
       ],
       "results": {
         "explain": "",
-        "correct_answer": "ls12_bai2-q24-a",
+        "correct_answer": "ls12_bai2-q24-d",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
@@ -972,7 +972,7 @@
     {
       "id_question": "ls12_bai2-q31",
       "order": 31,
-      "question": "Mục tiêu của “Chiến tranh lạnh do Mỹ phat động là:",
+      "question": "Mục tiêu của \"Chiến tranh lạnh do\" Mỹ phát động là:",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
@@ -995,7 +995,7 @@
       ],
       "results": {
         "explain": "",
-        "correct_answer": "ls12_bai2-q31-c",
+        "correct_answer": "ls12_bai2-q31-a",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
