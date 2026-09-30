@@ -1,0 +1,1303 @@
+{
+  "id_exam": "ls12_bai3",
+  "id_subject": "lichsu",
+  "name_exam": "BÀI 3 TRẬT TỰ THẾ GIỚI SAU CHIẾN TRANH LẠNH",
+  "name_subject": "Lịch Sử",
+  "class_exam": 12,
+  "duration": 45,
+  "updated": "2026-09-30T21:43",
+  "created": "2026-09-30T21:43",
+  "source": "/documents/pdf/BÀI 3 TRẬT TỰ THẾ GIỚI SAU CHIẾN TRANH LẠNH.pdf",
+  "questions": [
+    {
+      "id_question": "ls12_bai3-q1",
+      "order": 1,
+      "question": "(TH). Nội dung nào sau đây không phản ánh đúng xu thế phát triển của thế giới sau khi Chiến tranh lạnh chấm dứt?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q1-a",
+          "answer": "Trật tự thế giới đơn cực được xác lập trong quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q1-b",
+          "answer": "Các quốc gia đều tập trung lấy phát triển kinh tế làm trọng tâm."
+        },
+        {
+          "id_answer": "ls12_bai3-q1-c",
+          "answer": "Trật tự thế giới đa cực được xác lập trong quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q1-d",
+          "answer": "Xu thế toàn cầu hóa diễn ra ngày càng mạnh mẽ trên nhiều lĩnh vực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q1-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q2",
+      "order": 2,
+      "question": "(NB). Nội dung nào sau đây phản ánh đúng xu thế phát triển của thế giới từ sau khi Chiến tranh lạnh chấm dứt?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q2-a",
+          "answer": "Các quốc gia đều tập trung lấy phát triển quân sự làm trọng điểm."
+        },
+        {
+          "id_answer": "ls12_bai3-q2-b",
+          "answer": "Trật tự thế giới đơn cực được xác lập trong quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q2-c",
+          "answer": "Mỹ nắm vai trò là siêu cường duy nhất chi phối quan hệ quốc tế"
+        },
+        {
+          "id_answer": "ls12_bai3-q2-d",
+          "answer": "Các nước điều chỉnh quan hệ theo hướng hòa hoãn, đối thoại, hợp tác."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q2-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q3",
+      "order": 3,
+      "question": "(TH). Đặc điểm nổi bật trong quan hệ quốc tế sau khi chiến tranh lạnh chấm dứt là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q3-a",
+          "answer": "Hợp tác chính trị - văn hóa là xu thế chủ đạo."
+        },
+        {
+          "id_answer": "ls12_bai3-q3-b",
+          "answer": "Hai siêu cường Xô - Mĩ đối thoại, hợp tác."
+        },
+        {
+          "id_answer": "ls12_bai3-q3-c",
+          "answer": "Hòa bình, hợp tác trở thành xu thế chủ đạo."
+        },
+        {
+          "id_answer": "ls12_bai3-q3-d",
+          "answer": "Hai siêu cường Xô - Mĩ đối đầu gay gắt."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q3-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q4",
+      "order": 4,
+      "question": "(TH). Chiến tranh lạnh kết thúc đã làm cho",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q4-a",
+          "answer": "kinh tế trở thành nội dung căn bản trong quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q4-b",
+          "answer": "chạy đua vũ trang trở thành hình thức cạnh tranh chủ yếu giữa các nước."
+        },
+        {
+          "id_answer": "ls12_bai3-q4-c",
+          "answer": "sức mạnh của các quốc gia không phụ thuộc vào lực lượng quốc phòng."
+        },
+        {
+          "id_answer": "ls12_bai3-q4-d",
+          "answer": "quan hệ giữa các nước lớn diễn ra theo chiều hướng đối đầu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q4-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q5",
+      "order": 5,
+      "question": "(VD). Sau Chiến tranh lạnh, các nước điều chỉnh quan hệ với nhau theo chiều hướng hòa hoãn, đối thoại, hợp tác chủ yếu là do",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q5-a",
+          "answer": "trật tự hai cực I-an-ta đã được xác lập"
+        },
+        {
+          "id_answer": "ls12_bai3-q5-b",
+          "answer": "nhu cầu ổn định để phát triển kinh tế"
+        },
+        {
+          "id_answer": "ls12_bai3-q5-c",
+          "answer": "kinh tế Liên Xô đang lâm vào khủng hoảng"
+        },
+        {
+          "id_answer": "ls12_bai3-q5-d",
+          "answer": "Mỹ và Liên Xô hạn chế chạy đua vũ trang"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q5-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q6",
+      "order": 6,
+      "question": "(TH). Nội dung nào sau đây phản ánh đúng sự điều chỉnh quan hệ giữa các nước có chế độ chính trị khác nhau sau khi Chiến tranh lạnh chấm dứt?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q6-a",
+          "answer": "Giảm dần sự cạnh tranh về kinh tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q6-b",
+          "answer": "Thiết lập quan hệ đối tác chiến lược."
+        },
+        {
+          "id_answer": "ls12_bai3-q6-c",
+          "answer": "Hòa hoãn, đối thoại, cùng phát triển."
+        },
+        {
+          "id_answer": "ls12_bai3-q6-d",
+          "answer": "Giảm dần cuộc chạy đua vũ trang."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q6-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q7",
+      "order": 7,
+      "question": "(TH). Sau Chiến tranh lạnh, một trong những mục tiêu của các quốc gia là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q7-a",
+          "answer": "triệt tiêu cạnh tranh trong phát triển kinh tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q7-b",
+          "answer": "xây dựng nền kinh tế vững mạnh."
+        },
+        {
+          "id_answer": "ls12_bai3-q7-c",
+          "answer": "xóa bỏ hoàn toàn hệ thống thuộc địa."
+        },
+        {
+          "id_answer": "ls12_bai3-q7-d",
+          "answer": "khôi phục lại trật tự thế giới hai cực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q7-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q8",
+      "order": 8,
+      "question": "(NB). Sau Chiến tranh lạnh, hầu hết các quốc gia đều điều chỉnh chiến lược, tập trung vào phát triển",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q8-a",
+          "answer": "kinh tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q8-b",
+          "answer": "quân sự."
+        },
+        {
+          "id_answer": "ls12_bai3-q8-c",
+          "answer": "thể thao."
+        },
+        {
+          "id_answer": "ls12_bai3-q8-d",
+          "answer": "vũ khí hạt nhân."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q8-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q9",
+      "order": 9,
+      "question": "(TH). Sự kiện lịch sử nào sau đây diễn ra sau khi chiến tranh lạnh chấm dứt?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q9-a",
+          "answer": "Tổ chức Hiệp ước Bắc Đại Tây Dương được thành lập."
+        },
+        {
+          "id_answer": "ls12_bai3-q9-b",
+          "answer": "Trung Quốc vươn lên thành nền kinh tế lớn thứ hai thế giới."
+        },
+        {
+          "id_answer": "ls12_bai3-q9-c",
+          "answer": "Các thế lực phát xít lên cầm quyền ở một số nước châu Âu."
+        },
+        {
+          "id_answer": "ls12_bai3-q9-d",
+          "answer": "Liên Xô và Mĩ thỏa thuận về việc hạn chế vũ khí chiến lược."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q9-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q10",
+      "order": 10,
+      "question": "(VD). Nhận xét nào sau đây không đúng khi nói về vị thế của Mỹ sau khi chiến tranh lạnh chấm dứt?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q10-a",
+          "answer": "Là nước có quy mô kinh tế lớn nhất thế giới."
+        },
+        {
+          "id_answer": "ls12_bai3-q10-b",
+          "answer": "Là nước có ảnh hưởng lớn nhất đến quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q10-c",
+          "answer": "Là nước xã hội chủ nghĩa hùng mạnh nhất thế giới."
+        },
+        {
+          "id_answer": "ls12_bai3-q10-d",
+          "answer": "Vươn lên thành một cực trong trật tự thế giới đa cực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q10-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q11",
+      "order": 11,
+      "question": "(TH). Biểu hiện nào dưới đây không phản ánh đúng xu thế phát triển của thế giới từ sau khi Chiến tranh lạnh chấm dứt?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q11-a",
+          "answer": "Các quốc gia đều tập trung lấy phát triển quân sự làm trọng điểm."
+        },
+        {
+          "id_answer": "ls12_bai3-q11-b",
+          "answer": "Trật tự thế giới đa cực được xác lập trong quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q11-c",
+          "answer": "Hòa bình, hợp tác và phát triển là xu thế chủ đạo của thế giới."
+        },
+        {
+          "id_answer": "ls12_bai3-q11-d",
+          "answer": "Xu thế toàn cầu hóa diễn ra ngày càng mạnh mẽ trên nhiều lĩnh vực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q11-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q12",
+      "order": 12,
+      "question": "(NB). Sau khi chiến tranh lạnh chấm dứt, một trong những xu thế của thế giới là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q12-a",
+          "answer": "hòa hoãn, ổn định, hợp tác và phát triển."
+        },
+        {
+          "id_answer": "ls12_bai3-q12-b",
+          "answer": "hình thành trật tự thế giới mới đơn cực."
+        },
+        {
+          "id_answer": "ls12_bai3-q12-c",
+          "answer": "ráo riết chuẩn bị chiến tranh toàn cầu."
+        },
+        {
+          "id_answer": "ls12_bai3-q12-d",
+          "answer": "hạn chế tình trạng cạnh tranh giữa các nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q12-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q13",
+      "order": 13,
+      "question": "(NB). Sau khi chiến tranh lạnh chấm dứt, yếu tố nào sau đây đóng vai trò là trung tâm trong quan hệ quốc tế?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q13-a",
+          "answer": "Quân sự"
+        },
+        {
+          "id_answer": "ls12_bai3-q13-b",
+          "answer": "Chính trị"
+        },
+        {
+          "id_answer": "ls12_bai3-q13-c",
+          "answer": "Vũ khí chiến lược"
+        },
+        {
+          "id_answer": "ls12_bai3-q13-d",
+          "answer": "Kinh tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q13-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q14",
+      "order": 14,
+      "question": "(TH). Sự phát triển nhanh chóng của nền thương mại thế giới với vai trò ngày càng lớn của các công ty xuyên quốc gia là biểu hiện của xu thế nào sau khi chiến tranh lạnh chấm dứt?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q14-a",
+          "answer": "Xu thế đối thoại, hòa hoãn giữa các nước lớn."
+        },
+        {
+          "id_answer": "ls12_bai3-q14-b",
+          "answer": "Xu thế lấy phát triển chính trị làm trung tâm."
+        },
+        {
+          "id_answer": "ls12_bai3-q14-c",
+          "answer": "Xu thế nhiều trung tâm trong quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q14-d",
+          "answer": "Xu thế toàn cầu hóa ngày càng gia tăng mạnh mẽ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q14-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q15",
+      "order": 15,
+      "question": "(TH). Nội dung nào sau đây không phản ánh đúng xu thế đối thoại, hợp tác trong quan hệ quốc tế sau khi chiến tranh lạnh chấm dứt?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q15-a",
+          "answer": "Các nước giải quyết bất đồng và mâu thuẫn bằng thương lượng hòa bình."
+        },
+        {
+          "id_answer": "ls12_bai3-q15-b",
+          "answer": "Các nước xây dựng quan hệ hợp tác lâu dài trên cơ sở hai bên cùng có lợi."
+        },
+        {
+          "id_answer": "ls12_bai3-q15-c",
+          "answer": "Các nước liên minh với nhau hình thành các tổ chức quân sự lớn ở các châu lục."
+        },
+        {
+          "id_answer": "ls12_bai3-q15-d",
+          "answer": "Các nước điều chỉnh quan hệ theo hướng hòa hoãn, đối thoại đa phương hóa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q15-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q16",
+      "order": 16,
+      "question": "(NB). Trật tự thế giới đa cực được hình thành sau khi",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q16-a",
+          "answer": "chiến tranh thế giới thứ hai kết thúc."
+        },
+        {
+          "id_answer": "ls12_bai3-q16-b",
+          "answer": "Chiến tranh lạnh chấm dứt."
+        },
+        {
+          "id_answer": "ls12_bai3-q16-c",
+          "answer": "xu thế hòa hoãn Đông – Tây xuất hiện."
+        },
+        {
+          "id_answer": "ls12_bai3-q16-d",
+          "answer": "Mỹ phát động chiến tranh lạnh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q16-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q17",
+      "order": 17,
+      "question": "(NB). Sau khi chiến tranh lạnh chấm dứt, một trật tự thế giới mới được hình thành có tên gọi là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q17-a",
+          "answer": "trật tự đa cực"
+        },
+        {
+          "id_answer": "ls12_bai3-q17-b",
+          "answer": "Trật tự đơn cực"
+        },
+        {
+          "id_answer": "ls12_bai3-q17-c",
+          "answer": "Trật tự hai cực I-an-ta"
+        },
+        {
+          "id_answer": "ls12_bai3-q17-d",
+          "answer": "Trật tự Vécxai - Oasinhton"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q17-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q18",
+      "order": 18,
+      "question": "(NB). Trật tự đa cực được hình thành vào đầu thế kỉ XXI sau khi trật tự thế giới nào sau đây bị sụp đổ?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q18-a",
+          "answer": "Trật tự nhất siêu, nhiều cường"
+        },
+        {
+          "id_answer": "ls12_bai3-q18-b",
+          "answer": "Trật tự đơn cực"
+        },
+        {
+          "id_answer": "ls12_bai3-q18-c",
+          "answer": "Trật tự hai cực I-an-ta"
+        },
+        {
+          "id_answer": "ls12_bai3-q18-d",
+          "answer": "Trật tự Vécxai - Oasinhton"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q18-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q19",
+      "order": 19,
+      "question": "(VDC). Nội dung nào sau đây không phản ánh đúng đặc điểm của trật tự thế giới đa cực trong quan hệ quốc tế?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q19-a",
+          "answer": "Là trật tự thế giới mới được hình thành sau khi trật tự hai cực I-an-ta sụp đổ."
+        },
+        {
+          "id_answer": "ls12_bai3-q19-b",
+          "answer": "Phản ánh tương quan so sánh lực lượng mới trong quan hệ quốc tế sau chiến tranh lạnh."
+        },
+        {
+          "id_answer": "ls12_bai3-q19-c",
+          "answer": "Là trật tư thế giới có sự tham gia của các quốc gia, các trung tâm khác nhau."
+        },
+        {
+          "id_answer": "ls12_bai3-q19-d",
+          "answer": "Sự sụp đổ của Liên Xô và Đông Âu là nguyên nhân trực tiếp dẫn đến xu thế đa cực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q19-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q20",
+      "order": 20,
+      "question": "(NB). Sau khi trật tự hai I-an-ta sụp đổ, quốc gia nào sau đây ra sức thiết lập trật tự thế giới đơn cực?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q20-a",
+          "answer": "Liên bang Nga"
+        },
+        {
+          "id_answer": "ls12_bai3-q20-b",
+          "answer": "Mỹ"
+        },
+        {
+          "id_answer": "ls12_bai3-q20-c",
+          "answer": "Nhật Bản"
+        },
+        {
+          "id_answer": "ls12_bai3-q20-d",
+          "answer": "Ấn Độ"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q20-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q21",
+      "order": 21,
+      "question": "(VD). Nội dung nào sau đây phản ánh đúng đặc điểm của trật tự thế giới mới được hình thành sau khi trật tự hai cực I-an-ta sụp đổ?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q21-a",
+          "answer": "Mỹ và Trung Quốc là hai siêu cường nắm hoàn toàn quyền chi phối quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q21-b",
+          "answer": "Vai trò của các trung tâm, các tổ chức kinh tế, tài chính quốc tế, khu vực bị suy giảm."
+        },
+        {
+          "id_answer": "ls12_bai3-q21-c",
+          "answer": "Sự hình thành trật tự là tiến trình lịch sử khách quan với sự nổi lên của các cường quốc."
+        },
+        {
+          "id_answer": "ls12_bai3-q21-d",
+          "answer": "Sự hình thành trật tự bị chi phối bởi kết quả của các cuộc đấu tranh giành độc lập dân tộc"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q21-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q22",
+      "order": 22,
+      "question": "(VDC). Một trong những nhân tố quan trọng tác động đến sự hình thành trật tự thế giới mới sau khi chiến tranh lạnh chấm dứt là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q22-a",
+          "answer": "cuộc đấu tranh chống chế độ phân biệt chủng tộc ở châu Phi"
+        },
+        {
+          "id_answer": "ls12_bai3-q22-b",
+          "answer": "cuộc chạy đua về sức mạnh tổng hợp giữa các cường quốc."
+        },
+        {
+          "id_answer": "ls12_bai3-q22-c",
+          "answer": "sự trỗi dậy của chủ nghĩa khủng bố trên phạm vi toàn cầu."
+        },
+        {
+          "id_answer": "ls12_bai3-q22-d",
+          "answer": "cuộc đấu tranh giành độc lập của các dân tộc thuộc địa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q22-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q23",
+      "order": 23,
+      "question": "(TH). Sau khi chiến tranh lạnh chấm dứt, quốc gia nào sau đây ở châu Á đã vươn lên trở thành một cực trong trật tự thế giới đa cực?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q23-a",
+          "answer": "Mỹ"
+        },
+        {
+          "id_answer": "ls12_bai3-q23-b",
+          "answer": "Anh"
+        },
+        {
+          "id_answer": "ls12_bai3-q23-c",
+          "answer": "Pháp"
+        },
+        {
+          "id_answer": "ls12_bai3-q23-d",
+          "answer": "Nhật Bản"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q23-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q24",
+      "order": 24,
+      "question": "(TH). Sau khi chiến tranh lạnh chấm dứt, tổ chức nào sau đây đã vươn lên trở thành một cực trong trật tự thế giới đa cực?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q24-a",
+          "answer": "Liên minh châu Âu"
+        },
+        {
+          "id_answer": "ls12_bai3-q24-b",
+          "answer": "Hiệp hội các quốc gia Đông Nam Á"
+        },
+        {
+          "id_answer": "ls12_bai3-q24-c",
+          "answer": "Tổ chức Hiệp ước Bắc Đại Tây Dương"
+        },
+        {
+          "id_answer": "ls12_bai3-q24-d",
+          "answer": "Diễn đàn hợp tác Á - Âu"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q24-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q25",
+      "order": 25,
+      "question": "(NB). Trong trật tự thế giới đa cực, quốc gia nào sau đây có ảnh hưởng lớn nhất đến quan hệ quốc tế?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q25-a",
+          "answer": "Ấn Độ"
+        },
+        {
+          "id_answer": "ls12_bai3-q25-b",
+          "answer": "Nhật Bản"
+        },
+        {
+          "id_answer": "ls12_bai3-q25-c",
+          "answer": "Mỹ"
+        },
+        {
+          "id_answer": "ls12_bai3-q25-d",
+          "answer": "Anh"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q25-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q26",
+      "order": 26,
+      "question": "(NB). Trong trật tự thế giới đa cực, hai cực có tầm ảnh hưởng lớn nhất là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q26-a",
+          "answer": "Nhật Bản và Trung Quốc"
+        },
+        {
+          "id_answer": "ls12_bai3-q26-b",
+          "answer": "Mỹ và Trung Quốc"
+        },
+        {
+          "id_answer": "ls12_bai3-q26-c",
+          "answer": "Nhật Bản và Ấn Độ"
+        },
+        {
+          "id_answer": "ls12_bai3-q26-d",
+          "answer": "Liên bang Nga và Ấn Độ"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q26-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q27",
+      "order": 27,
+      "question": "(TH). Sau khi chiến tranh lạnh chấm dứt, nước xã hội chủ nghĩa nào sau đây đã vươn lên trở thành một cực trong trật tự thế giới đa cực?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q27-a",
+          "answer": "Liên bang Nga"
+        },
+        {
+          "id_answer": "ls12_bai3-q27-b",
+          "answer": "Trung Quốc"
+        },
+        {
+          "id_answer": "ls12_bai3-q27-c",
+          "answer": "Ấn Độ"
+        },
+        {
+          "id_answer": "ls12_bai3-q27-d",
+          "answer": "Nhật Bản"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q27-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q28",
+      "order": 28,
+      "question": "(VD). Nội dung nào sau đây phản ánh điểm khác biệt giữa trật tự đa cực so với trật tự hai cực I-an-ta?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q28-a",
+          "answer": "Bị chi phối bởi quyền lợi của các cường quốc."
+        },
+        {
+          "id_answer": "ls12_bai3-q28-b",
+          "answer": "Hòa bình, đối thoại, hợp tác là xu thế chủ đạo."
+        },
+        {
+          "id_answer": "ls12_bai3-q28-c",
+          "answer": "Hình thành sau khi chiến tranh thế giới kết thúc."
+        },
+        {
+          "id_answer": "ls12_bai3-q28-d",
+          "answer": "Các nước tập trung phát triển quân sự là trọng điểm."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q28-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q29",
+      "order": 29,
+      "question": "(VD). Nội dung nào sau đây phản ánh đúng điểm tương đồng giữa trật tự đa cực so với trật tự hai cực I-an-ta?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q29-a",
+          "answer": "Tồn tại hai hệ thống kinh tế - xã hội đối lập nhau"
+        },
+        {
+          "id_answer": "ls12_bai3-q29-b",
+          "answer": "Được hình thành khi chiến tranh thế giới kết thúc"
+        },
+        {
+          "id_answer": "ls12_bai3-q29-c",
+          "answer": "Các nước lớn giữ vai trò chi phối quan hệ quốc tế"
+        },
+        {
+          "id_answer": "ls12_bai3-q29-d",
+          "answer": "Các nước tập trung phát triển kinh tế là trọng điểm,"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q29-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q30",
+      "order": 30,
+      "question": "(TH). “Không có một trung tâm quyền lực thống trị, thay vào đó, nhiều quốc gia, khu vực tạo ra thế cân bằng về kinh tế, chính trị, quân sự toàn cầu”. Đoạn thông tin trên phản ánh đặc điểm của trật tự thế giới nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q30-a",
+          "answer": "trật tự đa cực"
+        },
+        {
+          "id_answer": "ls12_bai3-q30-b",
+          "answer": "Trật tự đơn cực"
+        },
+        {
+          "id_answer": "ls12_bai3-q30-c",
+          "answer": "Trật tự hai cực I-an-ta"
+        },
+        {
+          "id_answer": "ls12_bai3-q30-d",
+          "answer": "Trật tự Vécxai - Oasinhtơn"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q30-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q31",
+      "order": 31,
+      "question": "(VDC). Một trong những nhân tố quan trọng tác động đến sự hình thành trật tự thế giới mới sau khi chiến tranh lạnh chấm dứt là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q31-a",
+          "answer": "sự hình thành và lớn mạnh của hệ thống xã hội chủ nghĩa"
+        },
+        {
+          "id_answer": "ls12_bai3-q31-b",
+          "answer": "sự phát triển mạnh mẽ của cách mạng khoa học-công nghệ"
+        },
+        {
+          "id_answer": "ls12_bai3-q31-c",
+          "answer": "cuộc chạy đua về vũ khí hạt nhân giữa các cường quốc."
+        },
+        {
+          "id_answer": "ls12_bai3-q31-d",
+          "answer": "cuộc đấu tranh giành độc lập của các dân tộc thuộc địa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q31-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q32",
+      "order": 32,
+      "question": "(VD). Nội dung nào sau đây phản ánh đúng dặc diểm của trật tự thế giới da cực?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q32-a",
+          "answer": "Lợi ích của dân tộc được đặt lên vị trí hàng đầu."
+        },
+        {
+          "id_answer": "ls12_bai3-q32-b",
+          "answer": "Sức mạnh của Mỹ được tăng cường tuyệt đối."
+        },
+        {
+          "id_answer": "ls12_bai3-q32-c",
+          "answer": "Có sự cân bằng giữa hai hệ thống xã hội đối lập."
+        },
+        {
+          "id_answer": "ls12_bai3-q32-d",
+          "answer": "Được thành lập ngay sau khi chiến tranh lạnh kết thúc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "ls12_bai3-q32-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q33",
+      "order": 33,
+      "question": "Cho bảng dữ kiện về Thỏa thuận của Liên Xô, Mỹ và các nước phương Tây về việc phân chia phạm vi ảnh hưởng ở châu Âu và châu Á sau chiến tranh tại Hội nghi I-an-ta (2/1945)",
+      "type_question": "true_false",
+      "path_images": "/data/images/ls12_bai3/ls12_bai3_2_1.png",
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q33-a",
+          "answer": "Những quyết định của Hội nghị I-an-ta (2/1945) diễn ra khi chiến tranh thế giới thứ hai sắp kết thúc."
+        },
+        {
+          "id_answer": "ls12_bai3-q33-b",
+          "answer": "Những thỏa thuận tại Hội nghị I-an-ta (2/1945) được quyết định bởi các cường quốc phe Đồng minh."
+        },
+        {
+          "id_answer": "ls12_bai3-q33-c",
+          "answer": "Những quyết định của Hội nghị I-an-ta (2/1945) đã tạo cớ cho thực dân Pháp quay trở lại xâm lược Việt Nam."
+        },
+        {
+          "id_answer": "ls12_bai3-q33-d",
+          "answer": "Những quyết định tại Hội nghị I-an-ta (2/1945) đã dẫn tới hình thành hai cực đối lập: cực Liên Xô và cực các nước Đông Âu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai3-q33-a",
+          "ls12_bai3-q33-b",
+          "ls12_bai3-q33-c"
+        ],
+        "false_answer": [
+          "ls12_bai3-q33-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q34",
+      "order": 34,
+      "question": "Đọc đoạn tư liệu sau đây:\n\nTừ năm 1945 đến đầu những năm 70 của thế kỷ XX, trật tự thế giới hai cực I-an-ta được định hình với sự thiết lập các khối kinh tế và quân sự đối đầu nhau. Về kinh tế , Mỹ đề ra kế hoạch Mác-san nhằm viện trợ cho Tây Âu, qua đó tăng cường sự chi phối đối với khu vực này; Liên Xô và các nước Đông Âu thành lập hội đồng tương trợ kinh tế (SEV) nhằm hợp tác về kinh tế. Về quân sự năm 1949, Mỹ và các nước phương Tây thành lập tổ chức hiệp ước Bắc Đại Tây dương (NATO), năm 1955, Liên Xô và các nước Đông Âu thành lập tổ chức hiệp ước Vác-sa-va",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q34-a",
+          "answer": "Từ năm 1945 đến đầu những năm 70 của thế kỷ XX, phe tư bản chủ nghĩa và phe xã hội chủ nghĩa đối đầu căng thẳng về kinh tế, chính trị, tư tưởng, quân sự."
+        },
+        {
+          "id_answer": "ls12_bai3-q34-b",
+          "answer": "Mĩ đề ra kế hoạch Mác-san với mục tiêu quan trọng nhất là hợp tác cùng có lợi giữa Mỹ và các nước Tây Âu."
+        },
+        {
+          "id_answer": "ls12_bai3-q34-c",
+          "answer": "Tổ chức Hiệp ước Bắc Đại Tây Dương (NATO) là liên minh quân sự giữa Mỹ và tất cả các nước châu Âu."
+        },
+        {
+          "id_answer": "ls12_bai3-q34-d",
+          "answer": "Sự ra đời của Tổ chức Hiệp ước Bắc Đại Tây Dương (NATO) và Tổ chức Hiệp ước Vác-sa-va là biểu hiện của căng thẳng quân sự giữa Mỹ và Liên Xô."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai3-q34-a",
+          "ls12_bai3-q34-d"
+        ],
+        "false_answer": [
+          "ls12_bai3-q34-b",
+          "ls12_bai3-q34-c"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q35",
+      "order": 35,
+      "question": "Đọc đoạn tư liệu sau đây:\n\nTrong chuyến thăm Liên Xô năm 1972, tổng thống mỹ R. Ních-xơn và Tổng Bí thư Ban chấp hành Trung ương Đảng Cộng sản Liên Xô – L. B rê-giơ-nhép đã kí kết nhiều văn kiện quan trọng như Hiệp ước Chống tên lửa đạn đạo (ABM), Hiệp ước hạn chế vũ khí chiến lược (SALT I), một thỏa thuận về không can thiệp công việc nội bộ của nhau, một thỏa thuận song phương về hợp tác các lĩnh vực khoa học, không gian, y học và bảo vệ môi trường.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q35-a",
+          "answer": "Từ những năm 70 của thế kỉ XX xuất hiện xu thế hòa hoãn giữ Mỹ và Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai3-q35-b",
+          "answer": "Những thỏa thuận giữa Mỹ và Liên Xô từ những năm 70 của thế kỉ XX đã dẫn đến sự sụp đổ của chủ nghĩa xã hội ở Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai3-q35-c",
+          "answer": "Từ những năm 70 của thế kỉ XX, Mỹ và Liên Xô trở thành đồng minh."
+        },
+        {
+          "id_answer": "ls12_bai3-q35-d",
+          "answer": "Những thỏa thuận giữa Mỹ và Liên Xô từ những năm 70 của thế kỉ XX làm cho quan hệ quốc tế giảm căng thẳng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai3-q35-a",
+          "ls12_bai3-q35-d"
+        ],
+        "false_answer": [
+          "ls12_bai3-q35-b",
+          "ls12_bai3-q35-c"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q36",
+      "order": 36,
+      "question": "Đọc đoạn tư liệu sau đây:\n\nỞ châu Á, chiến tranh Triều Tiên (1950 – 1953), chiến tranh xâm lược Việt Nam của thực dân Pháp (1945 – 1954) và chiến tranh xâm lược Việt Nam của đế quốc Mỹ (1954 – 1975) là những cuộc chiến tranh cục bộ tiêu biểu. Ở khu vực Trung Đông chiến tranh Trung Đông giữa I-xra-en và các nước Ả-rập bắt đầu từ năm 1948 và kéo dài trong nhiều năm.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q36-a",
+          "answer": "Cuộc chiến tranh xâm lược Việt Nam của đế quốc Mỹ (1954 – 1975) là biểu hiện của chiến tranh lạnh giữa Mỹ và Liên Xô."
+        },
+        {
+          "id_answer": "ls12_bai3-q36-b",
+          "answer": "Chiến tranh lạnh giữa Mỹ và Liên Xô (1947 – 1989) tác động to lớn đến quan hệ quốc tế của nhiều quốc gia trên thế giới."
+        },
+        {
+          "id_answer": "ls12_bai3-q36-c",
+          "answer": "Những cuộc chiến tranh cục bộ trong nửa sau thế kỉ XX chỉ diễn ra ở khu vực Trung Đông."
+        },
+        {
+          "id_answer": "ls12_bai3-q36-d",
+          "answer": "Những cuộc chiến tranh cục bộ trong nửa sau thế kỉ XX đều có sự tham chiến trực tiếp của quân đội Mỹ và Liên Xô."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai3-q36-a",
+          "ls12_bai3-q36-b"
+        ],
+        "false_answer": [
+          "ls12_bai3-q36-c",
+          "ls12_bai3-q36-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q37",
+      "order": 37,
+      "question": "Đọc đoạn tư liệu sau đây:\n\nBài học của thời kỳ Chiến tranh lạnh đã chứng tỏ phương thức quan hệ quốc tế lấy đối đầu chính trị - quân sự là chủ yếu không còn phù hợp, phải chịu nhiều tổn thất hoặc thất bại như hai nước Xô – Mỹ và một bị thương, một bị mất. Trong khi đó, phương thức lấy hợp tác và cạnh tranh về kinh tế - chính trị là chính lại thu được nhiều tiến bộ, kết quả như các nước Đức, Nhật và NICs. Sự hưng thịnh hay suy vong của một quốc gia quyết định bởi sức mạnh tổng hợp của quốc gia đó, mà chủ yếu là thực lực kinh tế và khoa học - kỹ thuật\n\n(Vũ Dương Ninh (chủ biên), Một số chuyên đề lịch sử thế giới, NXB Đại học quốc gia Hà Nội, Hà Nội 2001, tr. 401)",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q37-a",
+          "answer": "Một trong những xu thế phát triển của thế giới sau Chiến tranh lạnh là các quốc gia lấy phát triển kinh tế làm trọng tâm."
+        },
+        {
+          "id_answer": "ls12_bai3-q37-b",
+          "answer": "Sau khi Chiến tranh lạnh kết thúc, xu thế đối đầu quân sự trong quan hệ quốc tế đã lỗi thời."
+        },
+        {
+          "id_answer": "ls12_bai3-q37-c",
+          "answer": "Sau Chiến tranh lạnh, các nước nhỏ cần lấy phát triển sức mạnh quân sự làm trọng tâm."
+        },
+        {
+          "id_answer": "ls12_bai3-q37-d",
+          "answer": "Sau Chiến tranh lạnh, một quốc gia muốn phát triển chỉ cần tập trung phát triển kinh tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai3-q37-a",
+          "ls12_bai3-q37-b"
+        ],
+        "false_answer": [
+          "ls12_bai3-q37-c",
+          "ls12_bai3-q37-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q38",
+      "order": 38,
+      "question": "Cho bảng dữ kiện về Một số trung tâm quyền lực của thế giới sau Chiến tranh lạnh",
+      "type_question": "true_false",
+      "path_images": "/data/images/ls12_bai3/ls12_bai3_6_1.png",
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q38-a",
+          "answer": "Một trong những xu thế phát triển của thế giới sau chiến tranh lạnh là xu thế đa cực trong quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q38-b",
+          "answer": "Sau Chiến tranh lạnh, Mỹ là cường quốc chi phối tất cả các quốc gia trong quan hệ quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q38-c",
+          "answer": "Sau Chiến tranh lạnh, Mỹ chịu sự cạnh tranh quyết liệt từ các trung tâm kinh tế lớn trên thế giới."
+        },
+        {
+          "id_answer": "ls12_bai3-q38-d",
+          "answer": "Sau Chiến tranh lạnh, Mỹ nhanh chóng thiết lập thành công trật tự thế giới đơn cực do Mỹ lãnh đạo."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai3-q38-a",
+          "ls12_bai3-q38-c"
+        ],
+        "false_answer": [
+          "ls12_bai3-q38-b",
+          "ls12_bai3-q38-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "ls12_bai3-q39",
+      "order": 39,
+      "question": "Đọc đoạn tư liệu sau đây:\n\nTrong xu thế đa cực, và vai trò của các trung tâm, tổ chức kinh tế, tài chính quốc tế và khu vực ngày càng lớn. Bên cạnh đó hoạt động của các công ty xuyên quốc gia có ảnh hưởng ngày càng lớn trong các ngành, các lĩnh vực của nền kinh tế thế giới. \n\nTrong một thế giới đa cực các quốc gia vừa cạnh tranh vừa hợp tác nhằm vươn lên khẳng định vị thế của mình. Xu thế đa cực đem lại những thời cơ lớn nhưng cũng tạo ra không ít những thách thức cho các nước.",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "ls12_bai3-q39-a",
+          "answer": "Xu thế đa cực vừa là thời cơ vừa là thách thức cho Việt Nam."
+        },
+        {
+          "id_answer": "ls12_bai3-q39-b",
+          "answer": "Việt Nam có cơ hội mở rộng quan hệ hợp tác quốc tế."
+        },
+        {
+          "id_answer": "ls12_bai3-q39-c",
+          "answer": "Sự cạnh tranh của các trung tâm quyền lực trên thế giới có thể gây nên tình trạng bất ổn ở khu vực Đông Nam Á."
+        },
+        {
+          "id_answer": "ls12_bai3-q39-d",
+          "answer": "Việt Nam cần thực hiện chính sách “đóng cửa” để tránh tác động từ xu thế đa cực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "ls12_bai3-q39-a",
+          "ls12_bai3-q39-b",
+          "ls12_bai3-q39-c"
+        ],
+        "false_answer": [
+          "ls12_bai3-q39-d"
+        ],
+        "short_answer": ""
+      }
+    }
+  ]
+}
