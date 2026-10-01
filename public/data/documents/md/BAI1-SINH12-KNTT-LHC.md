@@ -6,8 +6,8 @@ name_subject: Sinh Học
 class_exam: 12
 duration: 20
 source: /documents/pdf/BÀI 1 SINH 12.pdf
-updated: 2026-10-019T18:20
-created: 2026-10-019T18:20
+updated: 2026-10-01T18:20
+created: 2026-10-01T18:20
 ---
 
 # BÀI 1 SINH 12
