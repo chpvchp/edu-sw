@@ -1,0 +1,927 @@
+{
+  "id_exam": "bai1sinh12kntt",
+  "id_subject": "sinhhoc",
+  "name_exam": "BÀI 1 SINH 12",
+  "name_subject": "Sinh Học",
+  "class_exam": 12,
+  "duration": 20,
+  "updated": "2026-10-019T18:20",
+  "created": "2026-10-019T18:20",
+  "source": "/documents/pdf/BÀI 1 SINH 12.pdf",
+  "questions": [
+    {
+      "id_question": "bai1sinh12kntt-q1",
+      "order": 1,
+      "question": "Quá trình nhân đôi DNA diễn ra ở pha nào của chu kỳ tế bào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q1-a",
+          "answer": "Pha S."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q1-b",
+          "answer": "Pha G1."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q1-c",
+          "answer": "Pha G2."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q1-d",
+          "answer": "Pha M."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q1-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q2",
+      "order": 2,
+      "question": "Trong quá trình nhân đôi DNA, tế bào sử dụng loại nguyên liệu nào sau đây để tổng hợp mạch polynucleotide?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q2-a",
+          "answer": "Nucleotide."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q2-b",
+          "answer": "Glucose."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q2-c",
+          "answer": "Vitamin."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q2-d",
+          "answer": "Amino acid."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q2-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q3",
+      "order": 3,
+      "question": "Trong quá trình tái bản DNA, nucleotide loại A trên mạch khuôn liên kết với loại nucleotide nào ở môi trường nội bào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q3-a",
+          "answer": "U."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q3-b",
+          "answer": "T."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q3-c",
+          "answer": "G."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q3-d",
+          "answer": "C."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q3-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q4",
+      "order": 4,
+      "question": "Đoạn mạch thứ nhất của gene có trình tự các các nucleotide là 3'-ATGTACCGTAGG-5'. Trình tự các các nucleotide của đoạn mạch thứ hai là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q4-a",
+          "answer": "3'-ATGTACCGTAGG-5'."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q4-b",
+          "answer": "5'-ATGTACCGTAGG-3'."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q4-c",
+          "answer": "3'-TACATGGCATCC-5'."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q4-d",
+          "answer": "5'-TACATGGCATCC-3'."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q4-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q5",
+      "order": 5,
+      "question": "Tái bản DNA là quá trình tạo ra",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q5-a",
+          "answer": "bản mRNA sao từ phân tử DNA ban đầu"
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q5-b",
+          "answer": "bản sao protein từ phân tử DNA ban đầu."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q5-c",
+          "answer": "bản sao rRNA từ phân tử DNA ban đầu."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q5-d",
+          "answer": "bản sao giống với phân tử DNA ban đầu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q5-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q6",
+      "order": 6,
+      "question": "Cho hình vẽ cấu tạo của một nucleotide. Nucleotide này là đơn phân của phân tử",
+      "type_question": "four_choice",
+      "path_images": "/data/images/bai1sinh12kntt/bai1sinh12kntt_4_5.png",
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q6-a",
+          "answer": "mRNA."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q6-b",
+          "answer": "tRNA."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q6-c",
+          "answer": "rRNA."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q6-d",
+          "answer": "DNA."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q6-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q7",
+      "order": 7,
+      "question": "Trong quá trình tái bản DNA, enzyme DNA polymerase có vai trò nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q7-a",
+          "answer": "Bẻ gãy các liên kết hidrogen giữa hai mạch của phân tử DNA."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q7-b",
+          "answer": "Nối các đoạn Okazaki để tạo thành mạch liên tục."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q7-c",
+          "answer": "Tổng hợp mạch mới theo nguyên tắc bổ sung với mạch khuôn của DNA."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q7-d",
+          "answer": "Tháo xoắn và làm tách hai mạch của phân tử DNA."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q7-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q8",
+      "order": 8,
+      "question": "Trong quá trình nhân đôi DNA, vì sao trên mỗi chạc tái bản có một mạch được tổng hợp liên tục còn một mạch được tổng hợp gián đoạn?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q8-a",
+          "answer": "Vì enzim DNA polimeraza chỉ tổng hợp mạch mới theo chiều $5'\\rightarrow 3'$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q8-b",
+          "answer": "Vì enzim DNA polimeraza chỉ tác dụng lên mạch khuôn $3'\\rightarrow 5'$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q8-c",
+          "answer": "Vì enzim DNA polimeraza chỉ tác dụng lên mạch khuôn $5'\\rightarrow 3'$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q8-d",
+          "answer": "Vì enzim DNA polimeraza chỉ tác dụng lên một mạch."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q8-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q9",
+      "order": 9,
+      "question": "Khi nói về quá trình tái bản DNA, phát biểu nào sau đây là sai?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q9-a",
+          "answer": "Nhờ các enzyme tháo xoắn, hai mạch đơn của DNA tách nhau dần tạo nên chạcchữ Y."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q9-b",
+          "answer": "Quá trình tái bản DNA diễn ra theo NTBS và nguyên tắc bán bảo tồn."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q9-c",
+          "answer": "Enzyme DNA polymerase tổng hợp và kéo dài mạch mới theo chiều $3'\\rightarrow 5'$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q9-d",
+          "answer": "Enzyme ligase nối các đoạn Okazaki thành mạch đơn mới hoàn chỉnh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q9-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q10",
+      "order": 10,
+      "question": "Quan sát quá trình tái bản của một phân tử DNA, các nhà khoa học nhận thấy nó diễn ra đồng thời trên 100 đơn vị tái bản. Theo em, DNA này chỉ có ở sinh vật nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q10-a",
+          "answer": "Vi khuẩn lam."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q10-b",
+          "answer": "Vi khuẩn cố định nitrogen."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q10-c",
+          "answer": "Vi khuẩn lao."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q10-d",
+          "answer": "Tảo đỏ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q10-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q11",
+      "order": 11,
+      "question": "Sơ đồ nào sau đây mô tả đúng về giai đoạn kéo dài mạch polynucleotide mới trênmột chạc chữ Y trong quá trình tái bản DNA ở sinh vật nhân sơ",
+      "type_question": "four_choice",
+      "path_images": "/data/images/bai1sinh12kntt/bai1sinh12kntt_4_11.png",
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q11-a",
+          "answer": "Sơ đồ IV."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q11-b",
+          "answer": "Sơ đồ I."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q11-c",
+          "answer": "Sơ đồ III."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q11-d",
+          "answer": "Sơ đồ II."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q11-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q12",
+      "order": 12,
+      "question": "Các mạch đơn mới được tổng hợp trong quá trình tái bản DNA có đặc điểm",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q12-a",
+          "answer": "chỉ liên kết tạm thời với mạch gốc."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q12-b",
+          "answer": "một mạch được tổng hợp liên tục còn mạch kia gián đoạn."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q12-c",
+          "answer": "theo chiều 3' đến 5'."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q12-d",
+          "answer": "được nối lại với nhau nhờ enzyme nối helicase."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q12-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q13",
+      "order": 13,
+      "question": "Những dữ kiện nào sau đây đúng khi nói về quá trình tái bản DNA ở sinh vật nhân thực?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q13-a",
+          "answer": "1, 2, 3 và 4."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q13-b",
+          "answer": "2 và 3."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q13-c",
+          "answer": "1 và 4."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q13-d",
+          "answer": "1, 2 và 3."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q13-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q14",
+      "order": 14,
+      "question": "Sơ đồ dưới đây mô tả quá trình tái bản DNA đang thực hiện ở 2 chạc sao chép. Nhận định nào sau đây đúng?",
+      "type_question": "four_choice",
+      "path_images": "/data/images/bai1sinh12kntt/bai1sinh12kntt_4_14.png",
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q14-a",
+          "answer": "Đoạn mạch mới số 1 và đoạn mạch mới số 2 tổng hợp không liên tục."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q14-b",
+          "answer": "Đây là quá trình tái bản ở sinh vật nhân sơ."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q14-c",
+          "answer": "Đoạn mạch mới số 3 và đoạn mạch mới số 4 có cùng chiều tổng hợp."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q14-d",
+          "answer": "Đoạn mạch mới số 2 và đoạn mạch mới số 3 được tổng hợp liên tục."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q14-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q15",
+      "order": 15,
+      "question": "Gen B ở vi khuẩn gồm 2400 nuclêôtit, trong đó có 500 ađênin. Theo lí thuyết, gen B có 500 nuclêôtit loại",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q15-a",
+          "answer": "uraxin."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q15-b",
+          "answer": "timi."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q15-c",
+          "answer": "xitozin."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q15-d",
+          "answer": "guanin."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q15-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q16",
+      "order": 16,
+      "question": "Một gen có 900 cặp nuclêôtit và có tỉ lệ các loại nuclêôtit bằng nhau. Số liên kết hiđrô của gen",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q16-a",
+          "answer": "1798."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q16-b",
+          "answer": "2250."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q16-c",
+          "answer": "1125."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q16-d",
+          "answer": "3060."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q16-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q17",
+      "order": 17,
+      "question": "Một gen ở sinh vật nhân sơ dài 323 nm và có số nuclêôtit loại timin chiếm 18% tổng số nuclêôtit của gen. Theo lí thuyết, gen này có số nuclêôtit loại guanin là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q17-a",
+          "answer": "432."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q17-b",
+          "answer": "342."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q17-c",
+          "answer": "608."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q17-d",
+          "answer": "806."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q17-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q18",
+      "order": 18,
+      "question": "Một gen có tổng số nuclêôtit là 3000 nu, chiều dài của gen là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q18-a",
+          "answer": "$1500A^0$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q18-b",
+          "answer": "$5100\\ A^0$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q18-c",
+          "answer": "$2550\\ A^0$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q18-d",
+          "answer": "$2505\\ A^0$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q18-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q19",
+      "order": 19,
+      "question": "Một gen có chiều dài $5100A^0$, có 3900 liên kết hydro. Số lượng từng loại nu của gen là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q19-a",
+          "answer": "$A = T = 300,\\ G = X = 1200$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q19-b",
+          "answer": "$A = T = 600,\\ G = X = 900$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q19-c",
+          "answer": "$A = T = 900,\\ G = X = 600$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q19-d",
+          "answer": "$A = T = G = X = 600$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q19-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q20",
+      "order": 20,
+      "question": "Một gen có chiều dài $5100A^0$, số lượng nu loại A chiếm 20%, số liên kết hydro trong gen là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q20-a",
+          "answer": "3900."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q20-b",
+          "answer": "3600."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q20-c",
+          "answer": "7200."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q20-d",
+          "answer": "7800."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q20-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q21",
+      "order": 21,
+      "question": "Một gen có số nu loại A = 240; G = 3/2 A. Gen nhân đôi 3 đợt liên tiếp. Tính số lượng từng loại nu môi trường nội bào cung cấp cho gen trên ?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q21-a",
+          "answer": "$A = T = 2520\\ ;\\ G = X = 1680$"
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q21-b",
+          "answer": "$A = T = 1680\\ ;\\ G = X = 2520$"
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q21-c",
+          "answer": "$A = T = 1920\\ ;\\ G = X = 2880$"
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q21-d",
+          "answer": "$A = T = 720\\ ;\\ G = X = 1080$"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai1sinh12kntt-q21-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q22",
+      "order": 22,
+      "question": "Hình vẽ sau đây mô tả cấu tạo chung của một nucleotide. Hãy quan sát hình ảnh và cho biết mỗi nhận định sau đây là Đúng hay Sai?",
+      "type_question": "true_false",
+      "path_images": "/data/images/bai1sinh12kntt/bai1sinh12kntt_2_1.png",
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q22-a",
+          "answer": "Đây là đơn phân cấu tạo nên RNA và trong một đơn phân này có chứa 4 loại base nitrogeneous là A, T, G và C."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q22-b",
+          "answer": "Các nucleotide khác nhau chỉ khác nhau ở thành phần base nitrogene."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q22-c",
+          "answer": "Đường deoxyribose có công thức phân tử là C5H10O5; base nitrogene gồm có 4 loại: A, U, G, C."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q22-d",
+          "answer": "Một nucleotide gồm ba thành phần: acid phosphoric, đường deoxyribose, base nitrogene và có kích thước 3,4 $A^0$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "bai1sinh12kntt-q22-b",
+          "bai1sinh12kntt-q22-d"
+        ],
+        "false_answer": [
+          "bai1sinh12kntt-q22-a",
+          "bai1sinh12kntt-q22-c"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q23",
+      "order": 23,
+      "question": "Quan sát sơ đồ DNA theo mô hình Watson – Crick và cho biết các nhận định dưới đây là đúng hay sai.",
+      "type_question": "true_false",
+      "path_images": "/data/images/bai1sinh12kntt/bai1sinh12kntt_2_2.png",
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q23-a",
+          "answer": "DNA gồm 2 chuỗi polynucleotide xoắn"
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q23-b",
+          "answer": "Liên kết hydrogene trên DNA có tính bền vững giúp nó thực hiện chức năng di truyền 1 cách thuận lợi."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q23-c",
+          "answer": "Nhờ liên kết hydrogene và liên kết phosphodiester giúp DNA bảo quản được thông tin di truyền tốt hơn."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q23-d",
+          "answer": "Nếu phân tử DNA này có 150 chu kì xoắn và có 600 nucleotide loại Adenin thìsẽ có 3900 liên kết hydrogene"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "bai1sinh12kntt-q23-a",
+          "bai1sinh12kntt-q23-c",
+          "bai1sinh12kntt-q23-d"
+        ],
+        "false_answer": [
+          "bai1sinh12kntt-q23-b"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q24",
+      "order": 24,
+      "question": "Cho một đoạn DNA gồm 3 000 nitrogeneous base, biết tổng tỉ lệ % của nucleotideloại A và một loại nữa là 40%, mạch 1 của gene có $A_1=2T_1$, $G_1=4C_1$. Các nhận định dưới đây khi nói về đoạn DNA này là đúng hay sai?",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q24-a",
+          "answer": "Số nucleotide loại A của đoạn DNA là 600."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q24-b",
+          "answer": "Số liên kết hydrogene của đoạn DNA này là 3900."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q24-c",
+          "answer": "Tỉ lệ $T_2 : A_2 : C_2 : G_2 = 20 : 10 : 36 : 9$."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q24-d",
+          "answer": "Đoạn DNA này có 145 chu kì xoắn."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "bai1sinh12kntt-q24-a",
+          "bai1sinh12kntt-q24-b",
+          "bai1sinh12kntt-q24-c"
+        ],
+        "false_answer": [
+          "bai1sinh12kntt-q24-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q25",
+      "order": 25,
+      "question": "Hình bên mô tả cơ chế tái bản của phân tử DNA ở một chạc chữ Y. Phân tích hình và cho biết mỗi nhận định sau đây là đúng hay sai?",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai1sinh12kntt-q25-a",
+          "answer": "Vị trí số I là đầu 3' của phân tử DNA."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q25-b",
+          "answer": "Vị trí số III và số IV lần lượt là đoạn okazaki và các đoạn RNA mồi."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q25-c",
+          "answer": "Tính theo chiều tháo xoắn DNA thì trình tự nucleotide ở mạch số II giống với trình tự nucleotide ở mạch số VI."
+        },
+        {
+          "id_answer": "bai1sinh12kntt-q25-d",
+          "answer": "Vị trí số V là enzyme tháo xoắn, nó trượt từ vị trí đang xét hướng ra vị trí số I trên hình."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "bai1sinh12kntt-q25-b",
+          "bai1sinh12kntt-q25-c"
+        ],
+        "false_answer": [
+          "bai1sinh12kntt-q25-a",
+          "bai1sinh12kntt-q25-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q26",
+      "order": 26,
+      "question": "Có bao nhiêu thành phần cấu tạo nên một đơn phân nucleotide?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "3"
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q27",
+      "order": 27,
+      "question": "Một vòng xoắn có bao nhiêu nucleotide?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "20"
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q28",
+      "order": 28,
+      "question": "Một phân tử DNA gồm 3 000 nitrogeneous base, biết tổng tỉ lệ % của nucleotideloại A và một loại nữa là 40%. Số nucleotide loại G của phân tử DNA này là bao nhiêu?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "900"
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q29",
+      "order": 29,
+      "question": "Một phân tử DNA gồm 3 000 nitrogeneous base, biết hiệu giữa của nucleotideloại G và một loại nucleotide khác là 10%. Số liên kết hydrogene có trong phân tử DNAnày là bao nhiêu?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "3900"
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q30",
+      "order": 30,
+      "question": "Một gene có tổng số 2128 liên kết hydrogen. Trên mạch một của gene có số nu loại A bằng số nu loại T; Số nu loại G gấp 2 lần số nu loại A; Số nu loại C gấp 3 lần số nu loại T. Số nu loại A của gene là bao nhiêu?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "224"
+      }
+    },
+    {
+      "id_question": "bai1sinh12kntt-q31",
+      "order": 31,
+      "question": "Cho biết không có đột biến xảy ra, đoạn phân tử DNA trên có bao nhiêu liên kết hidrogen?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "12"
+      }
+    }
+  ]
+}
