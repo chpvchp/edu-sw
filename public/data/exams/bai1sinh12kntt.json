@@ -396,7 +396,7 @@
     {
       "id_question": "bai1sinh12kntt-q13",
       "order": 13,
-      "question": "Những dữ kiện nào sau đây đúng khi nói về quá trình tái bản DNA ở sinh vật nhân thực?",
+      "question": "Những dữ kiện nào sau đây đúng khi nói về quá trình tái bản DNA ở sinh vật nhân thực?\n\n(1) Chỉ xảy ra trên 1 đơn vị tái bản.\n(2) Có sự tham gia của enzyme nối ligase.\n(3) Enzyme DNA polymerase lắp ráp nucleotide vào đầu 3' -OH của đoạn mồi RNA tổng hợp nên mạch đơn mới.\n(4) Quá trình này chỉ diễn ra trong tế bào chất.",
       "type_question": "four_choice",
       "path_images": null,
       "answers": [
@@ -498,19 +498,19 @@
       "answers": [
         {
           "id_answer": "bai1sinh12kntt-q16-a",
-          "answer": "1798."
+          "answer": "1798"
         },
         {
           "id_answer": "bai1sinh12kntt-q16-b",
-          "answer": "2250."
+          "answer": "2250"
         },
         {
           "id_answer": "bai1sinh12kntt-q16-c",
-          "answer": "1125."
+          "answer": "1125"
         },
         {
           "id_answer": "bai1sinh12kntt-q16-d",
-          "answer": "3060."
+          "answer": "3060"
         }
       ],
       "results": {
@@ -530,19 +530,19 @@
       "answers": [
         {
           "id_answer": "bai1sinh12kntt-q17-a",
-          "answer": "432."
+          "answer": "432"
         },
         {
           "id_answer": "bai1sinh12kntt-q17-b",
-          "answer": "342."
+          "answer": "342"
         },
         {
           "id_answer": "bai1sinh12kntt-q17-c",
-          "answer": "608."
+          "answer": "608"
         },
         {
           "id_answer": "bai1sinh12kntt-q17-d",
-          "answer": "806."
+          "answer": "806"
         }
       ],
       "results": {
@@ -626,19 +626,19 @@
       "answers": [
         {
           "id_answer": "bai1sinh12kntt-q20-a",
-          "answer": "3900."
+          "answer": "3900"
         },
         {
           "id_answer": "bai1sinh12kntt-q20-b",
-          "answer": "3600."
+          "answer": "3600"
         },
         {
           "id_answer": "bai1sinh12kntt-q20-c",
-          "answer": "7200."
+          "answer": "7200"
         },
         {
           "id_answer": "bai1sinh12kntt-q20-d",
-          "answer": "7800."
+          "answer": "7800"
         }
       ],
       "results": {

@@ -67,7 +67,7 @@
       ],
       "results": {
         "explain": "",
-        "correct_answer": "bai2sinh12kntt-q2-a",
+        "correct_answer": "bai2sinh12kntt-q2-c",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
@@ -131,7 +131,7 @@
       ],
       "results": {
         "explain": "",
-        "correct_answer": "bai2sinh12kntt-q4-d",
+        "correct_answer": "bai2sinh12kntt-q4-b",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
@@ -873,7 +873,8 @@
           "bai2sinh12kntt-q27-c"
         ],
         "false_answer": [
-          "bai2sinh12kntt-q27-b"
+          "bai2sinh12kntt-q27-b",
+          "bai2sinh12kntt-q27-d"
         ],
         "short_answer": ""
       }
