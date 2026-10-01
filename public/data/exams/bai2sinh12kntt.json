@@ -1,0 +1,965 @@
+{
+  "id_exam": "bai2sinh12kntt",
+  "id_subject": "sinhhoc",
+  "name_exam": "BÀI 2 SINH 12",
+  "name_subject": "Sinh Học",
+  "class_exam": 12,
+  "duration": 20,
+  "updated": "2026-10-01T18:20",
+  "created": "2026-10-01T18:20",
+  "source": "/documents/pdf/BÀI 2 SINH 12.pdf",
+  "questions": [
+    {
+      "id_question": "bai2sinh12kntt-q1",
+      "order": 1,
+      "question": "Một đoạn của phân tử DNA mang thông tin quy định sản phẩm xác định là polypeptide hoặc RNA được gọi là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q1-a",
+          "answer": "mRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q1-b",
+          "answer": "tRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q1-c",
+          "answer": "chuỗi polynucleotide."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q1-d",
+          "answer": "gene."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q1-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q2",
+      "order": 2,
+      "question": "Đơn phân của protein là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q2-a",
+          "answer": "nucleotide."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q2-b",
+          "answer": "peptide."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q2-c",
+          "answer": "amino acid."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q2-d",
+          "answer": "nucleosome."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q2-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q3",
+      "order": 3,
+      "question": "Loại phân tử nào sau đây không có liên kết hydrogen?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q3-a",
+          "answer": "DNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q3-b",
+          "answer": "mRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q3-c",
+          "answer": "tRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q3-d",
+          "answer": "rRNA."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q3-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q4",
+      "order": 4,
+      "question": "Loại nucleotide nào sau đây không phải là đơn phân cấu tạo nên phân tử RNA?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q4-a",
+          "answer": "Adenine (A)."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q4-b",
+          "answer": "Timin (T)."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q4-c",
+          "answer": "Uracil (U)."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q4-d",
+          "answer": "Cytosine (C)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q4-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q5",
+      "order": 5,
+      "question": "Liên kết hóa trị và liên kết hydrogen đồng thời có mặt trong cấu trúc của loại acid nucleic nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q5-a",
+          "answer": "Có trong DNA, mRNA và tRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q5-b",
+          "answer": "Có trong DNA, tRNA và rRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q5-c",
+          "answer": "Có trong DNA, rRNA và mRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q5-d",
+          "answer": "Có trong mRNA, tRNA và rRNA."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q5-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q6",
+      "order": 6,
+      "question": "Chức năng của mRNA là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q6-a",
+          "answer": "Như “một người phiên dịch” tham gia dịch mã."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q6-b",
+          "answer": "Kết hợp với protein tạo nên ribosome."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q6-c",
+          "answer": "Mang thông tin mã hóa một phân tử tRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q6-d",
+          "answer": "Làm khuôn cho quá trình dịch mã ở ribosome."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q6-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q7",
+      "order": 7,
+      "question": "Quá trình phiên mã tổng hợp RNA ở sinh vật nhân thực chủ yếu diễn ra ở",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q7-a",
+          "answer": "Tế bào chất."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q7-b",
+          "answer": "Ribosome."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q7-c",
+          "answer": "Ti thể."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q7-d",
+          "answer": "Nhân tế bào."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q7-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q8",
+      "order": 8,
+      "question": "Quá trình nào sau đây có giai đoạn hoạt hóa axit amin?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q8-a",
+          "answer": "Phiên mã tổng hợp tARN."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q8-b",
+          "answer": "Phiên mã tổng hợp mARN."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q8-c",
+          "answer": "Nhân đôi ADN."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q8-d",
+          "answer": "Dịch mã."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q8-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q9",
+      "order": 9,
+      "question": "Ở tế bào nhân thực, quá trình nào sau đây chỉ diễn ra ở tế bào chất?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q9-a",
+          "answer": "Phiên mã tổng hợp tARN."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q9-b",
+          "answer": "Phiên mã tổng hợp mARN."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q9-c",
+          "answer": "Dịch mã."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q9-d",
+          "answer": "Nhân đôi ADN."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q9-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q10",
+      "order": 10,
+      "question": "Loại nucleic acid nào sau đây là thành phần cấu tạo của ribosome?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q10-a",
+          "answer": "tRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q10-b",
+          "answer": "mRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q10-c",
+          "answer": "rRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q10-d",
+          "answer": "DNA."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q10-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q11",
+      "order": 11,
+      "question": "Gene là một đoạn của phân tử DNA mang thông tin quy định một loại sản phẩm nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q11-a",
+          "answer": "Một phân tử lipid hoặc một phân tử carbohydrate."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q11-b",
+          "answer": "Một chuỗi polypeptide hoặc một phân tử RNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q11-c",
+          "answer": "Một phân tử đường deoxyribose hoặc base nitrogen."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q11-d",
+          "answer": "Một phân tử enzyme hoặc hormone steroid."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q11-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q12",
+      "order": 12,
+      "question": "Cấu trúc chung của một gene mã hóa protein gồm 3 vùng trình tự nucleotide sắp xếp theo thứ tự trên mạch khuôn từ đầu $3'$ đến $5'$ là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q12-a",
+          "answer": "vùng vận hành, vùng mã hoá, vùng kết thúc."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q12-b",
+          "answer": "vùng mã hoá, vùng điều hoà, vùng kết thúc."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q12-c",
+          "answer": "vùng điều hoà, vùng mã hoá, vùng kết thúc."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q12-d",
+          "answer": "vùng điều hoà, vùng vận hành, vùng kết thúc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q12-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q13",
+      "order": 13,
+      "question": "Loại RNA nào sau đây có chức năng làm khuôn cho quá trình dịch mã tổng hợp chuỗi polypeptide?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q13-a",
+          "answer": "mRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q13-b",
+          "answer": "tRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q13-c",
+          "answer": "rRNA."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q13-d",
+          "answer": "snRNA."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q13-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q14",
+      "order": 14,
+      "question": "Ở sinh vật nhân thực, bộ ba mở đầu AUG trên phân tử mRNA mã hoá cho loại amino acid nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q14-a",
+          "answer": "Formylmethionine."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q14-b",
+          "answer": "Valine."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q14-c",
+          "answer": "Methionine."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q14-d",
+          "answer": "Alanine."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q14-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q15",
+      "order": 15,
+      "question": "Bộ ba nào sau đây trên phân tử mRNA mang tín hiệu kết thúc quá trình dịch mã?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q15-a",
+          "answer": "$5'$-AUG-$3'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q15-b",
+          "answer": "$5'$-UGG-$3'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q15-c",
+          "answer": "$5'$-ACU-$3'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q15-d",
+          "answer": "$5'$-UAA-$3'$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q15-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q16",
+      "order": 16,
+      "question": "Enzyme chính thực hiện xúc tác cho quá trình phiên mã tổng hợp RNA là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q16-a",
+          "answer": "DNA polymerase."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q16-b",
+          "answer": "RNA polymerase."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q16-c",
+          "answer": "DNA ligase."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q16-d",
+          "answer": "Restrictase."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q16-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q17",
+      "order": 17,
+      "question": "Hiện tượng nhiều bộ ba khác nhau cùng mã hoá cho một loại amino acid thể hiện đặc điểm nào sau đây của mã di truyền?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q17-a",
+          "answer": "Tính đặc hiệu."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q17-b",
+          "answer": "Tính phổ biến."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q17-c",
+          "answer": "Tính thoái hoá."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q17-d",
+          "answer": "Tính liên tục."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q17-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q18",
+      "order": 18,
+      "question": "Tập hợp tất cả vật chất di truyền (DNA) trong tế bào của một sinh vật được gọi là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q18-a",
+          "answer": "vốn gene."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q18-b",
+          "answer": "mã di truyền."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q18-c",
+          "answer": "locus gene."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q18-d",
+          "answer": "hệ gene."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q18-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q19",
+      "order": 19,
+      "question": "Điểm khác biệt cơ bản về cấu trúc vùng mã hóa của gene ở sinh vật nhân sơ so với sinh vật nhân thực là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q19-a",
+          "answer": "gene ở sinh vật nhân sơ có vùng mã hoá gồm các đoạn exon xen kẽ các đoạn intron."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q19-b",
+          "answer": "gene ở sinh vật nhân sơ có vùng mã hoá liên tục, không chứa các đoạn intron."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q19-c",
+          "answer": "gene ở sinh vật nhân sơ không có vùng điều hòa và vùng kết thúc phiên mã."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q19-d",
+          "answer": "gene ở sinh vật nhân sơ chỉ mang thông tin quy định tổng hợp các phân tử RNA."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q19-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q20",
+      "order": 20,
+      "question": "Trong quá trình phiên mã, enzyme RNA polymerase di chuyển trên mạch khuôn của gene và tổng hợp chuỗi polynucleotide mới theo chiều nào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q20-a",
+          "answer": "Trượt trên mạch khuôn theo chiều $5'\\rightarrow3'$ và tổng hợp mạch mới theo chiều $3'\\rightarrow5'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q20-b",
+          "answer": "Trượt trên mạch khuôn theo chiều $3'\\rightarrow5'$ và tổng hợp mạch mới theo chiều $5'\\rightarrow3'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q20-c",
+          "answer": "Trượt trên mạch khuôn theo chiều $3'\\rightarrow5'$ và tổng hợp mạch mới theo chiều $3'\\rightarrow5'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q20-d",
+          "answer": "Trượt trên mạch khuôn theo chiều $5'\\rightarrow3'$ và tổng hợp mạch mới theo chiều $5'\\rightarrow3'$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q20-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q21",
+      "order": 21,
+      "question": "Trong quá trình dịch mã, hiện tượng nhiều ribosome cùng trượt trên một phân tử mRNA (polyribosome) có ý nghĩa sinh học nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q21-a",
+          "answer": "Tổng hợp ra nhiều loại protein khác nhau phục vụ nhu cầu tế bào."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q21-b",
+          "answer": "Giúp phân tử mRNA không bị các enzyme phân giải trong tế bào chất."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q21-c",
+          "answer": "Tăng hiệu suất tổng hợp các chuỗi polypeptide cùng loại."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q21-d",
+          "answer": "Đảm bảo quá trình truyền đạt thông tin diễn ra theo nguyên tắc bán bảo toàn."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q21-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q22",
+      "order": 22,
+      "question": "Quá trình phiên mã ngược là quá trình tổng hợp phân tử nào sau đây dựa trên mạch khuôn là RNA?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q22-a",
+          "answer": "Tổng hợp DNA mạch đơn bổ sung (cDNA)."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q22-b",
+          "answer": "Tổng hợp chuỗi polypeptide chức năng."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q22-c",
+          "answer": "Tổng hợp phân tử mRNA trưởng thành."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q22-d",
+          "answer": "Tổng hợp tRNA mang amino acid."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q22-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q23",
+      "order": 23,
+      "question": "Bộ ba mã gốc (triplet) $3'\\text{TAG}5'$ mã hóa amino acid Ile, tRNA mang amino acid này có anticodon là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q23-a",
+          "answer": "$3'\\text{GAU}5'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q23-b",
+          "answer": "$3'\\text{GUA}5'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q23-c",
+          "answer": "$5'\\text{AUC}3'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q23-d",
+          "answer": "$3'\\text{UAG}5'$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q23-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q24",
+      "order": 24,
+      "question": "Một đoạn polypeptide gồm 4 amino acid có trình tự: Val - Trp - Phe - Pro. Biết các codon trên mRNA mã hóa các amino acid tương ứng như sau: Trp - UGG ; Val - GUU; Phe - UUU; Pro - CCA. Trình tự nucleotide trên đoạn mạch gốc của gene mang thông tin mã hóa cho đoạn polypeptide nói trên như thế nào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q24-a",
+          "answer": "$3'\\text{TGG-AAA-GGT-CCA}5'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q24-b",
+          "answer": "$3'\\text{CAA-ACC-AAA-GGT}5'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q24-c",
+          "answer": "$5'\\text{CAA-ACC-TTT-GGT}3'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q24-d",
+          "answer": "$5'\\text{TGG-TGG-AAG-CCA}3'$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q24-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q25",
+      "order": 25,
+      "question": "Một phân tử mRNA của tế bào nhân thực có codon mở đầu là $5'\\text{-AUG-}3'$ và codon kết thúc là $5'\\text{-UGA-}3'$. Bộ ba đối mã (anticodon) trên phân tử tRNA mang amino acid mở đầu (Met) khớp bổ sung với codon mở đầu có trình tự đọc theo chiều $3'\\rightarrow5'$ là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q25-a",
+          "answer": "$3'\\text{-AUG-}5'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q25-b",
+          "answer": "$5'\\text{-UAC-}3'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q25-c",
+          "answer": "$3'\\text{-UAC-}5'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q25-d",
+          "answer": "$3'\\text{-CAU-}5'$."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q25-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q26",
+      "order": 26,
+      "question": "Cho biết các codon mã hóa amino acid tương ứng như sau: GGG - Gly; CCC - Pro; GCU - Ala; CGA - Arg; UCG - Ser; AGC - Ser. Một đoạn mạch gốc của một gene ở vi khuẩn có trình tự các nucleotide là $5'\\text{AGC-CGA-CCC-GGG}3'$. Nếu đoạn mạch gốc này mang thông tin mã hóa cho đoạn polypeptide có 4 amino acid thì trình tự của 4 amino acid đó là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q26-a",
+          "answer": "Ser - Ala - Gly - Pro."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q26-b",
+          "answer": "Pro - Gly - Ser - Ala."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q26-c",
+          "answer": "Ser - Arg - Pro - Gly."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q26-d",
+          "answer": "Gly - Pro - Ser - Arg."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai2sinh12kntt-q26-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q27",
+      "order": 27,
+      "question": "Khi nói về cấu trúc của gene và hệ gene, xét tính đúng/sai của các nhận định sau:",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q27-a",
+          "answer": "Vùng điều hoà nằm ở đầu $3'$ trên mạch khuôn của gene, chứa trình tự promoter nơi enzyme RNA polymerase có thể liên kết để khởi đầu quá trình phiên mã."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q27-b",
+          "answer": "Ở sinh vật nhân sơ, phần lớn các gene có vùng mã hoá phân mảnh gồm các đoạn exon xen kẽ với các đoạn intron."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q27-c",
+          "answer": "Hệ gene là tập hợp tất cả vật chất di truyền (DNA) có trong tế bào của một sinh vật."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q27-d",
+          "answer": "Trong hệ gene người, toàn bộ các trình tự nucleotide đều thuộc các đoạn exon có chức năng mã hoá chuỗi Polypeptide."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "bai2sinh12kntt-q27-a",
+          "bai2sinh12kntt-q27-c"
+        ],
+        "false_answer": [
+          "bai2sinh12kntt-q27-b"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q28",
+      "order": 28,
+      "question": "Khi nói về các loại RNA và quá trình phiên mã, các nhận định sau đây đúng hay sai?",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai2sinh12kntt-q28-a",
+          "answer": "Phân tử mRNA trưởng thành có cấu tạo một mạch đơn, dạng thẳng, làm khuôn cho quá trình dịch mã."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q28-b",
+          "answer": "Trên phân tử tRNA, bộ ba đối mã (anticodon) liên kết bổ sung với bộ ba mã hoá (codon) tương ứng trên mRNA theo nguyên tắc bổ sung."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q28-c",
+          "answer": "Trong quá trình phiên mã, enzyme RNA polymerase trượt trên mạch khuôn theo chiều $3'\\rightarrow5'$ và kéo dài mạch RNA mới theo chiều $3'\\rightarrow5'$."
+        },
+        {
+          "id_answer": "bai2sinh12kntt-q28-d",
+          "answer": "Quá trình phiên mã ngược là quá trình tổng hợp DNA mạch bổ sung dựa trên mạch khuôn là phân tử RNA."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "bai2sinh12kntt-q28-a",
+          "bai2sinh12kntt-q28-b",
+          "bai2sinh12kntt-q28-d"
+        ],
+        "false_answer": [
+          "bai2sinh12kntt-q28-c"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q29",
+      "order": 29,
+      "question": "Trong tổng số 64 bộ ba (codon) của bảng mã di truyền, có bao nhiêu bộ ba mang tín hiệu kết thúc quá trình dịch mã (không mã hoá amino acid)?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "3"
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q30",
+      "order": 30,
+      "question": "Vùng mã hoá của một gene phân mảnh ở sinh vật nhân thực chứa 4 đoạn intron xen kẽ. Số đoạn exon có trong vùng mã hoá của gene này là bao nhiêu?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "5"
+      }
+    },
+    {
+      "id_question": "bai2sinh12kntt-q31",
+      "order": 31,
+      "question": "Một phân tử mRNA trưởng thành có chiều dài là 306 nm. Số lượng bộ ba (codon) có trên phân tử mRNA này là bao nhiêu?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "300"
+      }
+    }
+  ]
+}

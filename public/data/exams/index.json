@@ -9,6 +9,24 @@
     "created": "2026-10-01T18:20"
   },
   {
+    "id_exam": "bai2sinh12kntt",
+    "name_exam": "BÀI 2 SINH 12",
+    "name_subject": "Sinh Học",
+    "class_exam": 12,
+    "duration": 20,
+    "updated": "2026-10-01T18:20",
+    "created": "2026-10-01T18:20"
+  },
+  {
+    "id_exam": "bai3sinh12kntt",
+    "name_exam": "BÀI 3 SINH 12",
+    "name_subject": "Sinh Học",
+    "class_exam": 12,
+    "duration": 20,
+    "updated": "2026-10-01T18:20",
+    "created": "2026-10-01T18:20"
+  },
+  {
     "id_exam": "dlt_toan_12_bai_1_2_ketnoitrithuc",
     "name_exam": "ĐỀ LUYỆN TẬP TOÁN 12 BÀI 1,2 KẾT NỐI TRI THỨC",
     "name_subject": "Toán",

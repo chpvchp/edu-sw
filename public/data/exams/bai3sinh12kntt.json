@@ -1,0 +1,465 @@
+{
+  "id_exam": "bai3sinh12kntt",
+  "id_subject": "sinhhoc",
+  "name_exam": "BÀI 3 SINH 12",
+  "name_subject": "Sinh Học",
+  "class_exam": 12,
+  "duration": 20,
+  "updated": "2026-10-01T18:20",
+  "created": "2026-10-01T18:20",
+  "source": "/documents/pdf/BÀI 3 SINH 12.pdf",
+  "questions": [
+    {
+      "id_question": "bai3sinh12kntt-q1",
+      "order": 1,
+      "question": "Điều hòa hoạt động gen của sinh vật nhân sơ chủ yếu xảy ra ở giai đoạn",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q1-a",
+          "answer": "phiên mã."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q1-b",
+          "answer": "sau phiên mã."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q1-c",
+          "answer": "dịch mã."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q1-d",
+          "answer": "sau dịch mã."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q1-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q2",
+      "order": 2,
+      "question": "Điều hòa hoạt động của gene ở sinh vật thực chất là điều hòa",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q2-a",
+          "answer": "lượng ATP và chất dinh dưỡng tích lũy trong tế bào."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q2-b",
+          "answer": "lượng sản phẩm của gene (RNA hoặc protein) được tạo ra."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q2-c",
+          "answer": "số lượng nucleotide tự do trong môi trường nội bào."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q2-d",
+          "answer": "số lượng phân tử DNA nhân đôi trong chu kì tế bào."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q2-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q3",
+      "order": 3,
+      "question": "Người đi tiên phong trong lĩnh vực nghiên cứu điều hòa biểu hiện gene là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q3-a",
+          "answer": "Monod và Jacob."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q3-b",
+          "answer": "Mendel và Morgan."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q3-c",
+          "answer": "Singer và Nicolson."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q3-d",
+          "answer": "Watson và Crick."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q3-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q4",
+      "order": 4,
+      "question": "Monod và Jacob đã nghiên cứu và phát hiện ra cơ chế điều hòa biểu hiện của operon lạc ở sinh vật nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q4-a",
+          "answer": "Vi khuẩn Escherichia coli."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q4-b",
+          "answer": "Vi khuẩn Helicobacter pylori."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q4-c",
+          "answer": "Nấm men Saccharomyces cerevisiae."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q4-d",
+          "answer": "Vi khuẩn Lactobacillus casei."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q4-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q5",
+      "order": 5,
+      "question": "Cấu trúc operon lac bao gồm",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q5-a",
+          "answer": "vùng điều hòa gồm trình tự P (promoter), O (operator) và ba gene cấu trúc lacZ, lacY, lacA."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q5-b",
+          "answer": "vùng điều hòa gồm trình tự P (promoter), O (operator) và ba gene cấu trúc lacI, lacY, lacA."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q5-c",
+          "answer": "vùng điều hòa gồm trình tự P (promoter), O (operator) và ba gene cấu trúc lacZ, lacI, lacA."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q5-d",
+          "answer": "vùng điều hòa gồm trình tự P (promoter), O (operator) và ba gene cấu trúc lacZ, lacY, lacI."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q5-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q6",
+      "order": 6,
+      "question": "Gene lacZ quy định tổng hợp sản phẩm nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q6-a",
+          "answer": "Enzyme permease."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q6-b",
+          "answer": "Enzyme transacetylase."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q6-c",
+          "answer": "Enzyme β-galactosidase."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q6-d",
+          "answer": "Enzyme RNA polymerase."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q6-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q7",
+      "order": 7,
+      "question": "Trong mô hình cấu trúc của operon Lac ở vi khuẩn E. coli, vùng vận hành (O) là vị trí",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q7-a",
+          "answer": "mang thông tin quy định các enzyme phân giải đường lactose."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q7-b",
+          "answer": "enzyme RNA polymerase bám vào để khởi đầu phiên mã."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q7-c",
+          "answer": "protein ức chế liên kết để ngăn cản quá trình phiên mã."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q7-d",
+          "answer": "mang tín hiệu kết thúc quá trình phiên mã của operon."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q7-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q8",
+      "order": 8,
+      "question": "Thành phần nào sau đây không nằm trong cấu trúc của operon Lac ở vi khuẩn E. coli?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q8-a",
+          "answer": "Vùng vận hành (O)."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q8-b",
+          "answer": "Vùng khởi động (P)."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q8-c",
+          "answer": "Gene điều hoà (lacI)."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q8-d",
+          "answer": "Cụm gene cấu trúc (lacZ, lacY, lacA)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q8-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q9",
+      "order": 9,
+      "question": "Trong cơ chế hoạt động của operon Lạc ở vi khuẩn E. coli, chất đóng vai trò là chất cảm ứng liên kết làm thay đổi cấu hình không gian của protein ức chế là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q9-a",
+          "answer": "glucose."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q9-b",
+          "answer": "lactose."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q9-c",
+          "answer": "galactose."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q9-d",
+          "answer": "saccharose."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q9-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q10",
+      "order": 10,
+      "question": "Trong cơ chế điều hoà hoạt động của operon lac ở vi khuẩn E. coli, đột biến xảy ra ở vị trí nào sau đây của operon làm cho các gene cấu trúc Z, Y, A có thể phiên mã ngay cả khi môi trường không có lactose?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q10-a",
+          "answer": "Gene cấu trúc A."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q10-b",
+          "answer": "Vùng vận hành."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q10-c",
+          "answer": "Gene cấu trúc Y."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q10-d",
+          "answer": "Gene cấu trúc Z."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q10-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q11",
+      "order": 11,
+      "question": "Trong cơ chế điều hoà hoạt động của operon lac, sự kiện nào sau đây diễn ra cả khi môi trường có lactose và khi môi trường không có lactose?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q11-a",
+          "answer": "Một số phân tử lactose liên kết với protein ức chế."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q11-b",
+          "answer": "Gene điều hoà lacI tổng hợp protein ức chế."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q11-c",
+          "answer": "Các gene cấu trúc Z, Y, A phiên mã tạo ra các phân tử RNA tương ứng."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q11-d",
+          "answer": "RNA polymerase liên kết với vùng khởi động của operon lạc và tiến hành phiên mã."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q11-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q12",
+      "order": 12,
+      "question": "Khi nói về operon lac ở VK E.coli, có bao nhiêu phát biểu đúng?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q12-a",
+          "answer": "4"
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q12-b",
+          "answer": "2"
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q12-c",
+          "answer": "3"
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q12-d",
+          "answer": "1"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai3sinh12kntt-q12-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q13",
+      "order": 13,
+      "question": "Khi nói về cấu trúc của operon Lac và gene điều hòa ở vi khuẩn E. coli, xét tính đúng/sai của các nhận định sau:",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai3sinh12kntt-q13-a",
+          "answer": "Operon Lac bao gồm vùng khởi động (P), vùng vận hành (O) và cụm ba gene cấu trúc (lacZ, lacY, lacA)."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q13-b",
+          "answer": "Gene điều hoà (lacI) là một thành phần cấu trúc trực thuộc nằm bên trong operon Lac."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q13-c",
+          "answer": "Cả ba gene cấu trúc lacZ, lacY, lacA có chung một vùng promoter và được phiên mã đồng thời tạo thành một phân tử mRNA chung."
+        },
+        {
+          "id_answer": "bai3sinh12kntt-q13-d",
+          "answer": "Vùng vận hành (O) là vị trí mà enzyme RNA polymerase liên kết trực tiếp vào để bắt đầu quá trình phiên mã."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "bai3sinh12kntt-q13-a",
+          "bai3sinh12kntt-q13-c"
+        ],
+        "false_answer": [
+          "bai3sinh12kntt-q13-b",
+          "bai3sinh12kntt-q13-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q14",
+      "order": 14,
+      "question": "Trong cấu trúc của một operon Lac ở vi khuẩn E. coli, có bao nhiêu gene cấu trúc nằm liền nhau?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "3"
+      }
+    },
+    {
+      "id_question": "bai3sinh12kntt-q15",
+      "order": 15,
+      "question": "Ở vi khuẩn E. coli, khi môi trường có lactose, nếu gene cấu trúc lacZ phiên mã 5 lần thì gene cấu trúc lacA sẽ tiến hành phiên mã bao nhiêu lần?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "5"
+      }
+    }
+  ]
+}
