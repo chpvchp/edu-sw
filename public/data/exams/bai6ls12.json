@@ -1,0 +1,1869 @@
+{
+  "id_exam": "bai6ls12",
+  "id_subject": "su",
+  "name_exam": "BÀI 6 LỊCH SỬ 12",
+  "name_subject": "Lịch sử",
+  "class_exam": "12",
+  "duration": 45,
+  "created": "2026-10-28T18:55",
+  "updated": "2026-10-28T11:53",
+  "source": "/documents/pdf/de-moi.pdf",
+  "questions": [
+    {
+      "id_question": "bai6ls12-q1",
+      "order": 1,
+      "question": "Nội dung nào dưới dây là diều kiện khách quan thuận lợi cho Cách mạng tháng Tám nổ ra?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q1-a",
+          "answer": "Chiến tranh thế giới thứ hai bùng nổ."
+        },
+        {
+          "id_answer": "bai6ls12-q1-b",
+          "answer": "Phát xít Đức dầu hàng Đồng minh."
+        },
+        {
+          "id_answer": "bai6ls12-q1-c",
+          "answer": "Mỹ ném bom nguyên tử xuống Nhật Bản."
+        },
+        {
+          "id_answer": "bai6ls12-q1-d",
+          "answer": "Nhật dầu hàng Đồng minh vô điều kiện."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q1-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q2",
+      "order": 2,
+      "question": "Lực lượng thân Nhật nào tồn tại ở Việt Nam trước khi Cách mạng tháng Tám nổ ra?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q2-a",
+          "answer": "Chính phủ Trần Trọng Kim."
+        },
+        {
+          "id_answer": "bai6ls12-q2-b",
+          "answer": "Bọn Việt Quốc, Việt Cách."
+        },
+        {
+          "id_answer": "bai6ls12-q2-c",
+          "answer": "Chính quyền Ngô Đình Diệm."
+        },
+        {
+          "id_answer": "bai6ls12-q2-d",
+          "answer": "Chính quyền độc tài Batixta"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q2-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q3",
+      "order": 3,
+      "question": "Nội dung nào sau đây đúng về tỉnh hình ở Việt Nam khi Nhật Bản dầu hàng quân Đồng minh?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q3-a",
+          "answer": "Các địa phương đều đã thực hiện khởi nghĩa từng phần."
+        },
+        {
+          "id_answer": "bai6ls12-q3-b",
+          "answer": "Lực lượng vũ trang của Việt Minh đã áp đảo quân của Nhật."
+        },
+        {
+          "id_answer": "bai6ls12-q3-c",
+          "answer": "Quân Pháp mất tính thần, Chính phủ Trần Trọng Kim trở nên bất lực."
+        },
+        {
+          "id_answer": "bai6ls12-q3-d",
+          "answer": "Quân Nhật rệu rã, Chính phủ Trần Trọng Kim hoang mang, dao động."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q3-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q4",
+      "order": 4,
+      "question": "“Hỡi quốc dân đồng bào! Phát xít Nhật đã đầu hàng Đồng minh, quân Nhật đã bị tan rã tại khắp các mặt trận, kẻ thù chúng ta đã ngã gục,...\". Câu nói trên thể hiện điều gì trong Cách mạng tháng Tám?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q4-a",
+          "answer": "Thời cơ khách quan thuận lợi."
+        },
+        {
+          "id_answer": "bai6ls12-q4-b",
+          "answer": "Thời cơ chủ quan thuận lợi."
+        },
+        {
+          "id_answer": "bai6ls12-q4-c",
+          "answer": "Cách mạng tháng Tám đã thành công."
+        },
+        {
+          "id_answer": "bai6ls12-q4-d",
+          "answer": "Thời kì tiền khởi nghĩa bắt đầu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q4-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q5",
+      "order": 5,
+      "question": "Ở Việt Nam, cao trào kháng Nhật cứu nước (từ tháng 3 đến 8-1945) có ý nghĩa như thế nào đối với Cách mạng tháng Tám năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q5-a",
+          "answer": "Góp phần chuẩn bị lực lượng, tập dượt cho quần chúng đấu tranh."
+        },
+        {
+          "id_answer": "bai6ls12-q5-b",
+          "answer": "Mở ra kỷ nguyên mới, nhân dân lao động nắm chính quyền làm chủ."
+        },
+        {
+          "id_answer": "bai6ls12-q5-c",
+          "answer": "Đảng Cộng sản Đông Dương trở thành Đảng cầm quyền trên cả nước."
+        },
+        {
+          "id_answer": "bai6ls12-q5-d",
+          "answer": "Mở ra thời kì trực tiếp Víận động cứu nước, giải phóng dân tộc hoàn toàn."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q5-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q6",
+      "order": 6,
+      "question": "Thời cơ “ngàn năm có một” để nhân dân Việt Nam Tổng khởi nghĩa giành chính quyền năm 1945 kết thúc khi",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q6-a",
+          "answer": "quân Đồng minh vào Đông Dương giải giáp quân đội Nhật."
+        },
+        {
+          "id_answer": "bai6ls12-q6-b",
+          "answer": "thực dân Pháp bắt đầu nổ súng xâm lược trở lại Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q6-c",
+          "answer": "Nhật cùng thực dân Anh chống phá chính quyền cách mạng."
+        },
+        {
+          "id_answer": "bai6ls12-q6-d",
+          "answer": "Nhật giao Đông Dương cho quân Trung Hoa Dân quốc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q6-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q7",
+      "order": 7,
+      "question": "Ngày 13/8/1945, Trung ương Đảng và Tổng bộ Việt Minh đã thông qua quyết định nào dưới đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q7-a",
+          "answer": "Quyết định khởi nghĩa ở Hà Nội."
+        },
+        {
+          "id_answer": "bai6ls12-q7-b",
+          "answer": "Đã phát động cao trào kháng Nhật."
+        },
+        {
+          "id_answer": "bai6ls12-q7-c",
+          "answer": "Thống nhất lực lượng vũ trang Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q7-d",
+          "answer": "Phát lệnh Tổng khởi nghĩa trên cả nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q7-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q8",
+      "order": 8,
+      "question": "Ngày 13/8/1945, Trung ương Đảng và Tổng bộ Việt Minh đã ban bố",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q8-a",
+          "answer": "Quyết định khởi nghĩa ở Hà Nội."
+        },
+        {
+          "id_answer": "bai6ls12-q8-b",
+          "answer": "Đã phát động cao trào kháng Nhật."
+        },
+        {
+          "id_answer": "bai6ls12-q8-c",
+          "answer": "Thống nhất lực lượng vũ trang Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q8-d",
+          "answer": "Quân lệnh số 1."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q8-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q9",
+      "order": 9,
+      "question": "Ngày 13/8/1945, ngay khi nhận được những thông tin về việc Nhật Bản sắp dầu hàng Đồng minh, Trung ương Đảng và Tổng bộ Việt Minh đã thành lập cơ quan nào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q9-a",
+          "answer": "Ủy ban lâm thời Khu giải phóng."
+        },
+        {
+          "id_answer": "bai6ls12-q9-b",
+          "answer": "Ủy ban Dân tộc giải phóng Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q9-c",
+          "answer": "Ủy ban Khởi nghĩa toàn quốc."
+        },
+        {
+          "id_answer": "bai6ls12-q9-d",
+          "answer": "Ủy ban Quân sự cách mạng Bắc Kì."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q9-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q10",
+      "order": 10,
+      "question": "Hội nghị toàn quốc (ngày 14 đến 15 - 8 – 1945) của Đảng Cộng sản Đông Dương diễn ra ở dâu?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q10-a",
+          "answer": "Định Hóa (Thái Nguyên)."
+        },
+        {
+          "id_answer": "bai6ls12-q10-b",
+          "answer": "Tân Trào (Tuyên Quang)."
+        },
+        {
+          "id_answer": "bai6ls12-q10-c",
+          "answer": "Pác Bó (Cao Bằng)."
+        },
+        {
+          "id_answer": "bai6ls12-q10-d",
+          "answer": "Bắc Sơn (Lạng Sơn)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q10-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q11",
+      "order": 11,
+      "question": "Hội nghị toàn quốc của Đảng Cộng sản Đông Dương họp ở Tân Trào (14-15/8/1945) dã thông qua",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q11-a",
+          "answer": "Thống nhất các lực lượng vũ trang."
+        },
+        {
+          "id_answer": "bai6ls12-q11-b",
+          "answer": "Quyết định khởi nghĩa ở Hà Nội."
+        },
+        {
+          "id_answer": "bai6ls12-q11-c",
+          "answer": "Kế hoạch Lãnh đạo toàn dân Tổng khởi nghĩa, và quyết định chính sách đối nội dối ngoại sau khi giành được chính quyền."
+        },
+        {
+          "id_answer": "bai6ls12-q11-d",
+          "answer": "Giải phóng dân tộc trong năm 1945."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q11-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q12",
+      "order": 12,
+      "question": "Các đại biểu đều nhất trí tán thành chủ trương Tổng khởi nghĩa của Đảng, cử ra Ủy ban dân tộc giải phóng Việt Nam do Hồ Chí Minh làm Chủ tịch, đó là quyết định của:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q12-a",
+          "answer": "Hội nghị toàn quốc của Đảng họp ở Tân Trào $(15-8-1945)$."
+        },
+        {
+          "id_answer": "bai6ls12-q12-b",
+          "answer": "Đại hội quốc dân ở Tân Trào $(16-17/8/1945)$."
+        },
+        {
+          "id_answer": "bai6ls12-q12-c",
+          "answer": "Đại hội Đảng lần thứ I ở Ma Cao (Trung Quốc) năm 1935."
+        },
+        {
+          "id_answer": "bai6ls12-q12-d",
+          "answer": "Hội nghị Quân sự cách mạng Bắc Kì (4 - 1945)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q12-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q13",
+      "order": 13,
+      "question": "Nội dung nào sau đây không phải lí do Trung ương Đảng Cộng sản Đông Dương phát động tổng khởi nghĩa vào tháng 8-1945 ở Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q13-a",
+          "answer": "Quá trình chuẩn bị về đường lối và lực lượng cách mạng dã chu đáo."
+        },
+        {
+          "id_answer": "bai6ls12-q13-b",
+          "answer": "Quân phiệt Nhật Bản dầu hàng quân Đồng minh không diều kiện."
+        },
+        {
+          "id_answer": "bai6ls12-q13-c",
+          "answer": "Phong trào giải phóng dân tộc trên thế giới dang phát triển mạnh mẽ."
+        },
+        {
+          "id_answer": "bai6ls12-q13-d",
+          "answer": "Phe xã hội chủ nghĩa viện trợ vũ khí, kinh tế cho Việt Nam khởi nghĩa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q13-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q14",
+      "order": 14,
+      "question": "Thời cơ của Tổng khởi nghĩa tháng Tám năm 1945 là sự kết hợp của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q14-a",
+          "answer": "Nhật dảo chính và Pháp bỏ chạy."
+        },
+        {
+          "id_answer": "bai6ls12-q14-b",
+          "answer": "Sự chuẩn bị chu đáo của ta và Nhật đầu hàng Đồng minh."
+        },
+        {
+          "id_answer": "bai6ls12-q14-c",
+          "answer": "Sự chuẩn bị chu đáo của ta và quân Đồng minh kéo vào nước ta."
+        },
+        {
+          "id_answer": "bai6ls12-q14-d",
+          "answer": "Liên Xô tấn công sang châu Á và Mỹ ném hai quả bom nguyên tử xuống Nhật Bản."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q14-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q15",
+      "order": 15,
+      "question": "Thời cơ “ngàn năm có một trong Cách mạng tháng Tám năm 1945 ở Việt Nam tồn tại trong khoảng thời gian nào sau dây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q15-a",
+          "answer": "Tính từ khi Mỹ ném bom nguyên tử xuống Nhật Bản dến khi Nhật Bản dầu hàng."
+        },
+        {
+          "id_answer": "bai6ls12-q15-b",
+          "answer": "Tính từ khi phát xít Đức dầu hàng dến khi Chiến tranh thế giới kết thúc ở châu Á."
+        },
+        {
+          "id_answer": "bai6ls12-q15-c",
+          "answer": "Tính từ khi Nhật Bản đầu hàng đến khi quân Đồng minh tiến vào Đông Dương."
+        },
+        {
+          "id_answer": "bai6ls12-q15-d",
+          "answer": "Tính từ khi phát xít Đức dầu hàng dến khi Hồng quân Liên Xô tấn công quân Nhật."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q15-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q16",
+      "order": 16,
+      "question": "Nội dung nào sau đây không phải là yếu tố tạo nên thời cơ của Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q16-a",
+          "answer": "Quân đội Nhật Bản ở Đông Dương án binh bất động."
+        },
+        {
+          "id_answer": "bai6ls12-q16-b",
+          "answer": "Lực lượng trung gian ngả hẳn về phía cách mạng."
+        },
+        {
+          "id_answer": "bai6ls12-q16-c",
+          "answer": "Quần chúng nhân dân mong muốn dược hành động."
+        },
+        {
+          "id_answer": "bai6ls12-q16-d",
+          "answer": "Chính quyền thực dân Pháp tan rã ở Đông Dương."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q16-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q17",
+      "order": 17,
+      "question": "Chiều ngày 16-8-1945, theo lệnh của Ủy ban khởi nghĩa, một dơn vị Giải phóng quân do Võ Nguyên Giáp chỉ huy, xuất phát từ Tân Trào tiến về giải phóng",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q17-a",
+          "answer": "thị xã Cao Bằng."
+        },
+        {
+          "id_answer": "bai6ls12-q17-b",
+          "answer": "thị xã Thái Nguyên."
+        },
+        {
+          "id_answer": "bai6ls12-q17-c",
+          "answer": "thị xã Tuyên Quang."
+        },
+        {
+          "id_answer": "bai6ls12-q17-d",
+          "answer": "thị xã Lào Cai."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q17-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q18",
+      "order": 18,
+      "question": "Những địa phương giành được chính quyền sớm nhất trong cả nước trong Tổng khởi nghĩa tháng Tám năm 1945 là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q18-a",
+          "answer": "Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q18-b",
+          "answer": "Thái Nguyên, Bắc Giang, Hải Dương, Hà Nội."
+        },
+        {
+          "id_answer": "bai6ls12-q18-c",
+          "answer": "Hà Nội, Huế, Sài Gòn, Quảng Nam, Đà Nẵng."
+        },
+        {
+          "id_answer": "bai6ls12-q18-d",
+          "answer": "Cao Bằng, Hà Giang, Bắc Giang, Hải Dương."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q18-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q19",
+      "order": 19,
+      "question": "Trong Tổng khởi nghĩa tháng Tám năm 1945, thắng lợi ở Hà Nội, Huế, Sài Gòn có ý nghĩa như thế nào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q19-a",
+          "answer": "Giúp Tổng khởi nghĩa giành chính quyền được thắng lợi trong cả nước."
+        },
+        {
+          "id_answer": "bai6ls12-q19-b",
+          "answer": "Ảnh hưởng lớn và quyết định đến các địa phương khác trong cả nước."
+        },
+        {
+          "id_answer": "bai6ls12-q19-c",
+          "answer": "Đó là các cuộc khởi nghĩa hình mẫu trong Cách mạng tháng Tám."
+        },
+        {
+          "id_answer": "bai6ls12-q19-d",
+          "answer": "Đánh dấu Cách mạng tháng Tám giành được thắng lợi hoàn toàn."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q19-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q20",
+      "order": 20,
+      "question": "Những địa phương giành chính quyền sau cùng trong Tổng khởi nghĩa tháng Tám năm 1945 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q20-a",
+          "answer": "Bến Tre, Long An."
+        },
+        {
+          "id_answer": "bai6ls12-q20-b",
+          "answer": "Bình Định, Ninh Thuận."
+        },
+        {
+          "id_answer": "bai6ls12-q20-c",
+          "answer": "Đồng Nai Thượng, Hà Tiên."
+        },
+        {
+          "id_answer": "bai6ls12-q20-d",
+          "answer": "Cần Thơ, Hà Tiên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q20-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q21",
+      "order": 21,
+      "question": "Tổng khởi nghĩa giành chính quyền trên cả nước trong Cách mạng tháng Tám năm 1945 chủ yếu diễn ra trong khoảng thời gian nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q21-a",
+          "answer": "Từ ngày 17-8 đến ngày 26-8-1945."
+        },
+        {
+          "id_answer": "bai6ls12-q21-b",
+          "answer": "Từ ngày 14-8 đến ngày 22-8-1945."
+        },
+        {
+          "id_answer": "bai6ls12-q21-c",
+          "answer": "Từ ngày 12-8 đến ngày 28-8-1945."
+        },
+        {
+          "id_answer": "bai6ls12-q21-d",
+          "answer": "Từ ngày 14-8 đến ngày 28-8-1945."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q21-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q22",
+      "order": 22,
+      "question": "Ngày 30 -8 -1945, vua Bảo Đại tuyên bố thoái vị là sự kiện dánh dấu",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q22-a",
+          "answer": "nhiệm vụ dân tộc của cách mạng hoàn thành."
+        },
+        {
+          "id_answer": "bai6ls12-q22-b",
+          "answer": "nhiệm vụ dân chủ của cách mạng hoàn thành."
+        },
+        {
+          "id_answer": "bai6ls12-q22-c",
+          "answer": "chế độ phong kiến Việt Nam sụp đổ hoàn toàn."
+        },
+        {
+          "id_answer": "bai6ls12-q22-d",
+          "answer": "Tổng khởi nghĩa giành thắng lợi trên cả nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q22-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q23",
+      "order": 23,
+      "question": "Sự kiện nào sau đây đánh dấu nước Việt Nam Dân chủ Cộng hòa được thành lập?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q23-a",
+          "answer": "Hồ Chí Minh đọc Tuyên ngôn độc lập (2/9/1945)."
+        },
+        {
+          "id_answer": "bai6ls12-q23-b",
+          "answer": "Đại hội quốc dân họp ở Tân Trào $(8/1945)$."
+        },
+        {
+          "id_answer": "bai6ls12-q23-c",
+          "answer": "Hội nghị đại biểu toàn quốc của Đảng (8/1945)."
+        },
+        {
+          "id_answer": "bai6ls12-q23-d",
+          "answer": "Tiến hành Tổng tuyển cử bầu Quốc hội (1/1946)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q23-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q24",
+      "order": 24,
+      "question": "Quan sát tư liệu sau: “Một dân tộc đã gan góc chống ách nô lệ của Pháp hơn 80 năm nay, một dân tộc đã gan góc đứng về phe Đồng minh chống phát xít mấy năm nay, dân tộc đó phải được tự do! Dân tộc đó phải được độc lập!\" dược trích trong",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q24-a",
+          "answer": "Tuyên ngôn Độc lập của nước Việt Nam Dân chủ Cộng hòa."
+        },
+        {
+          "id_answer": "bai6ls12-q24-b",
+          "answer": "Cương lĩnh chính trị."
+        },
+        {
+          "id_answer": "bai6ls12-q24-c",
+          "answer": "Đại hội Đảng toàn quốc lần thứ 15."
+        },
+        {
+          "id_answer": "bai6ls12-q24-d",
+          "answer": "Văn kiện dại hội 13 của Đảng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q24-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q25",
+      "order": 25,
+      "question": "Cách mạng tháng Tám năm 1945 ở Việt Nam thành công dã",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q25-a",
+          "answer": "làm thất bại học thuyết Aixenhao."
+        },
+        {
+          "id_answer": "bai6ls12-q25-b",
+          "answer": "làm thất bại học thuyết Níchxơn."
+        },
+        {
+          "id_answer": "bai6ls12-q25-c",
+          "answer": "làm thất bại học thuyết Kennodi."
+        },
+        {
+          "id_answer": "bai6ls12-q25-d",
+          "answer": "lập nên nước Việt Nam Dân chủ Cộng hòa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q25-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q26",
+      "order": 26,
+      "question": "Trong thời kì 1930-1945 ở Việt Nam, văn kiện nào sau dây khẳng định quyền độc lập tự do là quyền thiêng liêng bất khả xâm phạm mà mọi dân tộc phải được hưởng?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q26-a",
+          "answer": "Đề cương văn hóa Việt Nam năm 1943."
+        },
+        {
+          "id_answer": "bai6ls12-q26-b",
+          "answer": "Cương lĩnh chính trị đần tiên của Đảng năm 1930."
+        },
+        {
+          "id_answer": "bai6ls12-q26-c",
+          "answer": "Luận cương chính trị tháng 10 năm 1930."
+        },
+        {
+          "id_answer": "bai6ls12-q26-d",
+          "answer": "Tuyên ngôn Độc lập năm 1945."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q26-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q27",
+      "order": 27,
+      "question": "Tổ chức cách mạng nào sau đây đã lãnh đạo nhân dân ta tiến hành cuộc Cách mạng tháng Tám giành được thắng lợi?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q27-a",
+          "answer": "Đảng Cộng sản Đông Dương."
+        },
+        {
+          "id_answer": "bai6ls12-q27-b",
+          "answer": "Đảng Lao động Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q27-c",
+          "answer": "Việt Nam Quốc dân Đảng."
+        },
+        {
+          "id_answer": "bai6ls12-q27-d",
+          "answer": "Đảng Cộng sản Việt Nam."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q27-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q28",
+      "order": 28,
+      "question": "Thắng lợi của Cách mạng tháng Tám năm 1945 đã",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q28-a",
+          "answer": "đưa Đảng Cộng sản Đông Dương từ một đảng bí mật trở thành đảng cầm quyền."
+        },
+        {
+          "id_answer": "bai6ls12-q28-b",
+          "answer": "chấm dứt vĩnh viễn chế độ quân chủ và sự bóc lột của giai cấp địa chủ."
+        },
+        {
+          "id_answer": "bai6ls12-q28-c",
+          "answer": "kết thúc ách cai trị của Pháp đối với các thuộc địa trên thế giới."
+        },
+        {
+          "id_answer": "bai6ls12-q28-d",
+          "answer": "xoá bỏ chế độ thống trị và bóc lột của giai cấp địa chủ phong kiến."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q28-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q29",
+      "order": 29,
+      "question": "Cách mạng tháng Tám năm 1945 ở Việt Nam diễn ra theo hình thái nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q29-a",
+          "answer": "Tổng công kích giành chính quyền."
+        },
+        {
+          "id_answer": "bai6ls12-q29-b",
+          "answer": "Bãi công giành chính quyền."
+        },
+        {
+          "id_answer": "bai6ls12-q29-c",
+          "answer": "Tổng khởi nghĩa giành chính quyền."
+        },
+        {
+          "id_answer": "bai6ls12-q29-d",
+          "answer": "Chiến tranh cách mạng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q29-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q30",
+      "order": 30,
+      "question": "Tiến trình khởi nghĩa giành chính quyền ở Việt Nam trong Cách mạng tháng Tám năm 1945 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q30-a",
+          "answer": "giành chính quyền bộ phận tiến lên giành chính quyền trên toàn quốc."
+        },
+        {
+          "id_answer": "bai6ls12-q30-b",
+          "answer": "giành chính quyền đồng thời ở cả hai dịa bàn - nông thôn và thành thị."
+        },
+        {
+          "id_answer": "bai6ls12-q30-c",
+          "answer": "giành chính quyền ở nông thôn thắng lợi, sau dó tiến về bao vây đô thị."
+        },
+        {
+          "id_answer": "bai6ls12-q30-d",
+          "answer": "giành chính quyền ở các dô thị rồi toả về bao vây nông thôn và miền núi."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q30-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q31",
+      "order": 31,
+      "question": "Trong cuộc Tổng khởi nghĩa tháng Tám năm 1945, nhân dân Việt Nam giành chính quyền từ tay",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q31-a",
+          "answer": "phát xít Nhật."
+        },
+        {
+          "id_answer": "bai6ls12-q31-b",
+          "answer": "thực dân Pháp."
+        },
+        {
+          "id_answer": "bai6ls12-q31-c",
+          "answer": "vua Bảo Đại."
+        },
+        {
+          "id_answer": "bai6ls12-q31-d",
+          "answer": "thực dân Anh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q31-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q32",
+      "order": 32,
+      "question": "Đâu là nguyên nhân quan trọng nhất dẫn đến thắng lợi của Cách mạng tháng Tám năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q32-a",
+          "answer": "Sự lãnh dạo dúng dẫn, sáng tạo của Đảng, đứng dầu là Chủ tịch Hồ Chí Minh."
+        },
+        {
+          "id_answer": "bai6ls12-q32-b",
+          "answer": "Dân tộc ta có truyền thống yêu nước nồng nàn, bất khuất."
+        },
+        {
+          "id_answer": "bai6ls12-q32-c",
+          "answer": "Toàn Đảng, toàn dân đoàn kết nhất trí, đồng lòng."
+        },
+        {
+          "id_answer": "bai6ls12-q32-d",
+          "answer": "Điều kiện khách quan và chủ quan thuận lợi."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q32-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q33",
+      "order": 33,
+      "question": "Ý nào dưới dây không phải là nguyên nhân dẫn đến thắng lợi của Cách mạng tháng Tám năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q33-a",
+          "answer": "Có Đàng và Chủ tịch Hồ Chí Minh lãnh dạo với đường lối dúng dắn, sáng tạo."
+        },
+        {
+          "id_answer": "bai6ls12-q33-b",
+          "answer": "Dân tộc Việt Nam có truyền thống yêu nước kiên cường, bất khuất."
+        },
+        {
+          "id_answer": "bai6ls12-q33-c",
+          "answer": "Nhờ có sự giúp đỡ của Liên Xô và các nước Xã hội chủ nghĩa."
+        },
+        {
+          "id_answer": "bai6ls12-q33-d",
+          "answer": "Có quá trình chuẩn bị trong suốt 15 năm, trải qua hai lần tập dượt."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q33-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q34",
+      "order": 34,
+      "question": "Ý nào dưới đây không phải là nguyên nhân chủ quan dẫn đến thắng lợi của Cách mạng tháng Tám năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q34-a",
+          "answer": "Sự chuẩn bị lâu dài của Đảng và nhân dân ta trong 15 năm."
+        },
+        {
+          "id_answer": "bai6ls12-q34-b",
+          "answer": "Sự lãnh đạo của Đảng, đứng đầu là Chủ tịch Hồ Chí Minh."
+        },
+        {
+          "id_answer": "bai6ls12-q34-c",
+          "answer": "Chiến thắng của quân Đồng minh trong Chiến tranh thế giới thứ hai."
+        },
+        {
+          "id_answer": "bai6ls12-q34-d",
+          "answer": "Biết chớp thời ca phát động quần chúng nhân dân nổi dậy trong cả nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q34-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q35",
+      "order": 35,
+      "question": "Một trong những nguyên nhân khách quan đưa đến thắng lợi của Cách mạng tháng Tám năm 1945 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q35-a",
+          "answer": "sự đoàn kết, giúp đỡ lẫn nhau của nhân dân các nước Đông Nam Á sau Chiến tranh thế giới thứ hai."
+        },
+        {
+          "id_answer": "bai6ls12-q35-b",
+          "answer": "thắng lợi của Hồng quân Liên Xô và quân Đồng minh trong cuộc chiến tranh chống chủ nghĩa phát xít."
+        },
+        {
+          "id_answer": "bai6ls12-q35-c",
+          "answer": "sự giúp đỡ, ủng hộ của nhân dân tiến bộ trên thế giới, trong đó có nhân dân Pháp."
+        },
+        {
+          "id_answer": "bai6ls12-q35-d",
+          "answer": "sự giúp đỡ của Hồng quân Liên Xô và quân Đồng minh đối với Việt Nam."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q35-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q36",
+      "order": 36,
+      "question": "Nội dung nào sau đây phản ánh đúng một trong những nguyên nhân thắng lợi của Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q36-a",
+          "answer": "Sự giúp đỡ, ủng hộ về vật chất và tinh thần của Liên Xô và Đông Âu."
+        },
+        {
+          "id_answer": "bai6ls12-q36-b",
+          "answer": "Sự trưởng thành trong chiến đấu của lực lượng vũ trang ba thứ quân."
+        },
+        {
+          "id_answer": "bai6ls12-q36-c",
+          "answer": "Quá trình chuẩn bị chu đáo, đầy đủ của Đảng Cộng sản Đông Dương."
+        },
+        {
+          "id_answer": "bai6ls12-q36-d",
+          "answer": "Có sự kết hợp sáng tạo giữa cuộc tổng khởi nghĩa và tổng công kích."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q36-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q37",
+      "order": 37,
+      "question": "Nội dung nào sau dây là nguyên nhân dẫn tới cuộc Tổng khởi nghĩa tháng Tám năm 1945 ở Việt Nam diễn ra nhanh chóng và ít đổ máu trên phạm vi cả nước?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q37-a",
+          "answer": "Kẻ thù chính của cách mạng là quân phiệt Nhật Bản và TD Pháp đã đầu hàng."
+        },
+        {
+          "id_answer": "bai6ls12-q37-b",
+          "answer": "Lực lượng Đồng minh dưa quân dội vào giúp đỡ cách mạng Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q37-c",
+          "answer": "Lực lượng cách mạng dã chuẩn bị chu đáo trên các dịa bàn toàn quốc."
+        },
+        {
+          "id_answer": "bai6ls12-q37-d",
+          "answer": "Các thế lực phản cách mạng dã bị dánh đổ trên phạm vi cả nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q37-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q38",
+      "order": 38,
+      "question": "Nội dung nào sau dây là một trong những nguyên nhân dưa tới thắng lợi của cách mạng Việt Nam trong năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q38-a",
+          "answer": "Truyền thống dân tộc dược Đảng phát huy trong mọi hoàn cảnh."
+        },
+        {
+          "id_answer": "bai6ls12-q38-b",
+          "answer": "Sự viện trợ của Liên Xô và lực lượng dân chủ tiến bộ trên thế giới."
+        },
+        {
+          "id_answer": "bai6ls12-q38-c",
+          "answer": "Tinh thần đoàn kết của nhân dân Đông Nam Á trong mặt trận chung."
+        },
+        {
+          "id_answer": "bai6ls12-q38-d",
+          "answer": "Cuộc Chiến tranh lạnh kết thúc, đem lại thời cơ cho cách mạng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q38-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q39",
+      "order": 39,
+      "question": "Nội dung nào sau đây là một trong những nguyên nhân đưa tới thắng lợi của cuộc Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q39-a",
+          "answer": "Xây dựng được thế trận toàn dân, phát triển lực lượng ở cả nông thôn và thành thị."
+        },
+        {
+          "id_answer": "bai6ls12-q39-b",
+          "answer": "Xây dựng lực lượng vũ trang ba thứ quân, kết hợp sức mạnh của lực lượng chính trị."
+        },
+        {
+          "id_answer": "bai6ls12-q39-c",
+          "answer": "Xây dựng khối dại đoàn kết quốc tế, phát huy sự giúp đỡ của phe xã hội chủ nghĩa."
+        },
+        {
+          "id_answer": "bai6ls12-q39-d",
+          "answer": "Xây dựng nền quốc phòng toàn dân, lấy lực lượng vũ trang ba thứ quân làm nòng cốt."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q39-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q40",
+      "order": 40,
+      "question": "Trong Cách mạng tháng Tám năm 1945 ở Việt Nam, Hồ Chí Minh và Đảng Cộng sản Đông Dương dã kết hợp sức mạnh dân tộc với sức mạnh thời dại. Sức mạnh thời đại dược hiểu là sức mạnh của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q40-a",
+          "answer": "sự viện trợ từ Liên Xô và Trung Quốc."
+        },
+        {
+          "id_answer": "bai6ls12-q40-b",
+          "answer": "quân Đồng minh chiến thắng phát xít."
+        },
+        {
+          "id_answer": "bai6ls12-q40-c",
+          "answer": "các mặt trận doàn kết của dân tộc."
+        },
+        {
+          "id_answer": "bai6ls12-q40-d",
+          "answer": "Liên minh nhân dân Việt - Miên - Lào."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q40-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q41",
+      "order": 41,
+      "question": "Cách mạng tháng Tám năm 1945 ở Việt Nam diễn ra thắng lợi nhanh chóng trên cơ sở kết hợp điều kiện khách quan và chủ quan, trong đó điều kiện chủ quan giữ vai trò",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q41-a",
+          "answer": "đặc biệt."
+        },
+        {
+          "id_answer": "bai6ls12-q41-b",
+          "answer": "cần thiết."
+        },
+        {
+          "id_answer": "bai6ls12-q41-c",
+          "answer": "quyết định."
+        },
+        {
+          "id_answer": "bai6ls12-q41-d",
+          "answer": "quan trọng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q41-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q42",
+      "order": 42,
+      "question": "Nội dung nào dưới đây không phải là ý nghĩa của Cách mạng tháng Tám 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q42-a",
+          "answer": "Phá tan xiềng xích nô lệ của Nhật – Pháp và phong kiến, lập nên nước Việt Nam Dân chủ Cộng hòa."
+        },
+        {
+          "id_answer": "bai6ls12-q42-b",
+          "answer": "Góp phần vào chiến thắng chủ nghĩa phát xít trong cuộc chiến tranh thế giới thứ hai."
+        },
+        {
+          "id_answer": "bai6ls12-q42-c",
+          "answer": "Buộc Pháp công nhận độc lập chủ quyền, thống nhất và toàn vẹn lãnh thổ của Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q42-d",
+          "answer": "Mở đầu kỉ nguyên mới của dân tộc: độc lập tự do, nhân dân lao động nắm chính quyền, làm chủ đất nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q42-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q43",
+      "order": 43,
+      "question": "Ý nghĩa quan trọng nhất của cách mạng tháng Tám năm 1945 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q43-a",
+          "answer": "lật đổ ngai vàng phong kiến đã ngự trị hàng chục thế kỉ trên đất nước ta."
+        },
+        {
+          "id_answer": "bai6ls12-q43-b",
+          "answer": "chấm dứt sự thống trị của thực dân Pháp và phát xít Nhật đối với nước ta."
+        },
+        {
+          "id_answer": "bai6ls12-q43-c",
+          "answer": "người dân Việt Nam từ thân phận nô lệ trở thành người làm chủ đất nước."
+        },
+        {
+          "id_answer": "bai6ls12-q43-d",
+          "answer": "đem lại độc lập cho dân tộc và góp phần cổ vũ phong trào cách mạng thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q43-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q44",
+      "order": 44,
+      "question": "Thắng lợi của Cách mạng tháng Tám năm 1945 đã đánh dấu bước phát triển nhảy vọt của cách mạng Việt Nam vì đã",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q44-a",
+          "answer": "lật đổ ách thống trị của phát xít Nhật - Pháp và tay sai."
+        },
+        {
+          "id_answer": "bai6ls12-q44-b",
+          "answer": "lật đổ sự tồn tại hàng ngàn năm của chế độ phong kiến."
+        },
+        {
+          "id_answer": "bai6ls12-q44-c",
+          "answer": "mở ra kỉ nguyên mới của dân tộc - kỉ nguyên độc lập, tự do."
+        },
+        {
+          "id_answer": "bai6ls12-q44-d",
+          "answer": "Chấm dứt ách thống trị của chủ nghĩa thực dân mới ở Việt Nam."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q44-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q45",
+      "order": 45,
+      "question": "Thắng lợi của Cách mạng tháng Tám năm 1945 ở Việt Nam có ý nghĩa lịch sử nào sau dây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q45-a",
+          "answer": "Đánh dấu sự sụp đổ hoàn toàn của chủ nghĩa thục dân ở Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q45-b",
+          "answer": "Mở ra kỉ nguyên độc lập, tự do và phát triển dưới chế độ cộng hoà."
+        },
+        {
+          "id_answer": "bai6ls12-q45-c",
+          "answer": "Xoá bỏ hoàn toàn mọi tàn tích của chế độ phong kiến ở Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q45-d",
+          "answer": "Chấm dứt ách thống trị của chủ nghĩa thực dân mới ở Việt Nam."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q45-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q46",
+      "order": 46,
+      "question": "Nội dung nào sau dây phản ánh đúng ý nghĩa lịch sử của Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q46-a",
+          "answer": "Mở ra bước ngoặt lớn trong lịch sử dân tộc, lật nhào chế độ phong kiến."
+        },
+        {
+          "id_answer": "bai6ls12-q46-b",
+          "answer": "Mở ra kỷ nguyên mới dộc lập, tự do, nhân dân lao động nắm chính quyền."
+        },
+        {
+          "id_answer": "bai6ls12-q46-c",
+          "answer": "Đảng Cộng sản Đông Dương trở thành Đảng cầm quyền trên cả nước."
+        },
+        {
+          "id_answer": "bai6ls12-q46-d",
+          "answer": "Mở ra thời ki trực tiếp vận động cứu nước, giải phóng dân tộc hoàn toàn."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q46-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q47",
+      "order": 47,
+      "question": "Bài học kinh nghiệm quan trọng nhất trong chỉ dạo khởi nghĩa Cách mạng tháng Tám năm 1945 của Đảng là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q47-a",
+          "answer": "Xây dựng khối liên minh công nông và mặt trận dân tộc thống nhất."
+        },
+        {
+          "id_answer": "bai6ls12-q47-b",
+          "answer": "Tổ chức, lãnh dạo quần chúng dấu tranh công khai, hợp pháp, nửa hợp pháp."
+        },
+        {
+          "id_answer": "bai6ls12-q47-c",
+          "answer": "Phải có chủ trương và biện pháp phù hợp với tình hình thực tiễn cách mạng trong cả nước."
+        },
+        {
+          "id_answer": "bai6ls12-q47-d",
+          "answer": "Kết hợp dấu tranh chính trị với dấu tranh vũ trang, khởi nghĩa từng phần, giành chính quyền từng bộ phận, kịp thời chớp thời cơ khởi nghĩa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q47-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q48",
+      "order": 48,
+      "question": "Nội dung nào dưới dây không phải là ý nghĩa về bài học kinh nghiệm rút ra từ Cách mạng tháng Tám năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q48-a",
+          "answer": "Bài học về xây dựng và tập hợp liên minh công – nông."
+        },
+        {
+          "id_answer": "bai6ls12-q48-b",
+          "answer": "Bài học về sự lãnh đạo của dảng."
+        },
+        {
+          "id_answer": "bai6ls12-q48-c",
+          "answer": "Bài học về xây dựng và phat huy sức mạnh của khối dại đoàn kết dân tộc."
+        },
+        {
+          "id_answer": "bai6ls12-q48-d",
+          "answer": "Bài học về nắm bắt thời cơ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q48-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q49",
+      "order": 49,
+      "question": "Nội dung nào sau đây phản ánh không đúng bài học kinh nghiệm của Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q49-a",
+          "answer": "Bảo đảm sự lãnh đạo đúng đắn, sáng tạo của Đảng."
+        },
+        {
+          "id_answer": "bai6ls12-q49-b",
+          "answer": "Phát huy sức mạnh khối đại đoàn kết toàn dân tộc."
+        },
+        {
+          "id_answer": "bai6ls12-q49-c",
+          "answer": "Dựa vào bên ngoài, xem đó là điều kiện tiên quyết."
+        },
+        {
+          "id_answer": "bai6ls12-q49-d",
+          "answer": "Kết hợp sức mạnh dân tộc với sức mạnh của thời đại."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q49-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q50",
+      "order": 50,
+      "question": "Bài học kinh nghiệm nào của Tổng khởi nghĩa tháng Tám năm 1945 được Đảng ta tiếp tục vận dụng trong công cuộc CNH-HĐH đất nước nhằm phát huy sức mạnh của dân tộc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q50-a",
+          "answer": "Phải linh hoạt kết hợp các hình thức đấu tranh."
+        },
+        {
+          "id_answer": "bai6ls12-q50-b",
+          "answer": "Kết hợp giữa đấu tranh với xây dựng để ngày càng vững mạnh."
+        },
+        {
+          "id_answer": "bai6ls12-q50-c",
+          "answer": "Tập hợp, tổ chức các lực lượng yêu nước."
+        },
+        {
+          "id_answer": "bai6ls12-q50-d",
+          "answer": "Có đường lối đúng đắn, phù hợp."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q50-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q51",
+      "order": 51,
+      "question": "Một trong bài học kinh nghiệm quan trọng của Cách mạng tháng Tám năm 1945 còn nguyên vẹn giá trị đến ngày nay là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q51-a",
+          "answer": "tranh thủ sự ủng hộ về chính trị, giúp đỡ về kinh tế của các nước trong phe xã hội chủ nghĩa."
+        },
+        {
+          "id_answer": "bai6ls12-q51-b",
+          "answer": "phát huy nội lực trong nước, đồng thời tận dụng những điều kiện thuận lợi từ bên ngoài."
+        },
+        {
+          "id_answer": "bai6ls12-q51-c",
+          "answer": "xây dựng nhà nước pháp quyền của nhân dân, do nhân dân, vì nhân dân."
+        },
+        {
+          "id_answer": "bai6ls12-q51-d",
+          "answer": "chú trọng và tranh thủ sự ủng hộ rộng rãi của dư luận thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q51-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q52",
+      "order": 52,
+      "question": "Nhận xét nào sau đây là dúng về vai trò của lực lượng chính trị trong Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q52-a",
+          "answer": "Lực lượng hỗ trợ cho tổng khởi nghĩa tiến lên chiến tranh cách mạng."
+        },
+        {
+          "id_answer": "bai6ls12-q52-b",
+          "answer": "Là lực lượng chủ yếu và dông dảo nhất dể tiến hành tổng khởi nghĩa."
+        },
+        {
+          "id_answer": "bai6ls12-q52-c",
+          "answer": "Là lực lượng nòng cốt, xung kích trong tổng công kích, tổng khởi nghĩa."
+        },
+        {
+          "id_answer": "bai6ls12-q52-d",
+          "answer": "Lực lượng nòng cốt, hỗ trợ lực lượng vũ trang tiến lên giành chính quyền."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q52-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q53",
+      "order": 53,
+      "question": "Vai trò của lực lượng vũ trang trong Tổng khởi nghĩa tháng Tám năm 1945 ở Việt Nam là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q53-a",
+          "answer": "quyết định thắng lợi của cuộc Tổng khởi nghĩa."
+        },
+        {
+          "id_answer": "bai6ls12-q53-b",
+          "answer": "hỗ trợ lực lượng chính trị nổi dậy giành chính quyền."
+        },
+        {
+          "id_answer": "bai6ls12-q53-c",
+          "answer": "lực lượng nòng cốt của Mặt trận Việt Minh."
+        },
+        {
+          "id_answer": "bai6ls12-q53-d",
+          "answer": "lực lượng xung kích, quyết dịnh thắng lợi."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q53-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q54",
+      "order": 54,
+      "question": "Về tính chất, Cách mạng tháng Tám năm 1945 ở Việt Nam dược dánh giá là cuộc cách mạng giải phóng dân tộc, dồng thời mang tính dân chủ vì lí do nào sau dây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q54-a",
+          "answer": "Là một bộ phận của các lực lượng hoà bình, tiến bộ chống chủ nghĩa phát xít."
+        },
+        {
+          "id_answer": "bai6ls12-q54-b",
+          "answer": "Đã lật chế dộ phong kiến và xoá bỏ hoàn toàn các tàn tích của chế dộ cũ."
+        },
+        {
+          "id_answer": "bai6ls12-q54-c",
+          "answer": "Hoàn thành mục tiêu chiến lược của cách mạng là dộc lập và ruộng dất cho dân cày."
+        },
+        {
+          "id_answer": "bai6ls12-q54-d",
+          "answer": "Cuộc cách mạng thực hiện thành công khẩu hiệu “Người cày có ruộng trên cả nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q54-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q55",
+      "order": 55,
+      "question": "Phương pháp đấu tranh cơ bản trong Tổng khởi nghĩa tháng Tám năm 1945 ở Việt Nam là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q55-a",
+          "answer": "đấu tranh chính trị kết hợp với dấu tranh vũ trang."
+        },
+        {
+          "id_answer": "bai6ls12-q55-b",
+          "answer": "đấu tranh chính trị kết hợp với dấu tranh nghị trường."
+        },
+        {
+          "id_answer": "bai6ls12-q55-c",
+          "answer": "đấu tranh chính trị kết hợp với đấu tranh báo chí."
+        },
+        {
+          "id_answer": "bai6ls12-q55-d",
+          "answer": "đấu tranh vũ trang kết hợp với đấu tranh ngoại giao."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q55-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q56",
+      "order": 56,
+      "question": "Nhận định nào sau đây là đúng về cuộc Cách mạng tháng Tám năm 1945 ở Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q56-a",
+          "answer": "Mờ ra kỷ nguyên độc lập, cả nước đi lên xây dựng chủ nghĩa xã hội."
+        },
+        {
+          "id_answer": "bai6ls12-q56-b",
+          "answer": "Đã hoàn thành cuộc cách mạng dân tộc dân chủ nhân dân trên cả nước."
+        },
+        {
+          "id_answer": "bai6ls12-q56-c",
+          "answer": "Xóa bỏ được tình ưạng đất nước Việt Nam bị chia cắt về mặt lãnh thổ."
+        },
+        {
+          "id_answer": "bai6ls12-q56-d",
+          "answer": "Chưa chấm dứt hoàn toàn ách thống trị của phong kiến, thực dân, phát xít."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q56-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q57",
+      "order": 57,
+      "question": "Bài học nào của Cách mạng tháng năm Tám 1945 được áp dụng để giải quyết những vấn đề có ý nghĩa sống còn của Việt Nam hiện nay?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q57-a",
+          "answer": "Kết hợp linh hoạt các hình thức đấu tranh cách mạng."
+        },
+        {
+          "id_answer": "bai6ls12-q57-b",
+          "answer": "Dự đoán đúng, nắm bắt thời cơ, vượt qua thách thức."
+        },
+        {
+          "id_answer": "bai6ls12-q57-c",
+          "answer": "Tập hợp rộng rãi các lực lượng yêu nước, cô lập kẻ thù."
+        },
+        {
+          "id_answer": "bai6ls12-q57-d",
+          "answer": "Áp dụng chủ nghĩa Mác - Lênin vào thực tiễn cách mạng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q57-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai6ls12-q58",
+      "order": 58,
+      "question": "Cách mạng tháng Tám năm 1945 ở Việt Nam mang tính chất dân chủ vì",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai6ls12-q58-a",
+          "answer": "đã xoá bỏ được hoàn toàn chế độ sở hữu ruộng đất phong kiến."
+        },
+        {
+          "id_answer": "bai6ls12-q58-b",
+          "answer": "đã đưa nhân dân lên địa vị người làm chủ đất nước."
+        },
+        {
+          "id_answer": "bai6ls12-q58-c",
+          "answer": "giải quyết triệt để mâu thuẫn cơ bản trong xã hội Việt Nam."
+        },
+        {
+          "id_answer": "bai6ls12-q58-d",
+          "answer": "nông dân đã thực sự làm chủ về kinh tế, chính trị ở nông thôn."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai6ls12-q58-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    }
+  ]
+}
