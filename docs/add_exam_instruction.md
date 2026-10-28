@@ -78,3 +78,22 @@ Ngoài ra còn có [index.json](../public/data/exams/index.json) đóng vai trò
 Các ảnh đính kèm trong câu hỏi được lưu trữ tại `public/data/images/<id_bai_tap>`
 
 Các file markdown gốc được lưu tại `public/documents/md` cho mục đích convert_to_json.
+
+## Tạo đề bằng trang local
+
+Khi chạy `npm run dev`, mở `/update_exam` (hoặc URL tương thích `/updata_exam`) để nhập
+file `.docx`, `.txt` hoặc `.md`. File DOCX được chuyển qua HTML rồi về Markdown; TXT
+được chuẩn hóa các marker câu hỏi và đáp án. Nội dung Markdown có thể chỉnh sửa cạnh
+preview Markdown + LaTeX.
+
+Trang này không có xác thực và không gọi backend. Bấm **Tạo đề vào public**, chọn thư
+mục `public` trong cửa sổ trình duyệt, ứng dụng sẽ ghi:
+
+- `data/exams/<id_exam>.json`
+- `documents/md/<id_exam>.md`
+- cập nhật `data/exams/index.json`
+
+Chrome/Edge là các trình duyệt hỗ trợ ghi thư mục trực tiếp. Nếu trình duyệt không hỗ
+trợ File System Access API, trang sẽ tải Markdown và JSON xuống để chép thủ công vào
+`public`. Nội dung nhập vẫn phải tuân theo [exam_template.md](./exam_template.md),
+đặc biệt các marker `ĐápÁnĐúng` và `ĐápÁnSai`.

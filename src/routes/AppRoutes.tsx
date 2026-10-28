@@ -5,6 +5,7 @@ import BaiTapPage from "../pages/BaiTapPage";
 import InfoExamPage from "../pages/InfoExamPage";
 import LamBaiPage from "../pages/LambaiPage";
 import KetQuaPage from "../pages/KetQuaPage";
+import UpdateExamPage from "../pages/UpdateExamPage";
 
 /**
  * AppRoutes | cây điều hướng của ứng dụng.
@@ -14,6 +15,8 @@ import KetQuaPage from "../pages/KetQuaPage";
 export default function AppRoutes() {
   return (
     <Routes>
+      <Route path="/update_exam" element={<UpdateExamPage />} />
+      <Route path="/updata_exam" element={<UpdateExamPage />} />
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
 
