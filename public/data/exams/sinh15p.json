@@ -1,0 +1,1390 @@
+{
+  "id_exam": "sinh15p",
+  "id_subject": "sinh",
+  "name_exam": "Sinh 15P Đột biến gen 12",
+  "name_subject": "Sinh học",
+  "class_exam": "12",
+  "duration": 30,
+  "created": "2026-10-29T21:15",
+  "updated": "2026-10-29T14:13",
+  "source": "/documents/pdf/de-moi.pdf",
+  "questions": [
+    {
+      "id_question": "sinh15p-q1",
+      "order": 1,
+      "question": "Đột biến gene là gì?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q1-a",
+          "answer": "Những biến đổi trong cấu trúc của nhiễm sắc thể."
+        },
+        {
+          "id_answer": "sinh15p-q1-b",
+          "answer": "Những biến đổi trong cấu trúc của gene, thường liên quan đến một hoặc một số cặp nucleotide."
+        },
+        {
+          "id_answer": "sinh15p-q1-c",
+          "answer": "Sự thay đổi số lượng bộ nhiễm sắc thể đơn bội của loài."
+        },
+        {
+          "id_answer": "sinh15p-q1-d",
+          "answer": "Sự trao đổi đoạn giữa hai nhiễm sắc thể không tương đồng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q1-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q2",
+      "order": 2,
+      "question": "Thể đột biến là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q2-a",
+          "answer": "Cá thể mang gene đột biến ở trạng thái dị hợp."
+        },
+        {
+          "id_answer": "sinh15p-q2-b",
+          "answer": "Những biến đổi trong cấu trúc của gene không biểu hiện ra ngoài."
+        },
+        {
+          "id_answer": "sinh15p-q2-c",
+          "answer": "Cá thể mang đột biến đã được biểu hiện ra kiểu hình."
+        },
+        {
+          "id_answer": "sinh15p-q2-d",
+          "answer": "Cá thể mang tác nhân gây đột biến trong tế bào."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q2-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q3",
+      "order": 3,
+      "question": "Đột biến điểm là dạng đột biến gene liên quan đến",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q3-a",
+          "answer": "Một đoạn nhiễm sắc thể."
+        },
+        {
+          "id_answer": "sinh15p-q3-b",
+          "answer": "Toàn bộ các gene trên một nhiễm sắc thể."
+        },
+        {
+          "id_answer": "sinh15p-q3-c",
+          "answer": "Một cặp nucleotide."
+        },
+        {
+          "id_answer": "sinh15p-q3-d",
+          "answer": "Nhiều cặp nucleotide ở các gene khác nhau."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q3-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q4",
+      "order": 4,
+      "question": "Các dạng đột biến điểm phổ biến bao gồm",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q4-a",
+          "answer": "Mất đoạn, lặp đoạn và đảo đoạn."
+        },
+        {
+          "id_answer": "sinh15p-q4-b",
+          "answer": "Thay thế, mất và đảo đoạn nucleotide."
+        },
+        {
+          "id_answer": "sinh15p-q4-c",
+          "answer": "Thay thế, mất và thêm một cặp nucleotide."
+        },
+        {
+          "id_answer": "sinh15p-q4-d",
+          "answer": "Chuyển đoạn và lặp đoạn nucleotide."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q4-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q5",
+      "order": 5,
+      "question": "Đột biến làm cho codon mã hóa amino acid này bị biến đổi thành codon kết thúc được gọi là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q5-a",
+          "answer": "Đột biến đồng nghĩa."
+        },
+        {
+          "id_answer": "sinh15p-q5-b",
+          "answer": "Đột biến sai nghĩa."
+        },
+        {
+          "id_answer": "sinh15p-q5-c",
+          "answer": "Đột biến vô nghĩa."
+        },
+        {
+          "id_answer": "sinh15p-q5-d",
+          "answer": "Đột biến dịch khung."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q5-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q6",
+      "order": 6,
+      "question": "Tại sao đột biến mất hoặc thêm một cặp nucleotide thường gây hậu quả nghiêm trọng hơn đột biến thay thế một cặp nucleotide?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q6-a",
+          "answer": "Vì nó gây hiện tượng dịch khung từ vị trí đột biến về cuối gene."
+        },
+        {
+          "id_answer": "sinh15p-q6-b",
+          "answer": "Vì nó làm tăng số lượng nucleotide của gene quá nhiều."
+        },
+        {
+          "id_answer": "sinh15p-q6-c",
+          "answer": "Vì nó chỉ xảy ra ở các gene điều hòa quan trọng."
+        },
+        {
+          "id_answer": "sinh15p-q6-d",
+          "answer": "Vì nó luôn tạo ra bộ ba kết thúc ở ngay vị trí đột biến."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q6-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q7",
+      "order": 7,
+      "question": "Một loài thực vật giao phấn ngẫu nhiên, allele A bị đột biến thành allele a, allele B bị đột biến thành allele b. Cho biết mỗi gene quy định một tính trạng, các allele trội là trội hoàn toàn. Cơ thể có kiểu gene nào sau đây là thể đột biến?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q7-a",
+          "answer": "aaBB."
+        },
+        {
+          "id_answer": "sinh15p-q7-b",
+          "answer": "AaBB."
+        },
+        {
+          "id_answer": "sinh15p-q7-c",
+          "answer": "AABb."
+        },
+        {
+          "id_answer": "sinh15p-q7-d",
+          "answer": "AaBb."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q7-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q8",
+      "order": 8,
+      "question": "Một quần thể sinh vật có gene A bị đột biến thành gene a, gene B bị đột biến thành gene b. Biết các cặp gene tác động riêng rẽ và gene trội là trội hoàn toàn. Các kiểu gene nào sau đây là của thể đột biến?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q8-a",
+          "answer": "AABb, AaBB."
+        },
+        {
+          "id_answer": "sinh15p-q8-b",
+          "answer": "AABB, AaBb."
+        },
+        {
+          "id_answer": "sinh15p-q8-c",
+          "answer": "AaBb, AABb."
+        },
+        {
+          "id_answer": "sinh15p-q8-d",
+          "answer": "aaBb, Aabb."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q8-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q9",
+      "order": 9,
+      "question": "Loại đột biến nào sau đây làm cho gene đột biến giảm 2 liên kết hydrogen so với gene ban đầu?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q9-a",
+          "answer": "Đột biến mất 1 cặp A - T."
+        },
+        {
+          "id_answer": "sinh15p-q9-b",
+          "answer": "Đột biến thay thế 1 cặp G - C bằng 1 cặp A - T."
+        },
+        {
+          "id_answer": "sinh15p-q9-c",
+          "answer": "Đột biến thay thế 2 cặp G - C bằng 2 cặp C - G."
+        },
+        {
+          "id_answer": "sinh15p-q9-d",
+          "answer": "Đột biến thay thế 1 cặp A - T bằng 1 cặp G - C."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q9-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q10",
+      "order": 10,
+      "question": "Gene A bị đột biến thành gene a, hai gene này có chiều dài bằng nhau nhưng gene a hơn gene A 1 liên kết hydrogen, chứng tỏ gene A đã xảy ra đột biến dạng",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q10-a",
+          "answer": "thay thế cặp G - C bằng cặp A - T."
+        },
+        {
+          "id_answer": "sinh15p-q10-b",
+          "answer": "thay thế cặp A - T bằng cặp G - C."
+        },
+        {
+          "id_answer": "sinh15p-q10-c",
+          "answer": "thêm 1 cặp G - C."
+        },
+        {
+          "id_answer": "sinh15p-q10-d",
+          "answer": "mất 1 cặp A - T."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q10-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q11",
+      "order": 11,
+      "question": "Gen có 3600 liên kết hydro bị đột biến liên quan đến 1 cặp nu thành alen mới có 3601 liên kết hydro. Dạng đột biến alen trên là:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q11-a",
+          "answer": "Mất 1 cặp A -T"
+        },
+        {
+          "id_answer": "sinh15p-q11-b",
+          "answer": "Mất 1 cặp G-C"
+        },
+        {
+          "id_answer": "sinh15p-q11-c",
+          "answer": "Thay thế 1 cặp G – X bằng 1 cặp A – T."
+        },
+        {
+          "id_answer": "sinh15p-q11-d",
+          "answer": "Thay thế 1 cặp A – T bằng 1 cặp G – C."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q11-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q12",
+      "order": 12,
+      "question": "Một gene ở sinh vật nhân sơ có 3000 nucleotide và có tỉ lệ A/G=2/3. Gene này bị đột biến mất 1 cặp nucleotide do đó bị giảm đi 2 liên kết hydrogen so với gene bình thường. Số lượng từng loại nucleotide của gene mới được hình thành sau đột biến là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q12-a",
+          "answer": "A=T=600; G=C=899."
+        },
+        {
+          "id_answer": "sinh15p-q12-b",
+          "answer": "A=T=600; G=C=900."
+        },
+        {
+          "id_answer": "sinh15p-q12-c",
+          "answer": "A=T=900; G=C=599."
+        },
+        {
+          "id_answer": "sinh15p-q12-d",
+          "answer": "A=T=599; G=C=900."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q12-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q13",
+      "order": 13,
+      "question": "Gene A ở sinh vật nhân sơ dài 408nm và có số nu loại T=2G. Gene A bị đột biến điểm thành allele a. Allele a có 2798 liên kết hydrogen. Số lượng từng loại nu của allele a là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q13-a",
+          "answer": "A=T=799; G=C=401."
+        },
+        {
+          "id_answer": "sinh15p-q13-b",
+          "answer": "A=T=801; G=C=400."
+        },
+        {
+          "id_answer": "sinh15p-q13-c",
+          "answer": "A=T=800; G=C=399."
+        },
+        {
+          "id_answer": "sinh15p-q13-d",
+          "answer": "A=T=799; G=C=400."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q13-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q14",
+      "order": 14,
+      "question": "Sinh vật mà hệ gene của nó đã được biến đổi hoặc tiếp nhận thêm gene mới từ loài khác được gọi là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q14-a",
+          "answer": "thể đột biến lệch bội."
+        },
+        {
+          "id_answer": "sinh15p-q14-b",
+          "answer": "cá thể mang biến dị tổ hợp."
+        },
+        {
+          "id_answer": "sinh15p-q14-c",
+          "answer": "sinh vật biến đổi gene."
+        },
+        {
+          "id_answer": "sinh15p-q14-d",
+          "answer": "dòng thuần chủng về mọi cặp gene."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q14-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q15",
+      "order": 15,
+      "question": "Một phân tử DNA tái tổ hợp dùng trong kĩ thuật chuyển gene được cấu tạo gồm các thành phần nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q15-a",
+          "answer": "Gene cần chuyển và DNA làm thể truyền (vector)."
+        },
+        {
+          "id_answer": "sinh15p-q15-b",
+          "answer": "Hai phân tử mRNA trưởng thành của hai loài sinh vật khác nhau."
+        },
+        {
+          "id_answer": "sinh15p-q15-c",
+          "answer": "Chuỗi polypeptide của tế bào cho và phân tử lipid của tế bào nhận."
+        },
+        {
+          "id_answer": "sinh15p-q15-d",
+          "answer": "Hai phân tử protein hòa nhập trực tiếp với nhau trong ống nghiệm."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q15-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q16",
+      "order": 16,
+      "question": "Bằng công nghệ DNA tái tổ hợp, vi khuẩn E. coli đã được chuyển gene của người để sản xuất loại hormone nào sau đây dùng chữa bệnh đái tháo đường (tiểu đường)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q16-a",
+          "answer": "Hormone thyroxine."
+        },
+        {
+          "id_answer": "sinh15p-q16-b",
+          "answer": "Hormone insulin."
+        },
+        {
+          "id_answer": "sinh15p-q16-c",
+          "answer": "Hormone testosterone."
+        },
+        {
+          "id_answer": "sinh15p-q16-d",
+          "answer": "Hormone estrogen."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q16-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q17",
+      "order": 17,
+      "question": "Khâu đầu tiên trong quy trình tạo giống mới bằng công nghệ gene là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q17-a",
+          "answer": "phân lập dòng tế bào chứa DNA tái tổ hợp."
+        },
+        {
+          "id_answer": "sinh15p-q17-b",
+          "answer": "chuyển DNA tái tổ hợp vào trong tế bào nhận."
+        },
+        {
+          "id_answer": "sinh15p-q17-c",
+          "answer": "tạo ra phân tử DNA tái tổ hợp."
+        },
+        {
+          "id_answer": "sinh15p-q17-d",
+          "answer": "kích thích tế bào nhận tiến hành phân chia."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q17-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q18",
+      "order": 18,
+      "question": "Loại enzyme nào sau đây được sử dụng để cắt phân tử DNA của tế bào cho và DNA vector ở những trình tự nucleotide xác định trong công nghệ tạo DNA tái tổ hợp?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q18-a",
+          "answer": "DNA polymerase."
+        },
+        {
+          "id_answer": "sinh15p-q18-b",
+          "answer": "Restrictase (enzyme cắt giới hạn)."
+        },
+        {
+          "id_answer": "sinh15p-q18-c",
+          "answer": "Ligase."
+        },
+        {
+          "id_answer": "sinh15p-q18-d",
+          "answer": "RNA polymerase."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q18-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q19",
+      "order": 19,
+      "question": "Trong kĩ thuật chuyển gene, tế bào nhận được sử dụng phổ biến là vi khuẩn E.coli vì chúng",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q19-a",
+          "answer": "có tốc độ sinh sản nhanh."
+        },
+        {
+          "id_answer": "sinh15p-q19-b",
+          "answer": "thích nghi cao với môi trường."
+        },
+        {
+          "id_answer": "sinh15p-q19-c",
+          "answer": "dễ phát sinh biến dị."
+        },
+        {
+          "id_answer": "sinh15p-q19-d",
+          "answer": "có cấu tạo cơ thể đơn giản."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q19-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q20",
+      "order": 20,
+      "question": "Trong công nghệ gene, các enzyme được sử dụng trong bước tạo DNA tái tổ hợp là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q20-a",
+          "answer": "Enzyme Restrictase và enzyme DNA - polymerase."
+        },
+        {
+          "id_answer": "sinh15p-q20-b",
+          "answer": "Enzyme ligase và enzyme DNA - polymerase."
+        },
+        {
+          "id_answer": "sinh15p-q20-c",
+          "answer": "Enzyme Restrictase và enzyme ligase."
+        },
+        {
+          "id_answer": "sinh15p-q20-d",
+          "answer": "Enzyme DNA - polymerase và enzyme RNA - polymerase."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q20-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q21",
+      "order": 21,
+      "question": "Trong kĩ thuật tạo DNA tái tổ hợp, enzyme ligase có chức năng nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q21-a",
+          "answer": "Phân giải hoàn toàn các liên kết phosphodiester."
+        },
+        {
+          "id_answer": "sinh15p-q21-b",
+          "answer": "Tháo xoắn và tách hai mạch đơn của phân tử DNA."
+        },
+        {
+          "id_answer": "sinh15p-q21-c",
+          "answer": "Nối đoạn gene cần chuyển vào phân tử DNA làm vector."
+        },
+        {
+          "id_answer": "sinh15p-q21-d",
+          "answer": "Nhận biết và cắt đứt liên kết peptide của tế bào."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q21-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q22",
+      "order": 22,
+      "question": "Thể truyền (vector) chuyển gene được sử dụng phổ biến nhất trong kĩ thuật di truyền ở vi khuẩn là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q22-a",
+          "answer": "tế bào hồng cầu người."
+        },
+        {
+          "id_answer": "sinh15p-q22-b",
+          "answer": "nhiễm sắc thể của nấm men."
+        },
+        {
+          "id_answer": "sinh15p-q22-c",
+          "answer": "plasmid."
+        },
+        {
+          "id_answer": "sinh15p-q22-d",
+          "answer": "màng sinh chất."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q22-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q23",
+      "order": 23,
+      "question": "Thành tựu nào sau đây là ứng dụng của công nghệ tạo thực vật biến đổi gene?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q23-a",
+          "answer": "Tạo cừu Dolly bằng kĩ thuật nhân bản vô tính."
+        },
+        {
+          "id_answer": "sinh15p-q23-b",
+          "answer": "Tạo giống lúa “vàng” có khả năng tổng hợp tiền chất vitamin A (β-carotene)."
+        },
+        {
+          "id_answer": "sinh15p-q23-c",
+          "answer": "Tạo giống dưa hấu tam bội (3n) không hạt nhờ colchicine."
+        },
+        {
+          "id_answer": "sinh15p-q23-d",
+          "answer": "Tạo giống dâu tằm tứ bội (4n) có lá to bản."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q23-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q24",
+      "order": 24,
+      "question": "Để có thể nhận biết và phân lập được các tế bào đã nhận được DNA tái tổ hợp, các nhà khoa học thường sử dụng thể truyền có chứa",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q24-a",
+          "answer": "các gene đánh dấu."
+        },
+        {
+          "id_answer": "sinh15p-q24-b",
+          "answer": "các đột biến gene gây chết."
+        },
+        {
+          "id_answer": "sinh15p-q24-c",
+          "answer": "nhiều đoạn intron xen kẽ."
+        },
+        {
+          "id_answer": "sinh15p-q24-d",
+          "answer": "enzyme phiên mã ngược."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q24-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q25",
+      "order": 25,
+      "question": "Đặc điểm quan trọng nhất của phân tử DNA plasmid giúp nó được lựa chọn làm vector chuyển gene trong tế bào vi khuẩn là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q25-a",
+          "answer": "có kích thước phân tử rất lớn và mạch thẳng."
+        },
+        {
+          "id_answer": "sinh15p-q25-b",
+          "answer": "có khả năng tự nhân đôi độc lập với DNA vùng nhân của tế bào nhận."
+        },
+        {
+          "id_answer": "sinh15p-q25-c",
+          "answer": "mang toàn bộ các gene thiết yếu duy trì sự sống của vi khuẩn."
+        },
+        {
+          "id_answer": "sinh15p-q25-d",
+          "answer": "không thể bị cắt bởi bất kì loại enzyme nào."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q25-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q26",
+      "order": 26,
+      "question": "Trong kĩ thuật chuyển gene, các bước được tiến hành theo trình tự là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q26-a",
+          "answer": "tạo DNA tái tổ hợp → đưa DNA tái tổ hợp vào tế bào nhận → phân lập dòng tế bào chứa DNA tái tổ hợp."
+        },
+        {
+          "id_answer": "sinh15p-q26-b",
+          "answer": "tách gene và thể truyền → cắt và nối DNA tái tổ hợp → đưa DNA tái tổ hợp vào tế bào nhận."
+        },
+        {
+          "id_answer": "sinh15p-q26-c",
+          "answer": "tạo DNA tái tổ hợp → phân lập dòng DNA tái tổ hợp → đưa DNA tái tổ hợp vào tế bào nhận."
+        },
+        {
+          "id_answer": "sinh15p-q26-d",
+          "answer": "phân lập dòng tế bào chứa DNA tái tổ hợp → tạo DNA tái tổ hợp → chuyển DNA tái tổ hợp vào tế bào nhận."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q26-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q27",
+      "order": 27,
+      "question": "Cho các thông tin về quy trình tạo DNA tái tổ hợp như sau:\n(1) Tách DNA từ tế bào chứa gene cần chuyển và plasmid từ vi khuẩn.\n(2) Nối hai đoạn DNA cần chuyển với plasmid bằng enzyme nối tạo DNA tái tổ hợp.\n(3) Enzyme cắt giới hạn gene cần chuyển và vị trí tương ứng trên plasmid tạo nên các đầu dính có trình tự nucleotide bổ sung, tạo điều kiện cho việc bắt cặp giữa hai đoạn DNA với nhau.\n(4) Chuyển DNA tái tổ hợp vào tế bào nhận.\nQuy trình tạo DNA tái tổ hợp diễn ra theo thứ tự:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q27-a",
+          "answer": "1→2→3→4"
+        },
+        {
+          "id_answer": "sinh15p-q27-b",
+          "answer": "1→3→2→4"
+        },
+        {
+          "id_answer": "sinh15p-q27-c",
+          "answer": "2→1→3→4"
+        },
+        {
+          "id_answer": "sinh15p-q27-d",
+          "answer": "3→2→1→4"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q27-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q28",
+      "order": 28,
+      "question": "Cho các thành tựu:\n(1) Tạo giống cà chua chuyển gen kháng virus.\n(2) Tạo giống sâm đất chuyển gen sản xuất nhóm chất flavonoid được dùng để điều trị bệnh.\n(3) Tạo giống bông và giống đậu tương mang gene kháng thuốc diệt cỏ của thuốc lá cảnh Petunia.\n(4) Tạo giống dưa hấu tam bội không có hạt, hàm lượng đường cao.\nNhững thành tựu đạt được do ứng dụng kĩ thuật tạo giống bằng công nghê gene là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q28-a",
+          "answer": "(1), (2) và (3)."
+        },
+        {
+          "id_answer": "sinh15p-q28-b",
+          "answer": "(1), (3) và (4)."
+        },
+        {
+          "id_answer": "sinh15p-q28-c",
+          "answer": "(2), (3) và (4)."
+        },
+        {
+          "id_answer": "sinh15p-q28-d",
+          "answer": "(1), (2) và (4)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q28-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q29",
+      "order": 29,
+      "question": "Trong cấu trúc siêu hiển vi của NST ở sinh vật nhân thực, sợi nhiễm sắc có đường kính bao nhiêu nm?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q29-a",
+          "answer": "10 nm."
+        },
+        {
+          "id_answer": "sinh15p-q29-b",
+          "answer": "30 nm."
+        },
+        {
+          "id_answer": "sinh15p-q29-c",
+          "answer": "300 nm."
+        },
+        {
+          "id_answer": "sinh15p-q29-d",
+          "answer": "700 nm."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q29-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q30",
+      "order": 30,
+      "question": "Mỗi loài đều có một bộ nhiễm sắc thể đặc trưng về",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q30-a",
+          "answer": "hình dạng, cấu trúc và cách sắp xếp."
+        },
+        {
+          "id_answer": "sinh15p-q30-b",
+          "answer": "hình thái, số lượng và cấu trúc."
+        },
+        {
+          "id_answer": "sinh15p-q30-c",
+          "answer": "thành phần, số lượng và cấu trúc."
+        },
+        {
+          "id_answer": "sinh15p-q30-d",
+          "answer": "số lượng, cấu trúc và cách sắp xếp."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q30-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q31",
+      "order": 31,
+      "question": "Dưới kính hiển vi quang học, hình thái đặc trưng của nhiễm sắc thể được quan sát rõ nét nhất vào kì nào của quá trình phân bào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q31-a",
+          "answer": "Kì trung gian."
+        },
+        {
+          "id_answer": "sinh15p-q31-b",
+          "answer": "Kì đầu."
+        },
+        {
+          "id_answer": "sinh15p-q31-c",
+          "answer": "Kì giữa."
+        },
+        {
+          "id_answer": "sinh15p-q31-d",
+          "answer": "Kì cuối."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q31-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q32",
+      "order": 32,
+      "question": "Nhiễm sắc thể được cấu tạo từ các thành phần cơ bản là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q32-a",
+          "answer": "DNA và protein phi histone."
+        },
+        {
+          "id_answer": "sinh15p-q32-b",
+          "answer": "DNA, RNA và protein histone."
+        },
+        {
+          "id_answer": "sinh15p-q32-c",
+          "answer": "DNA và protein histone."
+        },
+        {
+          "id_answer": "sinh15p-q32-d",
+          "answer": "DNA, RNA và protein phi histone."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q32-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q33",
+      "order": 33,
+      "question": "Vùng đầu mút của nhiễm sắc thể ở sinh vật nhân thực có chức năng chủ yếu nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q33-a",
+          "answer": "Là vị trí để thoi phân bào bám vào giúp nhiễm sắc thể di chuyển."
+        },
+        {
+          "id_answer": "sinh15p-q33-b",
+          "answer": "Bảo vệ nhiễm sắc thể và ngăn các nhiễm sắc thể dính vào nhau."
+        },
+        {
+          "id_answer": "sinh15p-q33-c",
+          "answer": "Chứa các gene mã hóa enzyme tham gia vào quá trình dịch mã."
+        },
+        {
+          "id_answer": "sinh15p-q33-d",
+          "answer": "Là điểm duy nhất bắt đầu quá trình tái bản DNA trong nhân."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q33-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q34",
+      "order": 34,
+      "question": "Ở kì giữa của nguyên phân, mỗi chromatid của nhiễm sắc thể co xoắn cực đại có đường kính khoảng",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q34-a",
+          "answer": "10 nm."
+        },
+        {
+          "id_answer": "sinh15p-q34-b",
+          "answer": "30 nm."
+        },
+        {
+          "id_answer": "sinh15p-q34-c",
+          "answer": "300 nm."
+        },
+        {
+          "id_answer": "sinh15p-q34-d",
+          "answer": "700 nm."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q34-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q35",
+      "order": 35,
+      "question": "Cấu trúc siêu hiển vi của nhiễm sắc thể gồm DNA và protein histone được xoắn lần lượt theo các cấp độ\n### 2. Đúng / Sai",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q35-a",
+          "answer": "DNA + histone → sợi nhiễm sắc → sợi cơ bản → nucleosome → sợi chromatid → NST."
+        },
+        {
+          "id_answer": "sinh15p-q35-b",
+          "answer": "DNA + histone → nucleosome → sợi cơ bản → sợi nhiễm sắc → sợi chromatid → NST."
+        },
+        {
+          "id_answer": "sinh15p-q35-c",
+          "answer": "DNA + histone → nucleosome → sợi nhiễm sắc → sợi cơ bản → sợi chromatid → NST."
+        },
+        {
+          "id_answer": "sinh15p-q35-d",
+          "answer": "DNA + histone → sợi cơ bản → nucleosome → sợi nhiễm sắc → sợi chromatid → NST."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "sinh15p-q35-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q36",
+      "order": 36,
+      "question": "Khi nói về hậu quả và ý nghĩa của đột biến gene đối với sinh vật, xét tính đúng/sai của các nhận định sau:",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q36-a",
+          "answer": "Đột biến thêm hoặc mất một cặp nucleotide ở vùng mã hóa thường làm thay đổi khung đọc mã di truyền từ vị trí đột biến trở về sau (đột biến dịch khung)."
+        },
+        {
+          "id_answer": "sinh15p-q36-b",
+          "answer": "Đột biến thay thế một cặp nucleotide luôn làm thay đổi thành phần amino acid trong chuỗi polypeptide do gene quy định."
+        },
+        {
+          "id_answer": "sinh15p-q36-c",
+          "answer": "Đột biến gene tạo ra các allele mới, làm phong phú vốn gene của quần thể và là nguồn nguyên liệu sơ cấp cho tiến hóa và chọn giống."
+        },
+        {
+          "id_answer": "sinh15p-q36-d",
+          "answer": "Đa số đột biến gene tự nhiên khi biểu hiện ra kiểu hình đều có lợi cho sinh vật mang đột biến."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "sinh15p-q36-a",
+          "sinh15p-q36-c"
+        ],
+        "false_answer": [
+          "sinh15p-q36-b",
+          "sinh15p-q36-d"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q37",
+      "order": 37,
+      "question": "Khi nói về các khái niệm cơ bản và quy trình trong công nghệ gene, xét tính đúng/sai của các nhận định sau:",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q37-a",
+          "answer": "Phân tử DNA tái tổ hợp được tạo thành do nối một đoạn gene cần chuyển vào phân tử DNA dùng làm thể truyền (vector)."
+        },
+        {
+          "id_answer": "sinh15p-q37-b",
+          "answer": "Enzyme restrictase có chức năng nối đoạn gene cần chuyển vào thể truyền plasmid để tạo DNA tái tổ hợp."
+        },
+        {
+          "id_answer": "sinh15p-q37-c",
+          "answer": "Sinh vật biến đổi gene là sinh vật có hệ gene đã được làm biến đổi hoặc tiếp nhận thêm gene mới từ loài khác."
+        },
+        {
+          "id_answer": "sinh15p-q37-d",
+          "answer": "Để tạo động vật chuyển gene, người ta thường tiêm gene cần chuyển vào tế bào trứng vừa mới được thụ tinh (giai đoạn tiền nhân)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "sinh15p-q37-a",
+          "sinh15p-q37-c",
+          "sinh15p-q37-d"
+        ],
+        "false_answer": [
+          "sinh15p-q37-b"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q38",
+      "order": 38,
+      "question": "Khi nói về thành tựu của công nghệ tạo sinh vật biến đổi gene, xét tính đúng/sai của các phát biểu sau:",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q38-a",
+          "answer": "Giống lúa \"vàng\" mang gene tổng hợp β-carotene giúp cung cấp tiền chất vitamin A cho con người."
+        },
+        {
+          "id_answer": "sinh15p-q38-b",
+          "answer": "Giống cà chua chuyển gene có khả năng làm chậm chín và bảo quản lâu hơn là nhờ bất hoạt gene sản sinh ra hormone ethylene."
+        },
+        {
+          "id_answer": "sinh15p-q38-c",
+          "answer": "Cừu Dolly là thành tựu điển hình được tạo ra bằng phương pháp chuyển DNA tái tổ hợp vào tế bào tuyến vú."
+        },
+        {
+          "id_answer": "sinh15p-q38-d",
+          "answer": "Vi khuẩn biến đổi gene mang gene người đã được ứng dụng trong công nghiệp dược phẩm để sản xuất hormone insulin chữa bệnh đái tháo đường."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "sinh15p-q38-a",
+          "sinh15p-q38-b",
+          "sinh15p-q38-d"
+        ],
+        "false_answer": [
+          "sinh15p-q38-c"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q39",
+      "order": 39,
+      "question": "Khi nói về cấu trúc siêu hiển vi của nhiễm sắc thể ở sinh vật nhân thực, xét tính đúng/sai của các nhận định sau:\n### 3. Trả lời ngắn",
+      "type_question": "true_false",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "sinh15p-q39-a",
+          "answer": "Đơn vị cấu trúc cơ bản của nhiễm sắc thể là nucleosome, gồm 1 đoạn DNA quấn quanh khối gồm 8 phân tử protein histone."
+        },
+        {
+          "id_answer": "sinh15p-q39-b",
+          "answer": "Vùng đầu mút của nhiễm sắc thể là vị trí liên kết trực tiếp với thoi phân bào giúp nhiễm sắc thể di chuyển trong phân bào."
+        },
+        {
+          "id_answer": "sinh15p-q39-c",
+          "answer": "Vùng dị nhiễm sắc là vùng chứa các nucleosome nằm sát nhau, thường không chứa gene hoặc chứa các gene bị bất hoạt."
+        },
+        {
+          "id_answer": "sinh15p-q39-d",
+          "answer": "Ở kì giữa, mỗi chromatid co xoắn cực đại có đường kính khoảng 700 nm."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [
+          "sinh15p-q39-a",
+          "sinh15p-q39-c",
+          "sinh15p-q39-d"
+        ],
+        "false_answer": [
+          "sinh15p-q39-b"
+        ],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "sinh15p-q40",
+      "order": 40,
+      "question": "Có bao nhiêu dạng đột biến điểm cơ bản xảy ra trong cấu trúc của một gene cấu trúc?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "3"
+      }
+    },
+    {
+      "id_question": "sinh15p-q41",
+      "order": 41,
+      "question": "Cho các yếu tố sau:\n(1) Tia tử ngoại (UV);\n(2) Hoá chất 5-bromouracil (5-BrU);\n(3) Hoá chất ethyl methane sulfonate (EMS);\n(4) Chất độc acridine;\n(5) Nhiệt độ môi trường bình thường;\n(6) Nước cất tinh khiết.\nCó bao nhiêu yếu tố được xem là tác nhân gây đột biến gene?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "4"
+      }
+    },
+    {
+      "id_question": "sinh15p-q42",
+      "order": 42,
+      "question": "Cho các phát biểu sau về đột biến gene:\n(1) Đột biến gene là nguồn nguyên liệu sơ cấp cho quá trình chọn giống và tiến hoá.\n(2) Đột biến điểm là dạng đột biến chỉ liên quan đến sự biến đổi ở 1 cặp nucleotide.\n(3) Đột biến thay thế 1 cặp nucleotide có thể không làm thay đổi chuỗi polypeptide do tính thoái hoá của mã di truyền.\n(4) Đột biến mất 1 cặp nucleotide ở vùng mã hoá gây hiện tượng dịch khung đọc mã di truyền.\n(5) Đột biến gene có thể phát sinh do sự bắt cặp nhầm ngẫu nhiên trong quá trình tái bản DNA.\n(6) Mọi đột biến gene lặn khi mới phát sinh đều biểu hiện ngay thành thể đột biến ở đời con.\nCó bao nhiêu phát biểu đúng trong các phát biểu trên?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "5"
+      }
+    },
+    {
+      "id_question": "sinh15p-q43",
+      "order": 43,
+      "question": "Trong quy trình kĩ thuật tạo DNA tái tổ hợp, cần sử dụng tối thiểu bao nhiêu loại enzyme ligase để nối liền các đoạn DNA được cắt bởi cùng một loại restrictase?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "1"
+      }
+    },
+    {
+      "id_question": "sinh15p-q44",
+      "order": 44,
+      "question": "Quy trình công nghệ DNA tái tổ hợp cơ bản gồm có bao nhiêu bước chính?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "3"
+      }
+    },
+    {
+      "id_question": "sinh15p-q45",
+      "order": 45,
+      "question": "Cho các thành tựu sinh học sau:\n(1) Tạo chủng vi khuẩn E. coli sản xuất hormone insulin người.\n(2) Tạo giống lúa \"vàng\" tổng hợp β-carotene.\n(3) Tạo cừu chuyển gene tổng hợp protein huyết thanh tiết vào sữa.\n(4) Tạo giống bông kháng sâu hại mang gene độc tố Bt.\n(5) Tạo cừu Dolly mang đặc điểm giống hệt cá thể cho nhân.\n(6) Tạo giống dưa hấu tam bội (3n) không hạt.\nCó bao nhiêu thành tựu trong số trên được tạo ra từ công nghệ gene?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "4"
+      }
+    },
+    {
+      "id_question": "sinh15p-q46",
+      "order": 46,
+      "question": "Trong cấu trúc siêu hiển vi của NST ở sinh vật nhân thực, mức xoắn 3 (siêu xoắn) có đường kính bao nhiêu nm?",
+      "type_question": "short_answer",
+      "path_images": null,
+      "answers": [],
+      "results": {
+        "explain": "",
+        "correct_answer": null,
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": "300"
+      }
+    }
+  ]
+}
