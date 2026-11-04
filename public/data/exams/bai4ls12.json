@@ -1,0 +1,1773 @@
+{
+  "id_exam": "bai4ls12",
+  "id_subject": "su",
+  "name_exam": "BÀI 4 LỊCH SỬ 12",
+  "name_subject": "Lịch sử",
+  "class_exam": "12",
+  "duration": 30,
+  "created": "2026-11-04T18:30",
+  "updated": "2026-11-04T11:29",
+  "source": "/documents/pdf/de-moi.pdf",
+  "questions": [
+    {
+      "id_question": "bai4ls12-q1",
+      "order": 1,
+      "question": "ND nào không phải là bối cảnh dẫn tới sự ra đời của Hiệp hội các quốc gia Đông Nam Á (ASEAN)",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q1-a",
+          "answer": "Yêu cầu hợp tác, phát triển giữa các nước trong khu vực. (Nền kinh tế các nước vẫn còn nghèo nàn, lạc hậu.)"
+        },
+        {
+          "id_answer": "bai4ls12-q1-b",
+          "answer": "Xu thế Liên kết khu vực cổ vũ ĐNA liên kết với nhau."
+        },
+        {
+          "id_answer": "bai4ls12-q1-c",
+          "answer": "Các nước ĐNA muốn hạn chế ảnh hưởng của các cường quốc bên ngoài."
+        },
+        {
+          "id_answer": "bai4ls12-q1-d",
+          "answer": "Tất cả các nước khu vực Đông Nam Á đều giành được độc lập."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q1-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q2",
+      "order": 2,
+      "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) ra đời trong hoàn cảnh nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q2-a",
+          "answer": "Thế giới và khu vực đang có những chuyển biến quan trọng."
+        },
+        {
+          "id_answer": "bai4ls12-q2-b",
+          "answer": "Tất cả các nước khu vực Đông Nam Á đều giành được độc lập."
+        },
+        {
+          "id_answer": "bai4ls12-q2-c",
+          "answer": "Chiến tranh lạnh kết thúc, các dân tộc đang hòa hợp, hòa giải."
+        },
+        {
+          "id_answer": "bai4ls12-q2-d",
+          "answer": "Xu thế hòa hoãn Đông - Tây trở thành chủ đạo trên thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q2-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q3",
+      "order": 3,
+      "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập năm 1967 trong bối cảnh",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q3-a",
+          "answer": "Cuộc cách mạng khoa học kĩ thuật hiện đại diễn ra mạnh mẽ."
+        },
+        {
+          "id_answer": "bai4ls12-q3-b",
+          "answer": "Việt Nam đã kết thúc cuộc khủng chiến chống Mĩ."
+        },
+        {
+          "id_answer": "bai4ls12-q3-c",
+          "answer": "trật tự hai cực Ianta đã sụp đổ hoàn toàn."
+        },
+        {
+          "id_answer": "bai4ls12-q3-d",
+          "answer": "Liên Xô và Mĩ đã tuyên bố chấm dứt Chiến tranh lạnh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q3-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q4",
+      "order": 4,
+      "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập năm 1967 trong bối cảnh",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q4-a",
+          "answer": "trật tự hai cực Innta đã sụp đổ hoàn toàn."
+        },
+        {
+          "id_answer": "bai4ls12-q4-b",
+          "answer": "Việt Nam đã kết thúc cuộc kháng chiến chống Mĩ."
+        },
+        {
+          "id_answer": "bai4ls12-q4-c",
+          "answer": "Khối thị trường chung châu Âu đang có nhiều khởi sắc."
+        },
+        {
+          "id_answer": "bai4ls12-q4-d",
+          "answer": "Liên Xô và Mĩ đã tuyên bố chấm dứt Chiến tranh lạnh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q4-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q5",
+      "order": 5,
+      "question": "Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập năm 1967 trong bối cảnh",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q5-a",
+          "answer": "nhiều nước ở Đông Nam Á đã giành được độc lập."
+        },
+        {
+          "id_answer": "bai4ls12-q5-b",
+          "answer": "Việt Nam đã kết thúc cuộc kháng chiến chống Mĩ."
+        },
+        {
+          "id_answer": "bai4ls12-q5-c",
+          "answer": "Liên Xô và Mĩ đã tuyên bố chấm dứt Chiến tranh lạnh."
+        },
+        {
+          "id_answer": "bai4ls12-q5-d",
+          "answer": "trật tự hai cực Ianta đã sụp đổ hoàn toàn."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q5-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q6",
+      "order": 6,
+      "question": "Trong những năm 60 của thế kỉ XX, xu hướng nào trên thế giới tác động tới sự ra đời của tổ chức Hiệp ước các quốc gia Đông Nam Á (ASEAN)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q6-a",
+          "answer": "Đơn cực."
+        },
+        {
+          "id_answer": "bai4ls12-q6-b",
+          "answer": "Liên kết khu vực."
+        },
+        {
+          "id_answer": "bai4ls12-q6-c",
+          "answer": "Toàn cầu hóa."
+        },
+        {
+          "id_answer": "bai4ls12-q6-d",
+          "answer": "Hòa hoãn Đông - Tây."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q6-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q7",
+      "order": 7,
+      "question": "Tổ chức hợp tác nào mang tính khu vực trên thế giới đã cổ vũ các nước Đông Nam Á tìm cách liên kết lại với nhau?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q7-a",
+          "answer": "Diễn đàn hợp tác kinh tế Á - Âu."
+        },
+        {
+          "id_answer": "bai4ls12-q7-b",
+          "answer": "Diễn đàn kinh tế Thái Bình Dương."
+        },
+        {
+          "id_answer": "bai4ls12-q7-c",
+          "answer": "Cộng đồng các quốc gia độc lập."
+        },
+        {
+          "id_answer": "bai4ls12-q7-d",
+          "answer": "Cộng đồng kinh tế Châu Âu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q7-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q8",
+      "order": 8,
+      "question": "Hiệp hội các quốc gia Đông Nam Á được thành lập năm 1967 tại",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q8-a",
+          "answer": "Ma-ni-la (Phi-lip-pin)."
+        },
+        {
+          "id_answer": "bai4ls12-q8-b",
+          "answer": "Cua-la Lăm-pơ (Ma-lai-xi-a)."
+        },
+        {
+          "id_answer": "bai4ls12-q8-c",
+          "answer": "Ba-li (In-đô-nê-xi-a)."
+        },
+        {
+          "id_answer": "bai4ls12-q8-d",
+          "answer": "Băng Cốc (Thái Lan)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q8-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q9",
+      "order": 9,
+      "question": "Các nước sáng lập tham gia sáng lập ASEAN là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q9-a",
+          "answer": "Việt Nam, Thái Lan, Phi-lip-pin, Xin-ga-po, Ma-lai-xi-a."
+        },
+        {
+          "id_answer": "bai4ls12-q9-b",
+          "answer": "In-đô-nê-xi-a, Ma-lai-xi-a, Phi-lip-pin, Xin-ga-po, Thái Lan."
+        },
+        {
+          "id_answer": "bai4ls12-q9-c",
+          "answer": "Thái Lan, Phi-líp-pin, Xin-ga-po, Ma-lai-xi-a, Mi-an-ma."
+        },
+        {
+          "id_answer": "bai4ls12-q9-d",
+          "answer": "Lào, Thái Lan, Phi-lip-pin, Xin-ga-po, Ma-lai-xi-a."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q9-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q10",
+      "order": 10,
+      "question": "Văn kiện nào đã nêu rõ mục đích thành lập của tổ chức ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q10-a",
+          "answer": "Tuyên bố ASEAN."
+        },
+        {
+          "id_answer": "bai4ls12-q10-b",
+          "answer": "Hiệp định Giơ-ne-vơ."
+        },
+        {
+          "id_answer": "bai4ls12-q10-c",
+          "answer": "Hiệp định Paris."
+        },
+        {
+          "id_answer": "bai4ls12-q10-d",
+          "answer": "Tuyên bố Lahay."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q10-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q11",
+      "order": 11,
+      "question": "Ngày 8 - 8 - 1967, tại Băng - Cốc (Thái Lan) đã diễn ra sự kiện nào dưới đây của ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q11-a",
+          "answer": "Tuyên bố thành lập tổ chức ASEAN."
+        },
+        {
+          "id_answer": "bai4ls12-q11-b",
+          "answer": "Vấn đề Cam-pu-chia được giải quyết."
+        },
+        {
+          "id_answer": "bai4ls12-q11-c",
+          "answer": "Lễ kết nạp Việt Nam làm thành viên."
+        },
+        {
+          "id_answer": "bai4ls12-q11-d",
+          "answer": "Hiệp ước Ba-li đã được thông qua."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q11-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q12",
+      "order": 12,
+      "question": "Điều kiện tiên quyết đưa đến sự thành lập tổ chức ASEAN (1967) là các quốc gia thành viên đều.",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q12-a",
+          "answer": "giành được độc lập."
+        },
+        {
+          "id_answer": "bai4ls12-q12-b",
+          "answer": "có chế độ chính trị tương đồng."
+        },
+        {
+          "id_answer": "bai4ls12-q12-c",
+          "answer": "có nền kinh tế phát triển."
+        },
+        {
+          "id_answer": "bai4ls12-q12-d",
+          "answer": "có nền văn hóa dân tộc đặc sắc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q12-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q13",
+      "order": 13,
+      "question": "Một trong những khó khăn mà các nước ASEAN phải đương đầu sau khi thành lập là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q13-a",
+          "answer": "khủng hoảng chính trị."
+        },
+        {
+          "id_answer": "bai4ls12-q13-b",
+          "answer": "xuất phát điểm rất thấp."
+        },
+        {
+          "id_answer": "bai4ls12-q13-c",
+          "answer": "nhiều dịch bệnh diễn ra."
+        },
+        {
+          "id_answer": "bai4ls12-q13-d",
+          "answer": "xu thế hợp tác khu vực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q13-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q14",
+      "order": 14,
+      "question": "Mục tiêu ban đầu của tổ chức ASEAN là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q14-a",
+          "answer": "phát triển kinh tế và văn hóa, xã hội."
+        },
+        {
+          "id_answer": "bai4ls12-q14-b",
+          "answer": "phát triển kinh tế và chính trị."
+        },
+        {
+          "id_answer": "bai4ls12-q14-c",
+          "answer": "hợp tác về an ninh và chính trị."
+        },
+        {
+          "id_answer": "bai4ls12-q14-d",
+          "answer": "hợp tác về chính trị và văn hóa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q14-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q15",
+      "order": 15,
+      "question": "Một trong những mục đích thành lập của tổ chức ASEAN là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q15-a",
+          "answer": "đưa Đông Nam Á trở thành số 1 thế giới."
+        },
+        {
+          "id_answer": "bai4ls12-q15-b",
+          "answer": "xây dựng khối tư bản chủ nghĩa phát triển."
+        },
+        {
+          "id_answer": "bai4ls12-q15-c",
+          "answer": "thúc đẩy hòa bình - ổn định của khu vực. (hòa bình, tự do, thịnh vượng, thống nhất)"
+        },
+        {
+          "id_answer": "bai4ls12-q15-d",
+          "answer": "thúc đẩy sự hợp tác toàn diện, thống nhất."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q15-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q16",
+      "order": 16,
+      "question": "Một trong những mục tiêu của tổ chức ASEAN khi thành lập là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q16-a",
+          "answer": "phát triển kinh tế và văn hóa thông qua những nỗ lực hợp tác chung."
+        },
+        {
+          "id_answer": "bai4ls12-q16-b",
+          "answer": "tăng cường quan hệ hợp tác mọi mặt nhằm phát triển kinh tế - quân sự."
+        },
+        {
+          "id_answer": "bai4ls12-q16-c",
+          "answer": "để củng cố quan hệ chính trị, giúp đỡ Đông Dương giành lại độc lập."
+        },
+        {
+          "id_answer": "bai4ls12-q16-d",
+          "answer": "để giải quyết vấn đề xung đột Cam-pu-chia và tranh chấp ở Biển Đông."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q16-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q17",
+      "order": 17,
+      "question": "Ngay khi ra Tuyên bố Băng Cốc (năm 1967), ASEAN đã mong muốn",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q17-a",
+          "answer": "xây dựng một cộng đồng thịnh vượng và hòa bình ở Đông Nam Á."
+        },
+        {
+          "id_answer": "bai4ls12-q17-b",
+          "answer": "tái thiết lập một liên minh chính trị - quân sự chung cho toàn khu vực."
+        },
+        {
+          "id_answer": "bai4ls12-q17-c",
+          "answer": "giải quyết tất cả các tranh chấp trong khu vực bằng biện pháp quân sự."
+        },
+        {
+          "id_answer": "bai4ls12-q17-d",
+          "answer": "thành lập một khối quân sự thống nhất giữa các nước trong khu vực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q17-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q18",
+      "order": 18,
+      "question": "Một trong những mục đích thành lập của tổ chức ASEAN là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q18-a",
+          "answer": "xóa bỏ áp bức bóc lột và nghèo nàn lạc hậu."
+        },
+        {
+          "id_answer": "bai4ls12-q18-b",
+          "answer": "xây dựng khối liên minh chính trị và quân sự."
+        },
+        {
+          "id_answer": "bai4ls12-q18-c",
+          "answer": "xây dựng khối liên minh kinh tế và quân sự."
+        },
+        {
+          "id_answer": "bai4ls12-q18-d",
+          "answer": "Thúc đẩy sự cộng tác, tích cực giúp đỡ lẫn nhau."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q18-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q19",
+      "order": 19,
+      "question": "Một trong những nội dung hợp tác chủ yếu của các nước ASEAN khi thành lập là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q19-a",
+          "answer": "xã hội."
+        },
+        {
+          "id_answer": "bai4ls12-q19-b",
+          "answer": "đối ngoại."
+        },
+        {
+          "id_answer": "bai4ls12-q19-c",
+          "answer": "kinh tế."
+        },
+        {
+          "id_answer": "bai4ls12-q19-d",
+          "answer": "thể thao."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q19-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q20",
+      "order": 20,
+      "question": "Mục tiêu của ASEAN là phát triển kinh tế và văn hóa thông qua những nỗ lực hợp tác chung giữa các nước thành viên, trên tinh thần",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q20-a",
+          "answer": "vì hòa bình dân chủ trên thế giới."
+        },
+        {
+          "id_answer": "bai4ls12-q20-b",
+          "answer": "duy trì hòa bình và ổn định khu vực."
+        },
+        {
+          "id_answer": "bai4ls12-q20-c",
+          "answer": "đảm bảo an ninh và sẵn sàng chiến đấu."
+        },
+        {
+          "id_answer": "bai4ls12-q20-d",
+          "answer": "ngăn chặn ảnh hưởng của chủ nghĩa xã hội."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q20-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q21",
+      "order": 21,
+      "question": "Điểm tương đồng trong quá trình ra đời của Hiệp hội các quốc gia Đông Nam Á (ASEAN) và Liên minh châu Âu là gì?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q21-a",
+          "answer": "Đều là những đồng minh tin cậy của Mĩ."
+        },
+        {
+          "id_answer": "bai4ls12-q21-b",
+          "answer": "Đều là đối tác quan trọng của Nhật."
+        },
+        {
+          "id_answer": "bai4ls12-q21-c",
+          "answer": "Xuất phát từ nhu cầu liên kết và hợp tác giữa các nước."
+        },
+        {
+          "id_answer": "bai4ls12-q21-d",
+          "answer": "Đều là những tổ chức liên kết của các nước trên thế giới"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q21-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q22",
+      "order": 22,
+      "question": "Cộng đồng châu Âu (EC) và Hiệp hội các quốc gia Đông Nam Á (ASEAN) ra đời trong bối cảnh",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q22-a",
+          "answer": "trật tự hại cực lanta hình thành."
+        },
+        {
+          "id_answer": "bai4ls12-q22-b",
+          "answer": "Chiến tranh lạnh chấm dứt."
+        },
+        {
+          "id_answer": "bai4ls12-q22-c",
+          "answer": "xu thế liên kết khu vực phát triển mạnh."
+        },
+        {
+          "id_answer": "bai4ls12-q22-d",
+          "answer": "trật tự Vécxai - Oasinhton tan rã."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q22-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q23",
+      "order": 23,
+      "question": "Quá trình mở rộng thành viên của tổ chức Hiệp hội các quốc gia Đông Nam Á từ ASEAN 5 thành ASEAN 10 diễn ra mạnh mẽ chủ yếu trong giai đoạn nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q23-a",
+          "answer": "Giai đoạn 1967 - 1976."
+        },
+        {
+          "id_answer": "bai4ls12-q23-b",
+          "answer": "Giai đoạn 1976 - 1999."
+        },
+        {
+          "id_answer": "bai4ls12-q23-c",
+          "answer": "Giai đoạn 1999 - 2015."
+        },
+        {
+          "id_answer": "bai4ls12-q23-d",
+          "answer": "Giai đoạn 2015 đến nay."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q23-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q24",
+      "order": 24,
+      "question": "Quốc gia nào sau đây ở Đông Nam Á vừa ra đời đã được kết nạp vào tổ chức ASEAN và Liên hợp quốc?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q24-a",
+          "answer": "Đông Timor."
+        },
+        {
+          "id_answer": "bai4ls12-q24-b",
+          "answer": "Singapore."
+        },
+        {
+          "id_answer": "bai4ls12-q24-c",
+          "answer": "Việt Nam."
+        },
+        {
+          "id_answer": "bai4ls12-q24-d",
+          "answer": "Bru-nây."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q24-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q25",
+      "order": 25,
+      "question": "Trong Chiến tranh thế giới thứ hai (1939 - 1945), Đông Nam Á là thuộc địa của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q25-a",
+          "answer": "Nhật."
+        },
+        {
+          "id_answer": "bai4ls12-q25-b",
+          "answer": "Anh."
+        },
+        {
+          "id_answer": "bai4ls12-q25-c",
+          "answer": "Pháp."
+        },
+        {
+          "id_answer": "bai4ls12-q25-d",
+          "answer": "Mỹ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q25-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q26",
+      "order": 26,
+      "question": "Ba nước ở Đông Nam Á tuyên bố độc lập vào năm 1945 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q26-a",
+          "answer": "In-đô-nê-xi-a, Việt Nam, Ma-lai-xi-a."
+        },
+        {
+          "id_answer": "bai4ls12-q26-b",
+          "answer": "In-đô-nê-xi-a, Việt Nam, Lào."
+        },
+        {
+          "id_answer": "bai4ls12-q26-c",
+          "answer": "Việt Nam, Lào, Cam-pu-chia."
+        },
+        {
+          "id_answer": "bai4ls12-q26-d",
+          "answer": "Xin-ga-po, In-đô-nê-xi-a, Việt Nam."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q26-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q27",
+      "order": 27,
+      "question": "Quá trình phát triển từ “ASEAN 5” đến “ASEAN 10” diễn ra lâu dài chủ yếu vì",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q27-a",
+          "answer": "mức độ giành được độc lập ở mỗi nước khác nhau."
+        },
+        {
+          "id_answer": "bai4ls12-q27-b",
+          "answer": "ngay từ khi thành lập không có mục tiêu rõ ràng."
+        },
+        {
+          "id_answer": "bai4ls12-q27-c",
+          "answer": "nhiều nước vẫn trong tình trạng nghèo nàn, lạc hậu."
+        },
+        {
+          "id_answer": "bai4ls12-q27-d",
+          "answer": "nguyên tắc đồng thuận của 5 nước lớn sáng lập."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q27-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q28",
+      "order": 28,
+      "question": "Nét nổi bật trong mối quan hệ của ba nước Đông Dương và ASEAN từ cuối những năm 70 đến cuối những năm 80 của thế kỉ XX là gì?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q28-a",
+          "answer": "Đối thoại hòa bình."
+        },
+        {
+          "id_answer": "bai4ls12-q28-b",
+          "answer": "Đối đầu, căng thẳng."
+        },
+        {
+          "id_answer": "bai4ls12-q28-c",
+          "answer": "Hòa bình, cùng phát triển."
+        },
+        {
+          "id_answer": "bai4ls12-q28-d",
+          "answer": "Hợp tác cùng phát triển."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q28-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q29",
+      "order": 29,
+      "question": "Nội dung nào sau đây phản ánh lí do trong giai đoạn 1979 - 1991 quan hệ giữa Việt Nam và ASEAN căng thẳng?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q29-a",
+          "answer": "Vấn đề Cam-pu-chia."
+        },
+        {
+          "id_answer": "bai4ls12-q29-b",
+          "answer": "Tranh chấp biên giới."
+        },
+        {
+          "id_answer": "bai4ls12-q29-c",
+          "answer": "Xung đột ở Biển Đông."
+        },
+        {
+          "id_answer": "bai4ls12-q29-d",
+          "answer": "Khủng hoảng năng lượng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q29-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q30",
+      "order": 30,
+      "question": "Từ đầu những năm 90 của thế kỷ XX, Hiệp hội các quốc gia Đông Nam Á (ASEAN) có điều kiện mở rộng thành viên do",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q30-a",
+          "answer": "vấn đề Campuchia được giải quyết."
+        },
+        {
+          "id_answer": "bai4ls12-q30-b",
+          "answer": "xu thế hòa hoãn Đông - Tây xuất hiện."
+        },
+        {
+          "id_answer": "bai4ls12-q30-c",
+          "answer": "xu thế toàn cầu hóa bắt đầu xuất hiện."
+        },
+        {
+          "id_answer": "bai4ls12-q30-d",
+          "answer": "Mỹ rút quân khỏi các nước Đông Dương."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q30-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q31",
+      "order": 31,
+      "question": "Nguyên nhân chủ yếu dẫn đến quan hệ đối thoại, hợp tác và hội nhập giữa tổ chức ASEAN với ba nước Đông Dương từ đầu những năm 90 của thế kỷ XX là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q31-a",
+          "answer": "do cuộc Chiến tranh lạnh chấm dứt."
+        },
+        {
+          "id_answer": "bai4ls12-q31-b",
+          "answer": "do đây là xu thế chung của thế giới."
+        },
+        {
+          "id_answer": "bai4ls12-q31-c",
+          "answer": "vấn đề Cam-pu-chia được giải quyết."
+        },
+        {
+          "id_answer": "bai4ls12-q31-d",
+          "answer": "tác động của xu thế Toàn cầu hóa."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q31-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q32",
+      "order": 32,
+      "question": "Quá trình phát triển từ “ASEAN 5” đến “ASEAN 10” không chịu tác động của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q32-a",
+          "answer": "chủ nghĩa khủng bố quốc tế."
+        },
+        {
+          "id_answer": "bai4ls12-q32-b",
+          "answer": "xu thế toàn cầu hóa."
+        },
+        {
+          "id_answer": "bai4ls12-q32-c",
+          "answer": "cuộc Chiến tranh lạnh."
+        },
+        {
+          "id_answer": "bai4ls12-q32-d",
+          "answer": "xu thế liên kết khu vực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q32-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q33",
+      "order": 33,
+      "question": "Quan hệ giữa ASEAN với ba nước Đông Dương trong giai đoạn từ năm 1967 đến năm 1975 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q33-a",
+          "answer": "hợp tác toàn diện."
+        },
+        {
+          "id_answer": "bai4ls12-q33-b",
+          "answer": "liên minh chặt chẽ."
+        },
+        {
+          "id_answer": "bai4ls12-q33-c",
+          "answer": "đối đầu căng thẳng."
+        },
+        {
+          "id_answer": "bai4ls12-q33-d",
+          "answer": "đối thoại, hòa hoãn."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q33-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q34",
+      "order": 34,
+      "question": "Việc mở rộng thành viên của Hiệp hội các quốc gia Đông Nam Á (ASEAN) diễn ra lâu dài và đầy trở ngại chủ yếu là do",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q34-a",
+          "answer": "có nhiều khác biệt về văn hóa giữa các quốc gia dân tộc."
+        },
+        {
+          "id_answer": "bai4ls12-q34-b",
+          "answer": "nguyên tắc hoạt động của ASEAN không phù hợp với một số nước."
+        },
+        {
+          "id_answer": "bai4ls12-q34-c",
+          "answer": "tác động của cuộc Chiến tranh lạnh và cục diện hai cực, hai phe."
+        },
+        {
+          "id_answer": "bai4ls12-q34-d",
+          "answer": "các nước thực hiện những chiến lược phát triển kinh tế khác nhau."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q34-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q35",
+      "order": 35,
+      "question": "Số lượng thành viên phát triển từ ASEAN 5 đến ASEAN 10 diễn ra trong",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q35-a",
+          "answer": "30 năm (1967-1997)."
+        },
+        {
+          "id_answer": "bai4ls12-q35-b",
+          "answer": "32 năm (1967-1999)."
+        },
+        {
+          "id_answer": "bai4ls12-q35-c",
+          "answer": "17 năm (1967-1984)."
+        },
+        {
+          "id_answer": "bai4ls12-q35-d",
+          "answer": "48 năm (1967-2015)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q35-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q36",
+      "order": 36,
+      "question": "Nội dung nào dưới đây là nguyên nhân đã thúc đẩy Việt Nam gia nhập tổ chức ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q36-a",
+          "answer": "Quan hệ ASEAN và Tây ÂU chuyển sang đối thoại, hợp tác."
+        },
+        {
+          "id_answer": "bai4ls12-q36-b",
+          "answer": "Đây nội dung trong chính sách đối ngoại được Liên Xô đồng ý."
+        },
+        {
+          "id_answer": "bai4ls12-q36-c",
+          "answer": "Tất cả các nước Đông Nam Á đã gia nhập vào tổ chức ASEAN."
+        },
+        {
+          "id_answer": "bai4ls12-q36-d",
+          "answer": "Tổ chức ASEAN phù hợp với yêu cầu phát triển của Việt Nam."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q36-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q37",
+      "order": 37,
+      "question": "Sự kiện Việt Nam gia nhập tổ chức ASEAN có ý nghĩa",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q37-a",
+          "answer": "góp phần thúc đẩy quá trình mở rộng thành viên của tổ chức."
+        },
+        {
+          "id_answer": "bai4ls12-q37-b",
+          "answer": "tăng cường sức mạnh của hệ thống xã hội chủ nghĩa trên thế giới."
+        },
+        {
+          "id_answer": "bai4ls12-q37-c",
+          "answer": "buộc Mỹ phải bình thường hóa quan hệ ngoại giao với Việt Nam."
+        },
+        {
+          "id_answer": "bai4ls12-q37-d",
+          "answer": "cổ vũ phong trào giải phóng dân tộc trên thế giới phát triển."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q37-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q38",
+      "order": 38,
+      "question": "Cơ hội khi Việt Nam gia nhập tổ chức ASEAN (1997) là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q38-a",
+          "answer": "khai thác vốn đầu tư phát triển quân sự."
+        },
+        {
+          "id_answer": "bai4ls12-q38-b",
+          "answer": "thiết lập quan hệ ngoại giao với Trung Quốc."
+        },
+        {
+          "id_answer": "bai4ls12-q38-c",
+          "answer": "tiếp thu những kinh nghiệm quản lý sản xuất."
+        },
+        {
+          "id_answer": "bai4ls12-q38-d",
+          "answer": "được mở rộng thị trường với các nước châu Âu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q38-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q39",
+      "order": 39,
+      "question": "Nội dung nào dưới đây không phản ánh đúng những cơ hội khi Việt Nam gia nhập tổ chức ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q39-a",
+          "answer": "Thu hút vốn đầu tư và khoa học - công nghệ tiên tiến."
+        },
+        {
+          "id_answer": "bai4ls12-q39-b",
+          "answer": "Tăng cường giao lưu về mọi mặt và mở rộng thị trường."
+        },
+        {
+          "id_answer": "bai4ls12-q39-c",
+          "answer": "Đẩy mạnh được công nghiệp hóa, hiện đại hóa đất nước."
+        },
+        {
+          "id_answer": "bai4ls12-q39-d",
+          "answer": "Tranh thủ sức mạnh quân sự để giải quyết khó khăn trong nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q39-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q40",
+      "order": 40,
+      "question": "Thách thức về mặt kinh tế khi Việt Nam gia nhập tổ chức ASEAN là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q40-a",
+          "answer": "chịu sự cạnh tranh quyết liệt."
+        },
+        {
+          "id_answer": "bai4ls12-q40-b",
+          "answer": "tụt hậu trên các nền tảng công nghệ."
+        },
+        {
+          "id_answer": "bai4ls12-q40-c",
+          "answer": "nguy cơ mất bản sắc văn hóa dân tộc."
+        },
+        {
+          "id_answer": "bai4ls12-q40-d",
+          "answer": "sự phân biệt giàu nghèo trong xã hội."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q40-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q41",
+      "order": 41,
+      "question": "Trong những năm 1967 - 1975, tổ chức ASEAN",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q41-a",
+          "answer": "hợp tác có hiệu quả trong việc hỗ trợ các nước phát triển kinh tế."
+        },
+        {
+          "id_answer": "bai4ls12-q41-b",
+          "answer": "là một tổ chức non trẻ, sự hợp tác trong khu vực còn lỏng lẻo."
+        },
+        {
+          "id_answer": "bai4ls12-q41-c",
+          "answer": "đã kết nạp được tất cả các nước trong khu vực làm thành viên."
+        },
+        {
+          "id_answer": "bai4ls12-q41-d",
+          "answer": "là tổ chức kinh tế - chính trị lớn, có tầm ảnh hưởng đối với quốc tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q41-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q42",
+      "order": 42,
+      "question": "Trong những sự kiện dưới đây sự kiện nào đánh dấu sự khởi sắc và hoạt động có hiệu quả của tổ chức Hiệp hội các quốc gia Đông Nam Á (ASEAN)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q42-a",
+          "answer": "10 nước Đông Nam Á tham gia vào tổ chức năm 1999."
+        },
+        {
+          "id_answer": "bai4ls12-q42-b",
+          "answer": "Việt Nam gia nhập vào tổ chức năm 1995."
+        },
+        {
+          "id_answer": "bai4ls12-q42-c",
+          "answer": "Hiệp ước Bali được ký kết năm 1976.( Hiệp ước Thân thiện và Hợp tác ở ĐNA)"
+        },
+        {
+          "id_answer": "bai4ls12-q42-d",
+          "answer": "Vấn đề Campuchia được giải quyết năm 1989."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q42-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q43",
+      "order": 43,
+      "question": "Trong giai đoạn 1976 - 1999, tổ chức Hiệp hội các quốc gia Đông Nam Á (ASEAN) đã ra Tuyên bố nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q43-a",
+          "answer": "Tuyên bố về khu vực Hòa bình, Tự do và Trung lập."
+        },
+        {
+          "id_answer": "bai4ls12-q43-b",
+          "answer": "Tuyên bố Bali I."
+        },
+        {
+          "id_answer": "bai4ls12-q43-c",
+          "answer": "Tuyên bố thành lập Cộng đồng ASEAN."
+        },
+        {
+          "id_answer": "bai4ls12-q43-d",
+          "answer": "Tuyên bố Bali II."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q43-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q44",
+      "order": 44,
+      "question": "Sự kiện nào sau đây đã đưa ASEAN từ tổ chức non yếu trở nên hoàn thiện, vị thể được nâng cao trên thế giới?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q44-a",
+          "answer": "Hiệp ước Ba-li được ký kết."
+        },
+        {
+          "id_answer": "bai4ls12-q44-b",
+          "answer": "Thông qua tuyên bố ASEAN"
+        },
+        {
+          "id_answer": "bai4ls12-q44-c",
+          "answer": "Thông cáo Thượng Hải."
+        },
+        {
+          "id_answer": "bai4ls12-q44-d",
+          "answer": "Hiệp định Giơ-ne-vo."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q44-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q45",
+      "order": 45,
+      "question": "Trong mười năm đầu sau khi thành lập, hợp tác kinh tế của tổ chức ASEAN",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q45-a",
+          "answer": "chưa được đề ra trong mục tiêu hợp tác giữa các nước."
+        },
+        {
+          "id_answer": "bai4ls12-q45-b",
+          "answer": "chịu những tác động sâu sắc của xu thế toàn cầu hóa."
+        },
+        {
+          "id_answer": "bai4ls12-q45-c",
+          "answer": "thúc đẩy các nước xóa bỏ chiến lược kinh tế hướng nội."
+        },
+        {
+          "id_answer": "bai4ls12-q45-d",
+          "answer": "chưa đáp ứng được mục tiêu của các nước thành viên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q45-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q46",
+      "order": 46,
+      "question": "Nguyên tắc hoạt động của ASEAN (nguyên tắc cơ bản trong hiệp ước Ba li). Nhận xét nào sau đây về Hiệp ước Bali (1976) của tổ chức ASEAN là không đúng?\n(1) tôn trọng độc lập chủ quyền và toàn vẹn lãnh thổ.\n(2) không can thiệp vào công việc nội bộ của nhau.\n(3) không sử dụng vũ lực hoặc đe dọa bằng vũ lực.\n(4) Hợp tác có hiệu quả trong các lĩnh vực kinh tế, văn hóa và xã hội.\n(5) Giải quyết tranh chấp bằng biện pháp hòa bình",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q46-a",
+          "answer": "Mở ra thời kì mới của tổ chức ASEAN."
+        },
+        {
+          "id_answer": "bai4ls12-q46-b",
+          "answer": "Chấm dứt hoàn toàn sự mâu thuẫn giữa các nước trong khu vực."
+        },
+        {
+          "id_answer": "bai4ls12-q46-c",
+          "answer": "Xác định nguyên tắc cơ bản trong quan hệ giữa các nước."
+        },
+        {
+          "id_answer": "bai4ls12-q46-d",
+          "answer": "Củng cố và tăng cường quan hệ giữa các nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q46-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q47",
+      "order": 47,
+      "question": "Nhận xét nào sau đây về Hiệp ước Bali (1976) của tổ chức ASEAN là không đúng?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q47-a",
+          "answer": "Đánh dấu sự khởi sắc trong hoạt động của ASEAN."
+        },
+        {
+          "id_answer": "bai4ls12-q47-b",
+          "answer": "Củng cố và tăng cường quan hệ hợp tác giữa các nước."
+        },
+        {
+          "id_answer": "bai4ls12-q47-c",
+          "answer": "Đánh dấu thời kỳ mở rộng thành viên của tổ chức."
+        },
+        {
+          "id_answer": "bai4ls12-q47-d",
+          "answer": "Xây dựng được nguyên tắc hoạt động của tổ chức."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q47-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q48",
+      "order": 48,
+      "question": "Trong giai đoạn 2015 đến nay, tổ chức Hiệp hội các quốc gia Đông Nam Á (ASEAN) chủ yếu tập trung vào vấn đề nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q48-a",
+          "answer": "Thành lập và xây dựng Cộng đồng ASEAN."
+        },
+        {
+          "id_answer": "bai4ls12-q48-b",
+          "answer": "Xây dựng lòng tin và học cách hòa giải."
+        },
+        {
+          "id_answer": "bai4ls12-q48-c",
+          "answer": "Kết nạp và mở rộng thành viên của tổ chức."
+        },
+        {
+          "id_answer": "bai4ls12-q48-d",
+          "answer": "Bước đầu mở rộng quan hệ hợp tác bên ngoài."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q48-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q49",
+      "order": 49,
+      "question": "Trong giai đoạn 1999-2015, ASEAN đạt được thành tựu quan trọng nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q49-a",
+          "answer": "Giải quyết xong mọi tranh chấp, xung đột trong khu vực."
+        },
+        {
+          "id_answer": "bai4ls12-q49-b",
+          "answer": "Phát triển số lượng thành viên từ 5 lên 10 nước."
+        },
+        {
+          "id_answer": "bai4ls12-q49-c",
+          "answer": "Ra Tuyên bố về khu vực hoà bình, tự do và trung lập."
+        },
+        {
+          "id_answer": "bai4ls12-q49-d",
+          "answer": "Hiến chương ASEAN được thông qua"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q49-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q50",
+      "order": 50,
+      "question": "Hội nghị cấp cao ASEAN (11-2007) đã kí kết bản Hiến chương ASEAN nhằm",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q50-a",
+          "answer": "xây dựng một cộng đồng ASEAN có vị thế cao hơn."
+        },
+        {
+          "id_answer": "bai4ls12-q50-b",
+          "answer": "xây dựng ASEAN thành một khu vực mậu dịch tự do."
+        },
+        {
+          "id_answer": "bai4ls12-q50-c",
+          "answer": "thành lập diễn đàn khu vực Đông Nam Á (ARF)."
+        },
+        {
+          "id_answer": "bai4ls12-q50-d",
+          "answer": "đẩy mạnh quan hệ với các nước ngoài khu vực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q50-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q51",
+      "order": 51,
+      "question": "Tháng 1/2007, ASEAN quyết định đẩy nhanh tiến trình liên kết nội khối, thống nhất mục tiêu hình thành Cộng đồng ASEAN vào năm 2015 dựa trên cơ sở pháp lý nào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q51-a",
+          "answer": "Hiệp ước Bali."
+        },
+        {
+          "id_answer": "bai4ls12-q51-b",
+          "answer": "Tuyên bố Băng Cốc."
+        },
+        {
+          "id_answer": "bai4ls12-q51-c",
+          "answer": "Tuyên bố Bali II."
+        },
+        {
+          "id_answer": "bai4ls12-q51-d",
+          "answer": "Hiến chương ASEAN."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q51-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q52",
+      "order": 52,
+      "question": "Nhận xét nào đúng về tổ chức Hiệp hội các quốc gia Đông Nam Á (ASEAN)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q52-a",
+          "answer": "Là tổ chức khu vực được thành lập sớm nhất thế giới."
+        },
+        {
+          "id_answer": "bai4ls12-q52-b",
+          "answer": "Mọi quyết định có giá trị như pháp luật của quốc gia."
+        },
+        {
+          "id_answer": "bai4ls12-q52-c",
+          "answer": "Có đóng góp cho nền hòa bình ở khu vực và thế giới."
+        },
+        {
+          "id_answer": "bai4ls12-q52-d",
+          "answer": "Có sự đồng nhất giữa các quốc gia về chính trị, kinh tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q52-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q53",
+      "order": 53,
+      "question": "Nội dung nào sau đây không phản ánh vai trò của tổ chức ASEAN đối với khu vực Đông Nam Á?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q53-a",
+          "answer": "Là nhân tố hàng đầu đảm bảo môi trường hòa bình, ổn định ở khu vực."
+        },
+        {
+          "id_answer": "bai4ls12-q53-b",
+          "answer": "Quyết định sự phát triển kinh tế - xã hội của các quốc gia trên thế giới."
+        },
+        {
+          "id_answer": "bai4ls12-q53-c",
+          "answer": "Củng cố và tăng cường quan hệ hợp tác giữa các nước ở trong khu vực."
+        },
+        {
+          "id_answer": "bai4ls12-q53-d",
+          "answer": "Thúc đẩy sự tăng trưởng về kinh tế của các nước thành viên ASEAN"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q53-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q54",
+      "order": 54,
+      "question": "ASEAN +3 là một cơ chế hợp tác giữa ASEN với",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q54-a",
+          "answer": "Nhật Bản, Trung Quốc, Hàn Quốc."
+        },
+        {
+          "id_answer": "bai4ls12-q54-b",
+          "answer": "Nga, Cu Ba, Triều Tiên."
+        },
+        {
+          "id_answer": "bai4ls12-q54-c",
+          "answer": "Ấn Độ, Trung Quốc, Hàn Quốc."
+        },
+        {
+          "id_answer": "bai4ls12-q54-d",
+          "answer": "Mĩ, Anh, Pháp."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q54-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai4ls12-q55",
+      "order": 55,
+      "question": "Sự hợp tác của các nước ở Đông Nam Á sau Chiến tranh thế giới thứ hai đã tác động đến",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai4ls12-q55-a",
+          "answer": "chủ nghĩa xã hội trở thành một hệ thống trên thế giới."
+        },
+        {
+          "id_answer": "bai4ls12-q55-b",
+          "answer": "chế độ phân biệt chủng tộc (Apácthai) ở châu Phi sụp đổ."
+        },
+        {
+          "id_answer": "bai4ls12-q55-c",
+          "answer": "bản đồ chính trị thế giới có những thay đổi to lớn và sâu sắc."
+        },
+        {
+          "id_answer": "bai4ls12-q55-d",
+          "answer": "chủ nghĩa thực dân kiểu cũ cùng hệ thống thuộc địa của nó tan rã."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai4ls12-q55-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    }
+  ]
+}

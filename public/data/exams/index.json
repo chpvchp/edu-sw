@@ -27,13 +27,31 @@
     "created": "2026-10-01T18:20"
   },
   {
+    "id_exam": "bai4ls12",
+    "name_exam": "BÀI 4 LỊCH SỬ 12",
+    "name_subject": "Lịch sử",
+    "class_exam": "12",
+    "duration": 30,
+    "updated": "2026-11-04T11:29",
+    "created": "2026-11-04T18:30"
+  },
+  {
+    "id_exam": "bai5ls12",
+    "name_exam": "BÀI 5 LỊCH SỬ 12",
+    "name_subject": "Toán",
+    "class_exam": "12",
+    "duration": 30,
+    "updated": "2026-11-04T11:57",
+    "created": "2026-11-04T18:59"
+  },
+  {
     "id_exam": "bai6ls12",
     "name_exam": "BÀI 6 LỊCH SỬ 12",
     "name_subject": "Lịch sử",
     "class_exam": "12",
-    "duration": 45,
-    "updated": "2026-10-28T11:53",
-    "created": "2026-10-28T18:55"
+    "duration": 30,
+    "updated": "2026-11-04T11:28",
+    "created": "2026-11-04T18:28"
   },
   {
     "id_exam": "dlt_toan_12_bai_1_2_ketnoitrithuc",
@@ -74,7 +92,7 @@
   {
     "id_exam": "otsinhgki12",
     "name_exam": "ÔN TẬP SINH GKI 12",
-    "name_subject": "Sinh học",
+    "name_subject": "Sinh",
     "class_exam": "12",
     "duration": 45,
     "updated": "2026-10-29T11:41",

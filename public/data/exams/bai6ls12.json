@@ -4,9 +4,9 @@
   "name_exam": "BÀI 6 LỊCH SỬ 12",
   "name_subject": "Lịch sử",
   "class_exam": "12",
-  "duration": 45,
-  "created": "2026-10-28T18:55",
-  "updated": "2026-10-28T11:53",
+  "duration": 30,
+  "created": "2026-11-04T18:28",
+  "updated": "2026-11-04T11:28",
   "source": "/documents/pdf/de-moi.pdf",
   "questions": [
     {
@@ -707,7 +707,7 @@
       ],
       "results": {
         "explain": "",
-        "correct_answer": "bai6ls12-q22-d",
+        "correct_answer": "bai6ls12-q22-c",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
@@ -1027,7 +1027,7 @@
       ],
       "results": {
         "explain": "",
-        "correct_answer": "bai6ls12-q32-c",
+        "correct_answer": "bai6ls12-q32-a",
         "true_answer": [],
         "false_answer": [],
         "short_answer": ""
@@ -1042,7 +1042,7 @@
       "answers": [
         {
           "id_answer": "bai6ls12-q33-a",
-          "answer": "Có Đàng và Chủ tịch Hồ Chí Minh lãnh dạo với đường lối dúng dắn, sáng tạo."
+          "answer": "Có Đảng và Chủ tịch Hồ Chí Minh lãnh dạo với đường lối dúng dắn, sáng tạo."
         },
         {
           "id_answer": "bai6ls12-q33-b",
