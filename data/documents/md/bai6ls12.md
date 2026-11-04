@@ -4,11 +4,13 @@ id_subject: su
 name_exam: BÀI 6 LỊCH SỬ 12
 name_subject: Lịch sử
 class_exam: 12
-duration: 45
+duration: 30
 source: /documents/pdf/de-moi.pdf
-created: 2026-10-28T18:55
-updated: 2026-10-28T11:53
+created: 2026-11-04T18:28
+updated: 2026-11-04T11:28
 ---
+
+# BÀI 6 LỊCH SỬ 12
 
 # BÀI 6 LỊCH SỬ 12
 
@@ -163,8 +165,8 @@ updated: 2026-10-28T11:53
   
 **A.** nhiệm vụ dân tộc của cách mạng hoàn thành. 
 **B.** nhiệm vụ dân chủ của cách mạng hoàn thành. 
-**C.** chế độ phong kiến Việt Nam sụp đổ hoàn toàn. 
-**D.** Tổng khởi nghĩa giành thắng lợi trên cả nước.  **ĐápÁnĐúng**  
+**C.** chế độ phong kiến Việt Nam sụp đổ hoàn toàn.  **ĐápÁnĐúng**  
+**D.** Tổng khởi nghĩa giành thắng lợi trên cả nước.
   
 **Câu 25:** Sự kiện nào sau đây đánh dấu nước Việt Nam Dân chủ Cộng hòa được thành lập?
   
@@ -233,12 +235,12 @@ updated: 2026-10-28T11:53
   
 **A.** Sự lãnh dạo dúng dẫn, sáng tạo của Đảng, đứng dầu là Chủ tịch Hồ Chí Minh.   **ĐápÁnĐúng**  
 **B.** Dân tộc ta có truyền thống yêu nước nồng nàn, bất khuất. 
-**C.** Toàn Đảng, toàn dân đoàn kết nhất trí, đồng lòng.   **ĐápÁnĐúng**  
+**C.** Toàn Đảng, toàn dân đoàn kết nhất trí, đồng lòng.
 **D.** Điều kiện khách quan và chủ quan thuận lợi.
   
 **Câu 35:** Ý nào dưới dây không phải là nguyên nhân dẫn đến thắng lợi của Cách mạng tháng Tám năm 1945?
   
-**A.** Có Đàng và Chủ tịch Hồ Chí Minh lãnh dạo với đường lối dúng dắn, sáng tạo. 
+**A.** Có Đảng và Chủ tịch Hồ Chí Minh lãnh dạo với đường lối dúng dắn, sáng tạo. 
 **B.** Dân tộc Việt Nam có truyền thống yêu nước kiên cường, bất khuất. 
 **C.** Nhờ có sự giúp đỡ của Liên Xô và các nước Xã hội chủ nghĩa.   **ĐápÁnĐúng**  
 **D.** Có quá trình chuẩn bị trong suốt 15 năm, trải qua hai lần tập dượt.

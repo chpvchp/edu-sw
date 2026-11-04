@@ -1,0 +1,1773 @@
+{
+  "id_exam": "bai5ls12",
+  "id_subject": "toan",
+  "name_exam": "BÀI 5 LỊCH SỬ 12",
+  "name_subject": "Toán",
+  "class_exam": "12",
+  "duration": 30,
+  "created": "2026-11-04T18:59",
+  "updated": "2026-11-04T11:57",
+  "source": "/documents/pdf/de-moi.pdf",
+  "questions": [
+    {
+      "id_question": "bai5ls12-q1",
+      "order": 1,
+      "question": "Ngay khi thành lập (1967), tổ chức ASEAN đã",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q1-a",
+          "answer": "kí Hiệp ước Thân thiện và hợp tác ở Đông Nam Á."
+        },
+        {
+          "id_answer": "bai5ls12-q1-b",
+          "answer": "thông qua bản Hiến chương ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q1-c",
+          "answer": "đề ra ý tưởng xây dựng Cộng đồng ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q1-d",
+          "answer": "ra Tuyên bố về khu vực hòa bình, tự do và trung lập."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q1-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q2",
+      "order": 2,
+      "question": "Ý tưởng về xây dựng Cộng đồng ASEAN được khởi nguồn từ khi",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q2-a",
+          "answer": "các nước ASEAN kí kết Hiệp ước Ba-li (1976)."
+        },
+        {
+          "id_answer": "bai5ls12-q2-b",
+          "answer": "thành lập tổ chức ASEAN (1967) tại Thái Lan."
+        },
+        {
+          "id_answer": "bai5ls12-q2-c",
+          "answer": "tổ chức ASEAN có đủ 10 nước thành viên (1999)."
+        },
+        {
+          "id_answer": "bai5ls12-q2-d",
+          "answer": "“vấn đề Cam-pu-chia” được giải quyết (1991)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q2-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q3",
+      "order": 3,
+      "question": "Trong Tuyên bố Băng Cốc (1967), các nước thành viên ASEAN đã đề ra ý tưởng nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q3-a",
+          "answer": "Xây dựng một cộng đồng các nước Đông Nam Á hoà bình và thịnh vượng."
+        },
+        {
+          "id_answer": "bai5ls12-q3-b",
+          "answer": "Tổ chức Đông Nam Á thành một khu vực mậu dịch tự do trong vòng 10 năm."
+        },
+        {
+          "id_answer": "bai5ls12-q3-c",
+          "answer": "Thành lập tổ chức liên minh chính trị - quân sự của các nước trong khu vực."
+        },
+        {
+          "id_answer": "bai5ls12-q3-d",
+          "answer": "Thúc đẩy quan hệ kinh tế, văn hoá giữa ASEAN và Cộng đồng châu Âu (EC)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q3-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q4",
+      "order": 4,
+      "question": "Hội nghị cấp cao ASEAN không chính thức được tổ chức tại Ma-lai-xi-a (1997) đã thông qua văn kiện quan trọng nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q4-a",
+          "answer": "Tuyên bố Băng Cốc."
+        },
+        {
+          "id_answer": "bai5ls12-q4-b",
+          "answer": "Tuyên bố Cua-la Lăm-pơ."
+        },
+        {
+          "id_answer": "bai5ls12-q4-c",
+          "answer": "Hiến chương ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q4-d",
+          "answer": "Tầm nhìn ASEAN 2020."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q4-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q5",
+      "order": 5,
+      "question": "Hội nghị cấp cao ASEAN không chính thức được tổ chức tại Ma-lai-xi-a (1997) có nội dung cơ bản nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q5-a",
+          "answer": "Các nước đồng thuận đề xuất ý tưởng thành lập Cộng đồng ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q5-b",
+          "answer": "Quyết định tổ chức Đông Nam Á thành một khu vực mậu dịch tự do."
+        },
+        {
+          "id_answer": "bai5ls12-q5-c",
+          "answer": "Kí Hiệp ước thân thiện và hợp tác ở Đông Nam Á (Hiệp ước Ba-li)."
+        },
+        {
+          "id_answer": "bai5ls12-q5-d",
+          "answer": "Các nước chính thức khẳng định ý tưởng lập ra Cộng đồng ASEAN."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q5-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q6",
+      "order": 6,
+      "question": "“Toàn bộ Đông Nam Á sẽ là một cộng đồng ASEAN, nhận thức được các mối liên hệ lịch sử của mình, hiểu rõ di sản văn hóa của mình và gắn bó với nhau bằng một bản sắc chung của khu vực” là nội dung của văn kiện nào sau đây của tổ chức ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q6-a",
+          "answer": "Hiến chương ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q6-b",
+          "answer": "Tuyên bố Băng Cốc"
+        },
+        {
+          "id_answer": "bai5ls12-q6-c",
+          "answer": "Tuyên bố Ba-li II"
+        },
+        {
+          "id_answer": "bai5ls12-q6-d",
+          "answer": "Tầm nhìn ASEAN 2020."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q6-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q7",
+      "order": 7,
+      "question": "Văn kiện nào sau đây thể hiện ý tưởng xây dựng Cộng đồng ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q7-a",
+          "answer": "Tuyên bố Ba-li năm 1976."
+        },
+        {
+          "id_answer": "bai5ls12-q7-b",
+          "answer": "Tầm nhìn ASEAN 2025."
+        },
+        {
+          "id_answer": "bai5ls12-q7-c",
+          "answer": "Hiệp ước Ba là năm 1976."
+        },
+        {
+          "id_answer": "bai5ls12-q7-d",
+          "answer": "Tầm nhìn ASEAN 2020"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q7-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q8",
+      "order": 8,
+      "question": "Nội dung nào sau đây phản ánh đúng ý nghĩa sự ra đời của văn kiện Tầm nhìn ASEAN 2020?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q8-a",
+          "answer": "Định hướng cho sự phát triển trong tương lai của tổ chức ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q8-b",
+          "answer": "Lần đầu tiên xác định được nguyên tắc trong quan hệ giữa các nước."
+        },
+        {
+          "id_answer": "bai5ls12-q8-c",
+          "answer": "Chứng tỏ việc triển khai xây dựng Cộng đồng ASEAN đã hoàn thành cơ bản."
+        },
+        {
+          "id_answer": "bai5ls12-q8-d",
+          "answer": "Đánh dấu hoàn thành quá trình mở rộng ASEAN ra toàn khu vực Đông Nam Á."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q8-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q9",
+      "order": 9,
+      "question": "Ý tưởng xây dựng Cộng đồng ASEAN được các quốc gia thành viên chính thức khẳng định (1997) đã",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q9-a",
+          "answer": "tạo tiền đề để các quốc gia ASEAN mở rộng quan hệ đối ngoại trên toàn cầu."
+        },
+        {
+          "id_answer": "bai5ls12-q9-b",
+          "answer": "tạo cơ sở cho sự hợp tác toàn diện giữa các nước phát triển lên một tầm cao mới."
+        },
+        {
+          "id_answer": "bai5ls12-q9-c",
+          "answer": "đánh dấu chấm dứt sự chia rẽ trong nội bộ của các nước sáng lập tổ chức ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q9-d",
+          "answer": "đưa ASEAN trở thành tổ chức liên kết khu vực thành công nhất trên thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q9-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q10",
+      "order": 10,
+      "question": "Cơ sở pháp lí để xây dựng Cộng đồng ASEAN trở thành một cộng đồng với ba trụ cột có mức độ liên kết sâu rộng hơn, ràng buộc hơn trên là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q10-a",
+          "answer": "Tuyên bố Băng Cốc."
+        },
+        {
+          "id_answer": "bai5ls12-q10-b",
+          "answer": "Tầm nhìn ASEAN 2020."
+        },
+        {
+          "id_answer": "bai5ls12-q10-c",
+          "answer": "Hiến chương ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q10-d",
+          "answer": "Hiệp ước Ba-li."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q10-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q11",
+      "order": 11,
+      "question": "Mục tiêu tổng quát của Cộng đồng ASEAN là xây dựng",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q11-a",
+          "answer": "một tổ chức hợp tác liên chính phủ có liên kết sâu rộng, dựa trên cơ sở pháp lí là Hiến chương ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q11-b",
+          "answer": "một tổ chức hợp tác liên chính phủ có liên kết sâu rộng theo mô hình siêu nhà nước."
+        },
+        {
+          "id_answer": "bai5ls12-q11-c",
+          "answer": "XD một chính phủ chung có liên kết sâu rộng, hướng tới một liên minh chính trị, quân sự."
+        },
+        {
+          "id_answer": "bai5ls12-q11-d",
+          "answer": "một tổ chức hợp tác liên minh liên kết sâu rộng dựa trên cơ sở là luật pháp của các nước thành viên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q11-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q12",
+      "order": 12,
+      "question": "Nội dung nào sau đây là mục tiêu của các nước Đông Nam Á khi đề ra và xây dựng Cộng đồng ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q12-a",
+          "answer": "Tiến tới thành lập một nghị viện chung cho các nước trong khu vực."
+        },
+        {
+          "id_answer": "bai5ls12-q12-b",
+          "answer": "Thúc đẩy thành lập một liên minh về chính trị, quân sự và ngoại giao."
+        },
+        {
+          "id_answer": "bai5ls12-q12-c",
+          "answer": "Xây dựng một tổ chức hợp tác liên chính phủ có liên kết sâu rộng."
+        },
+        {
+          "id_answer": "bai5ls12-q12-d",
+          "answer": "Hạn chế triệt để ảnh hưởng của các cường quốc đối với khu vực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q12-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q13",
+      "order": 13,
+      "question": "Nội dung nào sau đây là một trong những mục tiêu xây dựng Cộng đồng ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q13-a",
+          "answer": "Thúc đẩy ASEAN mở rộng hợp tác với bên ngoài."
+        },
+        {
+          "id_answer": "bai5ls12-q13-b",
+          "answer": "Tạo điều kiện để ASEAN tập trung hợp tác nội khối."
+        },
+        {
+          "id_answer": "bai5ls12-q13-c",
+          "answer": "Đưa tốc độ tăng trưởng của ASEAN cao nhất thế giới."
+        },
+        {
+          "id_answer": "bai5ls12-q13-d",
+          "answer": "Đưa ASEAN trở thành một tổ chức nhất thể hoá khu vực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q13-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q14",
+      "order": 14,
+      "question": "Cộng đồng ASEAN ra đời không nhằm mục tiêu nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q14-a",
+          "answer": "Liên minh quân sự chặt chẽ."
+        },
+        {
+          "id_answer": "bai5ls12-q14-b",
+          "answer": "Liên kết về chính trị - an ninh."
+        },
+        {
+          "id_answer": "bai5ls12-q14-c",
+          "answer": "Liên kết về văn hóa - xã hội."
+        },
+        {
+          "id_answer": "bai5ls12-q14-d",
+          "answer": "Liên kết về kinh tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q14-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q15",
+      "order": 15,
+      "question": "Nội dung nào sau đây là một trong những mục tiêu xây dựng Cộng đồng ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q15-a",
+          "answer": "Hoạt động theo luật lệ và hướng tới người dân."
+        },
+        {
+          "id_answer": "bai5ls12-q15-b",
+          "answer": "Tạo điều kiện để ASEAN tập trung hợp tác nội khối."
+        },
+        {
+          "id_answer": "bai5ls12-q15-c",
+          "answer": "Đưa tốc độ tăng trưởng của ASEAN cao nhất thế giới."
+        },
+        {
+          "id_answer": "bai5ls12-q15-d",
+          "answer": "Đưa ASEAN trở thành một tổ chức nhất thể hoá khu vực."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q15-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q16",
+      "order": 16,
+      "question": "Một trong những mục tiêu của Cộng đồng kinh tế ASEAN là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q16-a",
+          "answer": "Thu hút vốn đầu tư vào khu vực."
+        },
+        {
+          "id_answer": "bai5ls12-q16-b",
+          "answer": "Tạo ra môi trường kinh tế hòa bình."
+        },
+        {
+          "id_answer": "bai5ls12-q16-c",
+          "answer": "Tạo dựng khu vực kinh tế ổn định, thịnh vượng, cạnh tranh cao."
+        },
+        {
+          "id_answer": "bai5ls12-q16-d",
+          "answer": "Đưa ASEAN trở thành trung tâm kinh tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q16-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q17",
+      "order": 17,
+      "question": "Kế hoạch xây dựng Cộng đồng ASEAN được thể hiện thông qua",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q17-a",
+          "answer": "Tuyên bố Ba - li II (2003)."
+        },
+        {
+          "id_answer": "bai5ls12-q17-b",
+          "answer": "Tầm nhìn ASEAN 2020."
+        },
+        {
+          "id_answer": "bai5ls12-q17-c",
+          "answer": "Lộ trình xây dựng Cộng đồng ASEAN (2009-2015)."
+        },
+        {
+          "id_answer": "bai5ls12-q17-d",
+          "answer": "Hiến chương ASEAN (2007)."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q17-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q18",
+      "order": 18,
+      "question": "Cộng đồng ASEAN có hiệu lực từ ngày",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q18-a",
+          "answer": "22-11-2015."
+        },
+        {
+          "id_answer": "bai5ls12-q18-b",
+          "answer": "29-12-2015."
+        },
+        {
+          "id_answer": "bai5ls12-q18-c",
+          "answer": "30-12-2015."
+        },
+        {
+          "id_answer": "bai5ls12-q18-d",
+          "answer": "31-12-2015."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q18-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q19",
+      "order": 19,
+      "question": "Năm 2015, diễn ra sự sự kiện quan trọng nào đối với các nước Đông Nam Á?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q19-a",
+          "answer": "Hiệp định thương mại tự do (AFTA) được ký kết."
+        },
+        {
+          "id_answer": "bai5ls12-q19-b",
+          "answer": "Ký Hiệp ước Đông Nam Á không có vũ khí hạt nhân."
+        },
+        {
+          "id_answer": "bai5ls12-q19-c",
+          "answer": "Hội nghị cấp cao ASEAN lần thứ nhất họp tại Ba-li."
+        },
+        {
+          "id_answer": "bai5ls12-q19-d",
+          "answer": "Cộng đồng ASEAN (AC) ra đời."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q19-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q20",
+      "order": 20,
+      "question": "Cộng đồng ASEAN được xây dựng dựa trên ba trụ cột là Cộng đồng Chính trị-An ninh, Cộng đồng Kinh tế và Cộng đồng",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q20-a",
+          "answer": "Đối ngoại-Tiền tệ."
+        },
+        {
+          "id_answer": "bai5ls12-q20-b",
+          "answer": "Văn hóa-Xã hội."
+        },
+        {
+          "id_answer": "bai5ls12-q20-c",
+          "answer": "Thể thao-Du lịch."
+        },
+        {
+          "id_answer": "bai5ls12-q20-d",
+          "answer": "Giáo dục-Công nghệ"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q20-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q21",
+      "order": 21,
+      "question": "Cộng đồng ASEAN (AC) không bao gồm liên kết nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q21-a",
+          "answer": "Chính trị - An ninh."
+        },
+        {
+          "id_answer": "bai5ls12-q21-b",
+          "answer": "Chính trị - Quân sự."
+        },
+        {
+          "id_answer": "bai5ls12-q21-c",
+          "answer": "Kinh tế."
+        },
+        {
+          "id_answer": "bai5ls12-q21-d",
+          "answer": "Văn hóa - Xã hội."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q21-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q22",
+      "order": 22,
+      "question": "APSC là tên viết tắt của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q22-a",
+          "answer": "Cộng đồng Chính trị - An ninh."
+        },
+        {
+          "id_answer": "bai5ls12-q22-b",
+          "answer": "Liên minh Quân sự."
+        },
+        {
+          "id_answer": "bai5ls12-q22-c",
+          "answer": "Cộng đồng Văn hóa - Xã hội."
+        },
+        {
+          "id_answer": "bai5ls12-q22-d",
+          "answer": "Kinh tế - Chính trị."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q22-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q23",
+      "order": 23,
+      "question": "Cộng đồng Chính trị-An ninh ASEAN được thành lập nhằm mục tiêu nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q23-a",
+          "answer": "Tạo ra một khối phòng thủ chung để bảo vệ các nước."
+        },
+        {
+          "id_answer": "bai5ls12-q23-b",
+          "answer": "Tạo dựng môi trường hòa bình và an ninh ở khu vực."
+        },
+        {
+          "id_answer": "bai5ls12-q23-c",
+          "answer": "Tạo ra một thị trường và nền tảng sản xuất thống nhất."
+        },
+        {
+          "id_answer": "bai5ls12-q23-d",
+          "answer": "Nâng cao ý thức về cộng đồng và bản sắc chung ASEAN."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q23-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q24",
+      "order": 24,
+      "question": "Ý nào sau đây không đúng về Cộng đồng Chính trị – An ninh ASEAN (APSC)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q24-a",
+          "answer": "APSC tạo ra một liên minh quân sự ở khu vực Đông Nam Á."
+        },
+        {
+          "id_answer": "bai5ls12-q24-b",
+          "answer": "APSC là khuôn khổ hợp tác chính trị - an ninh toàn diện."
+        },
+        {
+          "id_answer": "bai5ls12-q24-c",
+          "answer": "APSC hướng đến xây dựng một môi trường hoà bình và an ninh."
+        },
+        {
+          "id_answer": "bai5ls12-q24-d",
+          "answer": "APSC hoạt động dựa trên cơ sở tôn trọng các nguyên tắc cơ bản của ASEAN."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q24-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q25",
+      "order": 25,
+      "question": "“Tạo dụng môi trường hòa bình và an ninh ở khu vực, nâng cao hợp tác chính trị - an ninh nên một nấc thang mới cao hơn và chặt chẽ hơn” là mục tiêu của Cộng đồng nào của ASEAN",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q25-a",
+          "answer": "Khoa học – công nghệ"
+        },
+        {
+          "id_answer": "bai5ls12-q25-b",
+          "answer": "Văn hóa – Thể thao"
+        },
+        {
+          "id_answer": "bai5ls12-q25-c",
+          "answer": "Chính trị - an ninh"
+        },
+        {
+          "id_answer": "bai5ls12-q25-d",
+          "answer": "Thương mại – Tài chính"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q25-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q26",
+      "order": 26,
+      "question": "Nội dung nào sau đây không phải là cơ sở để xây dựng Cộng đồng Chính trị-An ninh ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q26-a",
+          "answer": "Thành quả hợp tác chính trị-an ninh đã đạt được."
+        },
+        {
+          "id_answer": "bai5ls12-q26-b",
+          "answer": "Các nguyên tắc cơ bản tổ chức ASEAN xây dựng"
+        },
+        {
+          "id_answer": "bai5ls12-q26-c",
+          "answer": "Các cơ sở pháp lý mà các nước thành viên thông qua."
+        },
+        {
+          "id_answer": "bai5ls12-q26-d",
+          "answer": "Sự tương đồng về thể chế chính trị giữa các nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q26-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q27",
+      "order": 27,
+      "question": "AEC là tên viết tắt bằng tiếng Anh của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q27-a",
+          "answer": "Cộng đồng Kinh tế ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q27-b",
+          "answer": "Cộng đồng Chính trị-An ninh ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q27-c",
+          "answer": "Cộng đồng Văn hóa-Xã hội ASEAN"
+        },
+        {
+          "id_answer": "bai5ls12-q27-d",
+          "answer": "Hiệp hội các quốc gia Đông Nam Á."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q27-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q28",
+      "order": 28,
+      "question": "Cộng đồng kinh tế ASEAN không bao gồm nội dung nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q28-a",
+          "answer": "Xây dựng cơ sở hạ tầng giao thông."
+        },
+        {
+          "id_answer": "bai5ls12-q28-b",
+          "answer": "Xây dựng mô hình kinh tế chung cho các nước ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q28-c",
+          "answer": "Phát triển thương mại điện tử, xây dựng thị trường chung."
+        },
+        {
+          "id_answer": "bai5ls12-q28-d",
+          "answer": "Tăng cường việc bảo vệ quyền sở hữu trí tuệ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q28-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q29",
+      "order": 29,
+      "question": "Nội dung chính của Cộng đồng Kinh tế ASEAN (AEC) bao gồm:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q29-a",
+          "answer": "Phát triển con người."
+        },
+        {
+          "id_answer": "bai5ls12-q29-b",
+          "answer": "Phúc lợi và bảo hiểm xã hội."
+        },
+        {
+          "id_answer": "bai5ls12-q29-c",
+          "answer": "Bảo đảm bền vững về môi trường."
+        },
+        {
+          "id_answer": "bai5ls12-q29-d",
+          "answer": "Tạo ra một thị trường thống nhất."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q29-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q30",
+      "order": 30,
+      "question": "Nội dung chính của Cộng đồng Kinh tế ASEAN (AEC) bao gồm:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q30-a",
+          "answer": "Phát triển con người."
+        },
+        {
+          "id_answer": "bai5ls12-q30-b",
+          "answer": "Phúc lợi và bảo hiểm xã hội."
+        },
+        {
+          "id_answer": "bai5ls12-q30-c",
+          "answer": "Bảo đảm bền vững về môi trường."
+        },
+        {
+          "id_answer": "bai5ls12-q30-d",
+          "answer": "Tạo ra một nền tảng sản xuất thống nhất."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q30-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q31",
+      "order": 31,
+      "question": "Một trong những nội dung chỉnh của Cộng đồng Kinh tế ASEAN là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q31-a",
+          "answer": "phát triển nguồn nhân lực có tri thức cao."
+        },
+        {
+          "id_answer": "bai5ls12-q31-b",
+          "answer": "thúc đẩy chính sách cạnh tranh về kinh tế, bảo vệ người tiêu dùng."
+        },
+        {
+          "id_answer": "bai5ls12-q31-c",
+          "answer": "cùng nhau xây dựng các hàng rào thuế quan cho từng quốc gia."
+        },
+        {
+          "id_answer": "bai5ls12-q31-d",
+          "answer": "hướng tới xây dựng đồng tiền chung của Đông Nam Á."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q31-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q32",
+      "order": 32,
+      "question": "“Tạo ra thị trường và cơ sở sản xuất chung, có sự lưu chuyển tự do của hàng hóa, dịch vụ, đầu tư, vốn và lao động có tay nghề…” là một trong những nội dung hoạt động chính của Cộng đồng nào của ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q32-a",
+          "answer": "Cộng đồng Tài chính – Thương mại"
+        },
+        {
+          "id_answer": "bai5ls12-q32-b",
+          "answer": "Cộng đồng Kinh tế"
+        },
+        {
+          "id_answer": "bai5ls12-q32-c",
+          "answer": "Cộng đồng Chính trị - An ninh"
+        },
+        {
+          "id_answer": "bai5ls12-q32-d",
+          "answer": "Cộng đồng Kinh tế - Xã hội"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q32-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q33",
+      "order": 33,
+      "question": "Hoạt động của Cộng đồng kinh tế ASEAN có tác động như thế nào đến thị trường các nước?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q33-a",
+          "answer": "Thúc đẩy sự độc quyền về hàng hóa các nước"
+        },
+        {
+          "id_answer": "bai5ls12-q33-b",
+          "answer": "Thúc đẩy chính sách cạnh tranh về kinh tế"
+        },
+        {
+          "id_answer": "bai5ls12-q33-c",
+          "answer": "Hạn chế sự phát triển của thương mại điện tử"
+        },
+        {
+          "id_answer": "bai5ls12-q33-d",
+          "answer": "Đảm bảo lợi ích trong sở hữu trí tuệ"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q33-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q34",
+      "order": 34,
+      "question": "Cộng đồng Kinh tế ASEAN được thành lập nhằm mục tiêu nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q34-a",
+          "answer": "Xây dựng ASEAN thành khu vực kinh tế ổn định, thịnh vượng, cạnh tranh cao."
+        },
+        {
+          "id_answer": "bai5ls12-q34-b",
+          "answer": "Xây dựng ASEAN thành khu vực có nền kinh tế phát triển mạnh nhất thế giới."
+        },
+        {
+          "id_answer": "bai5ls12-q34-c",
+          "answer": "Xây dựng ASEAN thành cộng đồng lấy con người và bình đẳng làm trung tâm."
+        },
+        {
+          "id_answer": "bai5ls12-q34-d",
+          "answer": "Xây dựng ASEAN thành cộng đồng lấy phát triển văn hóa làm trung tâm"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q34-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q35",
+      "order": 35,
+      "question": "ASCC là tên viết tắt của",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q35-a",
+          "answer": "Cộng đồng Chính trị - An ninh."
+        },
+        {
+          "id_answer": "bai5ls12-q35-b",
+          "answer": "Liên minh Quân sự."
+        },
+        {
+          "id_answer": "bai5ls12-q35-c",
+          "answer": "Cộng đồng Văn hóa - Xã hội."
+        },
+        {
+          "id_answer": "bai5ls12-q35-d",
+          "answer": "Kinh tế - Chính trị."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q35-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q36",
+      "order": 36,
+      "question": "Cộng đồng Văn hóa - Xã hội ASEAN (ASCC) hướng đến xây dựng:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q36-a",
+          "answer": "Bản sắc văn hóa ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q36-b",
+          "answer": "Thị trường chung và cơ sở sản xuất thống nhất."
+        },
+        {
+          "id_answer": "bai5ls12-q36-c",
+          "answer": "Cộng đồng các xã hội đùm bọc lẫn nhau."
+        },
+        {
+          "id_answer": "bai5ls12-q36-d",
+          "answer": "Cộng đồng lấy con người làm trung tâm."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q36-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q37",
+      "order": 37,
+      "question": "Cộng đồng Văn hóa-Xã hội ASEAN được thành lập nhằm mục tiêu nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q37-a",
+          "answer": "Xây dựng một khu vực có sức cạnh tranh cao và phát triển đồng đều"
+        },
+        {
+          "id_answer": "bai5ls12-q37-b",
+          "answer": "Xây dựng một khu vực năng động, có quan hệ rộng mở với bên ngoài."
+        },
+        {
+          "id_answer": "bai5ls12-q37-c",
+          "answer": "Lấy con người làm trung tâm, xây dựng tình đoàn kết giữa các quốc gia."
+        },
+        {
+          "id_answer": "bai5ls12-q37-d",
+          "answer": "Tạo ra sự di chuyển tự do của hàng hóa, dịch vụ đầu tư và luồng vốn."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q37-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q38",
+      "order": 38,
+      "question": "Việc xây dựng Cộng đồng Văn hóa-Xã hội ASEAN đã mang lại ý nghĩa nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q38-a",
+          "answer": "Tạo thuận lợi để xây dựng hai trụ cột Kinh tế và Chính trị-An ninh."
+        },
+        {
+          "id_answer": "bai5ls12-q38-b",
+          "answer": "Góp phần xóa bỏ sự khác biệt về thể chế chính trị và văn hóa các nước."
+        },
+        {
+          "id_answer": "bai5ls12-q38-c",
+          "answer": "Là nhân tố quyết định thúc đẩy phát triển kinh tế và hội nhập của ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q38-d",
+          "answer": "Tạo tiền đề để triển khai mục tiêu nhất thế hóa toàn bộ khu vực Đông Nam Á."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q38-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q39",
+      "order": 39,
+      "question": "Một trong những nội dung chính của Cộng đồng Văn hóa - Xã hội ASEAN (ASCC) là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q39-a",
+          "answer": "gắn kết, hòa bình, có trách nhiệm chung bảo đảm an ninh toàn diện."
+        },
+        {
+          "id_answer": "bai5ls12-q39-b",
+          "answer": "bảo đảm bền vững môi trường."
+        },
+        {
+          "id_answer": "bai5ls12-q39-c",
+          "answer": "bảo vệ người tiêu dùng."
+        },
+        {
+          "id_answer": "bai5ls12-q39-d",
+          "answer": "hướng tới sự thịnh vượng chung của các quốc gia thành viên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q39-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q40",
+      "order": 40,
+      "question": "Một trong những nội dung chính của Cộng đồng Văn hóa - Xã hội ASEAN (ASCC) là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q40-a",
+          "answer": "gắn kết, hòa bình, có trách nhiệm chung bảo đảm an ninh toàn diện."
+        },
+        {
+          "id_answer": "bai5ls12-q40-b",
+          "answer": "thu hẹp khoảng cách phát triển."
+        },
+        {
+          "id_answer": "bai5ls12-q40-c",
+          "answer": "bảo vệ người tiêu dùng."
+        },
+        {
+          "id_answer": "bai5ls12-q40-d",
+          "answer": "hướng tới sự thịnh vượng chung của các quốc gia thành viên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q40-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q41",
+      "order": 41,
+      "question": "Một trong những nội dung chính của Cộng đồng Văn hóa - Xã hội ASEAN (ASCC) là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q41-a",
+          "answer": "gắn kết, hòa bình, có trách nhiệm chung bảo đảm an ninh toàn diện."
+        },
+        {
+          "id_answer": "bai5ls12-q41-b",
+          "answer": "các quyền và bình đẳng xã hội."
+        },
+        {
+          "id_answer": "bai5ls12-q41-c",
+          "answer": "phát triển cơ sở hạ tầng."
+        },
+        {
+          "id_answer": "bai5ls12-q41-d",
+          "answer": "hướng tới sự thịnh vượng chung của các quốc gia thành viên."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q41-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q42",
+      "order": 42,
+      "question": "Đâu không phải là một trong những nội dung của Cộng đồng Văn hóa - Xã hội ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q42-a",
+          "answer": "Xây dựng văn hóa mang đậm bản sắc ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q42-b",
+          "answer": "Bảo đảm quyền bình đẳng, phúc lợi xã hội."
+        },
+        {
+          "id_answer": "bai5ls12-q42-c",
+          "answer": "Thiết lập tôn giáo chung cho các nước Đông Nam Á."
+        },
+        {
+          "id_answer": "bai5ls12-q42-d",
+          "answer": "Thu hẹp khoảng cách phát triển giữa các quốc gia ASEAN."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q42-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q43",
+      "order": 43,
+      "question": "Một trong những nội dung chính hoạt động của Cộng đồng VH-XH ASEAN là xây dựng",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q43-a",
+          "answer": "tỉnh đoàn kết và thống nhất bền lâu giữa các quốc gia và dân tộc ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q43-b",
+          "answer": "liên kết về văn hoá và bản sắc giữa khu vực ASEAN với bên ngoài."
+        },
+        {
+          "id_answer": "bai5ls12-q43-c",
+          "answer": "cơ sở hạ tầng cho các quốc gia thành viên trong khu vực."
+        },
+        {
+          "id_answer": "bai5ls12-q43-d",
+          "answer": "chính sách an sinh xã hội, xoá đói giảm nghèo cho từng quốc gia."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q43-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q44",
+      "order": 44,
+      "question": "Một trong những nội dung chính của Cộng đồng Văn hóa – Xã hội ASEAN là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q44-a",
+          "answer": "Tạo dựng bản sắc của các nước"
+        },
+        {
+          "id_answer": "bai5ls12-q44-b",
+          "answer": "Nới rộng khoảng cách phát triển"
+        },
+        {
+          "id_answer": "bai5ls12-q44-c",
+          "answer": "Xây dựng thị trường thống nhất"
+        },
+        {
+          "id_answer": "bai5ls12-q44-d",
+          "answer": "Phát triển con người"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q44-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q45",
+      "order": 45,
+      "question": "Về hoạt động, Cộng đồng Văn hóa – Xã hội ASEAN KHÔNG có nội dung nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q45-a",
+          "answer": "Thúc đẩy hòa bình, hợp tác khu vực"
+        },
+        {
+          "id_answer": "bai5ls12-q45-b",
+          "answer": "Phúc lợi và bảo hiểm xã hội"
+        },
+        {
+          "id_answer": "bai5ls12-q45-c",
+          "answer": "Bảo đảm môi trường bền vững"
+        },
+        {
+          "id_answer": "bai5ls12-q45-d",
+          "answer": "Bảo đảm các quyền công bằng xã hội"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q45-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q46",
+      "order": 46,
+      "question": "Nội dung nào sau đây không phản ánh đúng ý nghĩa sự thành lập Cộng đồng ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q46-a",
+          "answer": "Đáp ứng nguyện vọng phát triển của các quốc gia thành viên."
+        },
+        {
+          "id_answer": "bai5ls12-q46-b",
+          "answer": "Đưa sự hợp tác toàn diện giữa các nước lên một nấc thang mới."
+        },
+        {
+          "id_answer": "bai5ls12-q46-c",
+          "answer": "Góp phần định hướng cho sự phát triển của ASEAN trong tương lai."
+        },
+        {
+          "id_answer": "bai5ls12-q46-d",
+          "answer": "Đánh dấu sự hoàn thiện về thể chế, chính sách hợp tác của ASEAN."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q46-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q47",
+      "order": 47,
+      "question": "Trong giai đoạn từ năm 2000 đến năm 2015, tổ chức ASEAN không có hoạt động nào ?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q47-a",
+          "answer": "Thông qua bản Hiến chương ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q47-b",
+          "answer": "Chính thức thành lập Cộng đồng ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q47-c",
+          "answer": "Thông qua Lộ trình xây dựng Cộng đồng ASEAN 2009-2015."
+        },
+        {
+          "id_answer": "bai5ls12-q47-d",
+          "answer": "Thông qua văn kiện Tầm nhìn ASEAN 2020."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q47-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q48",
+      "order": 48,
+      "question": "Trong giai đoạn 2009-2015, các quốc gia thành viên của tổ chức ASEAN đã",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q48-a",
+          "answer": "hoàn thiện đề xuất ý tưởng xây dựng Cộng đồng ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q48-b",
+          "answer": "tích cực chuẩn bị cho sự xác lập của Cộng đồng ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q48-c",
+          "answer": "xóa bỏ hàng rào thuế quan trong buôn bán giữa các nước."
+        },
+        {
+          "id_answer": "bai5ls12-q48-d",
+          "answer": "xây dựng cơ sở pháp lý để thành lập Cộng đồng ASEAN."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q48-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q49",
+      "order": 49,
+      "question": "Năm 2020, tổ chức ASEAN đã có hoạt động nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q49-a",
+          "answer": "Thông qua văn kiện Tầm nhìn Cộng đồng ASEAN sau năm 2025."
+        },
+        {
+          "id_answer": "bai5ls12-q49-b",
+          "answer": "Kết nạp Đông Ti-mo là quốc gia thành viên thứ 11."
+        },
+        {
+          "id_answer": "bai5ls12-q49-c",
+          "answer": "Tuyên bố chính thức thành lập Cộng đồng ASEAN."
+        },
+        {
+          "id_answer": "bai5ls12-q49-d",
+          "answer": "Thông qua văn kiện Tầm nhìn ASEAN 2020."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q49-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q50",
+      "order": 50,
+      "question": "Nội dung nào sau đây là điểm tương đồng về ý nghĩa sự ra đời của văn kiện Tầm nhìn ASEAN 2020 và Tầm nhìn Cộng đồng ASEAN sau năm 2025?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q50-a",
+          "answer": "Tạo cơ sở pháp lý để ASEAN mở rộng các nước thành viên trong khu vực."
+        },
+        {
+          "id_answer": "bai5ls12-q50-b",
+          "answer": "Hoàn thiện về thể chế, chính sách để ASEAN mở rộng hợp tác với bên ngoài."
+        },
+        {
+          "id_answer": "bai5ls12-q50-c",
+          "answer": "Định hướng cho hoạt động và phát triển của tổ chức ASEAN trong tương lai."
+        },
+        {
+          "id_answer": "bai5ls12-q50-d",
+          "answer": "Đặt nền móng vững chắc để hoàn thành ý tưởng thành lập Cộng đồng ASEAN."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q50-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q51",
+      "order": 51,
+      "question": "Các nước ASEAN thông qua văn kiện Tầm nhìn Cộng đồng ASEAN sau năm 2025 trong bối cảnh lịch sử nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q51-a",
+          "answer": "Mọi tranh chấp trên Biển Đông đã được giải quyết triệt để."
+        },
+        {
+          "id_answer": "bai5ls12-q51-b",
+          "answer": "Cộng đồng ASEAN đạt được nhiều thành tựu quan trọng."
+        },
+        {
+          "id_answer": "bai5ls12-q51-c",
+          "answer": "Xu thế liên kết khu vực và toàn cầu hòa bắt đầu xuất hiện."
+        },
+        {
+          "id_answer": "bai5ls12-q51-d",
+          "answer": "ASEAN đã kết nạp đủ tất cả các nước khu vực Đông Nam Á."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q51-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q52",
+      "order": 52,
+      "question": "Sự chênh lệch về thu nhập, trình độ phát triển là một trong những thách thức của Cộng đồng ASEAN trên lĩnh vực nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q52-a",
+          "answer": "Quân sự"
+        },
+        {
+          "id_answer": "bai5ls12-q52-b",
+          "answer": "Chính trị"
+        },
+        {
+          "id_answer": "bai5ls12-q52-c",
+          "answer": "Kinh tế"
+        },
+        {
+          "id_answer": "bai5ls12-q52-d",
+          "answer": "Văn hóa"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q52-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q53",
+      "order": 53,
+      "question": "Việc Việt Nam gia nhập Cộng đồng Kinh tế ASEAN đã tạo ra thách thức nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q53-a",
+          "answer": "Các loại hàng hóa, dịch vụ và thương mại bị đánh thuế cao."
+        },
+        {
+          "id_answer": "bai5ls12-q53-b",
+          "answer": "Sự cạnh tranh quyết liệt về thị trường tiêu thụ hàng hóa."
+        },
+        {
+          "id_answer": "bai5ls12-q53-c",
+          "answer": "Nguồn vốn đầu tư ra bên ngoài bị phân tán và manh mún."
+        },
+        {
+          "id_answer": "bai5ls12-q53-d",
+          "answer": "Gia tăng xung đột và tranh chấp kinh tế ở khu vực Biển Đông."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q53-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q54",
+      "order": 54,
+      "question": "Một trong những thách thức của Cộng đồng ASEAN là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q54-a",
+          "answer": "sự đa dạng của các nước thành viên về chế độ chính trị, tôn giáo."
+        },
+        {
+          "id_answer": "bai5ls12-q54-b",
+          "answer": "sự uy hiếp của các nước lớn ở khu vực Nam Á và Đông Á."
+        },
+        {
+          "id_answer": "bai5ls12-q54-c",
+          "answer": "thay đổi cấu trúc địa – văn hoá ở khu vực Ấn Độ Dương."
+        },
+        {
+          "id_answer": "bai5ls12-q54-d",
+          "answer": "khoáng cách về kinh tế giữa các nước ngày càng thu hẹp"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q54-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai5ls12-q55",
+      "order": 55,
+      "question": "Nội dung nào sau đây không là triển vọng của Cộng đồng ASEAN?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai5ls12-q55-a",
+          "answer": "Sự vươn lên của khu vực Đông Nam Á."
+        },
+        {
+          "id_answer": "bai5ls12-q55-b",
+          "answer": "ASEAN có quan hệ rộng lớn với các đối tác bên ngoài."
+        },
+        {
+          "id_answer": "bai5ls12-q55-c",
+          "answer": "Vị thế của ASEAN ngày càng được nâng cao trên trường quốc tế."
+        },
+        {
+          "id_answer": "bai5ls12-q55-d",
+          "answer": "ASEAN trở thành một trong những trung tâm toàn cầu về quân sự."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai5ls12-q55-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    }
+  ]
+}
