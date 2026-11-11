@@ -1,0 +1,1613 @@
+{
+  "id_exam": "bai7ls_50cau",
+  "id_subject": "su",
+  "name_exam": "BÀI 7 LS 12 - 50 CÂU",
+  "name_subject": "Lịch sử",
+  "class_exam": "12",
+  "duration": 25,
+  "created": "2026-11-11T17:46",
+  "updated": "2026-11-11T10:46",
+  "source": "/documents/pdf/de-moi.pdf",
+  "questions": [
+    {
+      "id_question": "bai7ls_50cau-q1",
+      "order": 1,
+      "question": "Một trong những bối cảnh lịch sử thuận lợi của cuộc kháng chiến chống thực dân Pháp là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q1-a",
+          "answer": "quan hệ giữa hệ thống tư bản chủ nghĩa và xã hội chủ nghĩa ngày càng hòa dịu và chuyển sang hợp tác."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q1-b",
+          "answer": "phong trào giải phóng dân tộc phát triển mạnh mẽ trên thế giới."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q1-c",
+          "answer": "Trật tự thế giới hai cực I-an-ta nhanh chóng xói mòn."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q1-d",
+          "answer": "nước Pháp ngày càng củng cố thành công địa vị cường quốc toàn cầu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q1-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q2",
+      "order": 2,
+      "question": "Những yếu tố nào sau đây có tác động to lớn đến tình hình Việt Nam trong kháng chiến chống Pháp?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q2-a",
+          "answer": "Sự thiết lập của trật tự thế giới đa cực, sự chi phối của Mỹ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q2-b",
+          "answer": "Sự tồn tại của Trật tự thế giới hai cực I-an-ta và Chiến tranh lạnh."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q2-c",
+          "answer": "Tình trạng chạy đua vũ trang giữa các nước, trật tự đơn cực."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q2-d",
+          "answer": "Sự thiết lập Trật tự Véc-xai - Oa-sinh-tơn, Chiến tranh lạnh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q2-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q3",
+      "order": 3,
+      "question": "Nội dung nào sau đây phản ánh không đúng bối cảnh diễn ra cuộc kháng chiến chống thực dân Pháp của quân dân Việt Nam sau năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q3-a",
+          "answer": "Phong trào giải phóng dân tộc dâng cao ở các nước thuộc địa."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q3-b",
+          "answer": "Phong trào đấu tranh vì hòa bình phát triển ở các nước tư bản."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q3-c",
+          "answer": "Trật tự hai cực I-an-ta hình thành và tình trạng Chiến tranh lạnh."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q3-d",
+          "answer": "Mĩ can thiệp ngày càng sâu vào cuộc chiến tranh ở Việt Nam."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q3-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q4",
+      "order": 4,
+      "question": "Đâu không phải là điều kiện khách quan thuận lợi tác động đến cách mạng Việt Nam sau năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q4-a",
+          "answer": "Phong trào giải phóng dân tộc phát triển mạnh ở Á, Phi, Mĩ Latinh."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q4-b",
+          "answer": "Chủ nghĩa xã hội vượt qua một nước và trở thành hệ thống thế giới."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q4-c",
+          "answer": "Việt Nam trở thành nước độc lập, tự do."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q4-d",
+          "answer": "Phong trào đấu tranh vì hòa bình, dân chủ, tiến bộ được phát triển."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q4-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q5",
+      "order": 5,
+      "question": "Đâu không phải là điều kiện khách quan thuận lợi tác động đến cách mạng Việt Nam sau năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q5-a",
+          "answer": "Phong trào giải phóng dân tộc phát triển mạnh ở Á, Phi, Mĩ Latinh."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q5-b",
+          "answer": "Chủ nghĩa xã hội vượt qua một nước và trở thành hệ thống thế giới."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q5-c",
+          "answer": "Sự lãnh đạo tài tình của Đảng đứng đầu là Chủ tịch Hồ Chí Minh."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q5-d",
+          "answer": "Phong trào đấu tranh vì hòa bình, dân chủ, tiến bộ được phát triển."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q5-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q6",
+      "order": 6,
+      "question": "Trong năm đầu sau Cách mạng tháng Tám năm 1945, nước Việt Nam Dân chủ Cộng hòa đứng trước khó khăn nào?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q6-a",
+          "answer": "Quân Pháp trở lại Đông Dương theo quy định của Hội nghị Pốtxđam."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q6-b",
+          "answer": "Các đảng phái trong nước đều câu kết với quân Trung Hoa Dân quốc."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q6-c",
+          "answer": "Nạn đói, nạn dốt, khó khăn về tài chính, giặc ngoại xâm và nội phản."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q6-d",
+          "answer": "Khối đoàn kết dân tộc bị chia rẽ sâu sắc, lực lượng chính trị suy yếu."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q6-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q7",
+      "order": 7,
+      "question": "Ngay sau khi Cách mạng tháng Tám thành công (1945), nước Việt Nam Dân chủ Cộng hoà phải đối phó với khó khăn nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q7-a",
+          "answer": "Nhiều quân đội nước ngoài chiếm đóng."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q7-b",
+          "answer": "Mỹ đưa quân viễn chinh vào miền Nam."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q7-c",
+          "answer": "Chưa có lực lượng vũ trang cách mạng."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q7-d",
+          "answer": "Mỹ tăng cường viện trợ cho Pháp."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q7-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q8",
+      "order": 8,
+      "question": "Quân đội các nước với danh nghĩa Đồng minh vào nước ta sau năm 1945 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q8-a",
+          "answer": "quân Anh, quân Trung Hoa Dân quốc."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q8-b",
+          "answer": "quân Pháp, quân Anh."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q8-c",
+          "answer": "quân Pháp, quân Trung Hoa Dân quốc."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q8-d",
+          "answer": "quân Anh, quân Mĩ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q8-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q9",
+      "order": 9,
+      "question": "Sau cách mạng tháng Tám năm 1945, thực dân đế quốc nào sau đây đã quay trở lại xâm lược Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q9-a",
+          "answer": "Anh"
+        },
+        {
+          "id_answer": "bai7ls_50cau-q9-b",
+          "answer": "Pháp"
+        },
+        {
+          "id_answer": "bai7ls_50cau-q9-c",
+          "answer": "Mỹ"
+        },
+        {
+          "id_answer": "bai7ls_50cau-q9-d",
+          "answer": "Nhật"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q9-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q10",
+      "order": 10,
+      "question": "Sau Cách mạng tháng Tám năm 1945, quân đội quốc gia nào sau đây vào phía bắc vĩ tuyến 16 của Việt Nam để giải giáp vũ khí quân đội Nhật Bản?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q10-a",
+          "answer": "Tây Ban Nha"
+        },
+        {
+          "id_answer": "bai7ls_50cau-q10-b",
+          "answer": "Anh"
+        },
+        {
+          "id_answer": "bai7ls_50cau-q10-c",
+          "answer": "Mĩ"
+        },
+        {
+          "id_answer": "bai7ls_50cau-q10-d",
+          "answer": "Trung Hoa Dân quốc"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q10-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q11",
+      "order": 11,
+      "question": "Sau Cách mạng tháng Tám năm 1945, quân đội quốc gia nào sau đây vào phía nam vĩ tuyến 16 của Việt Nam để giải giáp vũ khí quân đội Nhật Bản?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q11-a",
+          "answer": "Tây Ban Nha."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q11-b",
+          "answer": "Anh."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q11-c",
+          "answer": "Mĩ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q11-d",
+          "answer": "Trung Hoa Dân quốc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q11-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q12",
+      "order": 12,
+      "question": "Sau cách mạng tháng Tám năm 1945, kẻ thù cơ bản của nhân dân Việt Nam là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q12-a",
+          "answer": "Anh"
+        },
+        {
+          "id_answer": "bai7ls_50cau-q12-b",
+          "answer": "Pháp"
+        },
+        {
+          "id_answer": "bai7ls_50cau-q12-c",
+          "answer": "Mỹ"
+        },
+        {
+          "id_answer": "bai7ls_50cau-q12-d",
+          "answer": "Nhật"
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q12-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q13",
+      "order": 13,
+      "question": "Quân Trung Hoa Dân quốc vào nước ta sau Cách mạng tháng Tám năm 1945 thực chất nhằm mục đích",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q13-a",
+          "answer": "lật đổ chính quyền cách mạng, tiêu diệt đảng cộng sản."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q13-b",
+          "answer": "câu kết với bọn phản động để dựng lên chính phủ tay sai."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q13-c",
+          "answer": "làm hậu thuẫn cho quân Mĩ chiếm Đông Dương."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q13-d",
+          "answer": "giúp đỡ thực dân Pháp trở lại xâm lược Việt Nam."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q13-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q14",
+      "order": 14,
+      "question": "Trong khoảng thời gian từ đầu tháng 9-1945 đến cuối tháng 12-1946, nước Việt Nam Dân chủ Cộng hòa gặp trở ngại nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q14-a",
+          "answer": "Chưa nước nào công nhận và đặt quan hệ ngoại giao với Việt Nam."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q14-b",
+          "answer": "Chỉ có một số nước Đồng minh công khai ủng hộ Việt Nam độc lập."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q14-c",
+          "answer": "Mĩ âm mưu biến Việt Nam thành tâm điểm cục diện hai cực, hai phe."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q14-d",
+          "answer": "Mĩ viện trợ cho Pháp trong cuộc chiến tranh xâm lược Đông Dương."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q14-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q15",
+      "order": 15,
+      "question": "Nội dung nào sau đây phản ánh đúng tình hình Việt Nam sau CM tháng Tám năm 1945?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q15-a",
+          "answer": "Bị chia cắt thành hai miền với hai chế độ chính trị khác nhau."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q15-b",
+          "answer": "Gặp muôn vàn khó khăn, tình thế như “ngàn cân treo sợi tóc”."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q15-c",
+          "answer": "Được sự giúp đỡ của Liên Xô và các nước xã hội chủ nghĩa."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q15-d",
+          "answer": "Thống nhất về lãnh thổ nhưng chưa thống nhất về nhà nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q15-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q16",
+      "order": 16,
+      "question": "Nhiệm vụ cấp bách của Cách mạng Việt Nam sau cách mạng tháng Tám năm 1945 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q16-a",
+          "answer": "củng cố chính quyền, chống Pháp và nội phản."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q16-b",
+          "answer": "chống quân Đồng minh đang có âm mưu xâm lược trở lại."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q16-c",
+          "answer": "chống bọn phản động tay sai của quân Đồng minh."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q16-d",
+          "answer": "xây dựng đất nước đi lên Chủ nghĩa xã hội."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q16-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q17",
+      "order": 17,
+      "question": "Ở Việt Nam, để giữ vững thành quả của Cách mạng tháng Tám năm 1945, hai nhiệm vụ chiến lược của cách mạng cần tiến hành trong giai đoạn 1945-1946 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q17-a",
+          "answer": "thực hiện nền giáo dục mới và giải quyết nạn đói, khó khăn tài chính."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q17-b",
+          "answer": "quyết tâm kháng chiến chống Pháp xâm lược và trừng trị bọn nội phản."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q17-c",
+          "answer": "thành lập Chính phủ chính thức của nước Việt Nam Dân chủ Cộng hòa."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q17-d",
+          "answer": "củng cố, bảo vệ chính quyền cách mạng và ra sức xây dựng chế độ mới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q17-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q18",
+      "order": 18,
+      "question": "Sự kiện nào sau đây mở đầu cuộc chiến tranh xâm lược Việt Nam lần thứ hai của thực dân Pháp?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q18-a",
+          "answer": "Pháp đề ra kế hoạch Na-va và tấn công Điện Biên Phủ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q18-b",
+          "answer": "Pháp mở chiến dịch tấn công lên căn cứ Việt Bắc."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q18-c",
+          "answer": "Pháp gửi tối hậu thư đòi Chính phủ Việt Nam đầu hàng."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q18-d",
+          "answer": "Pháp đánh úp trụ sở Uỷ ban Nhân dân Nam Bộ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q18-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q19",
+      "order": 19,
+      "question": "Cuộc chiến đấu của nhân dân Nam bộ trong những ngày đầu thực dân Pháp quay lại xâm lược Việt Nam đã chứng minh",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q19-a",
+          "answer": "sự đúng đắn của đường lối kháng chiến chống Pháp của Đảng."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q19-b",
+          "answer": "sự chuẩn bị đầy đủ về lực lượng của ta trước âm mưu mới của kẻ thù."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q19-c",
+          "answer": "quyết tâm của ta trong việc bảo vệ thành quả của cách mạng."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q19-d",
+          "answer": "thực dân Pháp đã thất bại hoàn toàn trong âm mưu mới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q19-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q20",
+      "order": 20,
+      "question": "Đảng, Chính phủ Việt Nam Dân chủ Cộng hòa chủ trương đánh Pháp ở Nam Bộ từ sau ngày 2-9-1945 đến trước ngày 6-3-1946 vì chúng",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q20-a",
+          "answer": "sớm lộ rõ âm mưu và hành động xâm lược."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q20-b",
+          "answer": "không có điều kiện ở lại Việt Nam lâu dài."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q20-c",
+          "answer": "mới quay lại xâm lược Việt Nam nên còn yếu."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q20-d",
+          "answer": "được thực dân Anh và phát xít Nhật giúp sức."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q20-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q21",
+      "order": 21,
+      "question": "Khi Pháp xâm lược Nam Bộ (9/1945), Đảng và Chính phủ Việt Nam đã có hành động nào để bảo vệ nền độc lập đất nước?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q21-a",
+          "answer": "Đã tiến hành đàm phán khẩn cấp với Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q21-b",
+          "answer": "Tố cáo hành vi của Pháp đến Liên hợp quốc."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q21-c",
+          "answer": "Đưa toàn bộ quân đội vào Nam chiến đấu."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q21-d",
+          "answer": "Huy động cả nước để chi viện cho Nam Bộ."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q21-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q22",
+      "order": 22,
+      "question": "Cuối năm 1945, nhiều thanh niên Việt Nam hăng hái tham gia các “đoàn quân Nam tiến” vì",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q22-a",
+          "answer": "thực dân Pháp đang đánh chiếm Nam Bộ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q22-b",
+          "answer": "phát xít Nhật đang chống phá ta ở Nam Bộ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q22-c",
+          "answer": "Pháp và Trung Hoa Dân quốc thỏa hiệp với nhau."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q22-d",
+          "answer": "Pháp đang tiến quân ra Bắc để đánh ta."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q22-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q23",
+      "order": 23,
+      "question": "Cuộc kháng chiến chống thực dân Pháp trở lại xâm lược của nhân dân Nam Bộ (từ tháng 9-1945) có ý nghĩa quan trọng nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q23-a",
+          "answer": "Làm thất bại hoàn toàn âm mưu “đánh nhanh, thắng nhanh” của Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q23-b",
+          "answer": "Giúp quân đội Việt Nam giành quyền chủ động trên chiến trường chính."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q23-c",
+          "answer": "Tạo điều kiện cho nhân dân cả nước chuẩn bị cho kháng chiến lâu dài."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q23-d",
+          "answer": "Giữ vững và củng cố được căn cứ địa Việt Bắc của cách mạng cả nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q23-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q24",
+      "order": 24,
+      "question": "Cuộc kháng chiến chống thực dân Pháp trở lại xâm lược của nhân dân Nam Bộ (từ tháng 9-1945) có ý nghĩa quan trọng nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q24-a",
+          "answer": "Làm thất bại hoàn toàn âm mưu “đánh nhanh, thắng nhanh” của Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q24-b",
+          "answer": "Giúp quân đội Việt Nam giành quyền chủ động trên chiến trường chính."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q24-c",
+          "answer": "Giáng đòn đầu tiên vào âm mưu “đánh nhanh, thắng nhanh” của Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q24-d",
+          "answer": "Giữ vững và củng cố được căn cứ địa Việt Bắc của cách mạng cả nước."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q24-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q25",
+      "order": 25,
+      "question": "Bài học kinh nghiệm nào trong phong trào giải phóng dân tộc (1939 - 1945) được Đảng và Chính phủ Việt Nam Dân chủ Cộng hòa vận dụng sáng tạo trong cuộc đấu tranh chống ngoại xâm và nội phản (1945-1946)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q25-a",
+          "answer": "Tập trung đấu tranh vào kẻ thù nguy hiểm nhất."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q25-b",
+          "answer": "Đẩy mạnh xây dựng mặt trận dân tộc thống nhất."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q25-c",
+          "answer": "Tăng cường sử dụng hình thức đấu tranh vũ trang."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q25-d",
+          "answer": "Tranh thủ sự ủng hộ của các nước lớn trên thế giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q25-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q26",
+      "order": 26,
+      "question": "Nội dung nào sau đây là biểu hiện của giải pháp “hòa để tiến” của Đảng và Chính phủ Việt Nam Dân chủ Cộng hòa với thực dân Pháp?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q26-a",
+          "answer": "Kí với Pháp Hiệp định Sơ bộ (6-3-1946)."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q26-b",
+          "answer": "Kí với Pháp Hiệp định Giơ-ne-vơ (21-7-1954)."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q26-c",
+          "answer": "Giao toàn quyền kiểm soát Nam Bộ cho Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q26-d",
+          "answer": "Chấp nhận Pháp nắm quyền giữ trật tự ở Hà Nội."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q26-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q27",
+      "order": 27,
+      "question": "Việc đàm phán và ký kết Hiệp định Sơ bộ giữa đại diện Chính phủ Việt Nam Dân chủ Cộng hòa với đại diện Chính phủ Pháp (6-3-1946) đã",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q27-a",
+          "answer": "giúp Việt Nam ngăn chặn được mọi nguy cơ xung đột với Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q27-b",
+          "answer": "thể hiện thiện chí hòa bình của hai chính phủ Việt Nam và Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q27-c",
+          "answer": "tạo thời gian hòa bình để Việt Nam chuẩn bị lực lượng."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q27-d",
+          "answer": "chuyển quan hệ giữa Việt Nam và Pháp từ đối đầu sang đối thoại."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q27-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q28",
+      "order": 28,
+      "question": "Sự kiện nào trực tiếp dẫn đến Toàn quốc kháng chiến chống thực dân Pháp của nhân dân Việt Nam bùng nổ vào ngày 19-12-1946?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q28-a",
+          "answer": "Quân Pháp đánh úp trụ sở Ủy ban Nam Bộ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q28-b",
+          "answer": "Pháp phát tối hậu thư đòi Chính phủ ta giao quyền kiểm soát thủ đô Hà Nội."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q28-c",
+          "answer": "Chủ tịch Hồ Chí Minh ra Lời kêu gọi toàn quốc kháng chiến."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q28-d",
+          "answer": "Quân Pháp mở chiến dịch tấn công quy mô lớn lên Việt Bắc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q28-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q29",
+      "order": 29,
+      "question": "Nguyên nhân dẫn đến sự bùng nổ cuộc kháng chiến toàn quốc chống thực dân Pháp (1946) là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q29-a",
+          "answer": "Hội nghị Phông-ten-nơ-blô tiến hành không thành công."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q29-b",
+          "answer": "Pháp đánh chiếm Hải Phòng, gây ra sự thảm sát ở Hà Nội."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q29-c",
+          "answer": "Pháp đã kiểm soát Thủ đô Hà Nội và một số tỉnh thành khác."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q29-d",
+          "answer": "Thực dân Pháp bội ước và có những hoạt động chống phá ta."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q29-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q30",
+      "order": 30,
+      "question": "Đảng, Chính phủ nước Việt Nam Dân chủ Cộng hoà và Chủ tịch Hồ Chí Minh phát động toàn quốc kháng chiến (19-12-1946) vì lí do nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q30-a",
+          "answer": "Các khả năng cứu vãn nền hoà bình không còn nữa."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q30-b",
+          "answer": "Đã chuẩn bị sẵn sàng mọi tiềm lực cho kháng chiến."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q30-c",
+          "answer": "Đã nhận được nhiều ủng hộ của cộng đồng quốc tế."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q30-d",
+          "answer": "Tránh được sự tham chiến của các nước Đồng minh."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q30-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q31",
+      "order": 31,
+      "question": "Đường lối kháng chiến của cuộc kháng chiến toàn quốc chống thực dân Pháp là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q31-a",
+          "answer": "tranh thủ sự ủng hộ của nhân loại tiến bộ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q31-b",
+          "answer": "trường kì kháng chiến nhất định thắng lợi."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q31-c",
+          "answer": "tự lực toàn dân, toàn diện, lâu dài, từng bước tranh thủ sự ủng hộ của cộng đồng quốc tế."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q31-d",
+          "answer": "toàn dân, toàn diện, trường kì, tự lực cánh sinh và tranh thủ sự ủng hộ của quốc tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q31-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q32",
+      "order": 32,
+      "question": "Đường lối kháng chiến chống Pháp của Đảng Cộng sản Đông Dương (12-1946) đã phát huy đường lối đấu tranh nào sau đây của dân tộc Việt Nam?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q32-a",
+          "answer": "Chiến tranh tâm lí."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q32-b",
+          "answer": "Chiến tranh nhân dân."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q32-c",
+          "answer": "Chiến tranh ngoại giao."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q32-d",
+          "answer": "Chiến tranh quốc tế."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q32-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q33",
+      "order": 33,
+      "question": "Khẳng định của Chủ tịch Hồ Chí Minh trong Lời kêu gọi toàn quốc kháng chiến: “Chúng ta thà hi sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ” thể hiện điều gì?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q33-a",
+          "answer": "Tính chất lâu dài, gian khổ của cuộc kháng chiến."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q33-b",
+          "answer": "Thiện chí hòa bình của nhân dân Việt Nam với Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q33-c",
+          "answer": "Nêu cao quyết tâm kháng chiến của nhân dân ta."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q33-d",
+          "answer": "Xác định nguyên nhân chính của cuộc kháng chiến."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q33-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q34",
+      "order": 34,
+      "question": "Từ sau ngày 19-12-1946 đến ngày 17-2-1947, quân dân Việt Nam đã tiến hành hoạt động quân sự nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q34-a",
+          "answer": "Chiến đấu ở các đô thị phía bắc vĩ tuyến 16."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q34-b",
+          "answer": "Mở chiến dịch Việt Bắc."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q34-c",
+          "answer": "Chiến đấu ở các đô thị phía nam vĩ tuyến 16."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q34-d",
+          "answer": "Mở chiến dịch Biên giới."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q34-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q35",
+      "order": 35,
+      "question": "Nhiệm vụ chủ yếu của quân dân Việt Nam trong cuộc chiến đấu chống thực dân Pháp ở các đô thị phía Bắc vĩ tuyến 16 (từ tháng 12/1946 đến tháng 2/1947) là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q35-a",
+          "answer": "bảo vệ Hà Nội và các đô thị."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q35-b",
+          "answer": "củng cố hậu phương kháng chiến."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q35-c",
+          "answer": "tiêu diệt toàn bộ sinh lực địch."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q35-d",
+          "answer": "giam chân quân Pháp tại các đô thị."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q35-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q36",
+      "order": 36,
+      "question": "Cuộc chiến đấu của quân và dân Việt Nam trong các đô thị phía bắc (từ tháng 12-1946 đến tháng 2-1947) có ý nghĩa quan trọng nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q36-a",
+          "answer": "Giành được quyền chủ động trên chiến trường chính."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q36-b",
+          "answer": "Kết thúc thời kì quân dân Việt Nam chiến đấu trong vòng vây."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q36-c",
+          "answer": "Buộc Pháp từ bỏ chiến lược “đánh nhanh, thắng nhanh”."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q36-d",
+          "answer": "Củng cố niềm tin của nhân dân vào thắng lợi của kháng chiến."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q36-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q37",
+      "order": 37,
+      "question": "Nội dung nào sau đây không phải là ý nghĩa của cuộc chiến đấu trong các đô thị phía Bắc vĩ tuyến 16 (từ 19/12/1946 đến tháng 2/1947)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q37-a",
+          "answer": "Tiêu diệt một bộ phận sinh lực địch."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q37-b",
+          "answer": "Giam chân địch trong thành phố."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q37-c",
+          "answer": "Buộc Pháp phải chuyển sang đánh lâu dài."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q37-d",
+          "answer": "Tạo điều kiện cho cả nước bước vào kháng chiến lâu dài."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q37-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q38",
+      "order": 38,
+      "question": "Nội dung nào dưới đây phản ánh không đúng về cuộc chiến đấu trong các đô thị phía Bắc vĩ tuyến 16 ở Việt Nam (1946-1947)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q38-a",
+          "answer": "Tạo điều kiện cho cả nước bước vào kháng chiến lâu dài."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q38-b",
+          "answer": "Làm phá sản hoàn toàn kế hoạch quân sự Nava của Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q38-c",
+          "answer": "Thể hiện tinh thần chiến đấu dũng cảm của quân dân ta."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q38-d",
+          "answer": "Là một thắng lợi quân sự tiêu biểu của nhân dân ta."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q38-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q39",
+      "order": 39,
+      "question": "Cuộc chiến đấu của quân dân Việt Nam tại các đô thị phía Bắc vĩ tuyến 16 từ cuối năm 1946 đến đầu năm 1947 có nhiệm vụ trọng tâm là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q39-a",
+          "answer": "giữ thế chủ động trên chiến trường chính Bắc Bộ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q39-b",
+          "answer": "đưa cả nước bước vào kháng chiến lâu dài."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q39-c",
+          "answer": "phá hủy toàn bộ phương tiện vật chất của Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q39-d",
+          "answer": "tiêu diệt toàn bộ binh lực Pháp."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q39-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q40",
+      "order": 40,
+      "question": "Trong thời kì 1945-1954, chiến thắng nào của quân dân Việt Nam đã làm thất bại bước đầu âm mưu “đánh nhanh, thắng nhanh” của thực dân Pháp?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q40-a",
+          "answer": "Điện Biên Phủ năm 1954."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q40-b",
+          "answer": "Việt Bắc thu - đông năm 1947."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q40-c",
+          "answer": "Biên giới thu - đông năm 1950."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q40-d",
+          "answer": "Cuộc chiến đấu ở các đô thị Bắc vĩ tuyến 16."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q40-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q41",
+      "order": 41,
+      "question": "Năm 1947 Pháp mở cuộc tấn công lên Việt Bắc nhằm:",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q41-a",
+          "answer": "Tiêu diệt cơ quan đầu não kháng chiến của Việt Nam."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q41-b",
+          "answer": "Giành lại quyền chủ động trên chiến trường."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q41-c",
+          "answer": "Kết thúc chiến tranh trong danh dự."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q41-d",
+          "answer": "Buộc ta kí Hiệp định có lợi cho chúng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q41-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q42",
+      "order": 42,
+      "question": "Thắng lợi quân sự của quân dân ta trong thu đông năm 1947 đã buộc thực dân Pháp rút đại bộ phận quân khỏi",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q42-a",
+          "answer": "Tây Nguyên."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q42-b",
+          "answer": "Việt Bắc."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q42-c",
+          "answer": "Bắc Bộ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q42-d",
+          "answer": "Tây Bắc."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q42-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q43",
+      "order": 43,
+      "question": "Tháng 10-1947, quân Pháp tiến hành chiến dịch tấn công địa bàn nào sau đây?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q43-a",
+          "answer": "Sài Gòn."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q43-b",
+          "answer": "Điện Biên Phủ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q43-c",
+          "answer": "Việt Bắc."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q43-d",
+          "answer": "Cao Bằng."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q43-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q44",
+      "order": 44,
+      "question": "Một trong những trận đánh tiêu biểu của quân dân ta trong chiến dịch Việt Bắc thu - đông năm 1947 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q44-a",
+          "answer": "trận Him Lam."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q44-b",
+          "answer": "trận Mường Sài."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q44-c",
+          "answer": "trận Đông Khê."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q44-d",
+          "answer": "trận Khe Lau."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q44-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q45",
+      "order": 45,
+      "question": "Thực dân Pháp buộc phải chuyển sang đánh lâu dài với ta sau thất bại nào trong cuộc chiến tranh xâm lược Đông Dương (1945-1954)?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q45-a",
+          "answer": "Thất bại ở các đô thị phía Bắc vĩ tuyến 16 (cuối 1946 - đầu 1947)."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q45-b",
+          "answer": "Thất bại trong chiến dịch Việt Bắc năm 1947."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q45-c",
+          "answer": "Thất bại trong chiến dịch Biên giới năm 1950."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q45-d",
+          "answer": "Thất bại trong chiến dịch Điện Biên Phủ năm 1954."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q45-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q46",
+      "order": 46,
+      "question": "Âm mưu “đánh nhanh, thắng nhanh” của Pháp bị thất bại hoàn toàn bởi chiến thắng nào của ta?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q46-a",
+          "answer": "Chiến dịch Việt Bắc thu đông 1947."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q46-b",
+          "answer": "Chiến dịch biên giới thu - đông 1950."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q46-c",
+          "answer": "Cuộc Tiến công chiến lược đông xuân 1953-1954."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q46-d",
+          "answer": "Chiến dịch Điện Biên Phủ 1954."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q46-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q47",
+      "order": 47,
+      "question": "Trong những năm 1947-1948, Đảng và Chính phủ Việt Nam Dân chủ Cộng hòa đã có chủ trương gì để đối phó với những âm mưu và hành động của thực dân Pháp?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q47-a",
+          "answer": "Tạm thời rút vào hoạt động bí mật để giữ quan hệ hòa hiếu."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q47-b",
+          "answer": "Phát động chiến tranh du kích rộng rãi ở các vùng tạm chiếm."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q47-c",
+          "answer": "Mở các cuộc tấn công đánh địch trên các mặt trận chính diện."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q47-d",
+          "answer": "Rút vào hoạt động bí mật, phát động chiến tranh du kích."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q47-b",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q48",
+      "order": 48,
+      "question": "Chiến thắng Việt Bắc thu - đông năm 1947 đã có tác động như thế nào đối với cục diện chiến trường?",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q48-a",
+          "answer": "Quân đội ta giành thế chủ động trên chiến trường chính Bắc Bộ."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q48-b",
+          "answer": "Tạo điều kiện cho cuộc đấu tranh trên bàn đàm phán giành thắng lợi."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q48-c",
+          "answer": "Xoay chuyển cục diện chiến tranh, quân Pháp chuyển sang thế bị động."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q48-d",
+          "answer": "Pháp phải chuyển từ “đánh nhanh thắng nhanh” sang đánh lâu dài với ta."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q48-c",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q49",
+      "order": 49,
+      "question": "Ở Việt Nam, chiến dịch Việt Bắc thu - đông năm 1947 có đặc điểm nổi bật là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q49-a",
+          "answer": "kết hợp giữa chiến tranh du kích với chiến tranh chính quy."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q49-b",
+          "answer": "chiến dịch tiến công quy mô lớn của bộ đội chủ lực Việt Nam."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q49-c",
+          "answer": "sử dụng lối đánh vận động chiến là chính kết hợp du kích chiến."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q49-d",
+          "answer": "phục kích để tiêu diệt địch là chính, chủ yếu là du kích chiến."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q49-a",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    },
+    {
+      "id_question": "bai7ls_50cau-q50",
+      "order": 50,
+      "question": "Ý nghĩa quan trọng nhất của chiến thắng Việt Bắc thu - đông năm 1947 là",
+      "type_question": "four_choice",
+      "path_images": null,
+      "answers": [
+        {
+          "id_answer": "bai7ls_50cau-q50-a",
+          "answer": "chứng tỏ sự trưởng thành vượt bậc của quân đội ta."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q50-b",
+          "answer": "cuộc phản công lớn đầu tiên của quân dân ta đã giành thắng lợi."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q50-c",
+          "answer": "chứng tỏ khả năng quân dân ta có thể đẩy lùi những cuộc tấn công của Pháp."
+        },
+        {
+          "id_answer": "bai7ls_50cau-q50-d",
+          "answer": "làm thất bại hoàn toàn chiến lược “đánh nhanh thắng nhanh” của Pháp."
+        }
+      ],
+      "results": {
+        "explain": "",
+        "correct_answer": "bai7ls_50cau-q50-d",
+        "true_answer": [],
+        "false_answer": [],
+        "short_answer": ""
+      }
+    }
+  ]
+}
